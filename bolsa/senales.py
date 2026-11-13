@@ -141,7 +141,8 @@ def analizar(m, tickers, desde, hasta, carpeta, paso=10):
             fila[f"dif_{n}"] = 100 * dif.mean()
         filas.append(fila)
     tabla = pd.DataFrame(filas)
-    corr = sum(cors) / len(cors)
+    corr = pd.DataFrame(np.nanmean(np.stack([c.reindex(index=claves, columns=claves).values for c in cors]), axis=0),
+                        index=claves, columns=claves)
     regr = {}
     for n in fut:
         if fm[n]:
