@@ -1,0 +1,438 @@
+{
+ "pares_largo_corto": {
+  "nombre": "pares_largo_corto",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {
+   "pares": [
+    {
+     "a": "AVGO",
+     "b": "NVDA",
+     "beta": 1.0975144505296877,
+     "vida": 9.815502036422806,
+     "p": 0.00036121376752981774,
+     "armado": 1,
+     "abierto": null,
+     "z": 4.54
+    },
+    {
+     "a": "CABK.MC",
+     "b": "SAN.MC",
+     "beta": 0.8790638871409505,
+     "vida": 8.57044638828521,
+     "p": 0.0020485999712560824,
+     "armado": 0,
+     "abierto": null,
+     "z": 1.78
+    },
+    {
+     "a": "CNQ.TO",
+     "b": "SU.TO",
+     "beta": 0.7952081255877913,
+     "vida": 16.16524850220363,
+     "p": 0.002413883858111166,
+     "armado": 0,
+     "abierto": null,
+     "z": -0.31
+    },
+    {
+     "a": "ISP.MI",
+     "b": "UNI.MC",
+     "beta": 0.4868063859618914,
+     "vida": 9.101889674161379,
+     "p": 0.0032314855299146036,
+     "armado": 0,
+     "abierto": null,
+     "z": -1.19
+    },
+    {
+     "a": "C",
+     "b": "GS",
+     "beta": 1.0895556071487424,
+     "vida": 9.980637344088489,
+     "p": 0.0036995462256682854,
+     "armado": 0,
+     "abierto": null,
+     "z": -0.2
+    }
+   ],
+   "ultima_revision": "2026-11-12"
+  },
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "pares_solo_largo": {
+  "nombre": "pares_solo_largo",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {
+   "pares": [
+    {
+     "a": "AVGO",
+     "b": "NVDA",
+     "beta": 1.0975144505296877,
+     "vida": 9.815502036422806,
+     "p": 0.00036121376752981774,
+     "armado": 1,
+     "abierto": null,
+     "z": 4.54
+    },
+    {
+     "a": "CABK.MC",
+     "b": "SAN.MC",
+     "beta": 0.8790638871409505,
+     "vida": 8.57044638828521,
+     "p": 0.0020485999712560824,
+     "armado": 0,
+     "abierto": null,
+     "z": 1.78
+    },
+    {
+     "a": "CNQ.TO",
+     "b": "SU.TO",
+     "beta": 0.7952081255877913,
+     "vida": 16.16524850220363,
+     "p": 0.002413883858111166,
+     "armado": 0,
+     "abierto": null,
+     "z": -0.31
+    },
+    {
+     "a": "ISP.MI",
+     "b": "UNI.MC",
+     "beta": 0.4868063859618914,
+     "vida": 9.101889674161379,
+     "p": 0.0032314855299146036,
+     "armado": 0,
+     "abierto": null,
+     "z": -1.19
+    },
+    {
+     "a": "C",
+     "b": "GS",
+     "beta": 1.0895556071487424,
+     "vida": 9.980637344088489,
+     "p": 0.0036995462256682854,
+     "armado": 0,
+     "abierto": null,
+     "z": -0.2
+    }
+   ],
+   "ultima_revision": "2026-11-12"
+  },
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "pequenas_azar": {
+  "nombre": "pequenas_azar",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "maximo_52s": {
+  "nombre": "maximo_52s",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "momentum": {
+  "nombre": "momentum",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "tendencia_200": {
+  "nombre": "tendencia_200",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "GSK.L",
+    "importe": 1000.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AVGO",
+    "importe": 1000.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "FER.MC",
+    "importe": 1000.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ADBE",
+    "importe": 1000.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "INFY.NS",
+    "importe": 1000.0,
+    "motivo": "cruza media 200"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "rebote": {
+  "nombre": "rebote",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "baja_volatilidad": {
+  "nombre": "baja_volatilidad",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "azar_grandes": {
+  "nombre": "azar_grandes",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "ref_mundo": {
+  "nombre": "ref_mundo",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "IWDA.AS",
+    "importe": 9900.0,
+    "motivo": "referencia"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "ref_sp500": {
+  "nombre": "ref_sp500",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "SPY",
+    "importe": 9900.0,
+    "motivo": "referencia"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "ref_mundo_sin_eeuu": {
+  "nombre": "ref_mundo_sin_eeuu",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "ACWX",
+    "importe": 9900.0,
+    "motivo": "referencia"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "ref_europa": {
+  "nombre": "ref_europa",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "EXSA.DE",
+    "importe": 9900.0,
+    "motivo": "referencia"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "ref_bono_eeuu": {
+  "nombre": "ref_bono_eeuu",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "IEF",
+    "importe": 9900.0,
+    "motivo": "referencia"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ },
+ "ref_bono_china": {
+  "nombre": "ref_bono_china",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "CBON",
+    "importe": 9900.0,
+    "motivo": "referencia"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-12"
+ }
+}
