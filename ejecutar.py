@@ -111,9 +111,19 @@ def optimizar(desde, corte, hasta=None, carpeta=None, mercado=None):
     return analisis.optimizar(estrategias, fechas, m, corte, carpeta)
 
 
+def senales(desde, hasta, carpeta=None, mercado=None):
+    from bolsa import senales as sn
+    carpeta = carpeta or os.path.join(RAIZ, "resultados_senales")
+    anios = (dt.date.today() - pd.Timestamp(desde).date()).days / 365.25 + 6
+    univ = universos.cargar(refrescar_pequenas=False)
+    m = mercado or datos.cargar_mercado(univ["grandes"], anios)
+    tickers = [t for t in univ["grandes"] if t in m.close.columns and m.close[t].notna().sum() > 300]
+    return sn.analizar(m, tickers, desde, hasta, carpeta)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("modo", choices=["diario", "backtest", "optimizar", "universo"])
+    ap.add_argument("modo", choices=["diario", "backtest", "optimizar", "senales", "universo"])
     ap.add_argument("--corte", default="2021-12-31", help="fin del periodo 1 en la optimización")
     ap.add_argument("--desde", default="2016-01-01")
     ap.add_argument("--hasta", default=None)
@@ -126,6 +136,8 @@ if __name__ == "__main__":
         diario()
     elif a.modo == "backtest":
         backtest(a.desde, a.hasta, a.con_pequenas, carpeta=a.carpeta)
+    elif a.modo == "senales":
+        senales(a.desde, a.hasta or "2021-12-31", a.carpeta)
     elif a.modo == "optimizar":
         optimizar(a.desde, a.corte, a.hasta, a.carpeta)
     else:

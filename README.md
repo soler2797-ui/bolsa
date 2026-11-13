@@ -68,6 +68,10 @@ El informe diario y el del backtest tienen una sección "Ventas por stop: qué p
 
 En Actions, "Optimizar parametros" prueba 24 combinaciones del stop (inicial del 6 al 20 %, fase 2 del 5 al 15 %) en las estrategias de selección y 16 combinaciones de los parámetros de los pares. Divide el histórico en dos periodos: en el primero se clasifican las combinaciones y en el segundo se comprueba si las buenas siguen siendo buenas. Tarda entre 30 y 60 minutos. El resultado queda en `https://TU_USUARIO.github.io/bolsa/optimizacion/`. Las combinaciones que se prueban están en `bolsa/analisis.py` (`REJILLA_STOPS` y `REJILLA_PARES`).
 
+## Búsqueda de señales
+
+En Actions, "Buscar senales" mide 13 señales (momentum, rupturas, medias, volumen, volatilidad, RSI...) sobre las acciones grandes: cuánto predice cada una la rentabilidad de las 20 y 60 sesiones siguientes, cuánto se parecen entre sí y qué aporta cada una descontando las demás. Por defecto usa 2015-2021 y no toca ningún precio posterior, para dejar 2022-2026 como periodo de comprobación. El resultado queda en `https://TU_USUARIO.github.io/bolsa/senales/`.
+
 ## Uso en tu ordenador
 
 ```
