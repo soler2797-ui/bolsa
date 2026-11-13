@@ -3,6 +3,7 @@
 Uso:
   python ejecutar.py diario                         -> procesa los días nuevos y actualiza el informe
   python ejecutar.py backtest --desde 2016-01-01    -> prueba las estrategias con datos históricos
+  python ejecutar.py optimizar --desde 2015-01-01 --corte 2021-12-31  -> prueba combinaciones de parámetros
   python ejecutar.py universo                       -> vuelve a buscar la lista de acciones pequeñas
 """
 import argparse
@@ -14,7 +15,7 @@ import sys
 import pandas as pd
 
 import config
-from bolsa import datos, informe, universos
+from bolsa import analisis, datos, informe, universos
 from bolsa.estrategias import crear_estrategias
 from bolsa.motor import nuevo_estado, procesar_dia
 
@@ -65,8 +66,9 @@ def diario(mercado=None, carpeta_estado=None, ahora=None):
             print(f"{e.nombre}: {len(nuevas)} día(s) procesados hasta {est['ultima_fecha']}")
     _guardar(estados, ruta)
     desc = {e.nombre: e.descripcion for e in estrategias}
+    extra = analisis.html_stops(analisis.analizar_stops(estados, m))
     informe.generar(estados, desc, univ["nombres"], os.path.join(RAIZ, "docs", "index.html"),
-                    "Simulación en tiempo real")
+                    "Simulación en tiempo real", extra)
     informe.exportar_csv(estados, carpeta_estado)
     return estados
 
@@ -87,15 +89,26 @@ def backtest(desde, hasta=None, con_pequenas=False, mercado=None, carpeta=None):
         print(f"{e.nombre}: {est['historial'][-1][1]:,.0f} €" if est["historial"] else e.nombre)
     _guardar(estados, os.path.join(carpeta, "estado.json"))
     desc = {e.nombre: e.descripcion for e in estrategias}
+    stops = analisis.analizar_stops(estados, m)
+    stops.to_csv(os.path.join(carpeta, "stops.csv"), index=False)
     informe.generar(estados, desc, univ["nombres"], os.path.join(carpeta, "informe.html"),
-                    f"Backtest desde {desde}")
+                    f"Backtest desde {desde}", analisis.html_stops(stops))
     informe.exportar_csv(estados, carpeta)
     return estados
 
 
+def optimizar(desde, corte, hasta=None, carpeta=None, mercado=None):
+    carpeta = carpeta or os.path.join(RAIZ, "resultados_optimizacion")
+    anios = (dt.date.today() - pd.Timestamp(desde).date()).days / 365.25 + config.REBOTE["anios_atras"] + 1
+    univ, estrategias, m = preparar(False, mercado, anios)
+    fechas = m.fechas[(m.fechas >= pd.Timestamp(desde)) & (m.fechas <= pd.Timestamp(hasta or "2100-01-01"))]
+    return analisis.optimizar(estrategias, fechas, m, corte, carpeta)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("modo", choices=["diario", "backtest", "universo"])
+    ap.add_argument("modo", choices=["diario", "backtest", "optimizar", "universo"])
+    ap.add_argument("--corte", default="2021-12-31", help="fin del periodo 1 en la optimización")
     ap.add_argument("--desde", default="2016-01-01")
     ap.add_argument("--hasta", default=None)
     ap.add_argument("--con-pequenas", action="store_true")
@@ -107,5 +120,7 @@ if __name__ == "__main__":
         diario()
     elif a.modo == "backtest":
         backtest(a.desde, a.hasta, a.con_pequenas, carpeta=a.carpeta)
+    elif a.modo == "optimizar":
+        optimizar(a.desde, a.corte, a.hasta, a.carpeta)
     else:
         universos.buscar_pequenas()

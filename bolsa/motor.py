@@ -16,8 +16,8 @@ import config
 
 
 def nuevo_estado(nombre, capital=None):
-    return dict(nombre=nombre, efectivo=float(capital or config.CAPITAL_INICIAL),
-                capital_inicial=float(capital or config.CAPITAL_INICIAL),
+    capital = capital or config.CAPITAL_ESTRATEGIA.get(nombre, config.CAPITAL_INICIAL)
+    return dict(nombre=nombre, efectivo=float(capital), capital_inicial=float(capital),
                 posiciones={}, pendientes=[], extra={}, vendidas={},
                 historial=[], operaciones=[], ultima_fecha=None)
 

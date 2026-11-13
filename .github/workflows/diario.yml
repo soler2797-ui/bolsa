@@ -31,4 +31,5 @@ jobs:
           git config user.email "simulador-bot@users.noreply.github.com"
           git add estado docs universos
           git diff --cached --quiet || git commit -m "Simulacion $(date -u +%F)"
+          git pull --rebase --autostash
           git push

@@ -2,6 +2,11 @@
 
 # Dinero ficticio inicial de cada estrategia, en euros
 CAPITAL_INICIAL = 10_000
+# Excepciones: los pares necesitan más capital para que la comisión mínima no se coma el resultado
+CAPITAL_ESTRATEGIA = {
+    "pares_largo_corto": 50_000,
+    "pares_solo_largo": 50_000,
+}
 
 # Comisión por operación: porcentaje del importe con un mínimo en euros
 COMISION_PCT = 0.001       # 0,1 %

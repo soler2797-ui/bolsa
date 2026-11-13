@@ -234,6 +234,8 @@ class BajaVolatilidad(Seleccion):
 
 # ---------------------------------------------------------------------------
 # Pares
+_CACHE_PARES = {}
+
 def _analizar_par(la, lb):
     from statsmodels.tsa.stattools import coint
     x = np.column_stack([np.ones(len(lb)), lb])
@@ -262,13 +264,16 @@ class Pares(Base):
         df = m.close.loc[:d, [ta, tb]].dropna().iloc[-n:]
         return np.log(df[ta].values), np.log(df[tb].values)
 
-    def buscar(self, m, d, excluir, cuantos):
+    def _candidatos(self, m, d):
+        """Todos los pares cointegrados en la fecha d (se guardan para no repetir el cálculo)."""
         cfg = config.PARES
+        clave = (id(m), d, cfg["dias_formacion"], cfg["correlacion_minima"], cfg["pvalor_maximo"])
+        if clave in _CACHE_PARES:
+            return _CACHE_PARES[clave]
         n = cfg["dias_formacion"]
         hist = m.close.loc[:d].iloc[-n:]
         sectores = self.universos["sectores"]
-        validos = [t for t in self.tickers_necesarios()
-                   if t in hist.columns and hist[t].notna().mean() > 0.9 and t not in excluir]
+        validos = [t for t in self.tickers_necesarios() if t in hist.columns and hist[t].notna().mean() > 0.9]
         grupos = {}
         for t in validos:
             grupos.setdefault((sectores.get(t), moneda(t)), []).append(t)
@@ -279,9 +284,15 @@ class Pares(Base):
                 if len(df) < n * 0.8 or df[a].corr(df[b]) < cfg["correlacion_minima"]:
                     continue
                 beta, vida, p = _analizar_par(df[a].values, df[b].values)
-                if p < cfg["pvalor_maximo"] and cfg["vida_media_min"] <= vida <= cfg["vida_media_max"]:
+                if p < cfg["pvalor_maximo"]:
                     cands.append((p, a, b, beta, vida))
         cands.sort()
+        _CACHE_PARES[clave] = cands
+        return cands
+
+    def buscar(self, m, d, excluir, cuantos):
+        cfg = config.PARES
+        cands = [c for c in self._candidatos(m, d) if cfg["vida_media_min"] <= c[4] <= cfg["vida_media_max"]]
         elegidos, usados = [], set(excluir)
         for p, a, b, beta, vida in cands:
             if a in usados or b in usados:

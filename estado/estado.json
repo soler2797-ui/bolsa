@@ -1,8 +1,8 @@
 {
  "pares_largo_corto": {
   "nombre": "pares_largo_corto",
-  "efectivo": 10000.0,
-  "capital_inicial": 10000.0,
+  "efectivo": 50000.0,
+  "capital_inicial": 50000.0,
   "posiciones": {},
   "pendientes": [],
   "extra": {
@@ -64,7 +64,7 @@
   "historial": [
    [
     "2026-11-12",
-    10000.0
+    50000.0
    ]
   ],
   "operaciones": [],
@@ -72,8 +72,8 @@
  },
  "pares_solo_largo": {
   "nombre": "pares_solo_largo",
-  "efectivo": 10000.0,
-  "capital_inicial": 10000.0,
+  "efectivo": 50000.0,
+  "capital_inicial": 50000.0,
   "posiciones": {},
   "pendientes": [],
   "extra": {
@@ -135,7 +135,7 @@
   "historial": [
    [
     "2026-11-12",
-    10000.0
+    50000.0
    ]
   ],
   "operaciones": [],

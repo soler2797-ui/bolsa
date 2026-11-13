@@ -1,6 +1,6 @@
 # Simulador de estrategias de bolsa
 
-Simula con dinero ficticio varias estrategias a la vez, cada una con su propia cartera de 10.000 €, y las compara con índices de referencia. Todo se calcula en euros con el tipo de cambio de cada día, con comisiones (0,1 %, mínimo 2 €) y solo con acciones enteras.
+Simula con dinero ficticio varias estrategias a la vez, cada una con su propia cartera de 10.000 € (50.000 € las de pares, para que la comisión mínima no se coma el resultado), y las compara con índices de referencia. Todo se calcula en euros con el tipo de cambio de cada día, con comisiones (0,1 %, mínimo 2 €) y solo con acciones enteras.
 
 Cada día, después del cierre, el programa descarga los precios de Yahoo Finance, ejecuta las órdenes decididas el día anterior al precio de apertura, comprueba los stops con el mínimo del día y decide las órdenes del día siguiente. Guarda el estado en `estado/estado.json` y genera el informe en `docs/index.html`.
 
@@ -57,6 +57,14 @@ A partir de ahí se ejecuta solo de lunes a viernes a las 22:30 UTC (23:30 en Es
 ## Backtest en GitHub
 
 En la pestaña Actions, elige "Backtest", pulsa "Run workflow", pon la fecha de inicio y vuelve a pulsar "Run workflow". Tarda unos minutos. El resultado queda en `https://TU_USUARIO.github.io/bolsa/backtest/`. Cada backtest sustituye al anterior.
+
+## Análisis de los stops
+
+El informe diario y el del backtest tienen una sección "Ventas por stop: qué pasó después". Para cada venta por stop muestra cómo se movió el precio 5, 20 y 60 sesiones después, y si la acción llegó a superar el máximo que había alcanzado mientras se tenía. Si la mayoría de las ventas por stop van seguidas de subidas, el stop está demasiado ajustado. El backtest deja además la lista completa en `stops.csv`.
+
+## Optimización de parámetros
+
+En Actions, "Optimizar parametros" prueba 24 combinaciones del stop (inicial del 6 al 20 %, fase 2 del 5 al 15 %) en las estrategias de selección y 16 combinaciones de los parámetros de los pares. Divide el histórico en dos periodos: en el primero se clasifican las combinaciones y en el segundo se comprueba si las buenas siguen siendo buenas. Tarda entre 30 y 60 minutos. El resultado queda en `https://TU_USUARIO.github.io/bolsa/optimizacion/`. Las combinaciones que se prueban están en `bolsa/analisis.py` (`REJILLA_STOPS` y `REJILLA_PARES`).
 
 ## Uso en tu ordenador
 

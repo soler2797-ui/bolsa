@@ -65,7 +65,7 @@ def _fmt(x, dec=1, suf=""):
     return "" if x is None else f"{x:,.{dec}f}{suf}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
-def generar(estados, descripciones, nombres, ruta, titulo="Simulador de estrategias"):
+def generar(estados, descripciones, nombres, ruta, titulo="Simulador de estrategias", extra_html=""):
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
     filas = []
     for n, est in estados.items():
@@ -110,12 +110,19 @@ def generar(estados, descripciones, nombres, ruta, titulo="Simulador de estrateg
     ops.sort(key=lambda x: x[0], reverse=True)
     desc = "".join(f"<li><b>{n}</b>: {html.escape(d)}</li>" for n, d in descripciones.items())
     img = _grafico(estados, descripciones)
+    caps = {}
+    for n, e in estados.items():
+        caps.setdefault(e["capital_inicial"], []).append(n)
+    base = max(caps, key=lambda c: len(caps[c])) if caps else 0
+    otros = "; ".join(f"{_fmt(c, 0, ' €')} en {', '.join(ns)}" for c, ns in caps.items() if c != base)
+    capitales = (f"Capital inicial: {_fmt(base, 0, ' €')} por estrategia" + (f" ({otros})" if otros else "")
+                 + ". El gráfico está en base 100.")
     doc = f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>{titulo}</title>
 <style>body{{font-family:system-ui,sans-serif;margin:24px;color:#222;max-width:1200px}}
 table{{border-collapse:collapse;font-size:13px;margin-bottom:24px}}td,th{{border-bottom:1px solid #ddd;padding:4px 8px;text-align:right;white-space:nowrap}}
 .tabla{{overflow-x:auto}}
 td:first-child,th:first-child{{text-align:left}}th{{background:#f4f4f4}}h2{{margin-top:32px}}</style></head><body>
-<h1>{titulo}</h1><p>Del {desde} al {hasta}. Valores en euros, comisiones incluidas. Capital inicial por estrategia: el mismo para todas.</p>
+<h1>{titulo}</h1><p>Del {desde} al {hasta}. Valores en euros, comisiones incluidas. {capitales}</p>
 <img src="data:image/png;base64,{img}" style="width:100%">
 <h2>Resumen</h2><div class="tabla"><table><tr><th>Estrategia</th><th>Valor</th><th>Rentabilidad</th><th>Anualizada</th>
 <th>Caída máxima</th><th>Operaciones cerradas</th><th>Ganadoras</th><th>Abiertas</th></tr>{''.join(f for _, f in filas)}</table></div>
@@ -128,6 +135,7 @@ td:first-child,th:first-child{{text-align:left}}th{{background:#f4f4f4}}h2{{marg
 <th>p cointegración</th><th>Estado</th></tr>{''.join(pares)}</table></div>
 <h2>Operaciones (las 300 últimas)</h2><div class="tabla"><table><tr><th>Fecha</th><th>Estrategia</th><th>Tipo</th><th>Ticker</th><th>Nombre</th>
 <th>Acciones</th><th>Precio (€)</th><th>Resultado</th><th>%</th><th>Motivo</th></tr>{''.join(f for _, f in ops[:300])}</table></div>
+{extra_html}
 <h2>Estrategias</h2><ul>{desc}</ul></body></html>"""
     with open(ruta, "w", encoding="utf-8") as f:
         f.write(doc)
