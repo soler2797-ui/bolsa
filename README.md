@@ -13,6 +13,7 @@ Cada día, después del cierre, el programa descarga los precios de Yahoo Financ
 | pequenas_azar | Acciones pequeñas (50 a 2.000 millones de capitalización) que llevan entre 2 y 6 años en bolsa, al azar. Fuera las de menos de 1 € y las que negocian menos de 50.000 € al día. |
 | puntuacion_fija | Cada semana puntúa las acciones grandes con la media de su posición en el ranking de momentum de 12 meses y en el de volatilidad (las dos señales que se confirmaron en 2015-2021 y en 2022-2026). Compra las de mayor puntuación, si pasa de 0,5, todas con el mismo tamaño. |
 | puntuacion_tamano | La misma selección, con un tamaño que va de la mitad de lo normal (puntuación 0,5) al doble (puntuación 1), con un máximo del 20 % de la cartera por posición. |
+| kronos_prevision | Cada semana, Kronos predice las 10 sesiones siguientes de todas las acciones grandes y se compran las de mayor subida prevista (al menos un 1 %). Usa el stop normal. Solo en la simulación diaria. |
 | maximo_52s | Cierre por encima del máximo de 52 semanas con volumen mayor que 1,5 veces la media de 50 sesiones. |
 | momentum | Las que más han subido en 12 meses sin contar el último. |
 | tendencia_200 | El precio cruza por encima de su media de 200 sesiones. |

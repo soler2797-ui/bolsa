@@ -114,6 +114,7 @@ KRONOS = dict(
     umbral_baja=2.0,
     margen_extra=0.03,
     margen_menos=0.02,
+    seleccion_minimo=1.0,  # kronos_prevision: subida prevista mínima (%) para comprar
     seguimiento_max=80, # acciones como máximo cuya previsión se guarda cada día para medir el acierto
 )
 
@@ -126,6 +127,7 @@ ESTRATEGIAS_ACTIVAS = [
     "maximo_52s",
     "puntuacion_fija",
     "puntuacion_tamano",
+    "kronos_prevision",
     "momentum",
     "tendencia_200",
     "rebote",

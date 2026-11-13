@@ -433,6 +433,27 @@ class Pares(Base):
 
 
 # ---------------------------------------------------------------------------
+# Selección con Kronos: compra las que el modelo prevé que más van a subir
+class KronosPrevision(Seleccion):
+    nombre = "kronos_prevision"
+    frecuencia = "W"
+    solo_diario = True
+
+    def __init__(self, universos):
+        super().__init__(universos)
+        h = config.KRONOS["horizonte"]
+        self.descripcion = (f"Cada semana, Kronos predice las {h} sesiones siguientes de todas las acciones grandes y se compran "
+                            f"las de mayor subida prevista (al menos {config.KRONOS['seleccion_minimo']} %). Stop normal")
+
+    def candidatos(self, est, d, m, tickers):
+        from . import kronos_ia
+        prev = kronos_ia.prever(m, tickers, d)
+        res = sorted(((p, t) for t, p in prev.items() if p is not None and p >= config.KRONOS["seleccion_minimo"]),
+                     reverse=True)
+        return [(t, f"Kronos prevé {p:+.1f} % en {config.KRONOS['horizonte']} sesiones") for p, t in res]
+
+
+# ---------------------------------------------------------------------------
 # Variante con Kronos: compra igual que la estrategia base; solo cambia cómo sube el stop en fase 2
 class ConKronos(Base):
     usa_stop = True
@@ -474,6 +495,7 @@ def crear_estrategias(universos):
         "pequenas_azar": lambda: PequenasAzar(universos),
         "momentum_pequenas": lambda: MomentumPequenas(universos),
         "maximo_52s": lambda: Maximo52s(universos),
+        "kronos_prevision": lambda: KronosPrevision(universos),
         "puntuacion_fija": lambda: Puntuacion(universos, tamano_variable=False),
         "puntuacion_tamano": lambda: Puntuacion(universos, tamano_variable=True),
         "momentum": lambda: Momentum(universos),

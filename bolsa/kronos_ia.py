@@ -130,6 +130,10 @@ def registrar(m, estados, ruta):
     tickers = ["SPY"] + tickers
     tickers = [t for t in tickers if t in m.close.columns and m.close[t].notna().sum() > cfg["velas"]]
     tickers = tickers[:cfg["seguimiento_max"]]
+    # más las que ya se han previsto hoy por otro motivo (kronos_prevision predice todas las grandes cada semana)
+    ultima = max((d for _, d in _cache), default=None)
+    if ultima is not None:
+        tickers += sorted({t for (t, d), v in _cache.items() if d == ultima and v is not None} - set(tickers))
     previas = pd.read_csv(ruta) if os.path.exists(ruta) else pd.DataFrame(columns=COLUMNAS)
     hechas = set(zip(previas["fecha"].astype(str), previas["ticker"]))
     por_fecha = {}
