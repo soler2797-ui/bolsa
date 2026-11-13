@@ -26,9 +26,10 @@ ANIOS_HISTORIA = 12
 # Fase 1: stop al STOP_INICIAL por debajo del máximo alcanzado desde la compra.
 # Cuando ese stop llega al precio de compra, pasa a fase 2:
 # stop al STOP_FASE2 por debajo del máximo. El stop nunca baja.
-# Ejemplo: compra a 1000 -> stop 900. Precio 1111,11 -> stop 1000 -> pasa a 1033,33.
-STOP_INICIAL = 0.10
-STOP_FASE2 = 0.07
+# Valores elegidos con la optimización de 2015-2021, comprobados en 2022-2026 (antes 10 % y 7 %).
+# Ejemplo: compra a 1000 -> stop 800. Precio 1250 -> stop 1000 -> pasa a 1125.
+STOP_INICIAL = 0.20
+STOP_FASE2 = 0.10
 # El máximo se actualiza con el precio de cierre de cada día
 # Días hábiles sin volver a comprar una acción después de venderla
 DIAS_ESPERA_RECOMPRA = 10
@@ -47,12 +48,12 @@ PARES = dict(
     vida_media_min=5,        # días que tarda el diferencial en recorrer la mitad del camino a la media
     vida_media_max=60,
     ventana_z=60,            # días para calcular media y desviación del diferencial
-    z_armado=2.0,            # la separación tiene que pasar de aquí...
+    z_armado=2.5,            # la separación tiene que pasar de aquí...  (optimizado; antes 2,0)
     z_entrada=2.0,           # ...y luego volver por debajo de aquí para entrar
     z_entrada_min=0.75,      # si al volver ya está por debajo de esto, no se entra
-    z_salida=0.5,            # se cierra cuando la separación baja de aquí
+    z_salida=0.0,            # se cierra cuando la separación vuelve a la media  (optimizado; antes 0,5)
     z_stop=4.0,              # stop si la separación sigue creciendo
-    multiplo_tiempo=2.0,     # stop por tiempo: vida media x este múltiplo (mínimo 10 días)
+    multiplo_tiempo=3.0,     # stop por tiempo: vida media x este múltiplo, mínimo 10 días  (optimizado; antes 2)
 )
 
 # ---------------------------------------------------------------------------

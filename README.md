@@ -8,7 +8,7 @@ Cada día, después del cierre, el programa descarga los precios de Yahoo Financ
 
 | Nombre | Qué hace |
 |---|---|
-| pares_largo_corto | Busca pares de acciones del mismo sector y moneda que se mueven juntas (test de cointegración de Engle-Granger sobre 2 años). Cuando se separan más de 2 desviaciones típicas espera a que empiecen a volver por debajo de 2 y entonces compra la que se ha quedado atrás y se pone corto en la otra. Cierra cuando la separación baja de 0,5, si sigue creciendo hasta 4 (stop) o si tarda el doble de lo normal en juntarse (stop por tiempo). Revisa los pares cada mes. |
+| pares_largo_corto | Busca pares de acciones del mismo sector y moneda que se mueven juntas (test de cointegración de Engle-Granger sobre 2 años). Cuando se separan más de 2,5 desviaciones típicas espera a que empiecen a volver por debajo de 2 y entonces compra la que se ha quedado atrás y se pone corto en la otra. Cierra cuando la separación vuelve a la media, si sigue creciendo hasta 4 (stop) o si tarda el triple de lo normal en juntarse (stop por tiempo). Revisa los pares cada mes. |
 | pares_solo_largo | Lo mismo, pero solo compra la que se ha quedado atrás, sin corto. |
 | pequenas_azar | Acciones pequeñas (50 a 2.000 millones de capitalización) que llevan entre 2 y 6 años en bolsa, al azar. Fuera las de menos de 1 € y las que negocian menos de 50.000 € al día. |
 | maximo_52s | Cierre por encima del máximo de 52 semanas con volumen mayor que 1,5 veces la media de 50 sesiones. |
@@ -23,9 +23,11 @@ Todas las estrategias de selección (de pequenas_azar a azar_grandes) usan el mi
 
 ### El stop dinámico
 
-Al comprar, el stop queda un 10 % por debajo del precio máximo alcanzado desde la compra. Cuando ese stop llega al precio de compra, pasa a estar un 7 % por debajo del máximo. El stop nunca baja. El máximo se actualiza con el precio de cierre.
+Al comprar, el stop queda un 20 % por debajo del precio máximo alcanzado desde la compra. Cuando ese stop llega al precio de compra, pasa a estar un 10 % por debajo del máximo. El stop nunca baja. El máximo se actualiza con el precio de cierre. Los porcentajes salen de la optimización (al principio eran 10 % y 7 %).
 
-Ejemplo con compra a 1000: stop en 900. Con la acción a 1111,11 el stop llega a 1000 y pasa a 1033,33. Si después baja a 1090, el stop sigue en 1033,33.
+Ejemplo con compra a 1000: stop en 800. Con la acción a 1250 el stop llega a 1000 y pasa a 1125. Si después baja a 1200, el stop sigue en 1125.
+
+Las variantes `_kronos` compran lo mismo que su estrategia base, pero en fase 2 consultan cada día a Kronos (modelo de IA para velas de bolsa). Si prevé una subida de al menos un 2 % en 10 sesiones, el stop pasa a seguir el máximo a un 13 % en lugar del 10 %; si prevé una bajada de al menos un 2 %, a un 8 %. El stop nunca baja: solo cambia la velocidad a la que sube. Solo funcionan en la simulación diaria, porque en un backtest el modelo ya habría visto esos precios al entrenarse.
 
 Si el mínimo de un día toca el stop, se vende al precio del stop, o al de apertura si la acción abre ya por debajo.
 
