@@ -11,6 +11,8 @@ Cada día, después del cierre, el programa descarga los precios de Yahoo Financ
 | pares_largo_corto | Busca pares de acciones del mismo sector y moneda que se mueven juntas (test de cointegración de Engle-Granger sobre 2 años). Cuando se separan más de 2,5 desviaciones típicas espera a que empiecen a volver por debajo de 2 y entonces compra la que se ha quedado atrás y se pone corto en la otra. Cierra cuando la separación vuelve a la media, si sigue creciendo hasta 4 (stop) o si tarda el triple de lo normal en juntarse (stop por tiempo). Revisa los pares cada mes. |
 | pares_solo_largo | Lo mismo, pero solo compra la que se ha quedado atrás, sin corto. |
 | pequenas_azar | Acciones pequeñas (50 a 2.000 millones de capitalización) que llevan entre 2 y 6 años en bolsa, al azar. Fuera las de menos de 1 € y las que negocian menos de 50.000 € al día. |
+| puntuacion_fija | Cada semana puntúa las acciones grandes con la media de su posición en el ranking de momentum de 12 meses y en el de volatilidad (las dos señales que se confirmaron en 2015-2021 y en 2022-2026). Compra las de mayor puntuación, si pasa de 0,5, todas con el mismo tamaño. |
+| puntuacion_tamano | La misma selección, con un tamaño que va de la mitad de lo normal (puntuación 0,5) al doble (puntuación 1), con un máximo del 20 % de la cartera por posición. |
 | maximo_52s | Cierre por encima del máximo de 52 semanas con volumen mayor que 1,5 veces la media de 50 sesiones. |
 | momentum | Las que más han subido en 12 meses sin contar el último. |
 | tendencia_200 | El precio cruza por encima de su media de 200 sesiones. |

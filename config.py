@@ -75,6 +75,15 @@ PEQUENAS = dict(
 MAXIMO_52S = dict(factor_volumen=1.5)        # volumen del día > 1,5 x media de 50 sesiones
 REBOTE = dict(caida_min=0.40, anios_atras=10) # caída desde máximo de 5 años y precio <= al de hace 10 años
 
+# Estrategias de puntuación: señales confirmadas en 2015-2021 y en 2022-2026
+PUNTUACION = dict(
+    senales=["mom12_1", "volat252"],  # momentum 12 meses sin el último y volatilidad de 1 año
+    minimo=0.5,          # solo se compran las que tienen puntuación mayor que esto
+    tam_min=0.5,         # en puntuacion_tamano: con puntuación 0,5 se invierte la mitad de lo normal...
+    tam_max=2.0,         # ...y con 1, el doble
+    max_posicion=0.20,   # máximo por posición, en proporción del valor de la cartera (todas las estrategias)
+)
+
 # Índices de referencia (comprar y mantener con todo el capital el primer día)
 REFERENCIAS = {
     "ref_mundo": ("IWDA.AS", "MSCI World (iShares, en euros)"),
@@ -114,6 +123,8 @@ ESTRATEGIAS_ACTIVAS = [
     "pequenas_azar",
     "momentum_pequenas",
     "maximo_52s",
+    "puntuacion_fija",
+    "puntuacion_tamano",
     "momentum",
     "tendencia_200",
     "rebote",

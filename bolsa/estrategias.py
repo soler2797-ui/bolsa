@@ -97,11 +97,14 @@ class Seleccion(Base):
             return []
         importe = valor_cartera(est, d, m) / config.MAX_POSICIONES
         disponible = est["efectivo"] - sum(o["importe"] for o in est["pendientes"] if o["accion"] == "comprar")
+        valor = valor_cartera(est, d, m)
         ordenes = []
-        for t, motivo in cands[:libres]:
+        for c in cands[:libres]:
+            t, motivo = c[0], c[1]
+            factor = c[2] if len(c) > 2 else 1.0  # tamaño relativo (estrategias de puntuación)
             if disponible < importe * 0.5:
                 break
-            imp = min(importe, disponible)
+            imp = min(importe * factor, valor * config.PUNTUACION["max_posicion"], disponible)
             ordenes.append(dict(accion="comprar", ticker=t, importe=imp, motivo=motivo))
             disponible -= imp
         return ordenes
@@ -158,6 +161,40 @@ class MomentumPequenas(PequenasAzar):
         mom = m.ind("mom12_1").loc[d]
         res = sorted(((mom[t], t) for t in validas if mom.get(t, np.nan) > 0), reverse=True)
         return [(t, f"momentum 12-1: {100 * r:+.0f} %") for r, t in res]
+
+
+class Puntuacion(Seleccion):
+    """Puntuación = media de la posición en el ranking de cada señal (0 = la peor, 1 = la mejor)."""
+    frecuencia = "W"
+
+    def __init__(self, universos, tamano_variable):
+        super().__init__(universos)
+        self.tamano_variable = tamano_variable
+        self.nombre = "puntuacion_tamano" if tamano_variable else "puntuacion_fija"
+        cfg = config.PUNTUACION
+        self.descripcion = ("Puntuación con momentum 12 meses y volatilidad (media de rankings); compra las mejores "
+                            f"con puntuación > {cfg['minimo']}" +
+                            (f"; tamaño de x{cfg['tam_min']} a x{cfg['tam_max']} según la puntuación, máximo "
+                             f"{int(100 * cfg['max_posicion'])} % por posición" if tamano_variable else "; tamaño fijo"))
+
+    def candidatos(self, est, d, m, tickers):
+        cfg = config.PUNTUACION
+        todos = [t for t in self.tickers_necesarios() if t in m.close.columns]
+        rangos = []
+        for senal in cfg["senales"]:
+            v = m.ind(senal).loc[d, todos]
+            rangos.append(v.rank(pct=True))
+        punt = sum(rangos) / len(rangos)
+        punt = punt.reindex(tickers).dropna()
+        punt = punt[punt > cfg["minimo"]].sort_values(ascending=False)
+        res = []
+        for t, p in punt.items():
+            if self.tamano_variable:
+                f = cfg["tam_min"] + (cfg["tam_max"] - cfg["tam_min"]) * (p - cfg["minimo"]) / (1 - cfg["minimo"])
+            else:
+                f = 1.0
+            res.append((t, f"puntuación {p:.2f}, tamaño x{f:.2f}", f))
+        return res
 
 
 class Maximo52s(Seleccion):
@@ -437,6 +474,8 @@ def crear_estrategias(universos):
         "pequenas_azar": lambda: PequenasAzar(universos),
         "momentum_pequenas": lambda: MomentumPequenas(universos),
         "maximo_52s": lambda: Maximo52s(universos),
+        "puntuacion_fija": lambda: Puntuacion(universos, tamano_variable=False),
+        "puntuacion_tamano": lambda: Puntuacion(universos, tamano_variable=True),
         "momentum": lambda: Momentum(universos),
         "tendencia_200": lambda: Tendencia200(universos),
         "rebote": lambda: Rebote(universos),
