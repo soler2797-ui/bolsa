@@ -98,7 +98,8 @@ def backtest(desde, hasta=None, con_pequenas=False, mercado=None, carpeta=None):
     stops = analisis.analizar_stops(estados, m)
     stops.to_csv(os.path.join(carpeta, "stops.csv"), index=False)
     informe.generar(estados, desc, univ["nombres"], os.path.join(carpeta, "informe.html"),
-                    f"Backtest desde {desde}", analisis.html_stops(stops))
+                    f"Backtest desde {desde}",
+                    '<p><a href="anteriores/">Ver backtests anteriores</a></p>' + analisis.html_stops(stops))
     informe.exportar_csv(estados, carpeta)
     return estados
 

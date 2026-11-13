@@ -1,0 +1,1509 @@
+estrategia,fecha,tipo,ticker,acciones,precio,comision,motivo,grupo,resultado,rentabilidad_pct,fecha_entrada
+ref_bono_china,2022-01-04,compra,CBON,453,21.8275,9.89,referencia,,,,
+baja_volatilidad,2022-01-04,compra,ORA.PA,105,9.461,2.0,volatilidad 15 % anual,,,,
+baja_volatilidad,2022-01-04,compra,NESN.SW,7,125.059,2.0,volatilidad 13 % anual,,,,
+momentum,2022-01-04,compra,AMD,7,133.6106,2.0,momentum 12-1: +77 %,,,,
+momentum,2022-01-04,compra,NVDA,37,26.7885,2.0,momentum 12-1: +165 %,,,,
+momentum,2022-01-04,compra,COP,15,65.9692,2.0,momentum 12-1: +95 %,,,,
+tendencia_200,2022-01-04,compra,ABI.BR,17,55.8,2.0,cruza media 200,,,,
+tendencia_200,2022-01-04,compra,RHM.DE,11,85.26,2.0,cruza media 200,,,,
+tendencia_200,2022-01-04,compra,AENA.MC,70,14.235,2.0,cruza media 200,,,,
+baja_volatilidad,2022-01-04,compra,AI.PA,8,116.6942,2.0,volatilidad 15 % anual,,,,
+tendencia_200,2022-01-04,compra,V,5,196.4212,2.0,cruza media 200,,,,
+tendencia_200,2022-01-04,compra,MAP.MC,543,1.84,2.0,cruza media 200,,,,
+tendencia_200,2022-01-04,compra,DE,3,313.3094,2.0,cruza media 200,,,,
+ref_bono_eeuu,2022-01-04,compra,IEF,98,100.5729,9.86,referencia,,,,
+momentum,2022-01-04,compra,CFR.SW,7,132.815,2.0,momentum 12-1: +81 %,,,,
+momentum,2022-01-04,compra,GOOGL,7,128.6435,2.0,momentum 12-1: +79 %,,,,
+momentum,2022-01-04,compra,NOVO-B.CO,20,48.0045,2.0,momentum 12-1: +67 %,,,,
+momentum,2022-01-04,compra,HD,2,361.5565,2.0,momentum 12-1: +67 %,,,,
+momentum,2022-01-04,compra,LOW,4,226.1852,2.0,momentum 12-1: +69 %,,,,
+tendencia_200,2022-01-04,compra,INTC,21,47.3977,2.0,cruza media 200,,,,
+baja_volatilidad,2022-01-04,compra,NOVN.SW,13,73.7388,2.0,volatilidad 15 % anual,,,,
+momentum,2022-01-04,compra,WFC,21,45.637,2.0,momentum 12-1: +78 %,,,,
+baja_volatilidad,2022-01-04,compra,JNJ,6,151.3505,2.0,volatilidad 16 % anual,,,,
+ref_europa,2022-01-04,compra,EXSA.DE,203,48.69,9.88,referencia,,,,
+ref_mundo_sin_eeuu,2022-01-04,compra,ACWX,199,49.7158,9.89,referencia,,,,
+ref_sp500,2022-01-04,compra,SPY,23,424.0043,9.75,referencia,,,,
+ref_mundo,2022-01-04,compra,IWDA.AS,124,79.7,9.88,referencia,,,,
+azar_grandes,2022-01-04,compra,ASML.AS,1,708.7,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,ABBV,8,119.7373,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,RACE.MI,4,229.9,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,ZURN.SW,2,392.3269,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,ACA.PA,78,12.81,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,UNH,2,445.2213,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,META,3,300.781,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,NESN.SW,7,125.059,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,BAYN.DE,20,47.7,2.0,azar,,,,
+azar_grandes,2022-01-04,compra,ABBN.SW,30,32.6912,2.0,azar,,,,
+baja_volatilidad,2022-01-04,compra,PEP,6,152.7661,2.0,volatilidad 16 % anual,,,,
+baja_volatilidad,2022-01-04,compra,G.MI,52,18.875,2.0,volatilidad 16 % anual,,,,
+baja_volatilidad,2022-01-04,compra,RI.PA,4,212.7,2.0,volatilidad 16 % anual,,,,
+baja_volatilidad,2022-01-04,compra,PG,6,143.5909,2.0,volatilidad 16 % anual,,,,
+baja_volatilidad,2022-01-04,compra,VZ,21,46.5748,2.0,volatilidad 16 % anual,,,,
+maximo_52s,2022-01-05,compra,CVX,9,108.334,2.0,"máximo 52 semanas, volumen x1.6",,,,
+maximo_52s,2022-01-05,compra,UCG.MI,69,14.31,2.0,"máximo 52 semanas, volumen x1.6",,,,
+maximo_52s,2022-01-05,compra,0005.HK,178,5.613,2.0,"máximo 52 semanas, volumen x1.7",,,,
+maximo_52s,2022-01-05,compra,GLE.PA,31,32.0,2.0,"máximo 52 semanas, volumen x1.8",,,,
+maximo_52s,2022-01-05,compra,WFC,21,46.8998,2.0,"máximo 52 semanas, volumen x1.8",,,,
+maximo_52s,2022-01-05,compra,CBK.DE,136,7.35,2.0,"máximo 52 semanas, volumen x1.9",,,,
+maximo_52s,2022-01-05,compra,XOM,16,58.935,2.0,"máximo 52 semanas, volumen x1.9",,,,
+maximo_52s,2022-01-05,compra,7203.T,56,17.7765,2.0,"máximo 52 semanas, volumen x2.0",,,,
+maximo_52s,2022-01-05,compra,2330.TW,46,21.5958,2.0,"máximo 52 semanas, volumen x3.6",,,,
+maximo_52s,2022-01-05,compra,TD.TO,14,69.7577,2.0,"máximo 52 semanas, volumen x4.9",,,,
+rebote,2022-01-05,compra,GE,18,55.0652,2.0,"rebote, caída 62 % desde máximo 5 años",,,,
+tendencia_200,2022-01-05,compra,SAB.MC,1629,0.6178,2.0,cruza media 200,,,,
+tendencia_200,2022-01-05,compra,BKT.MC,216,4.64,2.0,cruza media 200,,,,
+tendencia_200,2022-01-05,compra,ANZ.AX,56,17.822,2.0,cruza media 200,,,,
+rebote,2022-01-05,compra,BAYN.DE,20,48.56,2.0,"rebote, caída 60 % desde máximo 5 años",,,,
+rebote,2022-01-05,compra,0941.HK,173,5.7722,2.0,"rebote, caída 50 % desde máximo 5 años",,,,
+rebote,2022-01-05,compra,SAN.MC,329,3.031,2.0,"rebote, caída 49 % desde máximo 5 años",,,,
+rebote,2022-01-06,compra,RR.L,663,1.5039,2.0,"rebote, caída 63 % desde máximo 5 años",,,,
+rebote,2022-01-07,compra,SAB.MC,1548,0.6442,2.0,"rebote, caída 67 % desde máximo 5 años",,,,
+rebote,2022-01-07,compra,TEF.MC,255,3.909,2.0,"rebote, caída 63 % desde máximo 5 años",,,,
+rebote,2022-01-07,compra,MAP.MC,533,1.871,2.0,"rebote, caída 44 % desde máximo 5 años",,,,
+rebote,2022-01-14,compra,WBC.AX,73,13.7726,2.0,"rebote, caída 45 % desde máximo 5 años",,,,
+momentum,2022-01-18,compra,GLE.PA,28,34.25,2.0,momentum 12-1: +79 %,,,,
+momentum,2022-01-20,venta,NVDA,37,21.4308,2.0,stop fase 1,,-202.23,-20.0,2022-01-04
+pares_solo_largo,2022-01-20,compra,DE,15,331.1177,4.97,diferencial vuelve (z=1.43),CAT|DE,,,
+pares_solo_largo,2022-01-20,compra,G.MI,266,18.74,4.98,diferencial vuelve (z=1.80),CS.PA|G.MI,,,
+pares_largo_corto,2022-01-20,compra,G.MI,266,18.74,4.98,diferencial vuelve (z=1.80),CS.PA|G.MI,,,
+pares_largo_corto,2022-01-20,corto,CS.PA,179,27.93,5.0,diferencial vuelve (z=1.80),CS.PA|G.MI,,,
+pares_largo_corto,2022-01-20,corto,CAT,25,194.8975,4.87,diferencial vuelve (z=1.43),CAT|DE,,,
+pares_largo_corto,2022-01-20,compra,DE,15,331.1177,4.97,diferencial vuelve (z=1.43),CAT|DE,,,
+momentum,2022-01-21,venta,AMD,7,106.1893,2.0,stop fase 1,,-195.95,-20.52,2022-01-04
+momentum,2022-01-25,compra,ROVI.MC,15,60.2,2.0,momentum 12-1: +78 %,,,,
+momentum,2022-01-25,compra,UCG.MI,70,12.998,2.0,momentum 12-1: +78 %,,,,
+pares_largo_corto,2022-01-28,venta,DE,15,333.8288,5.01,se juntan (z=-0.32),CAT|DE,30.69,0.82,2022-01-20
+azar_grandes,2022-01-28,venta,ASML.AS,1,566.96,2.0,stop fase 1,,-145.74,-20.0,2022-01-04
+pares_largo_corto,2022-01-28,cierre_corto,CAT,25,184.4348,4.61,se juntan (z=-0.32),CAT|DE,252.08,5.37,2022-01-20
+pares_solo_largo,2022-01-28,venta,DE,15,333.8288,5.01,se juntan (z=-0.32),CAT|DE,30.69,0.82,2022-01-20
+rebote,2022-01-31,compra,T,59,16.9108,2.0,"rebote, caída 44 % desde máximo 5 años",,,,
+azar_grandes,2022-02-01,compra,TD.TO,13,71.228,2.0,azar,,,,
+azar_grandes,2022-02-03,venta,META,3,216.5054,2.0,stop fase 1,,-256.83,-28.02,2022-01-04
+azar_grandes,2022-02-08,compra,T,60,15.7619,2.0,azar,,,,
+pares_largo_corto,2022-02-10,corto,UPS,25,194.904,4.87,diferencial vuelve (z=-1.57),UNP|UPS,,,
+pares_largo_corto,2022-02-10,compra,UNP,23,213.2378,4.9,diferencial vuelve (z=-1.57),UNP|UPS,,,
+pares_solo_largo,2022-02-10,compra,UNP,23,213.2378,4.9,diferencial vuelve (z=-1.57),UNP|UPS,,,
+azar_grandes,2022-02-14,venta,RACE.MI,4,189.52,2.0,stop fase 1,,-165.52,-17.56,2022-01-04
+azar_grandes,2022-02-15,compra,4063.T,33,28.5097,2.0,azar,,,,
+pares_largo_corto,2022-02-16,venta,UNP,23,218.7677,5.03,se juntan (z=0.07),UNP|UPS,117.25,2.59,2022-02-10
+pares_largo_corto,2022-02-16,cierre_corto,UPS,25,190.0624,4.75,se juntan (z=0.07),UNP|UPS,111.41,2.48,2022-02-10
+pares_solo_largo,2022-02-16,venta,UNP,23,218.7677,5.03,se juntan (z=0.07),UNP|UPS,117.25,2.59,2022-02-10
+tendencia_200,2022-02-18,venta,INTC,21,39.476,2.0,stop fase 1,,-163.65,-16.71,2022-01-04
+tendencia_200,2022-02-22,venta,SAB.MC,1629,0.8489,2.0,stop fase 2,,372.43,37.4,2022-01-05
+pares_largo_corto,2022-02-22,venta,G.MI,266,18.0,4.79,se juntan (z=-0.04),CS.PA|G.MI,-206.61,-3.95,2022-01-20
+rebote,2022-02-22,venta,SAB.MC,1548,0.8489,2.0,stop fase 2,,312.84,31.77,2022-01-07
+tendencia_200,2022-02-22,compra,DUK,11,88.42,2.0,cruza media 200,,,,
+tendencia_200,2022-02-22,venta,BKT.MC,216,5.374,2.0,stop fase 2,,154.54,15.82,2022-01-05
+pares_solo_largo,2022-02-22,venta,G.MI,266,18.0,4.79,se juntan (z=-0.04),CS.PA|G.MI,-206.61,-3.95,2022-01-20
+pares_largo_corto,2022-02-22,cierre_corto,CS.PA,179,25.74,4.61,se juntan (z=-0.04),CS.PA|G.MI,382.4,7.84,2022-01-20
+momentum,2022-02-22,venta,HD,2,292.2181,2.0,stop fase 1,,-142.68,-19.18,2022-01-04
+tendencia_200,2022-02-23,compra,SAF.PA,9,112.9,2.0,cruza media 200,,,,
+tendencia_200,2022-02-23,compra,RR.L,739,1.4167,2.0,cruza media 200,,,,
+maximo_52s,2022-02-24,venta,CBK.DE,136,7.931,2.0,stop fase 2,,75.02,7.9,2022-01-05
+maximo_52s,2022-02-24,venta,GLE.PA,31,28.5,2.0,stop fase 1,,-112.5,-10.94,2022-01-05
+rebote,2022-02-24,venta,RR.L,663,1.2222,2.0,stop fase 1,,-190.81,-18.74,2022-01-06
+momentum,2022-02-24,venta,UCG.MI,70,12.68,2.0,stop fase 1,,-26.26,-2.45,2022-01-25
+momentum,2022-02-24,venta,GLE.PA,28,28.5,2.0,stop fase 1,,-165.0,-16.79,2022-01-18
+momentum,2022-02-24,venta,LOW,4,183.8998,2.0,stop fase 1,,-170.34,-18.7,2022-01-04
+maximo_52s,2022-02-24,venta,UCG.MI,69,12.68,2.0,stop fase 1,,-116.47,-11.39,2022-01-05
+maximo_52s,2022-02-25,compra,RHM.DE,9,105.6,2.0,"máximo 52 semanas, volumen x5.4",,,,
+maximo_52s,2022-02-25,compra,BA.L,130,7.6775,2.0,"máximo 52 semanas, volumen x3.3",,,,
+maximo_52s,2022-02-25,compra,EQNR.OL,35,28.302,2.0,"máximo 52 semanas, volumen x2.1",,,,
+azar_grandes,2022-02-28,venta,ACA.PA,78,11.3232,2.0,stop fase 1,,-119.97,-11.61,2022-01-04
+rebote,2022-02-28,compra,CBK.DE,133,7.71,2.0,"rebote, caída 41 % desde máximo 5 años",,,,
+azar_grandes,2022-03-01,compra,DTE.DE,58,15.95,2.0,azar,,,,
+momentum,2022-03-01,compra,CNQ.TO,38,24.7454,2.0,momentum 12-1: +97 %,,,,
+momentum,2022-03-01,compra,NVDA,43,21.6576,2.0,momentum 12-1: +70 %,,,,
+momentum,2022-03-01,compra,PFE,22,41.6283,2.0,momentum 12-1: +70 %,,,,
+momentum,2022-03-01,compra,EQNR.OL,22,28.4254,2.0,momentum 12-1: +56 %,,,,
+tendencia_200,2022-03-01,venta,RR.L,739,1.1334,2.0,stop fase 1,,-213.39,-20.0,2022-02-23
+momentum,2022-03-02,venta,CFR.SW,7,110.9047,2.0,stop fase 1,,-157.37,-16.5,2022-01-04
+rebote,2022-03-02,venta,SAN.MC,329,2.7852,2.0,stop fase 1,,-84.87,-8.11,2022-01-05
+tendencia_200,2022-03-03,compra,NWG.L,373,2.8656,2.0,cruza media 200,,,,
+rebote,2022-03-04,venta,CBK.DE,133,6.168,2.0,stop fase 1,,-209.09,-20.0,2022-02-28
+rebote,2022-03-07,compra,K.TO,196,4.9697,2.0,"rebote, caída 41 % desde máximo 5 años",,,,
+tendencia_200,2022-03-07,venta,MAP.MC,543,1.604,2.0,stop fase 1,,-132.15,-12.83,2022-01-04
+rebote,2022-03-07,venta,MAP.MC,533,1.604,2.0,stop fase 1,,-146.31,-14.27,2022-01-07
+tendencia_200,2022-03-07,venta,AENA.MC,70,12.372,2.0,stop fase 1,,-134.41,-13.09,2022-01-04
+tendencia_200,2022-03-07,venta,SAF.PA,9,91.76,2.0,stop fase 1,,-194.26,-18.72,2022-02-23
+tendencia_200,2022-03-07,venta,ABI.BR,17,47.624,2.0,stop fase 1,,-142.99,-14.65,2022-01-04
+azar_grandes,2022-03-07,venta,ABBN.SW,30,26.5718,2.0,stop fase 1,,-187.58,-18.72,2022-01-04
+maximo_52s,2022-03-07,venta,7203.T,56,14.8629,2.0,stop fase 1,,-167.16,-16.39,2022-01-05
+tendencia_200,2022-03-08,compra,CBA.AX,15,63.8094,2.0,cruza media 200,,,,
+azar_grandes,2022-03-08,compra,VOLV-B.ST,62,14.5553,2.0,azar,,,,
+baja_volatilidad,2022-03-08,venta,RI.PA,4,173.12,2.0,stop fase 1,,-162.32,-18.61,2022-01-04
+maximo_52s,2022-03-08,compra,SAAB-B.ST,119,7.4215,2.0,"máximo 52 semanas, volumen x5.6",,,,
+tendencia_200,2022-03-08,compra,CAT,5,187.6338,2.0,cruza media 200,,,,
+tendencia_200,2022-03-08,compra,RED.MC,58,17.385,2.0,cruza media 200,,,,
+momentum,2022-03-08,compra,SAB.MC,1403,0.5748,2.0,momentum 12-1: +79 %,,,,
+tendencia_200,2022-03-09,venta,RHM.DE,11,140.94,2.0,stop fase 2,,608.48,65.31,2022-01-04
+maximo_52s,2022-03-09,venta,RHM.DE,9,140.94,2.0,stop fase 2,,314.06,33.47,2022-02-25
+tendencia_200,2022-03-09,compra,WFC,16,44.7687,2.0,cruza media 200,,,,
+pares_solo_largo,2022-03-10,compra,UPS,27,184.6696,4.99,diferencial vuelve (z=1.81),UNP|UPS,,,
+pares_largo_corto,2022-03-10,corto,UNP,22,227.5636,5.01,diferencial vuelve (z=1.81),UNP|UPS,,,
+tendencia_200,2022-03-10,compra,NVDA,50,20.3462,2.0,cruza media 200,,,,
+pares_largo_corto,2022-03-10,compra,UPS,27,184.6696,4.99,diferencial vuelve (z=1.81),UNP|UPS,,,
+maximo_52s,2022-03-14,compra,LDO.MI,117,9.238,2.0,"máximo 52 semanas, volumen x3.7",,,,
+baja_volatilidad,2022-03-15,compra,RY.TO,9,99.4405,2.0,volatilidad 14 % anual,,,,
+maximo_52s,2022-03-15,venta,XOM,16,72.0265,2.0,stop fase 2,,217.79,22.21,2022-01-05
+maximo_52s,2022-03-16,compra,LLY,4,253.2964,2.0,"máximo 52 semanas, volumen x1.5",,,,
+rebote,2022-03-17,compra,SAB.MC,1280,0.778,2.0,"rebote, caída 60 % desde máximo 5 años",,,,
+rebote,2022-03-17,compra,SAN.MC,314,3.165,2.0,"rebote, caída 47 % desde máximo 5 años",,,,
+pares_largo_corto,2022-03-17,compra,K.TO,996,5.0919,5.07,diferencial vuelve (z=1.99),AEM.TO|K.TO,,,
+pares_solo_largo,2022-03-17,compra,K.TO,988,5.0919,5.03,diferencial vuelve (z=1.99),AEM.TO|K.TO,,,
+pares_largo_corto,2022-03-17,corto,AEM.TO,92,54.8527,5.05,diferencial vuelve (z=1.99),AEM.TO|K.TO,,,
+rebote,2022-03-22,compra,MAP.MC,395,1.88,2.0,"rebote, caída 44 % desde máximo 5 años",,,,
+pares_largo_corto,2022-03-30,corto,G.MI,257,19.75,5.08,diferencial vuelve (z=-1.49),CS.PA|G.MI,,,
+pares_solo_largo,2022-03-30,compra,CS.PA,189,26.675,5.04,diferencial vuelve (z=-1.49),CS.PA|G.MI,,,
+pares_largo_corto,2022-03-30,compra,CS.PA,190,26.675,5.07,diferencial vuelve (z=-1.49),CS.PA|G.MI,,,
+pares_largo_corto,2022-04-04,cierre_corto,G.MI,257,21.04,5.41,par deja de estar cointegrado (p=0.11),CS.PA|G.MI,-342.01,-6.53,2022-03-30
+pares_largo_corto,2022-04-04,venta,UPS,27,185.3759,5.01,par deja de estar cointegrado (p=0.36),UNP|UPS,9.08,0.38,2022-03-10
+pares_largo_corto,2022-04-04,cierre_corto,UNP,22,235.1348,5.17,par deja de estar cointegrado (p=0.36),UNP|UPS,-176.75,-3.33,2022-03-10
+pares_solo_largo,2022-04-04,venta,UPS,27,185.3759,5.01,par deja de estar cointegrado (p=0.36),UNP|UPS,9.08,0.38,2022-03-10
+pares_solo_largo,2022-04-04,venta,CS.PA,189,26.795,5.06,par deja de estar cointegrado (p=0.11),CS.PA|G.MI,12.57,0.45,2022-03-30
+pares_largo_corto,2022-04-04,venta,CS.PA,190,26.795,5.09,par deja de estar cointegrado (p=0.11),CS.PA|G.MI,12.64,0.45,2022-03-30
+tendencia_200,2022-04-06,venta,NVDA,50,22.8617,2.0,stop fase 2,,121.78,12.36,2022-03-10
+momentum,2022-04-06,venta,SAB.MC,1403,0.7214,2.0,stop fase 2,,243.83,25.51,2022-03-08
+tendencia_200,2022-04-07,compra,TXN,6,161.7235,2.0,cruza media 200,,,,
+momentum,2022-04-11,venta,NVDA,43,20.408,2.0,stop fase 1,,-57.58,-5.77,2022-03-01
+momentum,2022-04-12,compra,GLEN.L,150,6.2271,2.0,momentum 12-1: +75 %,,,,
+momentum,2022-04-12,compra,CVX,6,155.3324,2.0,momentum 12-1: +81 %,,,,
+azar_grandes,2022-04-13,venta,ABBV,8,144.9299,2.0,stop fase 2,,217.82,21.04,2022-01-04
+momentum,2022-04-14,venta,WFC,21,41.3685,2.0,stop fase 1,,-88.99,-9.35,2022-01-04
+maximo_52s,2022-04-14,venta,WFC,21,41.3685,2.0,stop fase 1,,-115.51,-11.79,2022-01-05
+momentum,2022-04-19,compra,LLY,3,276.7723,2.0,momentum 12-1: +63 %,,,,
+azar_grandes,2022-04-19,compra,005930.KS,20,50.4341,2.0,azar,,,,
+maximo_52s,2022-04-20,compra,JNJ,6,168.8271,2.0,"máximo 52 semanas, volumen x1.8",,,,
+maximo_52s,2022-04-25,venta,CVX,9,144.0471,2.0,stop fase 2,,328.72,32.97,2022-01-05
+maximo_52s,2022-04-25,venta,2330.TW,46,17.3588,2.0,stop fase 1,,-194.86,-19.62,2022-01-05
+momentum,2022-04-25,venta,EQNR.OL,22,32.2973,2.0,stop fase 2,,81.18,13.62,2022-03-01
+momentum,2022-04-25,venta,CNQ.TO,38,27.8458,2.0,stop fase 2,,123.8,12.53,2022-03-01
+momentum,2022-04-25,venta,COP,15,86.0231,2.0,stop fase 2,,306.91,30.4,2022-01-04
+tendencia_200,2022-04-25,venta,DE,3,362.5274,2.0,stop fase 2,,146.49,15.71,2022-01-04
+maximo_52s,2022-04-25,venta,EQNR.OL,35,32.2973,2.0,stop fase 2,,135.83,14.12,2022-02-25
+momentum,2022-04-26,compra,NVDA,51,18.4036,2.0,momentum 12-1: +100 %,,,,
+momentum,2022-04-26,compra,SU.TO,31,29.4997,2.0,momentum 12-1: +78 %,,,,
+momentum,2022-04-26,compra,RHM.DE,4,217.9,2.0,momentum 12-1: +109 %,,,,
+tendencia_200,2022-04-27,compra,TSCO.L,334,3.209,2.0,cruza media 200,,,,
+rebote,2022-04-28,venta,GE,18,44.9423,2.0,stop fase 1,,-185.39,-18.38,2022-01-05
+maximo_52s,2022-04-29,compra,SU.TO,31,34.9598,2.0,"máximo 52 semanas, volumen x2.1",,,,
+maximo_52s,2022-04-29,compra,RELIANCE.NS,67,16.3865,2.0,"máximo 52 semanas, volumen x1.8",,,,
+pares_solo_largo,2022-04-29,venta,K.TO,988,4.9167,4.86,stop por tiempo (30 días),AEM.TO|K.TO,-183.03,-3.44,2022-03-17
+maximo_52s,2022-04-29,compra,MRK,13,84.4043,2.0,"máximo 52 semanas, volumen x1.9",,,,
+pares_largo_corto,2022-04-29,cierre_corto,AEM.TO,92,55.0431,5.06,stop por tiempo (30 días),AEM.TO|K.TO,-27.63,-0.35,2022-03-17
+pares_largo_corto,2022-04-29,venta,K.TO,996,4.9167,4.9,stop por tiempo (30 días),AEM.TO|K.TO,-184.51,-3.44,2022-03-17
+azar_grandes,2022-05-02,venta,BAYN.DE,20,60.6,2.0,stop fase 2,,294.0,27.04,2022-01-04
+pares_largo_corto,2022-05-02,corto,JNJ,29,171.2895,4.97,diferencial vuelve (z=1.68),JNJ|LLY,,,
+pares_largo_corto,2022-05-02,compra,LLY,18,276.4151,4.98,diferencial vuelve (z=1.68),JNJ|LLY,,,
+pares_solo_largo,2022-05-02,compra,LLY,18,276.4151,4.98,diferencial vuelve (z=1.68),JNJ|LLY,,,
+rebote,2022-05-02,venta,BAYN.DE,20,60.6,2.0,stop fase 2,,276.8,24.79,2022-01-05
+azar_grandes,2022-05-03,compra,IBE.MC,92,10.925,2.0,azar,,,,
+rebote,2022-05-04,compra,ABI.BR,18,53.98,2.0,"rebote, caída 49 % desde máximo 5 años",,,,
+rebote,2022-05-09,venta,K.TO,196,4.5205,2.0,stop fase 1,,-86.68,-9.04,2022-03-07
+momentum,2022-05-10,venta,RHM.DE,4,177.92,2.0,stop fase 1,,-163.92,-18.35,2022-04-26
+momentum,2022-05-12,venta,GLEN.L,150,5.1718,2.0,stop fase 1,,-143.41,-16.95,2022-04-12
+momentum,2022-05-12,venta,NVDA,51,15.4283,2.0,stop fase 1,,-155.74,-16.17,2022-04-26
+momentum,2022-05-12,venta,ROVI.MC,15,57.92,2.0,stop fase 1,,-38.2,-3.79,2022-01-25
+momentum,2022-05-12,venta,GOOGL,7,105.0208,2.0,stop fase 1,,-169.36,-18.36,2022-01-04
+pares_solo_largo,2022-05-13,compra,GLE.PA,214,23.25,4.98,diferencial vuelve (z=1.56),BNP.PA|GLE.PA,,,
+rebote,2022-05-13,compra,UCG.MI,101,9.76,2.0,"rebote, caída 47 % desde máximo 5 años",,,,
+pares_largo_corto,2022-05-13,compra,GLE.PA,215,23.25,5.0,diferencial vuelve (z=1.56),BNP.PA|GLE.PA,,,
+pares_largo_corto,2022-05-13,corto,BNP.PA,96,52.02,4.99,diferencial vuelve (z=1.56),BNP.PA|GLE.PA,,,
+momentum,2022-05-17,compra,CNQ.TO,31,29.8634,2.0,momentum 12-1: +121 %,,,,
+momentum,2022-05-17,compra,COP,9,102.5773,2.0,momentum 12-1: +94 %,,,,
+momentum,2022-05-17,compra,TSLA,3,238.6445,2.0,momentum 12-1: +90 %,,,,
+momentum,2022-05-17,compra,COST,1,468.5908,2.0,momentum 12-1: +71 %,,,,
+rebote,2022-05-18,compra,CBK.DE,147,6.914,2.0,"rebote, caída 50 % desde máximo 5 años",,,,
+momentum,2022-05-18,compra,EQNR.OL,28,33.1047,2.0,momentum 12-1: +98 %,,,,
+tendencia_200,2022-05-20,venta,WFC,16,38.7684,2.0,stop fase 1,,-96.24,-13.4,2022-03-09
+tendencia_200,2022-05-23,compra,MCD,4,223.0502,2.0,cruza media 200,,,,
+pares_largo_corto,2022-05-24,venta,GLE.PA,215,25.24,5.43,se juntan (z=-1.74),BNP.PA|GLE.PA,417.42,8.56,2022-05-13
+pares_largo_corto,2022-05-24,cierre_corto,BNP.PA,96,51.2,4.92,se juntan (z=-1.74),BNP.PA|GLE.PA,-283.51,1.58,2022-05-13
+momentum,2022-05-24,venta,TSLA,3,194.5558,2.0,stop fase 1,,-136.27,-18.47,2022-05-17
+pares_solo_largo,2022-05-24,venta,GLE.PA,214,25.24,5.4,se juntan (z=-1.74),BNP.PA|GLE.PA,415.48,8.56,2022-05-13
+pares_solo_largo,2022-05-27,venta,LLY,18,291.2991,5.24,se juntan (z=-0.08),JNJ|LLY,274.69,5.38,2022-05-02
+pares_largo_corto,2022-05-27,venta,LLY,18,291.2991,5.24,se juntan (z=-0.08),JNJ|LLY,274.69,5.38,2022-05-02
+pares_largo_corto,2022-05-27,cierre_corto,JNJ,29,167.4842,4.86,se juntan (z=-0.08),JNJ|LLY,69.53,2.22,2022-05-02
+baja_volatilidad,2022-05-30,venta,G.MI,52,16.888,2.0,stop fase 1,,-51.68,-10.53,2022-01-04
+baja_volatilidad,2022-05-31,compra,BNS.TO,16,62.3345,2.0,volatilidad 17 % anual,,,,
+momentum,2022-05-31,compra,RHM.DE,4,198.3,2.0,momentum 12-1: +147 %,,,,
+pares_solo_largo,2022-06-02,compra,ENI.MI,356,14.15,5.04,diferencial vuelve (z=-1.72),ENI.MI|TTE.PA,,,
+pares_largo_corto,2022-06-02,corto,TTE.PA,93,54.15,5.04,diferencial vuelve (z=-1.72),ENI.MI|TTE.PA,,,
+pares_largo_corto,2022-06-02,compra,ENI.MI,356,14.15,5.04,diferencial vuelve (z=-1.72),ENI.MI|TTE.PA,,,
+rebote,2022-06-10,venta,TEF.MC,255,4.55,2.0,stop fase 2,,197.2,16.4,2022-01-07
+rebote,2022-06-13,venta,SAN.MC,314,2.5988,2.0,stop fase 1,,-165.62,-17.89,2022-03-17
+maximo_52s,2022-06-13,venta,SAAB-B.ST,119,9.5588,2.0,stop fase 2,,264.44,28.8,2022-03-08
+tendencia_200,2022-06-14,venta,ANZ.AX,56,14.6197,2.0,stop fase 1,,-156.57,-17.97,2022-01-05
+pares_solo_largo,2022-06-14,compra,DE,15,313.1689,4.7,diferencial vuelve (z=1.63),CAT|DE,,,
+rebote,2022-06-14,venta,WBC.AX,73,13.0634,2.0,stop fase 1,,-26.18,-5.15,2022-01-14
+pares_largo_corto,2022-06-14,corto,CAT,25,199.7667,4.99,diferencial vuelve (z=1.63),CAT|DE,,,
+pares_largo_corto,2022-06-14,compra,DE,15,313.1689,4.7,diferencial vuelve (z=1.63),CAT|DE,,,
+tendencia_200,2022-06-14,venta,CBA.AX,15,59.4827,2.0,stop fase 1,,-68.9,-6.78,2022-03-08
+rebote,2022-06-16,compra,RR.L,953,1.0493,2.0,"rebote, caída 75 % desde máximo 5 años",,,,
+azar_grandes,2022-06-16,venta,T,60,17.9552,2.0,stop fase 2,,143.0,13.92,2022-02-08
+momentum,2022-06-16,venta,SU.TO,31,35.793,2.0,stop fase 2,,201.89,21.33,2022-04-26
+tendencia_200,2022-06-16,compra,ELE.MC,51,19.525,2.0,cruza media 200,,,,
+tendencia_200,2022-06-16,compra,GRF.MC,57,17.71,2.0,cruza media 200,,,,
+momentum,2022-06-17,venta,CNQ.TO,31,25.0613,2.0,stop fase 1,,-144.4,-16.08,2022-05-17
+momentum,2022-06-17,venta,COP,9,91.8195,2.0,stop fase 1,,-100.82,-10.49,2022-05-17
+rebote,2022-06-20,compra,VOD.L,669,1.4824,2.0,"rebote, caída 45 % desde máximo 5 años",,,,
+azar_grandes,2022-06-20,venta,4063.T,33,22.8405,2.0,stop fase 1,,-179.0,-19.89,2022-02-15
+azar_grandes,2022-06-21,compra,7974.T,23,40.0895,2.0,azar,,,,
+momentum,2022-06-21,compra,SHEL.L,35,24.6942,2.0,momentum 12-1: +69 %,,,,
+azar_grandes,2022-06-21,compra,AZN.L,8,116.855,2.0,azar,,,,
+momentum,2022-06-21,compra,GLEN.L,160,5.4898,2.0,momentum 12-1: +69 %,,,,
+momentum,2022-06-21,compra,SAAB-B.ST,93,9.4004,2.0,momentum 12-1: +75 %,,,,
+pares_largo_corto,2022-06-23,cierre_corto,CAT,25,176.6166,4.42,se juntan (z=-0.36),CAT|DE,569.34,11.59,2022-06-14
+pares_largo_corto,2022-06-23,venta,DE,15,297.9802,4.47,se juntan (z=-0.36),CAT|DE,-237.0,-4.85,2022-06-14
+pares_solo_largo,2022-06-23,venta,DE,15,297.9802,4.47,se juntan (z=-0.36),CAT|DE,-237.0,-4.85,2022-06-14
+tendencia_200,2022-06-23,venta,CAT,5,174.2225,2.0,stop fase 1,,-65.93,-7.15,2022-03-08
+maximo_52s,2022-06-23,venta,SU.TO,31,31.816,2.0,stop fase 1,,-90.66,-8.99,2022-04-29
+momentum,2022-06-23,venta,CVX,6,135.4418,2.0,stop fase 1,,-115.27,-12.81,2022-04-12
+tendencia_200,2022-06-24,compra,NEE,13,73.5068,2.0,cruza media 200,,,,
+maximo_52s,2022-06-27,compra,IBM,8,134.6377,2.0,"máximo 52 semanas, volumen x2.1",,,,
+momentum,2022-06-28,compra,XOM,10,86.1175,2.0,momentum 12-1: +65 %,,,,
+rebote,2022-06-30,venta,CBK.DE,147,6.784,2.0,stop fase 1,,-23.11,-1.88,2022-05-18
+pares_solo_largo,2022-07-04,venta,ENI.MI,356,11.414,4.06,par deja de estar cointegrado (p=0.44),ENI.MI|TTE.PA,-983.12,-19.34,2022-06-02
+pares_largo_corto,2022-07-04,cierre_corto,TTE.PA,93,51.27,4.77,par deja de estar cointegrado (p=0.44),ENI.MI|TTE.PA,196.66,5.32,2022-06-02
+pares_largo_corto,2022-07-04,venta,ENI.MI,356,11.414,4.06,par deja de estar cointegrado (p=0.44),ENI.MI|TTE.PA,-983.12,-19.34,2022-06-02
+pares_largo_corto,2022-07-05,corto,1398.HK,9381,0.5327,5.0,diferencial vuelve (z=-0.76),0939.HK|1398.HK,,,
+pares_largo_corto,2022-07-05,compra,0939.HK,7732,0.6463,5.0,diferencial vuelve (z=-0.76),0939.HK|1398.HK,,,
+pares_solo_largo,2022-07-05,compra,0939.HK,7620,0.6463,4.92,diferencial vuelve (z=-0.76),0939.HK|1398.HK,,,
+rebote,2022-07-06,venta,SAB.MC,1280,0.6869,2.0,stop fase 1,,-82.23,-11.71,2022-03-17
+rebote,2022-07-08,compra,TEF.MC,207,4.717,2.0,"rebote, caída 52 % desde máximo 5 años",,,,
+rebote,2022-07-12,venta,MAP.MC,395,1.552,2.0,stop fase 1,,-99.71,-17.45,2022-03-22
+momentum,2022-07-14,venta,RHM.DE,4,179.2,2.0,stop fase 1,,-80.4,-9.63,2022-05-31
+rebote,2022-07-14,venta,UCG.MI,101,8.7328,2.0,stop fase 1,,-107.75,-10.52,2022-05-13
+tendencia_200,2022-07-14,venta,GRF.MC,57,15.504,2.0,stop fase 1,,-129.74,-12.46,2022-06-16
+azar_grandes,2022-07-14,venta,TD.TO,13,59.6577,2.0,stop fase 1,,-137.25,-16.24,2022-02-01
+maximo_52s,2022-07-14,venta,TD.TO,14,59.6577,2.0,stop fase 1,,-118.25,-14.48,2022-01-05
+pares_largo_corto,2022-07-15,venta,0939.HK,7732,0.6265,4.84,se juntan (z=0.13),0939.HK|1398.HK,-162.94,-3.06,2022-07-05
+tendencia_200,2022-07-15,compra,RELIANCE.NS,73,13.9254,2.0,cruza media 200,,,,
+pares_solo_largo,2022-07-15,venta,0939.HK,7620,0.6265,4.77,se juntan (z=0.13),0939.HK|1398.HK,-160.58,-3.06,2022-07-05
+pares_largo_corto,2022-07-15,cierre_corto,1398.HK,9381,0.5083,4.77,se juntan (z=0.13),0939.HK|1398.HK,218.78,4.57,2022-07-05
+maximo_52s,2022-07-18,compra,UNH,2,525.9343,2.0,"máximo 52 semanas, volumen x1.6",,,,
+azar_grandes,2022-07-19,compra,NKE,9,104.0889,2.0,azar,,,,
+momentum,2022-07-19,compra,COP,10,84.1878,2.0,momentum 12-1: +123 %,,,,
+rebote,2022-07-22,compra,GE,23,41.6926,2.0,"rebote, caída 62 % desde máximo 5 años",,,,
+maximo_52s,2022-07-28,compra,TMUS,7,138.5601,2.0,"máximo 52 semanas, volumen x2.3",,,,
+rebote,2022-08-03,compra,VOW3.DE,6,140.12,2.0,"rebote, caída 43 % desde máximo 5 años",,,,
+maximo_52s,2022-08-04,venta,LLY,4,297.676,2.0,stop fase 2,,177.3,17.52,2022-03-16
+rebote,2022-08-04,compra,GLE.PA,42,22.46,2.0,"rebote, caída 55 % desde máximo 5 años",,,,
+rebote,2022-08-04,compra,BBVA.MC,164,4.56,2.0,"rebote, caída 40 % desde máximo 5 años",,,,
+maximo_52s,2022-08-11,compra,ICICIBANK.NS,103,10.5679,2.0,"máximo 52 semanas, volumen x2.2",,,,
+momentum,2022-08-11,venta,PFE,22,46.812,2.0,stop fase 2,,127.03,12.45,2022-03-01
+momentum,2022-08-16,compra,RHM.DE,5,170.0,2.0,momentum 12-1: +129 %,,,,
+pares_largo_corto,2022-08-17,compra,JNJ,30,163.6176,4.91,diferencial vuelve (z=-1.37),JNJ|LLY,,,
+pares_solo_largo,2022-08-17,compra,JNJ,30,163.6176,4.91,diferencial vuelve (z=-1.37),JNJ|LLY,,,
+pares_largo_corto,2022-08-17,corto,LLY,16,304.808,4.88,diferencial vuelve (z=-1.37),JNJ|LLY,,,
+maximo_52s,2022-08-22,venta,LDO.MI,117,8.592,2.0,stop fase 1,,-63.2,-6.99,2022-03-14
+momentum,2022-09-01,venta,EQNR.OL,28,37.9445,2.0,stop fase 2,,142.53,14.62,2022-05-18
+rebote,2022-09-01,venta,RR.L,953,0.8752,2.0,stop fase 1,,-169.85,-16.59,2022-06-16
+maximo_52s,2022-09-01,venta,BA.L,130,8.7583,2.0,stop fase 2,,160.31,14.08,2022-02-25
+momentum,2022-09-02,venta,SAAB-B.ST,93,7.9416,2.0,stop fase 1,,-139.66,-15.52,2022-06-21
+rebote,2022-09-05,compra,SAB.MC,1255,0.6716,2.0,"rebote, caída 64 % desde máximo 5 años",,,,
+baja_volatilidad,2022-09-05,venta,AI.PA,8,99.5702,2.0,stop fase 1,,-123.56,-14.67,2022-01-04
+baja_volatilidad,2022-09-06,compra,KPN.AS,309,3.164,2.0,volatilidad 16 % anual,,,,
+momentum,2022-09-06,compra,BA.L,101,9.1224,2.0,momentum 12-1: +44 %,,,,
+momentum,2022-09-06,compra,HO.PA,7,122.85,2.0,momentum 12-1: +49 %,,,,
+maximo_52s,2022-09-08,compra,NEE,12,89.7686,2.0,"máximo 52 semanas, volumen x1.6",,,,
+azar_grandes,2022-09-08,venta,005930.KS,20,40.8356,2.0,stop fase 1,,-190.65,-19.03,2022-04-19
+maximo_52s,2022-09-12,compra,DTE.DE,55,19.548,2.0,"máximo 52 semanas, volumen x1.9",,,,
+azar_grandes,2022-09-13,compra,AAPL,6,157.8549,2.0,azar,,,,
+rebote,2022-09-13,venta,T,59,16.6104,2.0,stop fase 1,,9.55,-1.78,2022-01-31
+rebote,2022-09-14,venta,VOD.L,669,1.2345,2.0,stop fase 1,,-169.84,-16.72,2022-06-20
+tendencia_200,2022-09-15,venta,TSCO.L,334,2.7035,2.0,stop fase 1,,-142.52,-15.75,2022-04-27
+rebote,2022-09-16,venta,TEF.MC,207,3.856,2.0,stop fase 1,,-182.23,-18.25,2022-07-08
+momentum,2022-09-16,venta,RHM.DE,5,141.0,2.0,stop fase 1,,-149.0,-17.06,2022-08-16
+baja_volatilidad,2022-09-16,venta,VZ,21,40.7115,2.0,stop fase 1,,-89.71,-12.59,2022-01-04
+tendencia_200,2022-09-16,compra,HSBA.L,174,6.0874,2.0,cruza media 200,,,,
+pares_largo_corto,2022-09-19,cierre_corto,LLY,16,305.7966,4.89,se juntan (z=0.06),JNJ|LLY,-25.59,-0.32,2022-08-17
+pares_largo_corto,2022-09-19,venta,JNJ,30,165.9292,4.98,se juntan (z=0.06),JNJ|LLY,93.24,1.41,2022-08-17
+pares_solo_largo,2022-09-19,venta,JNJ,30,165.9292,4.98,se juntan (z=0.06),JNJ|LLY,93.24,1.41,2022-08-17
+baja_volatilidad,2022-09-20,compra,1398.HK,1946,0.498,2.0,volatilidad 18 % anual,,,,
+momentum,2022-09-20,compra,SU.TO,29,31.0041,2.0,momentum 12-1: +95 %,,,,
+rebote,2022-09-20,compra,K.TO,260,3.5612,2.0,"rebote, caída 57 % desde máximo 5 años",,,,
+momentum,2022-09-23,venta,COP,10,106.1297,2.0,stop fase 2,,219.9,26.06,2022-07-19
+baja_volatilidad,2022-09-26,venta,BNS.TO,16,51.0178,2.0,stop fase 1,,-172.81,-18.15,2022-05-31
+tendencia_200,2022-09-26,venta,NWG.L,373,2.6597,2.0,stop fase 1,,45.13,-7.19,2022-03-03
+baja_volatilidad,2022-09-27,compra,0939.HK,1570,0.608,2.0,volatilidad 19 % anual,,,,
+momentum,2022-09-27,compra,EQNR.OL,26,33.3885,2.0,momentum 12-1: +101 %,,,,
+tendencia_200,2022-09-27,compra,RHM.DE,6,161.9,2.0,cruza media 200,,,,
+baja_volatilidad,2022-09-28,venta,ORA.PA,105,9.4512,2.0,stop fase 1,,36.97,-0.1,2022-01-04
+azar_grandes,2022-09-28,venta,VOLV-B.ST,62,14.2831,2.0,stop fase 1,,57.1,-1.87,2022-03-08
+maximo_52s,2022-09-28,venta,0005.HK,178,5.3307,2.0,stop fase 1,,-9.48,-5.03,2022-01-05
+tendencia_200,2022-09-29,venta,RED.MC,58,15.932,2.0,stop fase 1,,-46.09,-8.36,2022-03-08
+maximo_52s,2022-09-29,compra,LLY,3,344.0091,2.0,"máximo 52 semanas, volumen x3.6",,,,
+rebote,2022-09-29,venta,GE,23,39.7623,2.0,stop fase 1,,-47.21,-4.63,2022-07-22
+tendencia_200,2022-09-29,venta,DUK,11,101.0079,2.0,stop fase 2,,155.51,14.24,2022-02-22
+azar_grandes,2022-09-30,venta,NKE,9,84.7444,2.0,stop fase 1,,-175.34,-18.58,2022-07-19
+rebote,2022-09-30,compra,ABX.TO,57,15.3489,2.0,"rebote, caída 40 % desde máximo 5 años",,,,
+tendencia_200,2022-09-30,compra,GLEN.L,175,5.5556,2.0,cruza media 200,,,,
+tendencia_200,2022-09-30,compra,MUV2.DE,3,249.2,2.0,cruza media 200,,,,
+tendencia_200,2022-09-30,venta,ELE.MC,51,15.62,2.0,stop fase 1,,-155.36,-20.0,2022-06-16
+azar_grandes,2022-10-04,compra,INFY.NS,52,17.7361,2.0,azar,,,,
+tendencia_200,2022-10-04,compra,SU.TO,30,31.966,2.0,cruza media 200,,,,
+azar_grandes,2022-10-04,compra,AVGO,19,47.6502,2.0,azar,,,,
+rebote,2022-10-05,compra,SAN.MC,348,2.6195,2.0,"rebote, caída 55 % desde máximo 5 años",,,,
+pares_largo_corto,2022-10-05,corto,RMS.PA,3,1293.5,3.88,diferencial vuelve (z=-1.24),MC.PA|RMS.PA,,,
+pares_largo_corto,2022-10-05,compra,MC.PA,7,644.2,4.51,diferencial vuelve (z=-1.24),MC.PA|RMS.PA,,,
+rebote,2022-10-05,compra,MAP.MC,511,1.645,2.0,"rebote, caída 44 % desde máximo 5 años",,,,
+baja_volatilidad,2022-10-05,compra,0941.HK,146,6.3801,2.0,volatilidad 19 % anual,,,,
+pares_solo_largo,2022-10-05,compra,MC.PA,7,644.2,4.51,diferencial vuelve (z=-1.24),MC.PA|RMS.PA,,,
+pares_largo_corto,2022-10-07,corto,ISP.MI,2939,1.7012,5.0,diferencial vuelve (z=-1.87),DBK.DE|ISP.MI,,,
+pares_largo_corto,2022-10-07,compra,DBK.DE,637,7.84,4.99,diferencial vuelve (z=-1.87),DBK.DE|ISP.MI,,,
+pares_solo_largo,2022-10-07,compra,DBK.DE,626,7.84,4.91,diferencial vuelve (z=-1.87),DBK.DE|ISP.MI,,,
+tendencia_200,2022-10-10,venta,HSBA.L,174,4.7298,2.0,stop fase 1,,-240.22,-22.3,2022-09-16
+azar_grandes,2022-10-10,venta,AZN.L,8,101.2257,2.0,stop fase 1,,-121.79,-13.37,2022-06-21
+rebote,2022-10-11,venta,VOW3.DE,6,121.6,2.0,stop fase 1,,-115.12,-13.22,2022-08-03
+azar_grandes,2022-10-11,compra,ULVR.L,19,47.8314,2.0,azar,,,,
+tendencia_200,2022-10-12,compra,BA.L,100,9.4238,2.0,cruza media 200,,,,
+rebote,2022-10-13,compra,CBK.DE,103,7.204,2.0,"rebote, caída 47 % desde máximo 5 años",,,,
+azar_grandes,2022-10-13,venta,IBE.MC,92,9.132,2.0,stop fase 1,,-143.29,-16.41,2022-05-03
+tendencia_200,2022-10-13,venta,NEE,13,72.9363,2.0,stop fase 1,,-5.86,-0.78,2022-06-24
+pares_solo_largo,2022-10-14,venta,DBK.DE,626,8.584,5.37,se juntan (z=0.63),DBK.DE|ISP.MI,455.46,9.49,2022-10-07
+tendencia_200,2022-10-14,compra,CP.TO,13,71.2028,2.0,cruza media 200,,,,
+pares_largo_corto,2022-10-14,venta,DBK.DE,637,8.584,5.47,se juntan (z=0.63),DBK.DE|ISP.MI,463.47,9.49,2022-10-07
+pares_largo_corto,2022-10-14,cierre_corto,ISP.MI,2939,1.74,5.11,se juntan (z=0.63),DBK.DE|ISP.MI,-124.15,-2.28,2022-10-07
+azar_grandes,2022-10-18,compra,SSE.L,52,17.2203,2.0,azar,,,,
+pares_largo_corto,2022-10-19,compra,0939.HK,8791,0.5722,5.03,diferencial vuelve (z=-1.75),0939.HK|1398.HK,,,
+pares_largo_corto,2022-10-19,corto,1398.HK,10611,0.4741,5.03,diferencial vuelve (z=-1.75),0939.HK|1398.HK,,,
+pares_solo_largo,2022-10-19,compra,0939.HK,8663,0.5722,4.96,diferencial vuelve (z=-1.75),0939.HK|1398.HK,,,
+maximo_52s,2022-10-20,venta,NEE,12,72.247,2.0,stop fase 1,,-214.26,-19.52,2022-09-08
+maximo_52s,2022-10-31,compra,CAT,4,216.3133,2.0,"máximo 52 semanas, volumen x1.8",,,,
+pares_largo_corto,2022-11-01,compra,ISP.MI,2596,1.94,5.04,diferencial vuelve (z=1.51),DBK.DE|ISP.MI,,,
+pares_largo_corto,2022-11-01,corto,DBK.DE,518,9.724,5.04,diferencial vuelve (z=1.51),DBK.DE|ISP.MI,,,
+pares_solo_largo,2022-11-01,compra,ISP.MI,2539,1.94,4.93,diferencial vuelve (z=1.51),DBK.DE|ISP.MI,,,
+pares_solo_largo,2022-11-07,venta,ISP.MI,2539,2.06,5.23,se juntan (z=-0.07),DBK.DE|ISP.MI,294.52,6.19,2022-11-01
+pares_solo_largo,2022-11-07,venta,MC.PA,7,661.0,4.63,se juntan (z=0.20),MC.PA|RMS.PA,108.46,2.61,2022-10-05
+pares_largo_corto,2022-11-07,cierre_corto,DBK.DE,518,9.661,5.0,se juntan (z=-0.07),DBK.DE|ISP.MI,22.59,0.65,2022-11-01
+pares_largo_corto,2022-11-07,venta,ISP.MI,2596,2.06,5.35,se juntan (z=-0.07),DBK.DE|ISP.MI,301.14,6.19,2022-11-01
+pares_largo_corto,2022-11-07,cierre_corto,RMS.PA,3,1345.0,4.04,se juntan (z=0.20),MC.PA|RMS.PA,-162.42,-3.98,2022-10-05
+pares_largo_corto,2022-11-07,venta,MC.PA,7,661.0,4.63,se juntan (z=0.20),MC.PA|RMS.PA,108.46,2.61,2022-10-05
+pares_largo_corto,2022-11-10,venta,0939.HK,8791,0.5671,4.99,se juntan (z=0.33),0939.HK|1398.HK,-54.74,-0.89,2022-10-19
+pares_largo_corto,2022-11-10,cierre_corto,1398.HK,10611,0.4578,4.86,se juntan (z=0.33),0939.HK|1398.HK,162.82,3.43,2022-10-19
+pares_solo_largo,2022-11-10,venta,0939.HK,8663,0.5671,4.91,se juntan (z=0.33),0939.HK|1398.HK,-53.94,-0.89,2022-10-19
+azar_grandes,2022-11-11,venta,UNH,2,501.8934,2.0,stop fase 2,,118.43,12.73,2022-01-04
+momentum,2022-11-14,venta,LLY,3,331.6674,2.0,stop fase 2,,169.21,19.83,2022-04-19
+azar_grandes,2022-11-15,compra,UNI.MC,1000,0.938,2.0,azar,,,,
+momentum,2022-11-15,compra,COP,7,129.4567,2.0,momentum 12-1: +91 %,,,,
+momentum,2022-12-05,venta,XOM,10,103.6747,2.0,stop fase 2,,188.93,20.39,2022-06-28
+momentum,2022-12-06,venta,SU.TO,29,29.1011,2.0,stop fase 1,,-48.4,-6.14,2022-09-20
+tendencia_200,2022-12-06,venta,SU.TO,30,29.1011,2.0,stop fase 1,,-78.79,-8.96,2022-10-04
+momentum,2022-12-06,compra,RHM.DE,4,193.1,2.0,momentum 12-1: +89 %,,,,
+tendencia_200,2022-12-07,compra,T,56,18.1966,2.0,cruza media 200,,,,
+momentum,2022-12-09,venta,COP,7,103.953,2.0,stop fase 1,,-182.53,-19.7,2022-11-15
+momentum,2022-12-13,compra,LLY,2,343.0459,2.0,momentum 12-1: +70 %,,,,
+momentum,2022-12-13,compra,CVX,5,164.6503,2.0,momentum 12-1: +73 %,,,,
+tendencia_200,2022-12-15,venta,MCD,4,253.505,2.0,stop fase 2,,134.35,13.65,2022-05-23
+momentum,2022-12-15,venta,COST,1,441.9819,2.0,stop fase 1,,-28.84,-5.68,2022-05-17
+azar_grandes,2022-12-16,venta,AAPL,6,126.2839,2.0,stop fase 1,,-192.01,-20.0,2022-09-13
+tendencia_200,2022-12-19,compra,TMUS,7,134.9169,2.0,cruza media 200,,,,
+momentum,2022-12-20,compra,XOM,9,99.0807,2.0,momentum 12-1: +105 %,,,,
+azar_grandes,2022-12-20,compra,ISP.MI,424,2.018,2.0,azar,,,,
+maximo_52s,2022-12-23,venta,RELIANCE.NS,67,13.1092,2.0,stop fase 1,,-220.26,-20.0,2022-04-29
+maximo_52s,2022-12-26,compra,8306.T,166,6.2793,2.0,"máximo 52 semanas, volumen x2.4",,,,
+momentum,2023-01-04,venta,EQNR.OL,26,30.907,2.0,stop fase 1,,-50.65,-7.43,2022-09-27
+momentum,2023-01-10,compra,SAAB-B.ST,100,9.3863,2.0,momentum 12-1: +59 %,,,,
+pares_solo_largo,2023-01-11,compra,ISP.MI,2220,2.251,5.0,diferencial vuelve (z=1.78),DBK.DE|ISP.MI,,,
+pares_largo_corto,2023-01-11,compra,ISP.MI,2256,2.251,5.08,diferencial vuelve (z=1.78),DBK.DE|ISP.MI,,,
+pares_largo_corto,2023-01-11,corto,DBK.DE,433,11.724,5.08,diferencial vuelve (z=1.78),DBK.DE|ISP.MI,,,
+maximo_52s,2023-01-18,venta,UNH,2,446.1275,2.0,stop fase 1,,-157.18,-15.17,2022-07-18
+pares_largo_corto,2023-01-24,corto,MC.PA,6,790.3,4.74,diferencial vuelve (z=1.97),MC.PA|RMS.PA,,,
+pares_solo_largo,2023-01-24,compra,RMS.PA,3,1650.0,4.95,diferencial vuelve (z=1.97),MC.PA|RMS.PA,,,
+maximo_52s,2023-01-24,venta,MRK,13,98.2264,2.0,stop fase 2,,202.22,16.38,2022-04-29
+pares_largo_corto,2023-01-24,compra,RMS.PA,3,1650.0,4.95,diferencial vuelve (z=1.97),MC.PA|RMS.PA,,,
+maximo_52s,2023-01-25,compra,FER.MC,37,27.26,2.0,"máximo 52 semanas, volumen x2.5",,,,
+tendencia_200,2023-01-27,venta,RELIANCE.NS,73,12.3247,2.0,stop fase 1,,-117.24,-11.5,2022-07-15
+maximo_52s,2023-01-27,compra,SAB.MC,908,1.12,2.0,"máximo 52 semanas, volumen x5.4",,,,
+maximo_52s,2023-01-27,venta,ICICIBANK.NS,103,9.2645,2.0,stop fase 1,,-138.26,-12.33,2022-08-11
+maximo_52s,2023-01-30,compra,RACE.MI,4,232.9,2.0,"máximo 52 semanas, volumen x1.8",,,,
+tendencia_200,2023-01-30,compra,HD,3,290.5131,2.0,cruza media 200,,,,
+pares_largo_corto,2023-01-31,corto,0939.HK,8379,0.607,5.09,diferencial vuelve (z=1.88),0939.HK|1398.HK,,,
+pares_largo_corto,2023-01-31,compra,1398.HK,10246,0.4964,5.09,diferencial vuelve (z=1.88),0939.HK|1398.HK,,,
+azar_grandes,2023-01-31,venta,UNI.MC,1000,1.1313,2.0,stop fase 2,,189.3,20.61,2022-11-15
+pares_solo_largo,2023-01-31,compra,1398.HK,10142,0.4964,5.03,diferencial vuelve (z=1.88),0939.HK|1398.HK,,,
+maximo_52s,2023-02-02,venta,LLY,3,294.8155,2.0,stop fase 1,,-148.73,-14.3,2022-09-29
+pares_largo_corto,2023-02-03,venta,ISP.MI,2256,2.46,5.55,se juntan (z=-1.00),DBK.DE|ISP.MI,460.88,9.28,2023-01-11
+pares_solo_largo,2023-02-03,venta,ISP.MI,2220,2.46,5.46,se juntan (z=-1.00),DBK.DE|ISP.MI,453.52,9.28,2023-01-11
+rebote,2023-02-03,venta,K.TO,260,4.0298,2.0,stop fase 2,,125.45,13.16,2022-09-20
+maximo_52s,2023-02-03,compra,IFX.DE,28,35.8,2.0,"máximo 52 semanas, volumen x2.8",,,,
+pares_largo_corto,2023-02-03,cierre_corto,DBK.DE,433,11.522,4.99,se juntan (z=-1.00),DBK.DE|ISP.MI,77.4,1.72,2023-01-11
+azar_grandes,2023-02-07,compra,ADS.DE,6,154.72,2.0,azar,,,,
+rebote,2023-02-08,compra,TEF.MC,320,3.495,2.0,"rebote, caída 59 % desde máximo 5 años",,,,
+pares_solo_largo,2023-02-27,venta,RMS.PA,3,1695.5,5.09,se juntan (z=-0.08),MC.PA|RMS.PA,136.96,2.76,2023-01-24
+pares_largo_corto,2023-02-27,cierre_corto,MC.PA,6,788.3,4.73,se juntan (z=-0.08),MC.PA|RMS.PA,2.53,0.25,2023-01-24
+pares_largo_corto,2023-02-27,venta,RMS.PA,3,1695.5,5.09,se juntan (z=-0.08),MC.PA|RMS.PA,136.96,2.76,2023-01-24
+azar_grandes,2023-02-28,venta,7974.T,23,35.5787,2.0,stop fase 1,,-97.41,-11.25,2022-06-21
+pares_largo_corto,2023-03-01,cierre_corto,0939.HK,8379,0.5782,4.84,se juntan (z=-0.02),0939.HK|1398.HK,231.32,4.74,2023-01-31
+pares_largo_corto,2023-03-01,compra,G.MI,275,18.655,5.13,diferencial vuelve (z=-1.60),G.MI|MAP.MC,,,
+pares_largo_corto,2023-03-01,corto,MAP.MC,2526,2.036,5.14,diferencial vuelve (z=-1.60),G.MI|MAP.MC,,,
+pares_solo_largo,2023-03-01,compra,G.MI,269,18.655,5.02,diferencial vuelve (z=-1.60),G.MI|MAP.MC,,,
+pares_solo_largo,2023-03-01,venta,1398.HK,10142,0.4722,4.79,se juntan (z=-0.02),0939.HK|1398.HK,-255.46,-4.88,2023-01-31
+pares_largo_corto,2023-03-01,venta,1398.HK,10246,0.4722,4.84,se juntan (z=-0.02),0939.HK|1398.HK,-258.08,-4.88,2023-01-31
+maximo_52s,2023-03-02,venta,JNJ,6,142.219,2.0,stop fase 1,,-137.56,-15.76,2022-04-20
+baja_volatilidad,2023-03-02,venta,JNJ,6,142.219,2.0,stop fase 1,,-27.1,-6.03,2022-01-04
+maximo_52s,2023-03-06,compra,AVGO,15,59.7579,2.0,"máximo 52 semanas, volumen x2.2",,,,
+baja_volatilidad,2023-03-07,compra,ORA.PA,88,10.84,2.0,volatilidad 16 % anual,,,,
+azar_grandes,2023-03-07,compra,ITX.MC,33,29.5,2.0,azar,,,,
+pares_solo_largo,2023-03-09,compra,BAS.DE,104,48.38,5.03,diferencial vuelve (z=1.96),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-03-09,compra,BAS.DE,106,48.38,5.13,diferencial vuelve (z=1.96),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-03-09,corto,ACX.MC,504,10.195,5.14,diferencial vuelve (z=1.96),ACX.MC|BAS.DE,,,
+tendencia_200,2023-03-10,venta,GLEN.L,175,5.1727,2.0,stop fase 1,,-70.99,-6.89,2022-09-30
+momentum,2023-03-10,venta,GLEN.L,160,5.1727,2.0,stop fase 1,,-16.11,-5.78,2022-06-21
+rebote,2023-03-13,venta,BBVA.MC,164,6.7014,2.0,stop fase 2,,366.87,46.96,2022-08-04
+rebote,2023-03-13,venta,SAB.MC,1255,1.1952,2.0,stop fase 2,,678.22,77.96,2022-09-05
+rebote,2023-03-13,venta,CBK.DE,103,10.7505,2.0,stop fase 2,,361.29,49.23,2022-10-13
+azar_grandes,2023-03-13,venta,ISP.MI,424,2.3332,2.0,stop fase 2,,129.67,15.62,2022-12-20
+rebote,2023-03-13,venta,SAN.MC,348,3.4722,2.0,stop fase 2,,313.03,32.55,2022-10-05
+momentum,2023-03-14,compra,UCG.MI,58,16.756,2.0,momentum 12-1: +93 %,,,,
+tendencia_200,2023-03-14,compra,BHP.AX,35,28.1369,2.0,cruza media 200,,,,
+azar_grandes,2023-03-14,compra,ACA.PA,90,10.634,2.0,azar,,,,
+maximo_52s,2023-03-14,venta,SAB.MC,908,1.0624,2.0,stop fase 1,,-56.3,-5.14,2023-01-27
+maximo_52s,2023-03-14,venta,IBM,8,116.4197,2.0,stop fase 1,,-111.39,-13.53,2022-06-27
+pares_solo_largo,2023-03-15,venta,G.MI,269,18.44,4.96,se juntan (z=0.75),G.MI|MAP.MC,-67.81,-1.15,2023-03-01
+pares_largo_corto,2023-03-15,venta,G.MI,275,18.44,5.07,se juntan (z=0.75),G.MI|MAP.MC,-69.33,-1.15,2023-03-01
+rebote,2023-03-15,compra,BAYN.DE,19,57.26,2.0,"rebote, caída 45 % desde máximo 5 años",,,,
+rebote,2023-03-15,venta,GLE.PA,42,22.42,2.0,stop fase 1,,-5.68,-0.18,2022-08-04
+pares_largo_corto,2023-03-15,cierre_corto,MAP.MC,2526,1.917,4.84,se juntan (z=0.75),G.MI|MAP.MC,290.61,5.84,2023-03-01
+rebote,2023-03-15,compra,PHIA.AS,77,14.7044,2.0,"rebote, caída 69 % desde máximo 5 años",,,,
+maximo_52s,2023-03-15,compra,BA.L,90,10.6304,2.0,"máximo 52 semanas, volumen x1.6",,,,
+tendencia_200,2023-03-16,venta,RHM.DE,6,232.2,2.0,stop fase 2,,417.8,43.42,2022-09-27
+pares_solo_largo,2023-03-16,venta,BAS.DE,104,45.52,4.73,se juntan (z=-0.68),ACX.MC|BAS.DE,-307.21,-5.91,2023-03-09
+pares_solo_largo,2023-03-16,compra,BMO.TO,61,80.5706,4.91,diferencial vuelve (z=-1.99),BMO.TO|RY.TO,,,
+momentum,2023-03-16,venta,RHM.DE,4,232.2,2.0,stop fase 2,,152.4,20.25,2022-12-06
+pares_largo_corto,2023-03-16,cierre_corto,ACX.MC,504,9.116,4.59,se juntan (z=-0.68),ACX.MC|BAS.DE,534.08,10.58,2023-03-09
+pares_largo_corto,2023-03-16,venta,BAS.DE,106,45.52,4.83,se juntan (z=-0.68),ACX.MC|BAS.DE,-313.11,-5.91,2023-03-09
+pares_largo_corto,2023-03-16,corto,RY.TO,58,89.1728,5.17,diferencial vuelve (z=-1.99),BMO.TO|RY.TO,,,
+pares_largo_corto,2023-03-16,compra,BMO.TO,64,80.5706,5.16,diferencial vuelve (z=-1.99),BMO.TO|RY.TO,,,
+tendencia_200,2023-03-17,compra,UBSG.SW,56,17.9526,2.0,cruza media 200,,,,
+tendencia_200,2023-03-17,venta,MUV2.DE,3,300.69,2.0,stop fase 2,,150.47,20.66,2022-09-30
+momentum,2023-03-20,venta,SAAB-B.ST,100,12.6697,2.0,stop fase 2,,324.34,34.98,2023-01-10
+tendencia_200,2023-03-20,compra,6501.T,102,9.7754,2.0,cruza media 200,,,,
+momentum,2023-03-21,compra,CBK.DE,101,9.566,2.0,momentum 12-1: +57 %,,,,
+momentum,2023-03-21,compra,SAB.MC,932,1.0375,2.0,momentum 12-1: +62 %,,,,
+rebote,2023-03-21,compra,K.TO,286,3.9107,2.0,"rebote, caída 53 % desde máximo 5 años",,,,
+azar_grandes,2023-03-22,venta,INFY.NS,52,15.6448,2.0,stop fase 1,,-102.36,-11.79,2022-10-04
+azar_grandes,2023-03-28,compra,CABK.MC,254,3.58,2.0,azar,,,,
+maximo_52s,2023-03-30,compra,ABI.BR,15,60.19,2.0,"máximo 52 semanas, volumen x2.0",,,,
+pares_solo_largo,2023-03-30,compra,DBK.DE,541,9.22,4.99,diferencial vuelve (z=-1.96),DBK.DE|ISP.MI,,,
+pares_largo_corto,2023-03-30,compra,DBK.DE,564,9.22,5.2,diferencial vuelve (z=-1.96),DBK.DE|ISP.MI,,,
+pares_largo_corto,2023-03-30,corto,ISP.MI,2218,2.344,5.2,diferencial vuelve (z=-1.96),DBK.DE|ISP.MI,,,
+rebote,2023-03-31,compra,ERIC-B.ST,218,5.3133,2.0,"rebote, caída 55 % desde máximo 5 años",,,,
+pares_solo_largo,2023-04-04,venta,BMO.TO,61,83.3532,5.08,par deja de estar cointegrado (p=0.30),BMO.TO|RY.TO,159.74,3.45,2023-03-16
+pares_largo_corto,2023-04-04,cierre_corto,RY.TO,58,89.8432,5.21,par deja de estar cointegrado (p=0.30),BMO.TO|RY.TO,-49.27,-0.75,2023-03-16
+pares_largo_corto,2023-04-04,venta,BMO.TO,64,83.3532,5.33,par deja de estar cointegrado (p=0.30),BMO.TO|RY.TO,167.59,3.45,2023-03-16
+pares_solo_largo,2023-04-04,venta,DBK.DE,541,9.51,5.14,par deja de estar cointegrado (p=0.12),DBK.DE|ISP.MI,146.76,3.15,2023-03-30
+pares_largo_corto,2023-04-04,venta,DBK.DE,564,9.51,5.36,par deja de estar cointegrado (p=0.12),DBK.DE|ISP.MI,153.0,3.15,2023-03-30
+pares_largo_corto,2023-04-04,cierre_corto,ISP.MI,2218,2.368,5.25,par deja de estar cointegrado (p=0.12),DBK.DE|ISP.MI,-63.68,-1.02,2023-03-30
+maximo_52s,2023-04-05,venta,CAT,4,194.257,2.0,stop fase 1,,-87.78,-10.2,2022-10-31
+rebote,2023-04-13,compra,BAS.DE,24,49.615,2.0,"rebote, caída 45 % desde máximo 5 años",,,,
+maximo_52s,2023-04-14,compra,NOVO-B.CO,11,75.5083,2.0,"máximo 52 semanas, volumen x1.7",,,,
+pares_largo_corto,2023-05-10,compra,BMO.TO,64,80.5916,5.16,diferencial vuelve (z=-1.53),BMO.TO|TD.TO,,,
+pares_largo_corto,2023-05-10,corto,TD.TO,93,55.7711,5.19,diferencial vuelve (z=-1.53),BMO.TO|TD.TO,,,
+pares_solo_largo,2023-05-10,compra,BMO.TO,62,80.5916,5.0,diferencial vuelve (z=-1.53),BMO.TO|TD.TO,,,
+tendencia_200,2023-05-11,venta,TXN,6,145.6322,2.0,stop fase 1,,-66.17,-9.95,2022-04-07
+tendencia_200,2023-05-12,compra,HDFCBANK.NS,109,9.1998,2.0,cruza media 200,,,,
+tendencia_200,2023-05-22,venta,T,56,15.0184,2.0,stop fase 1,,-153.09,-17.47,2022-12-07
+tendencia_200,2023-05-23,compra,ZURN.SW,2,440.0618,2.0,cruza media 200,,,,
+rebote,2023-05-24,venta,K.TO,286,4.5536,2.0,stop fase 2,,179.86,16.44,2023-03-21
+baja_volatilidad,2023-05-25,venta,RY.TO,9,82.469,2.0,stop fase 1,,-115.43,-17.07,2022-03-15
+azar_grandes,2023-05-25,venta,DTE.DE,58,20.7405,2.0,stop fase 2,,351.57,30.03,2022-03-01
+rebote,2023-05-26,compra,RR.L,672,1.7168,2.0,"rebote, caída 59 % desde máximo 5 años",,,,
+azar_grandes,2023-05-30,compra,BMO.TO,13,78.9179,2.0,azar,,,,
+baja_volatilidad,2023-05-30,compra,DTE.DE,47,21.07,2.0,volatilidad 17 % anual,,,,
+maximo_52s,2023-06-02,venta,TMUS,7,119.8797,2.0,stop fase 1,,-134.76,-13.48,2022-07-28
+pares_solo_largo,2023-06-05,venta,BMO.TO,62,81.2083,5.03,se juntan (z=0.21),BMO.TO|TD.TO,28.2,0.77,2023-05-10
+pares_largo_corto,2023-06-05,venta,BMO.TO,64,81.2083,5.2,se juntan (z=0.21),BMO.TO|TD.TO,29.11,0.77,2023-05-10
+pares_largo_corto,2023-06-05,cierre_corto,TD.TO,93,55.1228,5.13,se juntan (z=0.21),BMO.TO|TD.TO,49.98,1.16,2023-05-10
+pares_largo_corto,2023-06-08,corto,RMS.PA,2,1863.6,3.73,diferencial vuelve (z=-1.84),MC.PA|RMS.PA,,,
+pares_largo_corto,2023-06-08,compra,MC.PA,6,806.2,4.84,diferencial vuelve (z=-1.84),MC.PA|RMS.PA,,,
+pares_solo_largo,2023-06-08,compra,MC.PA,6,806.2,4.84,diferencial vuelve (z=-1.84),MC.PA|RMS.PA,,,
+maximo_52s,2023-06-12,compra,ORCL,8,106.3533,2.0,"máximo 52 semanas, volumen x1.7",,,,
+pares_solo_largo,2023-06-15,compra,LMT,12,418.7015,5.02,diferencial vuelve (z=-0.77),LMT|RTX,,,
+pares_largo_corto,2023-06-15,compra,LMT,12,418.7015,5.02,diferencial vuelve (z=-0.77),LMT|RTX,,,
+pares_largo_corto,2023-06-15,corto,RTX,58,89.6243,5.2,diferencial vuelve (z=-0.77),LMT|RTX,,,
+pares_largo_corto,2023-06-19,cierre_corto,RMS.PA,2,1974.0,3.95,se juntan (z=0.07),MC.PA|RMS.PA,-228.48,-5.92,2023-06-08
+pares_largo_corto,2023-06-19,venta,MC.PA,6,863.4,5.18,se juntan (z=0.07),MC.PA|RMS.PA,333.18,7.1,2023-06-08
+pares_solo_largo,2023-06-19,venta,MC.PA,6,863.4,5.18,se juntan (z=0.07),MC.PA|RMS.PA,333.18,7.1,2023-06-08
+rebote,2023-06-20,venta,ABX.TO,57,14.6807,2.0,stop fase 1,,-23.11,-4.35,2022-09-30
+momentum,2023-06-22,venta,NOVO-B.CO,20,71.2813,2.0,stop fase 2,,487.46,48.49,2022-01-04
+rebote,2023-06-23,venta,0941.HK,173,7.2501,2.0,stop fase 2,,395.9,25.6,2022-01-05
+pares_largo_corto,2023-06-23,cierre_corto,RTX,58,88.2387,5.12,se juntan (z=0.74),LMT|RTX,70.04,1.55,2023-06-15
+pares_largo_corto,2023-06-23,venta,LMT,12,422.962,5.08,se juntan (z=0.74),LMT|RTX,41.03,1.02,2023-06-15
+pares_solo_largo,2023-06-23,venta,LMT,12,422.962,5.08,se juntan (z=0.74),LMT|RTX,41.03,1.02,2023-06-15
+momentum,2023-06-23,venta,CVX,5,137.5494,2.0,stop fase 1,,-125.51,-16.46,2022-12-13
+baja_volatilidad,2023-06-23,venta,0941.HK,146,7.2501,2.0,stop fase 2,,161.48,13.64,2022-10-05
+momentum,2023-06-27,compra,GE,13,76.5352,2.0,momentum 12-1: +98 %,,,,
+momentum,2023-06-27,compra,NFLX,27,38.2559,2.0,momentum 12-1: +97 %,,,,
+baja_volatilidad,2023-06-27,compra,IBE.MC,82,11.67,2.0,volatilidad 16 % anual,,,,
+rebote,2023-07-03,compra,VOW3.DE,9,123.94,2.0,"rebote, caída 50 % desde máximo 5 años",,,,
+baja_volatilidad,2023-07-06,venta,1398.HK,1946,0.4321,2.0,stop fase 1,,-56.78,-13.23,2022-09-20
+baja_volatilidad,2023-07-06,venta,0939.HK,1570,0.5209,2.0,stop fase 1,,-62.62,-14.32,2022-09-27
+rebote,2023-07-06,venta,BAYN.DE,19,49.216,2.0,stop fase 1,,-111.24,-14.05,2023-03-15
+momentum,2023-07-06,venta,BA.L,101,10.5155,2.0,stop fase 2,,167.79,15.27,2022-09-06
+rebote,2023-07-10,compra,IAG.MC,617,1.84,2.0,"rebote, caída 65 % desde máximo 5 años",,,,
+momentum,2023-07-11,compra,NVDA,27,38.5982,2.0,momentum 12-1: +125 %,,,,
+baja_volatilidad,2023-07-11,compra,BN.PA,17,54.97,2.0,volatilidad 16 % anual,,,,
+baja_volatilidad,2023-07-11,compra,KO,17,54.0254,2.0,volatilidad 18 % anual,,,,
+rebote,2023-07-17,venta,ERIC-B.ST,218,4.3937,2.0,stop fase 1,,-204.47,-17.31,2023-03-31
+rebote,2023-07-21,compra,BAYN.DE,22,52.07,2.0,"rebote, caída 46 % desde máximo 5 años",,,,
+rebote,2023-07-25,compra,VOD.L,1305,0.8761,2.0,"rebote, caída 58 % desde máximo 5 años",,,,
+rebote,2023-07-26,venta,PHIA.AS,77,18.1276,2.0,stop fase 2,,259.59,23.28,2023-03-15
+azar_grandes,2023-07-28,venta,SSE.L,52,19.717,2.0,stop fase 2,,183.95,14.5,2022-10-18
+azar_grandes,2023-08-01,compra,ENEL.MI,175,6.289,2.0,azar,,,,
+pares_largo_corto,2023-08-09,compra,ACX.MC,560,9.348,5.23,diferencial vuelve (z=-1.98),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-08-09,compra,RTX,66,78.548,5.18,diferencial vuelve (z=1.99),LMT|RTX,,,
+pares_solo_largo,2023-08-09,compra,RTX,64,78.548,5.03,diferencial vuelve (z=1.99),LMT|RTX,,,
+pares_largo_corto,2023-08-09,corto,BAS.DE,111,46.87,5.2,diferencial vuelve (z=-1.98),ACX.MC|BAS.DE,,,
+pares_solo_largo,2023-08-09,compra,ACX.MC,541,9.348,5.06,diferencial vuelve (z=-1.98),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-08-09,corto,LMT,12,410.698,4.93,diferencial vuelve (z=1.99),LMT|RTX,,,
+maximo_52s,2023-08-11,venta,AVGO,15,75.2892,2.0,stop fase 2,,241.72,25.99,2023-03-06
+azar_grandes,2023-08-11,venta,AVGO,19,75.2892,2.0,stop fase 2,,545.56,58.0,2022-10-04
+maximo_52s,2023-08-14,compra,UBSG.SW,48,21.1595,2.0,"máximo 52 semanas, volumen x3.1",,,,
+rebote,2023-08-15,compra,PHIA.AS,62,18.8442,2.0,"rebote, caída 60 % desde máximo 5 años",,,,
+azar_grandes,2023-08-15,compra,WPM.TO,26,40.2997,2.0,azar,,,,
+maximo_52s,2023-08-18,venta,IFX.DE,28,32.0,2.0,stop fase 1,,-101.44,-10.61,2023-02-03
+pares_solo_largo,2023-08-24,compra,BMO.TO,65,76.6435,4.98,diferencial vuelve (z=-1.97),BMO.TO|TD.TO,,,
+pares_largo_corto,2023-08-24,compra,BMO.TO,68,76.6435,5.21,diferencial vuelve (z=-1.97),BMO.TO|TD.TO,,,
+pares_largo_corto,2023-08-24,corto,TD.TO,93,56.0773,5.22,diferencial vuelve (z=-1.97),BMO.TO|TD.TO,,,
+maximo_52s,2023-09-01,compra,ROVI.MC,19,52.6,2.0,"máximo 52 semanas, volumen x1.7",,,,
+pares_largo_corto,2023-09-05,venta,RTX,66,79.902,5.27,par deja de estar cointegrado (p=0.26),LMT|RTX,114.71,1.72,2023-08-09
+pares_solo_largo,2023-09-05,venta,RTX,64,79.902,5.11,par deja de estar cointegrado (p=0.26),LMT|RTX,111.24,1.72,2023-08-09
+pares_largo_corto,2023-09-05,cierre_corto,LMT,12,415.0272,4.98,par deja de estar cointegrado (p=0.26),LMT|RTX,-94.79,-1.05,2023-08-09
+momentum,2023-09-07,venta,UCG.MI,58,20.7,2.0,stop fase 2,,282.01,23.54,2023-03-14
+momentum,2023-09-12,compra,RR.L,430,2.6048,2.0,momentum 12-1: +167 %,,,,
+pares_largo_corto,2023-09-14,venta,BMO.TO,68,81.4901,5.54,se juntan (z=0.04),BMO.TO|TD.TO,318.81,6.32,2023-08-24
+pares_solo_largo,2023-09-14,venta,BMO.TO,65,81.4901,5.3,se juntan (z=0.04),BMO.TO|TD.TO,304.75,6.32,2023-08-24
+pares_largo_corto,2023-09-14,cierre_corto,TD.TO,93,57.4047,5.34,se juntan (z=0.04),BMO.TO|TD.TO,-134.0,-2.37,2023-08-24
+pares_solo_largo,2023-09-15,compra,MC.PA,6,759.4,4.56,diferencial vuelve (z=-1.90),MC.PA|RMS.PA,,,
+pares_largo_corto,2023-09-15,corto,RMS.PA,2,1907.0,3.81,diferencial vuelve (z=-1.90),MC.PA|RMS.PA,,,
+pares_largo_corto,2023-09-15,compra,MC.PA,6,759.4,4.56,diferencial vuelve (z=-1.90),MC.PA|RMS.PA,,,
+maximo_52s,2023-09-25,venta,RACE.MI,4,269.55,2.0,stop fase 2,,149.84,15.74,2023-01-30
+pares_largo_corto,2023-09-27,venta,ACX.MC,560,8.98,5.03,se juntan (z=0.06),ACX.MC|BAS.DE,-216.34,-3.94,2023-08-09
+tendencia_200,2023-09-27,venta,UBSG.SW,56,22.3679,2.0,stop fase 2,,269.49,24.59,2023-03-17
+pares_largo_corto,2023-09-27,cierre_corto,BAS.DE,111,42.005,4.66,se juntan (z=0.06),ACX.MC|BAS.DE,530.15,10.38,2023-08-09
+pares_solo_largo,2023-09-27,venta,ACX.MC,541,8.98,4.86,se juntan (z=0.06),ACX.MC|BAS.DE,-209.0,-3.94,2023-08-09
+maximo_52s,2023-09-28,compra,COST,1,536.9382,2.0,"máximo 52 semanas, volumen x3.0",,,,
+tendencia_200,2023-09-28,compra,SU.PA,6,155.62,2.0,cruza media 200,,,,
+momentum,2023-10-02,venta,LLY,2,501.722,2.0,stop fase 2,,319.59,46.26,2022-12-13
+pares_solo_largo,2023-10-03,venta,MC.PA,6,709.0,4.25,par deja de estar cointegrado (p=0.14),MC.PA|RMS.PA,-311.21,-6.64,2023-09-15
+momentum,2023-10-03,compra,SHOP.TO,21,50.584,2.0,momentum 12-1: +119 %,,,,
+tendencia_200,2023-10-03,venta,6501.T,102,11.5424,2.0,stop fase 2,,197.27,18.08,2023-03-20
+pares_largo_corto,2023-10-03,venta,MC.PA,6,709.0,4.25,par deja de estar cointegrado (p=0.14),MC.PA|RMS.PA,-311.21,-6.64,2023-09-15
+pares_largo_corto,2023-10-03,cierre_corto,RMS.PA,2,1707.0,3.41,par deja de estar cointegrado (p=0.14),MC.PA|RMS.PA,392.77,10.49,2023-09-15
+tendencia_200,2023-10-04,compra,PG,7,139.0239,2.0,cruza media 200,,,,
+rebote,2023-10-06,venta,RR.L,672,2.3866,2.0,stop fase 2,,446.08,39.01,2023-05-26
+rebote,2023-10-09,venta,BAS.DE,24,40.664,2.0,stop fase 1,,-137.22,-18.04,2023-04-13
+momentum,2023-10-12,venta,NFLX,27,34.0258,2.0,stop fase 1,,-118.21,-11.06,2023-06-27
+rebote,2023-10-13,compra,ERIC-B.ST,243,4.6324,2.0,"rebote, caída 61 % desde máximo 5 años",,,,
+rebote,2023-10-17,venta,BAYN.DE,22,42.512,2.0,stop fase 1,,-214.28,-18.36,2023-07-21
+momentum,2023-10-17,compra,META,3,301.4692,2.0,momentum 12-1: +110 %,,,,
+rebote,2023-10-20,compra,T,76,14.3485,2.0,"rebote, caída 47 % desde máximo 5 años",,,,
+rebote,2023-10-20,venta,IAG.MC,617,1.5932,2.0,stop fase 1,,-156.28,-13.41,2023-07-10
+rebote,2023-10-23,venta,VOW3.DE,9,100.48,2.0,stop fase 1,,-215.14,-18.93,2023-07-03
+rebote,2023-10-23,venta,PHIA.AS,62,16.0903,2.0,stop fase 1,,-174.74,-14.61,2023-08-15
+maximo_52s,2023-10-24,venta,8306.T,166,7.6107,2.0,stop fase 2,,257.16,21.2,2022-12-26
+rebote,2023-10-25,compra,VZ,32,32.5614,2.0,"rebote, caída 42 % desde máximo 5 años",,,,
+maximo_52s,2023-10-26,venta,ORCL,8,94.5763,2.0,stop fase 1,,-92.29,-11.07,2023-06-12
+rebote,2023-11-01,compra,BAS.DE,24,43.465,2.0,"rebote, caída 42 % desde máximo 5 años",,,,
+maximo_52s,2023-11-03,compra,RACE.MI,3,306.8,2.0,"máximo 52 semanas, volumen x2.6",,,,
+maximo_52s,2023-11-06,compra,K.TO,203,5.1298,2.0,"máximo 52 semanas, volumen x3.0",,,,
+rebote,2023-11-09,compra,GRF.MC,90,12.13,2.0,"rebote, caída 65 % desde máximo 5 años",,,,
+rebote,2023-11-09,compra,IAG.MC,628,1.744,2.0,"rebote, caída 66 % desde máximo 5 años",,,,
+pares_solo_largo,2023-11-13,compra,BAS.DE,115,43.82,5.04,diferencial vuelve (z=1.91),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-11-13,corto,ACX.MC,548,9.648,5.29,diferencial vuelve (z=1.91),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-11-13,compra,BAS.DE,120,43.82,5.26,diferencial vuelve (z=1.91),ACX.MC|BAS.DE,,,
+pares_largo_corto,2023-11-24,corto,CBA.AX,84,62.0281,5.21,diferencial vuelve (z=1.65),CBA.AX|WBC.AX,,,
+pares_largo_corto,2023-11-24,compra,WBC.AX,410,12.8207,5.26,diferencial vuelve (z=1.65),CBA.AX|WBC.AX,,,
+pares_solo_largo,2023-11-24,compra,WBC.AX,394,12.8207,5.05,diferencial vuelve (z=1.65),CBA.AX|WBC.AX,,,
+tendencia_200,2023-11-27,venta,CP.TO,13,63.4143,2.0,stop fase 1,,-98.41,-10.94,2022-10-14
+tendencia_200,2023-11-28,compra,SO,16,64.1333,2.0,cruza media 200,,,,
+pares_largo_corto,2023-11-29,compra,G.MI,276,18.96,5.23,diferencial vuelve (z=-1.46),G.MI|MAP.MC,,,
+pares_largo_corto,2023-11-29,corto,MAP.MC,2561,2.046,5.24,diferencial vuelve (z=-1.46),G.MI|MAP.MC,,,
+pares_solo_largo,2023-11-29,compra,G.MI,265,18.96,5.02,diferencial vuelve (z=-1.46),G.MI|MAP.MC,,,
+momentum,2023-12-07,venta,SHEL.L,35,28.8651,2.0,stop fase 2,,199.02,16.89,2022-06-21
+momentum,2023-12-08,venta,SAB.MC,932,1.2177,2.0,stop fase 2,,182.59,17.37,2023-03-21
+maximo_52s,2023-12-12,venta,NOVO-B.CO,11,86.5277,2.0,stop fase 2,,121.64,14.59,2023-04-14
+momentum,2023-12-12,venta,XOM,9,90.9789,2.0,stop fase 1,,-46.2,-8.18,2022-12-20
+momentum,2023-12-12,compra,UCG.MI,46,25.37,2.0,momentum 12-1: +90 %,,,,
+momentum,2023-12-12,compra,LDO.MI,85,13.83,2.0,momentum 12-1: +92 %,,,,
+pares_solo_largo,2023-12-13,venta,G.MI,265,19.235,5.1,se juntan (z=0.29),G.MI|MAP.MC,62.75,1.45,2023-11-29
+pares_largo_corto,2023-12-13,venta,G.MI,276,19.235,5.31,se juntan (z=0.29),G.MI|MAP.MC,65.36,1.45,2023-11-29
+pares_largo_corto,2023-12-13,cierre_corto,MAP.MC,2561,1.986,5.09,se juntan (z=0.29),G.MI|MAP.MC,143.33,2.93,2023-11-29
+maximo_52s,2023-12-13,compra,AVGO,11,98.9011,2.0,"máximo 52 semanas, volumen x3.2",,,,
+rebote,2023-12-15,venta,VOD.L,1305,0.7521,2.0,stop fase 1,,-108.25,-14.15,2023-07-25
+momentum,2023-12-19,compra,ADBE,2,549.258,2.0,momentum 12-1: +80 %,,,,
+pares_solo_largo,2024-01-02,venta,WBC.AX,394,14.1526,5.58,par deja de estar cointegrado (p=0.11),CBA.AX|WBC.AX,514.11,10.39,2023-11-24
+pares_largo_corto,2024-01-02,cierre_corto,CBA.AX,84,69.0347,5.8,par deja de estar cointegrado (p=0.11),CBA.AX|WBC.AX,-599.56,-11.3,2023-11-24
+pares_largo_corto,2024-01-02,venta,WBC.AX,410,14.1526,5.8,par deja de estar cointegrado (p=0.11),CBA.AX|WBC.AX,534.99,10.39,2023-11-24
+pares_largo_corto,2024-01-03,compra,TD.TO,90,58.4922,5.26,diferencial vuelve (z=1.85),BMO.TO|TD.TO,,,
+pares_largo_corto,2024-01-03,corto,BMO.TO,59,89.0796,5.26,diferencial vuelve (z=1.85),BMO.TO|TD.TO,,,
+rebote,2024-01-03,compra,NOKIA.HE,375,3.148,2.0,"rebote, caída 45 % desde máximo 5 años",,,,
+pares_solo_largo,2024-01-03,compra,TD.TO,88,58.4922,5.15,diferencial vuelve (z=1.85),BMO.TO|TD.TO,,,
+azar_grandes,2024-01-04,venta,ADS.DE,6,174.66,2.0,stop fase 2,,119.84,12.89,2023-02-07
+azar_grandes,2024-01-09,compra,CRM,4,236.9495,2.0,azar,,,,
+rebote,2024-01-09,venta,GRF.MC,90,8.1,2.0,stop fase 2,,-366.7,-33.22,2023-11-09
+rebote,2024-01-10,compra,BAYN.DE,24,34.95,2.0,"rebote, caída 55 % desde máximo 5 años",,,,
+pares_solo_largo,2024-01-17,venta,BAS.DE,115,43.65,5.02,stop por tiempo (44 días),ACX.MC|BAS.DE,-29.61,-0.39,2023-11-13
+pares_largo_corto,2024-01-17,cierre_corto,ACX.MC,548,10.025,5.49,stop por tiempo (44 días),ACX.MC|BAS.DE,-217.38,-3.91,2023-11-13
+pares_largo_corto,2024-01-17,venta,BAS.DE,120,43.65,5.24,stop por tiempo (44 días),ACX.MC|BAS.DE,-30.9,-0.39,2023-11-13
+tendencia_200,2024-01-24,venta,HDFCBANK.NS,109,7.644,2.0,stop fase 1,,-161.99,-16.91,2023-05-12
+pares_solo_largo,2024-01-25,compra,MAP.MC,2515,2.026,5.1,diferencial vuelve (z=1.09),G.MI|MAP.MC,,,
+tendencia_200,2024-01-25,compra,0941.HK,143,7.7711,2.0,cruza media 200,,,,
+pares_largo_corto,2024-01-25,corto,G.MI,259,20.3,5.26,diferencial vuelve (z=1.09),G.MI|MAP.MC,,,
+pares_largo_corto,2024-01-25,compra,MAP.MC,2600,2.026,5.27,diferencial vuelve (z=1.09),G.MI|MAP.MC,,,
+rebote,2024-02-06,venta,BAYN.DE,24,27.96,2.0,stop fase 1,,-171.76,-20.0,2024-01-10
+momentum,2024-02-13,venta,SHOP.TO,21,72.8678,2.0,stop fase 2,,463.96,44.05,2023-10-03
+azar_grandes,2024-02-15,venta,ACA.PA,90,12.1212,2.0,stop fase 2,,224.35,13.99,2023-03-14
+azar_grandes,2024-02-20,compra,7203.T,53,21.3104,2.0,azar,,,,
+momentum,2024-02-20,compra,ACS.MC,38,36.38,2.0,momentum 12-1: +49 %,,,,
+momentum,2024-02-21,venta,NVDA,27,62.107,2.0,stop fase 2,,630.94,60.91,2023-07-11
+azar_grandes,2024-02-22,venta,NESN.SW,7,100.0472,2.0,stop fase 1,,-138.74,-20.0,2022-01-04
+maximo_52s,2024-02-22,venta,K.TO,203,4.5182,2.0,stop fase 1,,-122.58,-11.92,2023-11-06
+azar_grandes,2024-02-22,venta,WPM.TO,26,36.585,2.0,stop fase 1,,-93.42,-9.22,2023-08-15
+baja_volatilidad,2024-02-22,venta,NESN.SW,7,100.0472,2.0,stop fase 1,,-138.74,-20.0,2022-01-04
+pares_solo_largo,2024-02-23,compra,0939.HK,8699,0.5834,5.08,diferencial vuelve (z=-1.53),0939.HK|1398.HK,,,
+pares_largo_corto,2024-02-23,compra,0939.HK,8946,0.5834,5.22,diferencial vuelve (z=-1.53),0939.HK|1398.HK,,,
+maximo_52s,2024-02-23,compra,NVDA,16,74.6281,2.0,"máximo 52 semanas, volumen x1.9",,,,
+pares_largo_corto,2024-02-23,corto,1398.HK,10805,0.483,5.22,diferencial vuelve (z=-1.53),0939.HK|1398.HK,,,
+rebote,2024-02-26,compra,GRF.MC,58,11.6,2.0,"rebote, caída 66 % desde máximo 5 años",,,,
+azar_grandes,2024-02-27,compra,CNR.TO,9,121.142,2.0,azar,,,,
+azar_grandes,2024-02-27,compra,MAP.MC,582,1.963,2.0,azar,,,,
+baja_volatilidad,2024-02-27,compra,ULVR.L,20,49.263,2.0,volatilidad 14 % anual,,,,
+maximo_52s,2024-02-27,venta,ROVI.MC,19,64.53,2.0,stop fase 2,,222.67,22.68,2023-09-01
+momentum,2024-02-27,compra,AMD,8,162.1243,2.0,momentum 12-1: +120 %,,,,
+pares_largo_corto,2024-02-28,venta,TD.TO,90,54.8739,4.94,se juntan (z=-0.32),BMO.TO|TD.TO,-273.05,-6.19,2024-01-03
+maximo_52s,2024-02-28,compra,8316.T,136,8.6834,2.0,"máximo 52 semanas, volumen x1.5",,,,
+pares_solo_largo,2024-02-28,venta,TD.TO,88,54.8739,4.83,se juntan (z=-0.32),BMO.TO|TD.TO,-266.98,-6.19,2024-01-03
+pares_largo_corto,2024-02-28,cierre_corto,BMO.TO,59,83.1629,4.91,se juntan (z=-0.32),BMO.TO|TD.TO,277.85,6.64,2024-01-03
+rebote,2024-02-29,venta,GRF.MC,58,9.432,2.0,stop fase 1,,-129.74,-18.69,2024-02-26
+pares_solo_largo,2024-03-04,venta,MAP.MC,2515,1.977,4.97,par deja de estar cointegrado (p=0.10),G.MI|MAP.MC,-133.3,-2.42,2024-01-25
+pares_largo_corto,2024-03-04,cierre_corto,G.MI,259,21.92,5.68,par deja de estar cointegrado (p=0.10),G.MI|MAP.MC,-430.52,-7.98,2024-01-25
+pares_largo_corto,2024-03-04,venta,MAP.MC,2600,1.977,5.14,par deja de estar cointegrado (p=0.10),G.MI|MAP.MC,-137.81,-2.42,2024-01-25
+rebote,2024-03-08,compra,ABX.TO,37,14.595,2.0,"rebote, caída 44 % desde máximo 5 años",,,,
+maximo_52s,2024-03-11,venta,AVGO,11,116.5439,2.0,stop fase 2,,195.36,17.84,2023-12-13
+maximo_52s,2024-03-12,compra,BARC.L,587,2.0485,2.0,"máximo 52 semanas, volumen x2.2",,,,
+baja_volatilidad,2024-03-14,venta,NOVN.SW,13,89.9347,2.0,stop fase 2,,333.16,21.96,2022-01-04
+momentum,2024-03-15,venta,ADBE,2,459.0842,2.0,stop fase 1,,-184.35,-16.42,2023-12-19
+momentum,2024-03-19,compra,NVDA,18,79.7319,2.0,momentum 12-1: +181 %,,,,
+baja_volatilidad,2024-03-19,compra,G.MI,43,22.7,2.0,volatilidad 14 % anual,,,,
+pares_solo_largo,2024-03-22,venta,0939.HK,8699,0.5687,4.95,se juntan (z=0.25),0939.HK|1398.HK,-137.84,-2.52,2024-02-23
+pares_largo_corto,2024-03-22,cierre_corto,1398.HK,10805,0.4698,5.08,se juntan (z=0.25),0939.HK|1398.HK,132.5,2.74,2024-02-23
+pares_largo_corto,2024-03-22,venta,0939.HK,8946,0.5687,5.09,se juntan (z=0.25),0939.HK|1398.HK,-141.75,-2.52,2024-02-23
+maximo_52s,2024-04-03,venta,COST,1,648.6798,2.0,stop fase 2,,123.23,20.81,2023-09-28
+momentum,2024-04-04,venta,AMD,8,155.2175,2.0,stop fase 1,,-59.26,-4.26,2024-02-27
+maximo_52s,2024-04-04,compra,GE,8,135.3066,2.0,"máximo 52 semanas, volumen x1.9",,,,
+momentum,2024-04-09,compra,AVGO,11,124.9459,2.0,momentum 12-1: +125 %,,,,
+momentum,2024-04-10,venta,LDO.MI,85,21.33,2.0,stop fase 2,,633.5,54.23,2023-12-12
+maximo_52s,2024-04-15,venta,FER.MC,37,33.588,2.0,stop fase 2,,254.99,23.21,2023-01-25
+momentum,2024-04-16,compra,8035.T,33,46.768,2.0,momentum 12-1: +110 %,,,,
+maximo_52s,2024-04-16,venta,UBSG.SW,48,26.3545,2.0,stop fase 2,,245.36,24.55,2023-08-14
+azar_grandes,2024-04-17,venta,ZURN.SW,2,457.4632,2.0,stop fase 2,,271.59,16.6,2022-01-04
+rebote,2024-04-17,venta,ERIC-B.ST,243,4.5979,2.0,stop fase 1,,16.09,-0.74,2023-10-13
+maximo_52s,2024-04-18,compra,ADS.DE,5,220.0,2.0,"máximo 52 semanas, volumen x2.5",,,,
+maximo_52s,2024-04-19,compra,ABBN.SW,26,45.0506,2.0,"máximo 52 semanas, volumen x2.0",,,,
+pares_solo_largo,2024-04-23,compra,0939.HK,8613,0.587,5.06,diferencial vuelve (z=-1.39),0939.HK|1398.HK,,,
+pares_largo_corto,2024-04-23,compra,0939.HK,8900,0.587,5.22,diferencial vuelve (z=-1.39),0939.HK|1398.HK,,,
+pares_largo_corto,2024-04-23,corto,1398.HK,10636,0.4912,5.22,diferencial vuelve (z=-1.39),0939.HK|1398.HK,,,
+rebote,2024-04-23,compra,PHIA.AS,60,18.7591,2.0,"rebote, caída 61 % desde máximo 5 años",,,,
+azar_grandes,2024-04-23,compra,SAF.PA,5,205.9,2.0,azar,,,,
+momentum,2024-04-25,venta,META,3,393.8362,2.0,stop fase 2,,274.49,30.64,2023-10-17
+rebote,2024-04-26,venta,BAS.DE,24,48.28,2.0,stop fase 2,,193.16,11.08,2023-11-01
+rebote,2024-04-29,compra,BAYN.DE,41,27.52,2.0,"rebote, caída 65 % desde máximo 5 años",,,,
+momentum,2024-04-30,compra,AMD,10,149.9015,2.0,momentum 12-1: +111 %,,,,
+pares_solo_largo,2024-05-03,compra,INGA.AS,317,15.98,5.07,diferencial vuelve (z=-1.63),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-05-03,venta,0939.HK,8900,0.6168,5.49,se juntan (z=0.32),0939.HK|1398.HK,254.54,5.08,2024-04-23
+pares_largo_corto,2024-05-03,corto,SAB.MC,2795,1.871,5.23,diferencial vuelve (z=-1.63),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-05-03,compra,INGA.AS,327,15.98,5.23,diferencial vuelve (z=-1.63),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-05-03,cierre_corto,1398.HK,10636,0.5106,5.43,se juntan (z=0.32),0939.HK|1398.HK,-217.63,-3.96,2024-04-23
+pares_solo_largo,2024-05-03,venta,0939.HK,8613,0.6168,5.31,se juntan (z=0.32),0939.HK|1398.HK,246.33,5.08,2024-04-23
+pares_solo_largo,2024-05-07,compra,SAN.MC,1106,4.5915,5.08,diferencial vuelve (z=1.93),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-05-07,corto,CBK.DE,374,13.945,5.22,diferencial vuelve (z=1.93),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-05-07,compra,SAN.MC,1137,4.5915,5.22,diferencial vuelve (z=1.93),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-05-14,cierre_corto,CBK.DE,374,13.96,5.22,se juntan (z=-0.00),CBK.DE|SAN.MC,-16.05,-0.11,2024-05-07
+pares_solo_largo,2024-05-14,venta,SAN.MC,1106,4.75,5.25,se juntan (z=-0.00),CBK.DE|SAN.MC,164.97,3.45,2024-05-07
+pares_largo_corto,2024-05-14,venta,SAN.MC,1137,4.75,5.4,se juntan (z=-0.00),CBK.DE|SAN.MC,169.59,3.45,2024-05-07
+pares_solo_largo,2024-05-20,compra,1398.HK,9150,0.5589,5.11,diferencial vuelve (z=1.88),0939.HK|1398.HK,,,
+pares_largo_corto,2024-05-20,corto,0939.HK,7605,0.6909,5.25,diferencial vuelve (z=1.88),0939.HK|1398.HK,,,
+pares_largo_corto,2024-05-20,compra,1398.HK,9402,0.5589,5.25,diferencial vuelve (z=1.88),0939.HK|1398.HK,,,
+pares_largo_corto,2024-05-21,corto,G.MI,222,23.64,5.25,diferencial vuelve (z=-0.88),ALV.DE|G.MI,,,
+pares_largo_corto,2024-05-21,compra,ALV.DE,19,267.5,5.08,diferencial vuelve (z=-0.88),ALV.DE|G.MI,,,
+pares_solo_largo,2024-05-21,compra,ALV.DE,19,267.5,5.08,diferencial vuelve (z=-0.88),ALV.DE|G.MI,,,
+azar_grandes,2024-05-30,venta,CRM,4,206.817,2.0,stop fase 1,,-123.07,-12.72,2024-01-09
+pares_largo_corto,2024-06-03,corto,CBK.DE,338,15.445,5.22,diferencial vuelve (z=1.55),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-06-03,compra,SAN.MC,1078,4.85,5.23,diferencial vuelve (z=1.55),CBK.DE|SAN.MC,,,
+pares_solo_largo,2024-06-03,compra,SAN.MC,1046,4.85,5.07,diferencial vuelve (z=1.55),CBK.DE|SAN.MC,,,
+azar_grandes,2024-06-04,compra,VOW3.DE,10,114.75,2.0,azar,,,,
+rebote,2024-06-11,venta,MAP.MC,511,2.1384,2.0,stop fase 2,,399.69,29.99,2022-10-05
+azar_grandes,2024-06-13,venta,7203.T,53,18.8072,2.0,stop fase 1,,-122.08,-11.75,2024-02-20
+baja_volatilidad,2024-06-13,venta,ORA.PA,88,9.4528,2.0,stop fase 1,,-27.51,-12.8,2023-03-07
+rebote,2024-06-13,compra,GRF.MC,128,9.262,2.0,"rebote, caída 73 % desde máximo 5 años",,,,
+momentum,2024-06-14,venta,UCG.MI,46,33.138,2.0,stop fase 2,,436.26,30.62,2023-12-12
+momentum,2024-06-14,venta,CBK.DE,101,14.166,2.0,stop fase 2,,516.15,48.09,2023-03-21
+momentum,2024-06-14,venta,HO.PA,7,155.565,2.0,stop fase 2,,269.39,26.63,2022-09-06
+momentum,2024-06-18,compra,LDO.MI,76,22.12,2.0,momentum 12-1: +119 %,,,,
+azar_grandes,2024-06-18,compra,MA,2,416.2307,2.0,azar,,,,
+baja_volatilidad,2024-06-18,compra,LSEG.L,9,112.0502,2.0,volatilidad 14 % anual,,,,
+rebote,2024-06-18,venta,TEF.MC,320,4.005,2.0,stop fase 2,,303.2,14.59,2023-02-08
+momentum,2024-06-18,compra,ROVI.MC,19,85.45,2.0,momentum 12-1: +111 %,,,,
+pares_largo_corto,2024-06-19,venta,1398.HK,9402,0.5271,4.96,stop por tiempo (21 días),0939.HK|1398.HK,-308.44,-5.68,2024-05-20
+pares_solo_largo,2024-06-19,venta,1398.HK,9150,0.5271,4.82,stop por tiempo (21 días),0939.HK|1398.HK,-300.17,-5.68,2024-05-20
+pares_largo_corto,2024-06-19,cierre_corto,0939.HK,7605,0.6726,5.12,stop por tiempo (21 días),0939.HK|1398.HK,128.58,2.64,2024-05-20
+rebote,2024-06-19,compra,VOD.L,1394,0.8426,2.0,"rebote, caída 57 % desde máximo 5 años",,,,
+momentum,2024-06-24,venta,NVDA,18,113.6074,2.04,stop fase 2,,605.88,42.49,2024-03-19
+momentum,2024-06-24,venta,AVGO,11,153.6384,2.0,stop fase 2,,317.02,22.96,2024-04-09
+maximo_52s,2024-06-24,venta,NVDA,16,113.6074,2.0,stop fase 2,,619.88,52.23,2024-02-23
+momentum,2024-06-25,compra,RHM.DE,3,496.5,2.0,momentum 12-1: +113 %,,,,
+momentum,2024-06-25,compra,SAB.MC,716,1.815,2.0,momentum 12-1: +85 %,,,,
+momentum,2024-06-25,compra,MU,12,130.5074,2.0,momentum 12-1: +93 %,,,,
+maximo_52s,2024-06-26,compra,ICICIBANK.NS,98,13.4681,2.0,"máximo 52 semanas, volumen x1.6",,,,
+pares_solo_largo,2024-06-27,venta,INGA.AS,317,15.84,5.02,stop por tiempo (39 días),INGA.AS|SAB.MC,-54.47,-0.88,2024-05-03
+pares_largo_corto,2024-06-27,cierre_corto,SAB.MC,2795,1.7735,4.96,stop por tiempo (39 días),INGA.AS|SAB.MC,262.33,5.21,2024-05-03
+pares_largo_corto,2024-06-27,venta,INGA.AS,327,15.84,5.18,stop por tiempo (39 días),INGA.AS|SAB.MC,-56.18,-0.88,2024-05-03
+maximo_52s,2024-07-02,venta,BA.L,90,14.8808,2.0,stop fase 2,,426.85,39.98,2023-03-15
+rebote,2024-07-02,venta,PHIA.AS,60,23.283,2.0,stop fase 2,,267.44,24.12,2024-04-23
+tendencia_200,2024-07-02,venta,BA.L,100,14.8808,2.0,stop fase 2,,607.33,57.91,2022-10-12
+maximo_52s,2024-07-03,compra,8306.T,127,10.3984,2.0,"máximo 52 semanas, volumen x1.8",,,,
+tendencia_200,2024-07-03,compra,7203.T,63,19.2701,2.0,cruza media 200,,,,
+pares_solo_largo,2024-07-09,venta,ALV.DE,19,262.2,4.98,stop por tiempo (35 días),ALV.DE|G.MI,-110.76,-1.98,2024-05-21
+pares_largo_corto,2024-07-09,venta,ALV.DE,19,262.2,4.98,stop por tiempo (35 días),ALV.DE|G.MI,-110.76,-1.98,2024-05-21
+pares_largo_corto,2024-07-09,cierre_corto,G.MI,222,23.8,5.28,stop por tiempo (35 días),ALV.DE|G.MI,-46.05,-0.68,2024-05-21
+tendencia_200,2024-07-10,venta,V,5,239.5979,2.0,stop fase 2,,232.79,21.98,2022-01-04
+tendencia_200,2024-07-11,compra,AI.PA,8,147.9273,2.0,cruza media 200,,,,
+pares_solo_largo,2024-07-11,compra,BA.L,331,15.1222,5.01,diferencial vuelve (z=-1.84),BA.L|RR.L,,,
+baja_volatilidad,2024-07-11,venta,PEP,6,146.6968,2.0,stop fase 1,,27.24,-3.97,2022-01-04
+pares_largo_corto,2024-07-11,compra,BA.L,344,15.1222,5.2,diferencial vuelve (z=-1.84),BA.L|RR.L,,,
+pares_largo_corto,2024-07-11,corto,RR.L,967,5.3892,5.21,diferencial vuelve (z=-1.84),BA.L|RR.L,,,
+baja_volatilidad,2024-07-16,compra,BRK-B,2,401.227,2.0,volatilidad 14 % anual,,,,
+momentum,2024-07-18,venta,MU,12,106.3418,2.0,stop fase 1,,-292.71,-18.52,2024-06-25
+momentum,2024-07-18,venta,RR.L,430,5.1716,2.22,stop fase 2,,1099.52,98.54,2023-09-12
+momentum,2024-07-18,venta,8035.T,33,35.3502,2.0,stop fase 1,,-380.79,-24.41,2024-04-16
+rebote,2024-07-19,compra,TEF.MC,291,4.114,2.0,"rebote, caída 43 % desde máximo 5 años",,,,
+momentum,2024-07-23,compra,LLY,2,798.9123,2.0,momentum 12-1: +99 %,,,,
+momentum,2024-07-23,compra,AVGO,10,147.2937,2.0,momentum 12-1: +103 %,,,,
+momentum,2024-07-23,compra,NVDA,14,112.7477,2.0,momentum 12-1: +199 %,,,,
+pares_solo_largo,2024-07-24,venta,SAN.MC,1046,4.6,4.81,stop por tiempo (37 días),CBK.DE|SAN.MC,-271.38,-5.15,2024-06-03
+pares_largo_corto,2024-07-24,venta,SAN.MC,1078,4.6,4.96,stop por tiempo (37 días),CBK.DE|SAN.MC,-279.69,-5.15,2024-06-03
+tendencia_200,2024-07-24,venta,BHP.AX,35,25.0393,2.0,stop fase 1,,-63.24,-11.01,2023-03-14
+pares_largo_corto,2024-07-24,cierre_corto,CBK.DE,338,15.5,5.24,stop por tiempo (37 días),CBK.DE|SAN.MC,-29.05,-0.36,2024-06-03
+momentum,2024-07-24,venta,AMD,10,136.0804,2.0,stop fase 1,,-142.21,-9.22,2024-04-30
+tendencia_200,2024-07-25,venta,SU.PA,6,214.38,2.0,stop fase 2,,369.56,37.76,2023-09-28
+tendencia_200,2024-07-25,compra,VZ,33,36.7728,2.0,cruza media 200,,,,
+tendencia_200,2024-07-26,compra,HEIA.AS,13,89.68,2.0,cruza media 200,,,,
+momentum,2024-07-30,compra,SAAB-B.ST,76,20.6759,2.0,momentum 12-1: +89 %,,,,
+maximo_52s,2024-08-02,venta,8316.T,136,10.0695,2.0,stop fase 2,,203.23,15.96,2024-02-28
+maximo_52s,2024-08-02,venta,BARC.L,587,2.5039,2.0,stop fase 2,,263.28,22.23,2024-03-12
+azar_grandes,2024-08-02,venta,CABK.MC,254,5.0022,2.0,stop fase 2,,515.35,39.73,2023-03-28
+tendencia_200,2024-08-05,venta,7203.T,63,15.3269,2.0,stop fase 1,,-252.42,-20.46,2024-07-03
+momentum,2024-08-05,venta,AVGO,10,118.7902,2.0,stop fase 1,,-289.04,-19.35,2024-07-23
+maximo_52s,2024-08-05,compra,KO,20,63.2307,2.0,"máximo 52 semanas, volumen x1.9",,,,
+momentum,2024-08-05,venta,GE,13,139.7601,2.0,stop fase 2,,826.97,82.61,2023-06-27
+momentum,2024-08-05,venta,NVDA,14,84.3748,2.0,stop fase 1,,-401.22,-25.16,2024-07-23
+maximo_52s,2024-08-05,compra,SO,16,81.5611,2.0,"máximo 52 semanas, volumen x1.9",,,,
+azar_grandes,2024-08-05,venta,ITX.MC,33,42.687,2.0,stop fase 2,,496.18,44.7,2023-03-07
+maximo_52s,2024-08-05,venta,8306.T,127,7.7322,2.0,stop fase 1,,-342.6,-25.64,2024-07-03
+azar_grandes,2024-08-06,compra,KER.PA,4,266.25,2.0,azar,,,,
+momentum,2024-08-06,compra,MU,17,81.4539,2.0,momentum 12-1: +93 %,,,,
+momentum,2024-08-06,compra,RR.L,273,5.2728,2.0,momentum 12-1: +121 %,,,,
+azar_grandes,2024-08-06,venta,BMO.TO,13,72.4208,2.0,stop fase 1,,-22.01,-8.23,2023-05-30
+azar_grandes,2024-08-06,compra,DTE.DE,47,23.71,2.0,azar,,,,
+momentum,2024-08-06,compra,6501.T,74,19.3362,2.0,momentum 12-1: +88 %,,,,
+tendencia_200,2024-08-07,compra,4063.T,31,37.1459,2.0,cruza media 200,,,,
+maximo_52s,2024-08-12,compra,ENB.TO,35,35.7,2.0,"máximo 52 semanas, volumen x2.3",,,,
+azar_grandes,2024-08-13,compra,DHL.DE,30,36.24,2.0,azar,,,,
+pares_solo_largo,2024-08-14,compra,INGA.AS,327,15.38,5.03,diferencial vuelve (z=-1.74),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-08-14,compra,INGA.AS,336,15.38,5.17,diferencial vuelve (z=-1.74),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-08-14,corto,SAB.MC,2857,1.81,5.17,diferencial vuelve (z=-1.74),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-08-20,venta,BA.L,344,15.7323,5.41,stop por tiempo (28 días),BA.L|RR.L,199.27,4.03,2024-07-11
+pares_solo_largo,2024-08-20,venta,BA.L,331,15.7323,5.21,stop por tiempo (28 días),BA.L|RR.L,191.74,4.03,2024-07-11
+pares_largo_corto,2024-08-20,cierre_corto,RR.L,967,5.8615,5.67,stop por tiempo (28 días),BA.L|RR.L,-467.64,-8.76,2024-07-11
+pares_solo_largo,2024-08-22,compra,CBK.DE,396,12.76,5.05,diferencial vuelve (z=-1.95),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-08-22,corto,SAN.MC,1214,4.243,5.15,diferencial vuelve (z=-1.95),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-08-22,compra,CBK.DE,403,12.76,5.14,diferencial vuelve (z=-1.95),CBK.DE|SAN.MC,,,
+pares_largo_corto,2024-09-04,cierre_corto,SAB.MC,2857,1.821,5.2,se juntan (z=0.32),INGA.AS|SAB.MC,-41.8,-0.61,2024-08-14
+pares_largo_corto,2024-09-04,venta,INGA.AS,336,15.966,5.36,se juntan (z=0.32),INGA.AS|SAB.MC,186.36,3.81,2024-08-14
+pares_solo_largo,2024-09-04,venta,INGA.AS,327,15.966,5.22,se juntan (z=0.32),INGA.AS|SAB.MC,181.37,3.81,2024-08-14
+momentum,2024-09-06,venta,MU,17,78.8245,2.0,stop fase 1,,-48.7,-3.23,2024-08-06
+azar_grandes,2024-09-06,venta,VOW3.DE,10,91.8,2.0,stop fase 1,,-233.5,-20.0,2024-06-04
+momentum,2024-09-10,compra,NVDA,14,97.6759,2.0,momentum 12-1: +123 %,,,,
+azar_grandes,2024-09-10,compra,MUV2.DE,2,481.2,2.0,azar,,,,
+pares_largo_corto,2024-09-12,venta,CBK.DE,403,15.125,6.1,se juntan (z=1.68),CBK.DE|SAN.MC,941.86,18.53,2024-08-22
+pares_largo_corto,2024-09-12,cierre_corto,SAN.MC,1214,4.3145,5.24,se juntan (z=1.68),CBK.DE|SAN.MC,-97.19,-1.69,2024-08-22
+pares_solo_largo,2024-09-12,venta,CBK.DE,396,15.125,5.99,se juntan (z=1.68),CBK.DE|SAN.MC,925.5,18.53,2024-08-22
+momentum,2024-10-01,venta,ROVI.MC,19,71.2,2.0,stop fase 1,,-253.78,-16.68,2024-06-18
+pares_solo_largo,2024-10-02,compra,BA.L,336,15.3262,5.15,diferencial vuelve (z=-1.30),BA.L|RR.L,,,
+pares_largo_corto,2024-10-02,corto,RR.L,838,6.284,5.27,diferencial vuelve (z=-1.30),BA.L|RR.L,,,
+pares_largo_corto,2024-10-02,compra,BA.L,343,15.3262,5.26,diferencial vuelve (z=-1.30),BA.L|RR.L,,,
+rebote,2024-10-02,venta,IAG.MC,628,2.2896,2.0,stop fase 2,,357.48,31.28,2023-11-09
+momentum,2024-10-08,compra,K.TO,172,8.4563,2.0,momentum 12-1: +78 %,,,,
+pares_largo_corto,2024-10-23,venta,BA.L,343,16.0229,5.5,se juntan (z=0.27),BA.L|RR.L,228.23,4.55,2024-10-02
+pares_largo_corto,2024-10-23,cierre_corto,RR.L,838,6.7435,5.65,se juntan (z=0.27),BA.L|RR.L,-395.91,-7.31,2024-10-02
+pares_solo_largo,2024-10-23,venta,BA.L,336,16.0229,5.38,se juntan (z=0.27),BA.L|RR.L,223.57,4.55,2024-10-02
+maximo_52s,2024-10-29,venta,GE,8,160.8364,2.0,stop fase 2,,206.41,18.87,2024-04-04
+maximo_52s,2024-10-30,compra,MAP.MC,521,2.638,2.0,"máximo 52 semanas, volumen x3.6",,,,
+momentum,2024-10-31,venta,6501.T,74,22.5043,2.0,stop fase 2,,240.02,16.38,2024-08-06
+rebote,2024-11-01,venta,ABX.TO,37,17.6197,2.0,stop fase 2,,114.68,20.72,2024-03-08
+maximo_52s,2024-11-05,venta,RACE.MI,3,407.88,2.0,stop fase 2,,306.57,32.95,2023-11-03
+momentum,2024-11-05,compra,GE,9,158.5057,2.0,momentum 12-1: +109 %,,,,
+rebote,2024-11-06,venta,BAYN.DE,41,24.356,2.0,stop fase 1,,-133.72,-11.5,2024-04-29
+tendencia_200,2024-11-06,venta,HEIA.AS,13,72.56,2.0,stop fase 1,,-217.59,-19.09,2024-07-26
+pares_solo_largo,2024-11-07,compra,CS.PA,149,34.66,5.16,diferencial vuelve (z=-1.79),CS.PA|MAP.MC,,,
+maximo_52s,2024-11-07,compra,GS,2,549.703,2.0,"máximo 52 semanas, volumen x4.3",,,,
+tendencia_200,2024-11-07,compra,RHM.DE,2,506.8,2.0,cruza media 200,,,,
+pares_largo_corto,2024-11-07,compra,CS.PA,151,34.66,5.23,diferencial vuelve (z=-1.79),CS.PA|MAP.MC,,,
+pares_largo_corto,2024-11-07,corto,MAP.MC,2027,2.59,5.25,diferencial vuelve (z=-1.79),CS.PA|MAP.MC,,,
+pares_solo_largo,2024-11-11,compra,INGA.AS,342,15.06,5.15,diferencial vuelve (z=-1.99),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-11-11,compra,INGA.AS,347,15.06,5.23,diferencial vuelve (z=-1.99),INGA.AS|SAB.MC,,,
+pares_largo_corto,2024-11-11,corto,SAB.MC,2950,1.7755,5.24,diferencial vuelve (z=-1.99),INGA.AS|SAB.MC,,,
+azar_grandes,2024-11-12,venta,KER.PA,4,213.48,2.0,stop fase 1,,-215.08,-19.82,2024-08-06
+momentum,2024-11-18,venta,LLY,2,693.1268,2.0,stop fase 1,,-210.74,-13.24,2024-07-23
+rebote,2024-11-19,venta,NOKIA.HE,375,4.054,2.0,stop fase 2,,384.52,28.78,2024-01-03
+azar_grandes,2024-11-19,compra,AD.AS,36,32.5,2.0,azar,,,,
+momentum,2024-11-19,compra,6501.T,68,23.6557,2.0,momentum 12-1: +108 %,,,,
+momentum,2024-11-21,venta,RR.L,273,6.2062,2.0,stop fase 2,,250.82,17.7,2024-08-06
+momentum,2024-11-26,compra,2330.TW,55,30.0599,2.0,momentum 12-1: +90 %,,,,
+rebote,2024-11-28,venta,GRF.MC,128,9.036,2.0,stop fase 1,,-32.93,-2.44,2024-06-13
+pares_solo_largo,2024-12-13,compra,BA.L,351,14.6286,5.13,diferencial vuelve (z=-1.73),BA.L|RR.L,,,
+pares_largo_corto,2024-12-13,compra,BA.L,354,14.6286,5.18,diferencial vuelve (z=-1.73),BA.L|RR.L,,,
+pares_largo_corto,2024-12-13,corto,RR.L,746,6.9534,5.19,diferencial vuelve (z=-1.73),BA.L|RR.L,,,
+rebote,2024-12-13,compra,VOW3.DE,14,87.0,2.0,"rebote, caída 65 % desde máximo 5 años",,,,
+tendencia_200,2024-12-16,venta,SO,16,78.4782,2.0,stop fase 2,,267.9,22.37,2023-11-28
+momentum,2024-12-16,venta,NVDA,14,125.1666,2.0,stop fase 2,,381.13,28.14,2024-09-10
+azar_grandes,2024-12-16,venta,CNR.TO,9,97.8579,2.0,stop fase 1,,-193.13,-19.22,2024-02-27
+pares_largo_corto,2024-12-17,cierre_corto,MAP.MC,2027,2.474,5.01,se juntan (z=0.04),CS.PA|MAP.MC,93.11,4.48,2024-11-07
+pares_largo_corto,2024-12-17,venta,CS.PA,151,33.8,5.1,se juntan (z=0.04),CS.PA|MAP.MC,-140.2,-2.48,2024-11-07
+tendencia_200,2024-12-17,venta,4063.T,31,32.1016,2.0,stop fase 1,,-150.24,-13.58,2024-08-07
+tendencia_200,2024-12-17,venta,TMUS,7,211.2056,2.0,stop fase 2,,552.54,56.54,2022-12-19
+tendencia_200,2024-12-17,compra,MU,12,104.3514,2.0,cruza media 200,,,,
+pares_solo_largo,2024-12-17,venta,CS.PA,149,33.8,5.04,se juntan (z=0.04),CS.PA|MAP.MC,-138.34,-2.48,2024-11-07
+rebote,2024-12-17,venta,ABI.BR,18,49.696,2.0,stop fase 1,,-52.85,-7.94,2022-05-04
+maximo_52s,2024-12-17,venta,ABI.BR,15,49.696,2.0,stop fase 1,,-137.86,-17.43,2023-03-30
+momentum,2024-12-17,compra,3690.HK,88,19.1911,2.0,momentum 12-1: +102 %,,,,
+azar_grandes,2024-12-17,compra,NVDA,9,122.7401,2.0,azar,,,,
+maximo_52s,2024-12-18,compra,LSEG.L,9,139.8326,2.0,"máximo 52 semanas, volumen x1.8",,,,
+tendencia_200,2024-12-18,compra,ABBV,7,167.7267,2.0,cruza media 200,,,,
+tendencia_200,2024-12-18,compra,RED.MC,76,16.56,2.0,cruza media 200,,,,
+tendencia_200,2024-12-19,venta,MU,12,83.4811,2.0,stop fase 1,,-254.44,-20.0,2024-12-17
+azar_grandes,2024-12-19,venta,MAP.MC,582,2.4228,2.0,stop fase 2,,354.05,23.42,2024-02-27
+tendencia_200,2024-12-20,compra,GE,7,158.1966,2.0,cruza media 200,,,,
+tendencia_200,2024-12-20,venta,HD,3,369.8715,2.0,stop fase 2,,282.29,27.32,2023-01-30
+rebote,2024-12-23,venta,VZ,32,38.2343,2.0,stop fase 2,,256.05,17.42,2023-10-25
+tendencia_200,2024-12-23,compra,NEE,18,68.3787,2.0,cruza media 200,,,,
+azar_grandes,2024-12-24,compra,CSCO,20,56.5068,2.0,azar,,,,
+pares_largo_corto,2025-01-02,venta,BA.L,354,13.9146,4.93,par deja de estar cointegrado (p=0.43),BA.L|RR.L,-262.86,-4.88,2024-12-13
+pares_largo_corto,2025-01-02,cierre_corto,RR.L,746,6.8817,5.13,par deja de estar cointegrado (p=0.43),BA.L|RR.L,43.18,1.03,2024-12-13
+pares_solo_largo,2025-01-02,venta,BA.L,351,13.9146,4.88,par deja de estar cointegrado (p=0.43),BA.L|RR.L,-260.63,-4.88,2024-12-13
+azar_grandes,2025-01-06,venta,ULVR.L,19,57.3963,2.0,stop fase 2,,260.53,20.0,2022-10-11
+baja_volatilidad,2025-01-06,venta,ULVR.L,20,57.3963,2.0,stop fase 2,,187.84,16.51,2024-02-27
+azar_grandes,2025-01-07,compra,LLOY.L,1780,0.6695,2.0,azar,,,,
+baja_volatilidad,2025-01-07,compra,RY.TO,9,117.6763,2.0,volatilidad 14 % anual,,,,
+pares_solo_largo,2025-01-08,venta,INGA.AS,342,15.204,5.2,stop por tiempo (39 días),INGA.AS|SAB.MC,93.96,0.96,2024-11-11
+pares_largo_corto,2025-01-08,venta,INGA.AS,347,15.204,5.28,stop por tiempo (39 días),INGA.AS|SAB.MC,95.33,0.96,2024-11-11
+pares_largo_corto,2025-01-08,cierre_corto,SAB.MC,2950,1.938,5.72,stop por tiempo (39 días),INGA.AS|SAB.MC,-490.33,-9.15,2024-11-11
+pares_largo_corto,2025-01-16,compra,0939.HK,6853,0.7562,5.18,diferencial vuelve (z=-1.95),0939.HK|1398.HK,,,
+pares_solo_largo,2025-01-16,compra,0939.HK,6804,0.7562,5.14,diferencial vuelve (z=-1.95),0939.HK|1398.HK,,,
+rebote,2025-01-16,compra,BAYN.DE,60,20.835,2.0,"rebote, caída 74 % desde máximo 5 años",,,,
+pares_largo_corto,2025-01-16,corto,1398.HK,8356,0.6201,5.18,diferencial vuelve (z=-1.95),0939.HK|1398.HK,,,
+rebote,2025-01-21,compra,INTC,59,21.1407,2.0,"rebote, caída 66 % desde máximo 5 años",,,,
+azar_grandes,2025-01-27,venta,NVDA,9,116.0019,2.0,stop fase 1,,-64.64,-5.49,2024-12-17
+azar_grandes,2025-01-28,compra,DG.PA,11,103.65,2.0,azar,,,,
+maximo_52s,2025-02-03,venta,ABBN.SW,26,51.4086,2.0,stop fase 2,,161.31,14.11,2024-04-19
+maximo_52s,2025-02-04,compra,IBM,5,251.758,2.0,"máximo 52 semanas, volumen x2.0",,,,
+rebote,2025-02-06,compra,PFE,49,25.4018,2.0,"rebote, caída 53 % desde máximo 5 años",,,,
+rebote,2025-02-14,compra,GRF.MC,144,9.1,2.0,"rebote, caída 73 % desde máximo 5 años",,,,
+pares_largo_corto,2025-02-17,corto,SAB.MC,2071,2.488,5.15,diferencial vuelve (z=-1.95),INGA.AS|SAB.MC,,,
+pares_largo_corto,2025-02-17,compra,INGA.AS,314,16.37,5.14,diferencial vuelve (z=-1.95),INGA.AS|SAB.MC,,,
+pares_solo_largo,2025-02-17,compra,INGA.AS,316,16.37,5.17,diferencial vuelve (z=-1.95),INGA.AS|SAB.MC,,,
+pares_solo_largo,2025-02-19,venta,0939.HK,6804,0.8261,5.62,stop por tiempo (21 días),0939.HK|1398.HK,465.51,9.26,2025-01-16
+pares_largo_corto,2025-02-19,venta,0939.HK,6853,0.8261,5.66,stop por tiempo (21 días),0939.HK|1398.HK,468.86,9.26,2025-01-16
+pares_largo_corto,2025-02-19,cierre_corto,1398.HK,8356,0.6932,5.79,stop por tiempo (21 días),0939.HK|1398.HK,-621.25,-11.78,2025-01-16
+momentum,2025-02-21,venta,K.TO,172,10.5715,2.0,stop fase 2,,364.7,25.01,2024-10-08
+momentum,2025-02-25,compra,NVDA,15,124.2479,2.0,momentum 12-1: +127 %,,,,
+rebote,2025-03-04,venta,INTC,59,20.8977,2.0,stop fase 1,,-18.33,-1.15,2025-01-21
+pares_solo_largo,2025-03-04,venta,INGA.AS,316,17.55,5.55,par deja de estar cointegrado (p=0.12),INGA.AS|SAB.MC,362.16,7.21,2025-02-17
+pares_largo_corto,2025-03-04,venta,INGA.AS,314,17.55,5.51,par deja de estar cointegrado (p=0.12),INGA.AS|SAB.MC,359.87,7.21,2025-02-17
+pares_largo_corto,2025-03-04,cierre_corto,SAB.MC,2071,2.687,5.56,par deja de estar cointegrado (p=0.12),INGA.AS|SAB.MC,-422.85,-8.0,2025-02-17
+tendencia_200,2025-03-06,venta,GE,7,182.4371,2.0,stop fase 2,,167.56,15.32,2024-12-20
+momentum,2025-03-06,venta,GE,9,182.4371,2.0,stop fase 2,,213.8,15.1,2024-11-05
+baja_volatilidad,2025-03-06,venta,LSEG.L,9,130.9471,2.0,stop fase 2,,170.37,16.86,2024-06-18
+momentum,2025-03-07,venta,NVDA,15,99.7938,2.0,stop fase 1,,-370.81,-19.68,2025-02-25
+azar_grandes,2025-03-07,venta,MA,2,498.964,2.0,stop fase 2,,165.36,19.88,2024-06-18
+maximo_52s,2025-03-07,venta,GS,2,512.8595,2.0,stop fase 1,,-66.23,-6.7,2024-11-07
+tendencia_200,2025-03-07,compra,EOAN.DE,113,12.655,2.0,cruza media 200,,,,
+tendencia_200,2025-03-10,venta,RHM.DE,2,1082.25,2.16,stop fase 2,,1146.74,113.55,2024-11-07
+momentum,2025-03-10,venta,RHM.DE,3,1082.25,3.25,stop fase 2,,1752.0,117.98,2024-06-25
+maximo_52s,2025-03-10,compra,VZ,32,42.4102,2.0,"máximo 52 semanas, volumen x2.0",,,,
+momentum,2025-03-11,venta,2330.TW,55,27.2019,2.0,stop fase 1,,-154.75,-9.51,2024-11-26
+momentum,2025-03-11,venta,6501.T,68,22.1757,2.0,stop fase 1,,-104.64,-6.26,2024-11-19
+momentum,2025-03-11,compra,TSLA,10,207.862,2.08,momentum 12-1: +121 %,,,,
+momentum,2025-03-11,compra,K.TO,214,9.8987,2.12,momentum 12-1: +131 %,,,,
+momentum,2025-03-11,compra,IAG.MC,597,3.55,2.12,momentum 12-1: +144 %,,,,
+rebote,2025-03-11,venta,T,76,23.9566,2.0,stop fase 2,,824.32,66.96,2023-10-20
+azar_grandes,2025-03-11,compra,JNJ,8,154.252,2.0,azar,,,,
+tendencia_200,2025-03-11,compra,2330.TW,52,27.2019,2.0,cruza media 200,,,,
+baja_volatilidad,2025-03-11,compra,ZURN.SW,1,630.9631,2.0,volatilidad 16 % anual,,,,
+momentum,2025-03-12,venta,LDO.MI,76,41.553,3.16,stop fase 2,,1493.03,87.85,2024-06-18
+momentum,2025-03-18,compra,0700.HK,31,63.4815,2.0,momentum 12-1: +85 %,,,,
+momentum,2025-03-18,compra,AVGO,12,174.4088,2.09,momentum 12-1: +97 %,,,,
+momentum,2025-03-18,compra,AEM.TO,21,98.4328,2.07,momentum 12-1: +89 %,,,,
+pares_solo_largo,2025-03-24,compra,SAB.MC,1865,2.802,5.23,diferencial vuelve (z=1.87),BKT.MC|SAB.MC,,,
+pares_largo_corto,2025-03-24,corto,BKT.MC,491,10.5,5.16,diferencial vuelve (z=1.87),BKT.MC|SAB.MC,,,
+pares_largo_corto,2025-03-24,compra,SAB.MC,1841,2.802,5.16,diferencial vuelve (z=1.87),BKT.MC|SAB.MC,,,
+rebote,2025-03-27,venta,GRF.MC,144,8.8,2.0,stop fase 1,,-47.2,-3.3,2025-02-14
+rebote,2025-03-27,venta,VOW3.DE,14,97.5,2.0,stop fase 2,,143.0,12.07,2024-12-13
+momentum,2025-03-31,venta,TSLA,10,230.3325,2.3,stop fase 2,,220.32,10.81,2025-03-11
+momentum,2025-03-31,venta,SAB.MC,716,2.5254,2.0,stop fase 2,,651.0,39.14,2024-06-25
+momentum,2025-04-01,compra,RHM.DE,1,1325.0,2.0,momentum 12-1: +89 %,,,,
+momentum,2025-04-01,compra,NWG.L,383,5.4559,2.09,momentum 12-1: +82 %,,,,
+maximo_52s,2025-04-03,venta,ADS.DE,5,198.9,2.0,stop fase 1,,-106.0,-9.59,2024-04-18
+azar_grandes,2025-04-03,venta,SAF.PA,5,234.0,2.0,stop fase 2,,147.5,13.65,2024-04-23
+momentum,2025-04-03,venta,AVGO,12,143.0196,2.0,stop fase 1,,-374.27,-18.0,2025-03-18
+momentum,2025-04-04,venta,SAAB-B.ST,76,34.4531,2.62,stop fase 2,,1047.79,66.63,2024-07-30
+momentum,2025-04-04,venta,IAG.MC,597,2.8456,2.0,stop fase 1,,-424.65,-19.84,2025-03-11
+azar_grandes,2025-04-04,venta,LLOY.L,1780,0.7985,2.0,stop fase 2,,225.6,19.27,2025-01-07
+maximo_52s,2025-04-04,compra,ENEL.MI,165,7.78,2.0,"máximo 52 semanas, volumen x2.0",,,,
+momentum,2025-04-04,venta,ACS.MC,38,50.175,2.0,stop fase 2,,596.55,37.92,2024-02-20
+rebote,2025-04-04,venta,BAYN.DE,60,19.884,2.0,stop fase 1,,-61.06,-4.56,2025-01-16
+azar_grandes,2025-04-04,venta,CSCO,20,49.6462,2.0,stop fase 1,,-125.9,-12.14,2024-12-24
+azar_grandes,2025-04-04,venta,DHL.DE,30,35.416,2.0,stop fase 1,,-28.72,-2.27,2024-08-13
+momentum,2025-04-07,venta,0700.HK,31,51.0209,2.0,stop fase 1,,-390.28,-19.63,2025-03-18
+momentum,2025-04-07,venta,3690.HK,88,16.9996,2.0,stop fase 1,,-196.85,-11.42,2024-12-17
+baja_volatilidad,2025-04-07,venta,DTE.DE,47,30.76,2.0,stop fase 2,,487.62,45.99,2023-05-30
+baja_volatilidad,2025-04-07,venta,IBE.MC,82,14.112,2.0,stop fase 2,,286.85,20.93,2023-06-27
+baja_volatilidad,2025-04-07,venta,KO,17,60.2938,2.0,stop fase 2,,155.41,11.6,2023-07-11
+baja_volatilidad,2025-04-07,venta,G.MI,43,28.92,2.0,stop fase 2,,318.5,27.4,2024-03-19
+azar_grandes,2025-04-07,venta,DTE.DE,47,30.76,2.0,stop fase 2,,327.35,29.73,2024-08-06
+maximo_52s,2025-04-07,venta,DTE.DE,55,30.76,2.0,stop fase 2,,693.51,57.36,2022-09-12
+maximo_52s,2025-04-07,venta,IBM,5,199.5895,2.0,stop fase 1,,-256.74,-20.72,2025-02-04
+rebote,2025-04-07,venta,VOD.L,1394,0.7433,2.0,stop fase 1,,-110.94,-11.79,2024-06-19
+rebote,2025-04-07,venta,PFE,49,20.1556,2.0,stop fase 1,,-261.06,-20.65,2025-02-06
+tendencia_200,2025-04-07,venta,ABBV,7,162.4606,2.0,stop fase 1,,-29.72,-3.14,2024-12-18
+tendencia_200,2025-04-07,venta,ZURN.SW,2,561.7149,2.0,stop fase 2,,292.59,27.64,2023-05-23
+momentum,2025-04-07,venta,RHM.DE,1,989.8,2.0,stop fase 1,,-339.2,-25.3,2025-04-01
+momentum,2025-04-08,compra,RR.L,254,7.4969,2.0,momentum 12-1: +101 %,,,,
+baja_volatilidad,2025-04-08,compra,ENB.TO,29,39.2533,2.0,volatilidad 17 % anual,,,,
+momentum,2025-04-08,compra,TMUS,8,231.1513,2.0,momentum 12-1: +65 %,,,,
+pares_solo_largo,2025-04-08,venta,SAB.MC,1865,2.268,4.23,se juntan (z=-0.25),BKT.MC|SAB.MC,-773.36,-19.06,2025-03-24
+tendencia_200,2025-04-08,venta,2330.TW,52,22.1406,2.0,stop fase 1,,-260.68,-18.61,2025-03-11
+azar_grandes,2025-04-08,compra,0700.HK,22,51.9881,2.0,azar,,,,
+azar_grandes,2025-04-08,compra,NEE,19,60.8592,2.0,azar,,,,
+azar_grandes,2025-04-08,compra,MU,18,65.5956,2.0,azar,,,,
+azar_grandes,2025-04-08,compra,COST,1,853.8883,2.0,azar,,,,
+azar_grandes,2025-04-08,compra,NFLX,14,83.5923,2.0,azar,,,,
+momentum,2025-04-08,compra,CBK.DE,91,20.72,2.0,momentum 12-1: +74 %,,,,
+pares_largo_corto,2025-04-08,cierre_corto,BKT.MC,491,8.68,4.26,se juntan (z=-0.25),BKT.MC|SAB.MC,823.58,17.33,2025-03-24
+baja_volatilidad,2025-04-08,compra,AD.AS,35,32.76,2.0,volatilidad 17 % anual,,,,
+pares_largo_corto,2025-04-08,venta,SAB.MC,1841,2.268,4.18,se juntan (z=-0.25),BKT.MC|SAB.MC,-763.41,-19.06,2025-03-24
+momentum,2025-04-08,compra,ERIC-B.ST,300,6.3335,2.0,momentum 12-1: +62 %,,,,
+momentum,2025-04-08,compra,GLE.PA,54,34.94,2.0,momentum 12-1: +63 %,,,,
+momentum,2025-04-08,compra,BARC.L,529,2.8641,2.0,momentum 12-1: +61 %,,,,
+baja_volatilidad,2025-04-08,compra,ORA.PA,97,11.93,2.0,volatilidad 17 % anual,,,,
+baja_volatilidad,2025-04-08,compra,BNS.TO,27,41.6407,2.0,volatilidad 17 % anual,,,,
+momentum,2025-04-08,compra,LDO.MI,47,40.4,2.0,momentum 12-1: +100 %,,,,
+tendencia_200,2025-04-09,compra,ISP.MI,344,3.84,2.0,cruza media 200,,,,
+tendencia_200,2025-04-09,compra,KBC.BR,18,72.0,2.0,cruza media 200,,,,
+tendencia_200,2025-04-09,compra,ENEL.MI,194,6.82,2.0,cruza media 200,,,,
+tendencia_200,2025-04-09,venta,0941.HK,143,9.0787,2.0,stop fase 2,,266.58,16.83,2024-01-25
+tendencia_200,2025-04-09,venta,NEE,18,56.4256,2.0,stop fase 1,,-209.34,-17.48,2024-12-23
+tendencia_200,2025-04-10,compra,WMT,16,81.0167,2.0,cruza media 200,,,,
+tendencia_200,2025-04-10,compra,IBM,6,210.9192,2.0,cruza media 200,,,,
+maximo_52s,2025-04-14,compra,K.TO,102,12.5518,2.0,"máximo 52 semanas, volumen x1.8",,,,
+rebote,2025-04-23,compra,VOD.L,1491,0.8361,2.0,"rebote, caída 50 % desde máximo 5 años",,,,
+rebote,2025-04-24,compra,RI.PA,12,96.2,2.0,"rebote, caída 56 % desde máximo 5 años",,,,
+rebote,2025-04-25,compra,BAYN.DE,55,22.605,2.0,"rebote, caída 69 % desde máximo 5 años",,,,
+pares_largo_corto,2025-05-02,compra,TMUS,23,219.298,5.04,diferencial vuelve (z=1.95),T|TMUS,,,
+pares_largo_corto,2025-05-02,corto,T,211,24.4323,5.16,diferencial vuelve (z=1.95),T|TMUS,,,
+pares_solo_largo,2025-05-02,compra,TMUS,23,219.298,5.04,diferencial vuelve (z=1.95),T|TMUS,,,
+maximo_52s,2025-05-02,compra,GLE.PA,29,45.5,2.0,"máximo 52 semanas, volumen x2.2",,,,
+rebote,2025-05-08,compra,DIS,13,91.9583,2.0,"rebote, caída 47 % desde máximo 5 años",,,,
+rebote,2025-05-09,compra,VOW3.DE,12,99.88,2.0,"rebote, caída 60 % desde máximo 5 años",,,,
+pares_largo_corto,2025-05-09,corto,DBK.DE,216,23.865,5.15,diferencial vuelve (z=1.74),DBK.DE|UCG.MI,,,
+pares_solo_largo,2025-05-09,compra,UCG.MI,96,53.53,5.14,diferencial vuelve (z=1.74),DBK.DE|UCG.MI,,,
+pares_largo_corto,2025-05-09,compra,UCG.MI,96,53.53,5.14,diferencial vuelve (z=1.74),DBK.DE|UCG.MI,,,
+momentum,2025-05-12,venta,K.TO,214,12.4593,2.67,stop fase 2,,543.19,25.87,2025-03-11
+rebote,2025-05-13,compra,INTC,62,20.1522,2.0,"rebote, caída 66 % desde máximo 5 años",,,,
+momentum,2025-05-13,compra,RHM.DE,1,1616.0,2.0,momentum 12-1: +145 %,,,,
+rebote,2025-05-14,compra,GRF.MC,142,8.94,2.0,"rebote, caída 69 % desde máximo 5 años",,,,
+rebote,2025-05-28,compra,GLEN.L,394,3.2519,2.0,"rebote, caída 50 % desde máximo 5 años",,,,
+rebote,2025-06-10,compra,PFE,62,20.9747,2.0,"rebote, caída 61 % desde máximo 5 años",,,,
+momentum,2025-06-10,venta,LDO.MI,47,49.806,2.34,stop fase 2,,437.74,23.28,2025-04-08
+pares_solo_largo,2025-06-13,venta,TMUS,23,196.9784,4.53,stop por tiempo (29 días),T|TMUS,-505.14,-10.18,2025-05-02
+pares_largo_corto,2025-06-13,venta,TMUS,23,196.9784,4.53,stop por tiempo (29 días),T|TMUS,-505.14,-10.18,2025-05-02
+pares_largo_corto,2025-06-13,cierre_corto,T,211,24.3357,5.13,stop por tiempo (29 días),T|TMUS,10.11,0.4,2025-05-02
+momentum,2025-06-17,compra,IAG.MC,621,3.83,2.38,momentum 12-1: +91 %,,,,
+baja_volatilidad,2025-06-17,venta,PG,6,137.3457,2.0,stop fase 1,,33.13,-4.35,2022-01-04
+tendencia_200,2025-06-17,venta,PG,7,137.3457,2.0,stop fase 1,,29.4,-1.21,2023-10-04
+tendencia_200,2025-06-18,compra,ENB.TO,35,39.8495,2.0,cruza media 200,,,,
+azar_grandes,2025-06-23,venta,MUV2.DE,2,549.54,2.0,stop fase 2,,172.68,14.2,2024-09-10
+azar_grandes,2025-06-24,compra,7203.T,92,14.9396,2.0,azar,,,,
+baja_volatilidad,2025-06-24,compra,NTGY.MC,44,27.5,2.0,volatilidad 18 % anual,,,,
+baja_volatilidad,2025-06-27,venta,BN.PA,17,69.22,2.0,stop fase 2,,310.5,25.92,2023-07-11
+baja_volatilidad,2025-07-01,compra,ENGI.PA,61,20.0,2.0,volatilidad 18 % anual,,,,
+pares_largo_corto,2025-07-11,cierre_corto,DBK.DE,216,25.555,5.52,stop por tiempo (45 días),DBK.DE|UCG.MI,-522.59,-7.08,2025-05-09
+pares_solo_largo,2025-07-11,venta,UCG.MI,96,59.49,5.71,stop por tiempo (45 días),DBK.DE|UCG.MI,561.31,11.13,2025-05-09
+pares_largo_corto,2025-07-11,venta,UCG.MI,96,59.49,5.71,stop por tiempo (45 días),DBK.DE|UCG.MI,561.31,11.13,2025-05-09
+momentum,2025-07-16,venta,ERIC-B.ST,300,6.2419,2.0,stop fase 1,,-31.49,-1.45,2025-04-08
+azar_grandes,2025-07-16,venta,MU,18,99.2487,2.0,stop fase 2,,603.51,51.3,2025-04-08
+azar_grandes,2025-07-22,compra,UNP,7,193.9196,2.0,azar,,,,
+azar_grandes,2025-07-22,venta,NFLX,14,102.7689,2.0,stop fase 2,,264.47,22.94,2025-04-08
+pares_largo_corto,2025-07-22,compra,NWG.L,887,5.7699,5.12,diferencial vuelve (z=1.94),BARC.L|NWG.L,,,
+pares_largo_corto,2025-07-22,corto,BARC.L,1269,4.0321,5.12,diferencial vuelve (z=1.94),BARC.L|NWG.L,,,
+momentum,2025-07-22,compra,LDO.MI,49,48.35,2.37,momentum 12-1: +107 %,,,,
+pares_solo_largo,2025-07-22,compra,NWG.L,893,5.7699,5.15,diferencial vuelve (z=1.94),BARC.L|NWG.L,,,
+maximo_52s,2025-07-25,venta,LSEG.L,9,115.9504,2.0,stop fase 1,,-209.64,-17.08,2024-12-18
+maximo_52s,2025-07-28,compra,NEM,24,55.1339,2.0,"máximo 52 semanas, volumen x2.5",,,,
+azar_grandes,2025-07-29,compra,BRK-B,3,416.125,2.0,azar,,,,
+baja_volatilidad,2025-08-04,venta,BRK-B,2,398.4591,2.0,stop fase 1,,-9.54,-0.69,2024-07-16
+baja_volatilidad,2025-08-05,compra,BN.PA,16,73.22,2.0,volatilidad 17 % anual,,,,
+rebote,2025-08-06,venta,BAYN.DE,55,26.289,2.0,stop fase 2,,204.67,16.3,2025-04-25
+rebote,2025-08-07,compra,DGE.L,58,22.9085,2.0,"rebote, caída 53 % desde máximo 5 años",,,,
+tendencia_200,2025-08-11,venta,IBM,6,202.6305,2.0,stop fase 1,,-36.12,-3.93,2025-04-10
+tendencia_200,2025-08-12,compra,WBC.AX,69,19.2345,2.0,cruza media 200,,,,
+momentum,2025-08-20,venta,RHM.DE,1,1500.0,2.0,stop fase 1,,-111.9,-7.18,2025-05-13
+pares_solo_largo,2025-08-21,compra,KPN.AS,1276,4.093,5.22,diferencial vuelve (z=-1.74),KPN.AS|TEF.MC,,,
+pares_largo_corto,2025-08-21,compra,KPN.AS,1256,4.093,5.14,diferencial vuelve (z=-1.74),KPN.AS|TEF.MC,,,
+pares_largo_corto,2025-08-21,corto,TEF.MC,1060,4.851,5.14,diferencial vuelve (z=-1.74),KPN.AS|TEF.MC,,,
+pares_solo_largo,2025-08-22,venta,NWG.L,893,6.5195,5.82,se juntan (z=-0.09),BARC.L|NWG.L,755.6,12.99,2025-07-22
+pares_largo_corto,2025-08-22,venta,NWG.L,887,6.5195,5.78,se juntan (z=-0.09),BARC.L|NWG.L,750.52,12.99,2025-07-22
+pares_largo_corto,2025-08-22,cierre_corto,BARC.L,1269,4.3269,5.49,se juntan (z=-0.09),BARC.L|NWG.L,-428.27,-7.31,2025-07-22
+maximo_52s,2025-08-26,venta,GLE.PA,29,52.902,2.0,stop fase 2,,242.27,16.27,2025-05-02
+momentum,2025-08-26,venta,CBK.DE,91,34.101,3.1,stop fase 2,,1271.72,64.58,2025-04-08
+rebote,2025-08-26,venta,GRF.MC,142,12.16,2.0,stop fase 2,,474.54,36.02,2025-05-14
+momentum,2025-08-26,compra,SAAB-B.ST,48,48.1518,2.31,momentum 12-1: +125 %,,,,
+azar_grandes,2025-08-26,venta,DG.PA,11,116.64,2.0,stop fase 2,,179.59,12.53,2025-01-28
+momentum,2025-08-26,venta,GLE.PA,54,52.902,2.86,stop fase 2,,1023.95,51.41,2025-04-08
+maximo_52s,2025-08-27,compra,ABX.TO,63,22.9273,2.0,"máximo 52 semanas, volumen x2.1",,,,
+rebote,2025-08-27,compra,BMY,34,40.6378,2.0,"rebote, caída 50 % desde máximo 5 años",,,,
+pares_largo_corto,2025-08-28,corto,G.MI,154,33.58,5.17,diferencial vuelve (z=1.98),G.MI|MUV2.DE,,,
+pares_solo_largo,2025-08-28,compra,MUV2.DE,9,550.0,4.95,diferencial vuelve (z=1.98),G.MI|MUV2.DE,,,
+pares_largo_corto,2025-08-28,compra,MUV2.DE,9,550.0,4.95,diferencial vuelve (z=1.98),G.MI|MUV2.DE,,,
+pares_solo_largo,2025-08-29,venta,KPN.AS,1276,4.061,5.18,se juntan (z=0.25),KPN.AS|TEF.MC,-51.24,-0.78,2025-08-21
+pares_largo_corto,2025-08-29,cierre_corto,TEF.MC,1060,4.552,4.83,se juntan (z=0.25),KPN.AS|TEF.MC,306.97,6.16,2025-08-21
+pares_largo_corto,2025-08-29,venta,KPN.AS,1256,4.061,5.1,se juntan (z=0.25),KPN.AS|TEF.MC,-50.43,-0.78,2025-08-21
+momentum,2025-09-02,compra,DBK.DE,85,30.24,2.57,momentum 12-1: +90 %,,,,
+azar_grandes,2025-09-02,compra,EL.PA,5,258.4,2.0,azar,,,,
+tendencia_200,2025-09-02,venta,EOAN.DE,113,14.841,2.0,stop fase 2,,305.17,17.27,2025-03-07
+momentum,2025-09-02,compra,IDR.MC,75,34.32,2.57,momentum 12-1: +117 %,,,,
+tendencia_200,2025-09-03,compra,ULVR.L,25,58.0964,2.0,cruza media 200,,,,
+pares_largo_corto,2025-09-29,corto,BARC.L,1178,4.3855,5.17,diferencial vuelve (z=1.60),BARC.L|NWG.L,,,
+pares_largo_corto,2025-09-29,compra,NWG.L,867,5.9565,5.16,diferencial vuelve (z=1.60),BARC.L|NWG.L,,,
+pares_solo_largo,2025-09-29,compra,NWG.L,875,5.9565,5.21,diferencial vuelve (z=1.60),BARC.L|NWG.L,,,
+rebote,2025-09-30,venta,RI.PA,12,82.4,2.0,stop fase 1,,-141.4,-14.35,2025-04-24
+rebote,2025-10-02,compra,STLAM.MI,170,8.4,2.0,"rebote, caída 70 % desde máximo 5 años",,,,
+pares_largo_corto,2025-10-03,venta,MUV2.DE,9,555.0,5.0,se juntan (z=-0.01),G.MI|MUV2.DE,35.06,0.91,2025-08-28
+pares_largo_corto,2025-10-03,cierre_corto,G.MI,154,33.04,5.09,se juntan (z=-0.01),G.MI|MUV2.DE,72.9,1.61,2025-08-28
+pares_solo_largo,2025-10-03,venta,MUV2.DE,9,555.0,5.0,se juntan (z=-0.01),G.MI|MUV2.DE,35.06,0.91,2025-08-28
+pares_largo_corto,2025-10-06,cierre_corto,BARC.L,1178,4.4163,5.2,se juntan (z=-0.06),BARC.L|NWG.L,-46.59,-0.7,2025-09-29
+pares_solo_largo,2025-10-06,venta,NWG.L,875,6.2676,5.48,se juntan (z=-0.06),BARC.L|NWG.L,261.51,5.22,2025-09-29
+pares_largo_corto,2025-10-06,venta,NWG.L,867,6.2676,5.43,se juntan (z=-0.06),BARC.L|NWG.L,259.12,5.22,2025-09-29
+pares_solo_largo,2025-10-08,compra,IBE.MC,320,16.4,5.25,diferencial vuelve (z=1.33),ENEL.MI|IBE.MC,,,
+pares_largo_corto,2025-10-08,compra,IBE.MC,317,16.4,5.2,diferencial vuelve (z=1.33),ENEL.MI|IBE.MC,,,
+pares_largo_corto,2025-10-08,corto,ENEL.MI,635,8.196,5.2,diferencial vuelve (z=1.33),ENEL.MI|IBE.MC,,,
+maximo_52s,2025-10-13,venta,VZ,32,34.2449,2.0,stop fase 1,,-207.9,-19.25,2025-03-10
+tendencia_200,2025-10-13,venta,VZ,33,34.2449,2.0,stop fase 1,,13.94,-6.87,2024-07-25
+tendencia_200,2025-10-14,compra,DG.PA,12,116.0,2.0,cruza media 200,,,,
+maximo_52s,2025-10-15,compra,CAT,2,460.427,2.0,"máximo 52 semanas, volumen x1.8",,,,
+momentum,2025-10-17,venta,SAAB-B.ST,48,42.3254,2.03,stop fase 1,,-279.64,-12.1,2025-08-26
+maximo_52s,2025-10-17,venta,K.TO,102,21.3071,2.17,stop fase 2,,894.27,69.75,2025-04-14
+azar_grandes,2025-10-17,venta,0700.HK,22,67.1843,2.0,stop fase 2,,341.65,29.23,2025-04-08
+maximo_52s,2025-10-20,compra,EL.PA,5,311.0,2.0,"máximo 52 semanas, volumen x3.0",,,,
+maximo_52s,2025-10-21,venta,ABX.TO,63,27.5584,2.0,stop fase 2,,295.84,20.2,2025-08-27
+maximo_52s,2025-10-21,venta,NEM,24,75.9407,2.0,stop fase 2,,500.51,37.74,2025-07-28
+momentum,2025-10-21,compra,RHM.DE,1,1780.0,2.0,momentum 12-1: +293 %,,,,
+azar_grandes,2025-10-21,compra,LSEG.L,14,99.5614,2.0,azar,,,,
+momentum,2025-10-21,venta,AEM.TO,21,143.4598,3.01,stop fase 2,,955.05,45.74,2025-03-18
+maximo_52s,2025-10-22,compra,GE,5,265.1635,2.0,"máximo 52 semanas, volumen x1.7",,,,
+maximo_52s,2025-10-22,compra,RTX,10,150.4174,2.0,"máximo 52 semanas, volumen x2.9",,,,
+momentum,2025-10-23,venta,TMUS,8,188.1607,2.0,stop fase 1,,-335.71,-18.6,2025-04-08
+momentum,2025-10-28,compra,GLE.PA,50,53.48,2.67,momentum 12-1: +142 %,,,,
+momentum,2025-10-28,compra,UNI.MC,1165,2.33,2.71,momentum 12-1: +108 %,,,,
+rebote,2025-10-30,venta,DGE.L,58,19.47,2.0,stop fase 1,,-171.44,-15.01,2025-08-07
+tendencia_200,2025-11-03,venta,RED.MC,76,15.448,2.0,stop fase 1,,-27.71,-6.71,2024-12-18
+rebote,2025-11-04,venta,TEF.MC,291,3.908,2.0,stop fase 1,,23.35,-5.01,2024-07-19
+rebote,2025-11-04,venta,INTC,62,32.0784,2.0,stop fase 2,,735.43,59.18,2025-05-13
+tendencia_200,2025-11-04,compra,BA,6,175.1866,2.0,cruza media 200,,,,
+baja_volatilidad,2025-11-06,venta,KPN.AS,309,3.8295,2.0,stop fase 2,,352.43,21.03,2022-09-06
+momentum,2025-11-07,venta,IAG.MC,621,4.3947,2.73,stop fase 2,,382.83,14.74,2025-06-17
+momentum,2025-11-11,compra,SAAB-B.ST,59,47.3534,2.79,momentum 12-1: +144 %,,,,
+baja_volatilidad,2025-11-11,compra,0941.HK,133,9.7862,2.0,volatilidad 16 % anual,,,,
+rebote,2025-11-13,compra,BAYN.DE,50,28.995,2.0,"rebote, caída 57 % desde máximo 5 años",,,,
+momentum,2025-11-14,venta,RR.L,254,12.2666,3.12,stop fase 2,,1237.18,63.62,2025-04-08
+pares_largo_corto,2025-11-17,corto,KPN.AS,1328,3.921,5.21,diferencial vuelve (z=1.99),KPN.AS|TEF.MC,,,
+pares_largo_corto,2025-11-17,compra,TEF.MC,1391,3.742,5.21,diferencial vuelve (z=1.99),KPN.AS|TEF.MC,,,
+pares_solo_largo,2025-11-17,compra,TEF.MC,1418,3.742,5.31,diferencial vuelve (z=1.99),KPN.AS|TEF.MC,,,
+momentum,2025-11-18,compra,9984.T,100,27.5748,2.76,momentum 12-1: +151 %,,,,
+rebote,2025-11-20,compra,INTC,45,31.194,2.0,"rebote, caída 47 % desde máximo 5 años",,,,
+rebote,2025-11-20,compra,BAS.DE,32,43.27,2.0,"rebote, caída 41 % desde máximo 5 años",,,,
+rebote,2025-11-21,venta,GLEN.L,394,3.8063,2.0,stop fase 2,,231.42,17.05,2025-05-28
+momentum,2025-11-21,venta,IDR.MC,75,45.81,3.44,stop fase 2,,855.74,33.48,2025-09-02
+momentum,2025-11-24,venta,LDO.MI,49,44.96,2.2,stop fase 1,,-170.68,-7.01,2025-07-22
+momentum,2025-11-25,compra,K.TO,114,22.3869,2.55,momentum 12-1: +116 %,,,,
+tendencia_200,2025-11-25,venta,ISP.MI,344,5.382,2.0,stop fase 2,,649.26,40.16,2025-04-09
+momentum,2025-11-25,compra,CBK.DE,79,32.04,2.53,momentum 12-1: +107 %,,,,
+momentum,2025-11-25,venta,9984.T,100,22.0598,2.21,stop fase 1,,-556.46,-20.0,2025-11-18
+pares_largo_corto,2025-11-26,venta,IBE.MC,317,17.975,5.7,se juntan (z=-0.10),ENEL.MI|IBE.MC,488.38,9.6,2025-10-08
+tendencia_200,2025-11-26,compra,SIE.DE,6,228.8,2.0,cruza media 200,,,,
+pares_largo_corto,2025-11-26,cierre_corto,ENEL.MI,635,8.766,5.57,se juntan (z=-0.10),ENEL.MI|IBE.MC,-372.72,-6.95,2025-10-08
+pares_solo_largo,2025-11-26,venta,IBE.MC,320,17.975,5.75,se juntan (z=-0.10),ENEL.MI|IBE.MC,493.0,9.6,2025-10-08
+pares_largo_corto,2025-12-01,compra,DBK.DE,170,30.635,5.21,diferencial vuelve (z=1.86),CBK.DE|DBK.DE,,,
+momentum,2025-12-01,venta,RHM.DE,1,1429.6,2.0,stop fase 1,,-354.4,-19.69,2025-10-21
+pares_largo_corto,2025-12-01,corto,CBK.DE,153,33.9,5.19,diferencial vuelve (z=1.86),CBK.DE|DBK.DE,,,
+pares_solo_largo,2025-12-01,compra,DBK.DE,173,30.635,5.3,diferencial vuelve (z=1.86),CBK.DE|DBK.DE,,,
+momentum,2025-12-02,compra,MU,9,205.6831,2.0,momentum 12-1: +98 %,,,,
+momentum,2025-12-02,compra,AVGO,7,334.5291,2.34,momentum 12-1: +106 %,,,,
+pares_solo_largo,2025-12-02,venta,TEF.MC,1418,3.651,5.18,par deja de estar cointegrado (p=0.54),KPN.AS|TEF.MC,-139.52,-2.43,2025-11-17
+pares_largo_corto,2025-12-02,venta,TEF.MC,1391,3.651,5.08,par deja de estar cointegrado (p=0.54),KPN.AS|TEF.MC,-136.86,-2.43,2025-11-17
+pares_largo_corto,2025-12-02,cierre_corto,KPN.AS,1328,3.96,5.26,par deja de estar cointegrado (p=0.54),KPN.AS|TEF.MC,-62.26,-0.99,2025-11-17
+azar_grandes,2025-12-12,venta,COST,1,744.6988,2.0,stop fase 1,,-109.78,-12.79,2025-04-08
+rebote,2025-12-12,compra,NKE,26,58.0692,2.0,"rebote, caída 63 % desde máximo 5 años",,,,
+azar_grandes,2025-12-16,compra,CAT,2,502.5262,2.0,azar,,,,
+momentum,2025-12-17,venta,AVGO,7,284.1134,2.0,stop fase 1,,-357.25,-15.07,2025-12-02
+momentum,2025-12-23,compra,IDR.MC,51,48.36,2.47,momentum 12-1: +167 %,,,,
+rebote,2025-12-24,venta,INTC,45,29.8164,2.0,stop fase 1,,-65.99,-4.42,2025-11-20
+pares_largo_corto,2025-12-29,cierre_corto,CBK.DE,153,35.9,5.49,se juntan (z=-0.12),CBK.DE|DBK.DE,-316.68,-5.9,2025-12-01
+pares_largo_corto,2025-12-29,venta,DBK.DE,170,33.38,5.67,se juntan (z=-0.12),CBK.DE|DBK.DE,455.77,8.96,2025-12-01
+pares_solo_largo,2025-12-29,venta,DBK.DE,173,33.38,5.77,se juntan (z=-0.12),CBK.DE|DBK.DE,463.81,8.96,2025-12-01
+rebote,2026-01-05,compra,GRF.MC,134,11.3,2.0,"rebote, caída 54 % desde máximo 5 años",,,,
+pares_largo_corto,2026-01-14,compra,IBE.MC,284,18.3,5.2,diferencial vuelve (z=1.94),ENEL.MI|IBE.MC,,,
+pares_solo_largo,2026-01-14,compra,IBE.MC,291,18.3,5.33,diferencial vuelve (z=1.94),ENEL.MI|IBE.MC,,,
+pares_largo_corto,2026-01-14,corto,ENEL.MI,566,9.207,5.21,diferencial vuelve (z=1.94),ENEL.MI|IBE.MC,,,
+rebote,2026-01-19,venta,STLAM.MI,170,8.15,2.0,stop fase 1,,-46.5,-2.98,2025-10-02
+pares_solo_largo,2026-01-20,venta,IBE.MC,291,18.51,5.39,se juntan (z=-0.05),ENEL.MI|IBE.MC,50.4,1.15,2026-01-14
+pares_largo_corto,2026-01-20,venta,IBE.MC,284,18.51,5.26,se juntan (z=-0.05),ENEL.MI|IBE.MC,49.19,1.15,2026-01-14
+pares_largo_corto,2026-01-20,cierre_corto,ENEL.MI,566,9.04,5.12,se juntan (z=-0.05),ENEL.MI|IBE.MC,-45.99,1.81,2026-01-14
+maximo_52s,2026-01-21,venta,MAP.MC,521,3.8844,2.02,stop fase 2,,766.26,47.25,2024-10-30
+maximo_52s,2026-01-22,compra,RIO.L,21,75.5107,2.0,"máximo 52 semanas, volumen x3.7",,,,
+rebote,2026-01-23,compra,RI.PA,20,76.0,2.0,"rebote, caída 65 % desde máximo 5 años",,,,
+baja_volatilidad,2026-01-26,venta,BN.PA,16,63.68,2.0,stop fase 1,,-156.64,-13.03,2025-08-05
+azar_grandes,2026-01-26,venta,EL.PA,5,256.56,2.0,stop fase 1,,-13.2,-0.71,2025-09-02
+maximo_52s,2026-01-26,venta,EL.PA,5,256.56,2.0,stop fase 1,,-276.2,-17.5,2025-10-20
+maximo_52s,2026-01-27,venta,ICICIBANK.NS,98,12.2502,2.0,stop fase 1,,-102.05,-9.04,2024-06-26
+baja_volatilidad,2026-01-27,compra,TD.TO,16,79.8676,2.0,volatilidad 16 % anual,,,,
+azar_grandes,2026-01-27,compra,DSV.CO,6,234.6751,2.0,azar,,,,
+maximo_52s,2026-01-27,compra,AAL.L,39,39.6568,2.0,"máximo 52 semanas, volumen x1.7",,,,
+maximo_52s,2026-01-28,compra,HSBA.L,107,14.6999,2.0,"máximo 52 semanas, volumen x2.6",,,,
+momentum,2026-01-30,venta,K.TO,114,28.4651,3.25,stop fase 2,,690.54,27.15,2025-11-25
+azar_grandes,2026-02-03,venta,LSEG.L,14,90.187,2.0,stop fase 1,,-135.24,-9.42,2025-10-21
+momentum,2026-02-03,compra,ABX.TO,77,41.528,3.2,momentum 12-1: +135 %,,,,
+momentum,2026-02-04,venta,IDR.MC,51,47.12,2.4,stop fase 1,,-68.11,-2.56,2025-12-23
+momentum,2026-02-04,venta,MU,9,332.5293,2.99,stop fase 2,,1137.5,61.67,2025-12-02
+momentum,2026-02-05,venta,SAAB-B.ST,59,61.3221,3.62,stop fase 2,,817.74,29.5,2025-11-11
+momentum,2026-02-09,venta,NWG.L,383,7.2407,2.77,stop fase 2,,720.4,32.71,2025-04-01
+momentum,2026-02-10,compra,005930.KS,31,96.3686,2.99,momentum 12-1: +128 %,,,,
+azar_grandes,2026-02-10,compra,IAG.MC,305,5.128,2.0,azar,,,,
+momentum,2026-02-10,compra,NEM,30,100.6464,3.02,momentum 12-1: +112 %,,,,
+momentum,2026-02-10,compra,RR.L,185,14.7487,2.73,momentum 12-1: +107 %,,,,
+momentum,2026-02-10,compra,RHM.DE,1,1650.0,2.0,momentum 12-1: +160 %,,,,
+momentum,2026-02-12,venta,UNI.MC,1165,2.6766,3.12,stop fase 2,,397.96,14.88,2025-10-28
+momentum,2026-02-13,venta,GLE.PA,50,68.94,3.45,stop fase 2,,766.88,28.91,2025-10-28
+momentum,2026-02-13,venta,BARC.L,529,5.2318,2.77,stop fase 2,,1265.92,82.67,2025-04-08
+momentum,2026-02-17,compra,ACS.MC,29,102.3,2.97,momentum 12-1: +89 %,,,,
+momentum,2026-02-17,compra,BAYN.DE,65,45.9,2.98,momentum 12-1: +94 %,,,,
+momentum,2026-02-17,compra,LDO.MI,53,56.0,2.97,momentum 12-1: +86 %,,,,
+rebote,2026-02-18,venta,BAYN.DE,50,44.3835,2.22,stop fase 2,,765.21,53.07,2025-11-13
+tendencia_200,2026-03-02,venta,KBC.BR,18,110.25,2.0,stop fase 2,,759.2,53.12,2025-04-09
+pares_largo_corto,2026-03-02,compra,DBK.DE,179,29.0,5.19,diferencial vuelve (z=1.97),CBK.DE|DBK.DE,,,
+pares_solo_largo,2026-03-02,compra,DBK.DE,184,29.0,5.34,diferencial vuelve (z=1.97),CBK.DE|DBK.DE,,,
+pares_largo_corto,2026-03-02,corto,CBK.DE,155,33.47,5.19,diferencial vuelve (z=1.97),CBK.DE|DBK.DE,,,
+tendencia_200,2026-03-03,compra,NVDA,11,152.5911,2.0,cruza media 200,,,,
+momentum,2026-03-03,venta,BAYN.DE,65,39.452,2.56,stop fase 1,,-424.67,-14.05,2026-02-17
+momentum,2026-03-03,venta,005930.KS,31,116.4136,3.61,stop fase 2,,614.8,20.8,2026-02-10
+pares_largo_corto,2026-03-04,compra,IBE.MC,274,18.985,5.2,diferencial vuelve (z=0.92),ENEL.MI|IBE.MC,,,
+pares_largo_corto,2026-03-04,corto,ENEL.MI,551,9.47,5.22,diferencial vuelve (z=0.92),ENEL.MI|IBE.MC,,,
+azar_grandes,2026-03-04,venta,7203.T,92,19.2718,2.0,stop fase 2,,418.24,29.0,2025-06-24
+pares_solo_largo,2026-03-04,compra,IBE.MC,280,18.985,5.32,diferencial vuelve (z=0.92),ENEL.MI|IBE.MC,,,
+baja_volatilidad,2026-03-05,venta,ENGI.PA,61,26.577,2.0,stop fase 2,,397.2,32.89,2025-07-01
+maximo_52s,2026-03-06,venta,CAT,2,587.086,2.0,stop fase 2,,254.5,27.51,2025-10-15
+azar_grandes,2026-03-06,venta,IAG.MC,305,4.1888,2.0,stop fase 1,,-290.46,-18.32,2026-02-10
+momentum,2026-03-06,venta,DBK.DE,85,27.048,2.3,stop fase 1,,-276.19,-10.56,2025-09-02
+azar_grandes,2026-03-06,venta,CAT,2,587.086,2.0,stop fase 2,,167.71,16.83,2025-12-16
+maximo_52s,2026-03-09,compra,CNQ.TO,40,40.6322,2.0,"máximo 52 semanas, volumen x2.1",,,,
+maximo_52s,2026-03-09,venta,ENEL.MI,165,9.1746,2.0,stop fase 2,,306.13,17.93,2025-04-04
+maximo_52s,2026-03-09,venta,AAL.L,39,34.6551,2.0,stop fase 1,,-199.06,-12.61,2026-01-27
+rebote,2026-03-09,venta,VOD.L,1491,1.2148,2.0,stop fase 2,,628.21,45.3,2025-04-23
+tendencia_200,2026-03-09,venta,ENEL.MI,194,9.1746,2.0,stop fase 2,,546.88,34.52,2025-04-09
+azar_grandes,2026-03-09,venta,ENEL.MI,175,9.1746,2.0,stop fase 2,,698.73,45.88,2023-08-01
+momentum,2026-03-10,compra,MU,8,339.1599,2.71,momentum 12-1: +292 %,,,,
+azar_grandes,2026-03-10,compra,BARC.L,321,4.7959,2.0,azar,,,,
+azar_grandes,2026-03-10,compra,BNS.TO,25,61.1402,2.0,azar,,,,
+azar_grandes,2026-03-10,compra,EL.PA,7,212.0,2.0,azar,,,,
+azar_grandes,2026-03-10,compra,PG,11,133.8442,2.0,azar,,,,
+momentum,2026-03-10,compra,K.TO,103,28.511,2.94,momentum 12-1: +157 %,,,,
+momentum,2026-03-10,compra,INTC,75,39.0885,2.93,momentum 12-1: +113 %,,,,
+maximo_52s,2026-03-10,compra,LDO.MI,26,62.0,2.0,"máximo 52 semanas, volumen x1.9",,,,
+baja_volatilidad,2026-03-10,compra,CM.TO,16,84.6776,2.0,volatilidad 16 % anual,,,,
+maximo_52s,2026-03-10,compra,EQNR.OL,59,27.6625,2.0,"máximo 52 semanas, volumen x2.9",,,,
+tendencia_200,2026-03-10,compra,HO.PA,6,248.0,2.0,cruza media 200,,,,
+rebote,2026-03-12,venta,GRF.MC,134,9.34,2.0,stop fase 1,,-266.64,-17.35,2026-01-05
+rebote,2026-03-12,venta,RI.PA,20,69.472,2.0,stop fase 1,,-134.56,-8.59,2026-01-23
+rebote,2026-03-18,venta,NKE,26,46.4554,2.0,stop fase 1,,-296.9,-20.0,2025-12-12
+rebote,2026-03-19,venta,VOW3.DE,12,86.88,2.0,stop fase 1,,-83.68,-13.02,2025-05-09
+tendencia_200,2026-03-19,venta,SIE.DE,6,209.4,2.0,stop fase 1,,-88.3,-8.48,2025-11-26
+tendencia_200,2026-03-19,venta,BA,6,172.3023,2.0,stop fase 1,,-21.31,-1.65,2025-11-04
+momentum,2026-03-19,venta,ABX.TO,77,32.5766,2.51,stop fase 1,,-667.53,-21.56,2026-02-03
+momentum,2026-03-19,venta,NEM,30,83.9114,2.52,stop fase 1,,-500.92,-16.63,2026-02-10
+momentum,2026-03-19,venta,K.TO,103,22.8088,2.35,stop fase 1,,-589.08,-20.0,2026-03-10
+tendencia_200,2026-03-20,compra,NTGY.MC,60,26.5,2.0,cruza media 200,,,,
+pares_largo_corto,2026-03-20,venta,IBE.MC,274,19.66,5.39,se juntan (z=-0.19),ENEL.MI|IBE.MC,174.36,3.56,2026-03-04
+baja_volatilidad,2026-03-20,venta,BNS.TO,27,59.0936,2.0,stop fase 2,,522.27,41.91,2025-04-08
+pares_largo_corto,2026-03-20,cierre_corto,ENEL.MI,551,9.385,5.17,se juntan (z=-0.19),ENEL.MI|IBE.MC,36.45,0.9,2026-03-04
+pares_solo_largo,2026-03-20,venta,IBE.MC,280,19.66,5.5,se juntan (z=-0.19),ENEL.MI|IBE.MC,178.18,3.56,2026-03-04
+tendencia_200,2026-03-20,compra,AVGO,5,276.5005,2.0,cruza media 200,,,,
+momentum,2026-03-24,compra,AEM.TO,17,157.2987,2.67,momentum 12-1: +100 %,,,,
+rebote,2026-03-24,venta,DIS,13,84.2069,2.0,stop fase 1,,-90.86,-8.43,2025-05-08
+baja_volatilidad,2026-03-24,compra,DUK,12,109.3983,2.0,volatilidad 17 % anual,,,,
+momentum,2026-03-24,compra,CAT,4,597.7364,2.39,momentum 12-1: +109 %,,,,
+momentum,2026-03-24,compra,005930.KS,24,113.3609,2.72,momentum 12-1: +225 %,,,,
+azar_grandes,2026-03-24,venta,DSV.CO,6,203.7382,2.0,stop fase 1,,-184.0,-13.18,2026-01-27
+momentum,2026-03-25,venta,MU,8,321.1885,2.57,stop fase 1,,-149.05,-5.3,2026-03-10
+pares_solo_largo,2026-03-26,compra,FER.MC,96,54.96,5.28,diferencial vuelve (z=2.00),ACS.MC|FER.MC,,,
+pares_largo_corto,2026-03-26,corto,ACS.MC,48,106.4,5.11,diferencial vuelve (z=2.00),ACS.MC|FER.MC,,,
+pares_largo_corto,2026-03-26,compra,FER.MC,94,54.96,5.17,diferencial vuelve (z=2.00),ACS.MC|FER.MC,,,
+momentum,2026-03-27,venta,RHM.DE,1,1394.8,2.0,stop fase 1,,-259.2,-15.47,2026-02-10
+tendencia_200,2026-03-30,venta,WBC.AX,69,23.1778,2.0,stop fase 2,,298.17,20.5,2025-08-12
+azar_grandes,2026-03-31,compra,PYPL,38,39.0401,2.0,azar,,,,
+momentum,2026-03-31,compra,IDR.MC,57,45.76,2.61,momentum 12-1: +132 %,,,,
+momentum,2026-03-31,compra,2330.TW,54,48.3686,2.61,momentum 12-1: +101 %,,,,
+momentum,2026-03-31,venta,RR.L,185,12.4468,2.3,stop fase 1,,-430.87,-15.61,2026-02-10
+tendencia_200,2026-03-31,compra,MS,11,140.9249,2.0,cruza media 200,,,,
+tendencia_200,2026-03-31,venta,ULVR.L,25,50.0996,2.0,stop fase 1,,-179.75,-13.76,2025-09-03
+tendencia_200,2026-04-01,compra,KBC.BR,14,107.55,2.0,cruza media 200,,,,
+pares_solo_largo,2026-04-02,compra,NDA-FI.HE,355,15.01,5.33,diferencial vuelve (z=1.46),BBVA.MC|NDA-FI.HE,,,
+pares_solo_largo,2026-04-02,venta,FER.MC,96,56.82,5.45,par deja de estar cointegrado (p=0.37),ACS.MC|FER.MC,167.83,3.38,2026-03-26
+pares_largo_corto,2026-04-02,venta,FER.MC,94,56.82,5.34,par deja de estar cointegrado (p=0.37),ACS.MC|FER.MC,164.33,3.38,2026-03-26
+pares_largo_corto,2026-04-02,cierre_corto,ACS.MC,48,110.0,5.28,par deja de estar cointegrado (p=0.37),ACS.MC|FER.MC,-183.19,-3.38,2026-03-26
+pares_largo_corto,2026-04-02,corto,BBVA.MC,283,18.355,5.19,diferencial vuelve (z=1.46),BBVA.MC|NDA-FI.HE,,,
+pares_largo_corto,2026-04-02,compra,NDA-FI.HE,346,15.01,5.19,diferencial vuelve (z=1.46),BBVA.MC|NDA-FI.HE,,,
+momentum,2026-04-07,compra,K.TO,86,27.2147,2.34,momentum 12-1: +137 %,,,,
+maximo_52s,2026-04-08,venta,EQNR.OL,59,32.2396,2.0,stop fase 2,,266.05,16.55,2026-03-10
+maximo_52s,2026-04-09,compra,INTC,33,50.0885,2.0,"máximo 52 semanas, volumen x1.9",,,,
+pares_solo_largo,2026-04-15,venta,DBK.DE,184,28.4,5.23,stop por tiempo (30 días),CBK.DE|DBK.DE,-120.96,-2.07,2026-03-02
+pares_largo_corto,2026-04-15,venta,DBK.DE,179,28.4,5.08,stop por tiempo (30 días),CBK.DE|DBK.DE,-117.67,-2.07,2026-03-02
+pares_largo_corto,2026-04-15,cierre_corto,CBK.DE,155,35.44,5.49,stop por tiempo (30 días),CBK.DE|DBK.DE,-316.03,-5.89,2026-03-02
+pares_largo_corto,2026-04-16,cierre_corto,BBVA.MC,283,19.73,5.58,se juntan (z=-0.05),BBVA.MC|NDA-FI.HE,-569.7,-7.49,2026-04-02
+pares_solo_largo,2026-04-16,venta,NDA-FI.HE,355,16.135,5.73,se juntan (z=-0.05),BBVA.MC|NDA-FI.HE,388.32,7.5,2026-04-02
+pares_solo_largo,2026-04-16,compra,HDFCBANK.NS,728,7.4244,5.4,diferencial vuelve (z=-1.94),HDFCBANK.NS|ICICIBANK.NS,,,
+pares_largo_corto,2026-04-16,compra,HDFCBANK.NS,696,7.4244,5.17,diferencial vuelve (z=-1.94),HDFCBANK.NS|ICICIBANK.NS,,,
+pares_largo_corto,2026-04-16,corto,ICICIBANK.NS,421,12.2712,5.17,diferencial vuelve (z=-1.94),HDFCBANK.NS|ICICIBANK.NS,,,
+pares_largo_corto,2026-04-16,venta,NDA-FI.HE,346,16.135,5.58,se juntan (z=-0.05),BBVA.MC|NDA-FI.HE,378.47,7.5,2026-04-02
+azar_grandes,2026-04-21,venta,JNJ,8,191.9685,2.0,stop fase 2,,333.66,24.45,2025-03-11
+maximo_52s,2026-04-22,venta,GE,5,235.2083,2.0,stop fase 1,,-150.21,-11.3,2025-10-22
+maximo_52s,2026-04-23,compra,TXN,7,222.3724,2.0,"máximo 52 semanas, volumen x1.8",,,,
+rebote,2026-04-24,compra,UPS,16,91.9044,2.0,"rebote, caída 55 % desde máximo 5 años",,,,
+azar_grandes,2026-04-28,compra,CAT,2,694.6324,2.0,azar,,,,
+maximo_52s,2026-04-30,venta,LDO.MI,26,51.36,2.0,stop fase 1,,-280.64,-17.16,2026-03-10
+momentum,2026-04-30,venta,LDO.MI,53,51.36,2.72,stop fase 1,,-251.61,-8.29,2026-02-17
+rebote,2026-05-01,compra,DIS,16,89.0094,2.0,"rebote, caída 44 % desde máximo 5 años",,,,
+maximo_52s,2026-05-01,compra,GOOGL,5,325.3701,2.0,"máximo 52 semanas, volumen x2.5",,,,
+momentum,2026-05-05,compra,MU,5,521.5387,2.61,momentum 12-1: +360 %,,,,
+azar_grandes,2026-05-05,venta,EL.PA,7,171.4,2.0,stop fase 1,,-260.2,-19.15,2026-03-10
+azar_grandes,2026-05-06,venta,AD.AS,36,38.25,2.0,stop fase 2,,271.76,17.69,2024-11-19
+rebote,2026-05-06,venta,BMY,34,48.3085,2.0,stop fase 2,,311.49,18.88,2025-08-27
+baja_volatilidad,2026-05-06,venta,AD.AS,35,38.25,2.0,stop fase 2,,255.0,16.76,2025-04-08
+rebote,2026-05-07,compra,DGE.L,83,17.934,2.0,"rebote, caída 63 % desde máximo 5 años",,,,
+azar_grandes,2026-05-12,compra,AI.PA,9,159.6545,2.0,azar,,,,
+azar_grandes,2026-05-12,compra,ICICIBANK.NS,134,11.1949,2.0,azar,,,,
+momentum,2026-05-12,venta,MU,5,608.2127,3.04,stop fase 2,,427.72,16.62,2026-05-05
+momentum,2026-05-12,venta,INTC,75,98.9867,7.42,stop fase 2,,4482.01,153.24,2026-03-10
+maximo_52s,2026-05-12,venta,INTC,33,98.9867,3.27,stop fase 2,,1608.37,97.62,2026-04-09
+baja_volatilidad,2026-05-12,compra,IBE.MC,74,19.51,2.0,volatilidad 15 % anual,,,,
+maximo_52s,2026-05-14,compra,CSCO,18,100.3325,2.0,"máximo 52 semanas, volumen x2.1",,,,
+rebote,2026-05-15,compra,VOW3.DE,16,88.72,2.0,"rebote, caída 63 % desde máximo 5 años",,,,
+momentum,2026-05-18,venta,005930.KS,24,152.7917,3.67,stop fase 2,,945.09,34.78,2026-03-24
+azar_grandes,2026-05-18,venta,NEE,19,75.3909,2.0,stop fase 2,,310.21,23.88,2025-04-08
+tendencia_200,2026-05-18,venta,HO.PA,6,215.5,2.0,stop fase 1,,-181.3,-13.1,2026-03-10
+momentum,2026-05-19,venta,K.TO,86,23.7368,2.04,stop fase 1,,-303.49,-12.78,2026-04-07
+azar_grandes,2026-05-19,compra,MA,3,435.4814,2.0,azar,,,,
+momentum,2026-05-19,venta,AEM.TO,17,149.6553,2.54,stop fase 1,,-135.16,-4.86,2026-03-24
+momentum,2026-05-19,venta,ACS.MC,29,124.8,3.62,stop fase 2,,645.91,21.99,2026-02-17
+momentum,2026-05-19,compra,GLEN.L,533,6.5266,3.48,momentum 12-1: +100 %,,,,
+momentum,2026-05-19,compra,NEM,37,91.9765,3.4,momentum 12-1: +122 %,,,,
+momentum,2026-05-19,compra,AMD,9,354.0067,3.19,momentum 12-1: +130 %,,,,
+maximo_52s,2026-05-19,venta,RIO.L,21,85.8913,2.0,stop fase 2,,260.27,13.75,2026-01-22
+rebote,2026-05-19,compra,GRF.MC,160,9.2,2.0,"rebote, caída 61 % desde máximo 5 años",,,,
+tendencia_200,2026-05-19,compra,TSCO.L,322,5.3407,2.0,cruza media 200,,,,
+maximo_52s,2026-05-20,compra,COST,1,938.5358,2.0,"máximo 52 semanas, volumen x1.6",,,,
+rebote,2026-05-21,compra,BAYN.DE,38,39.04,2.0,"rebote, caída 42 % desde máximo 5 años",,,,
+tendencia_200,2026-05-21,venta,WMT,16,103.628,2.0,stop fase 2,,374.37,27.91,2025-04-10
+tendencia_200,2026-05-22,compra,BAC,38,44.4792,2.0,cruza media 200,,,,
+rebote,2026-05-25,compra,RI.PA,22,65.1,2.0,"rebote, caída 70 % desde máximo 5 años",,,,
+momentum,2026-05-26,compra,9984.T,93,37.9628,3.53,momentum 12-1: +123 %,,,,
+momentum,2026-05-26,compra,ABX.TO,99,35.6402,3.53,momentum 12-1: +109 %,,,,
+momentum,2026-05-26,compra,ASML.AS,2,1426.0,2.85,momentum 12-1: +85 %,,,,
+tendencia_200,2026-05-27,venta,NVDA,11,181.09,2.0,stop fase 2,,309.58,18.68,2026-03-03
+tendencia_200,2026-05-28,compra,AD.AS,47,36.51,2.0,cruza media 200,,,,
+rebote,2026-05-28,compra,NKE,38,39.5682,2.0,"rebote, caída 74 % desde máximo 5 años",,,,
+maximo_52s,2026-06-01,venta,TXN,7,251.2602,2.0,stop fase 2,,206.72,12.99,2026-04-23
+maximo_52s,2026-06-02,compra,005930.KS,8,205.1396,2.0,"máximo 52 semanas, volumen x1.6",,,,
+pares_solo_largo,2026-06-03,venta,HDFCBANK.NS,728,6.7288,4.9,stop por tiempo (32 días),HDFCBANK.NS|ICICIBANK.NS,-516.74,-9.37,2026-04-16
+pares_largo_corto,2026-06-03,venta,HDFCBANK.NS,696,6.7288,4.68,stop por tiempo (32 días),HDFCBANK.NS|ICICIBANK.NS,-494.03,-9.37,2026-04-16
+pares_largo_corto,2026-06-03,cierre_corto,ICICIBANK.NS,421,11.0261,4.64,stop por tiempo (32 días),HDFCBANK.NS|ICICIBANK.NS,514.34,10.15,2026-04-16
+tendencia_200,2026-06-04,venta,AVGO,5,352.2917,2.0,stop fase 2,,377.77,27.41,2026-03-20
+tendencia_200,2026-06-05,compra,K.TO,72,24.0089,2.0,cruza media 200,,,,
+momentum,2026-06-05,venta,AMD,9,420.1204,3.78,stop fase 2,,588.06,18.68,2026-05-19
+momentum,2026-06-08,venta,9984.T,93,36.1388,3.36,stop fase 1,,-176.52,-4.8,2026-05-26
+maximo_52s,2026-06-08,venta,005930.KS,8,162.1095,2.0,stop fase 1,,-348.24,-20.98,2026-06-02
+rebote,2026-06-08,venta,BAS.DE,32,49.266,2.0,stop fase 2,,259.87,13.86,2025-11-20
+maximo_52s,2026-06-09,compra,G.MI,44,39.98,2.0,"máximo 52 semanas, volumen x2.8",,,,
+momentum,2026-06-09,compra,INTC,36,98.0098,3.53,momentum 12-1: +433 %,,,,
+momentum,2026-06-09,compra,MU,4,857.1671,3.43,momentum 12-1: +492 %,,,,
+momentum,2026-06-10,venta,GLEN.L,533,5.6917,3.03,stop fase 1,,-451.49,-12.79,2026-05-19
+azar_grandes,2026-06-11,venta,PYPL,38,35.0628,2.0,stop fase 1,,-150.56,-10.19,2026-03-31
+pares_largo_corto,2026-06-15,corto,RY.TO,29,173.9042,5.04,diferencial vuelve (z=-1.07),BNS.TO|RY.TO,,,
+pares_solo_largo,2026-06-15,compra,BNS.TO,73,72.8382,5.32,diferencial vuelve (z=-1.07),BNS.TO|RY.TO,,,
+pares_largo_corto,2026-06-15,compra,BNS.TO,70,72.8382,5.1,diferencial vuelve (z=-1.07),BNS.TO|RY.TO,,,
+momentum,2026-06-16,compra,005930.KS,18,195.5608,3.52,momentum 12-1: +346 %,,,,
+azar_grandes,2026-06-16,compra,ENGI.PA,56,27.39,2.0,azar,,,,
+baja_volatilidad,2026-06-17,venta,ORA.PA,97,16.866,2.0,stop fase 2,,591.19,41.37,2025-04-08
+pares_largo_corto,2026-06-18,cierre_corto,RY.TO,29,175.2199,5.08,se juntan (z=0.32),BNS.TO|RY.TO,-48.28,-0.76,2026-06-15
+pares_largo_corto,2026-06-18,venta,BNS.TO,70,75.4534,5.28,se juntan (z=0.32),BNS.TO|RY.TO,172.69,3.59,2026-06-15
+pares_solo_largo,2026-06-18,venta,BNS.TO,73,75.4534,5.51,se juntan (z=0.32),BNS.TO|RY.TO,180.09,3.59,2026-06-15
+rebote,2026-06-22,compra,CSL.AX,20,71.0223,2.0,"rebote, caída 66 % desde máximo 5 años",,,,
+baja_volatilidad,2026-06-23,compra,BNS.TO,20,75.5361,2.0,volatilidad 16 % anual,,,,
+pares_solo_largo,2026-06-24,compra,CBK.DE,141,37.95,5.35,diferencial vuelve (z=-1.89),CBK.DE|UCG.MI,,,
+pares_largo_corto,2026-06-24,compra,CBK.DE,136,37.95,5.16,diferencial vuelve (z=-1.89),CBK.DE|UCG.MI,,,
+pares_largo_corto,2026-06-24,corto,UCG.MI,65,79.08,5.14,diferencial vuelve (z=-1.89),CBK.DE|UCG.MI,,,
+maximo_52s,2026-06-24,venta,CNQ.TO,40,35.3278,2.0,stop fase 1,,-185.0,-13.05,2026-03-09
+momentum,2026-06-25,venta,INTC,36,110.6592,3.98,stop fase 2,,447.87,12.91,2026-06-09
+maximo_52s,2026-06-26,compra,CAT,1,908.1828,2.0,"máximo 52 semanas, volumen x1.7",,,,
+rebote,2026-06-29,venta,VOW3.DE,16,74.048,2.0,stop fase 1,,-154.59,-16.54,2026-05-15
+momentum,2026-06-30,compra,AMD,7,477.6466,3.34,momentum 12-1: +263 %,,,,
+azar_grandes,2026-07-02,venta,CAT,2,839.088,2.0,stop fase 2,,284.91,20.8,2026-04-28
+momentum,2026-07-02,venta,CAT,4,839.088,3.36,stop fase 2,,964.8,40.38,2026-03-24
+momentum,2026-07-02,venta,005930.KS,18,164.2231,2.96,stop fase 1,,-566.7,-16.02,2026-06-16
+momentum,2026-07-02,venta,MU,4,855.055,3.42,stop fase 1,,-15.3,-0.25,2026-06-09
+momentum,2026-07-07,compra,NOKIA.HE,325,10.85,3.53,momentum 12-1: +216 %,,,,
+momentum,2026-07-07,compra,9984.T,109,32.1483,3.5,momentum 12-1: +199 %,,,,
+azar_grandes,2026-07-07,compra,UPS,17,96.7682,2.0,azar,,,,
+momentum,2026-07-07,compra,8035.T,45,77.335,3.48,momentum 12-1: +127 %,,,,
+rebote,2026-07-15,venta,BAYN.DE,38,48.024,2.0,stop fase 2,,337.39,23.01,2026-05-21
+momentum,2026-07-17,venta,AMD,7,406.8694,2.85,stop fase 1,,-501.63,-14.82,2026-06-30
+momentum,2026-07-17,venta,2330.TW,54,62.1613,3.36,stop fase 2,,747.71,28.52,2026-03-31
+momentum,2026-07-17,venta,9984.T,109,28.4473,3.1,stop fase 1,,-410.01,-11.51,2026-07-07
+maximo_52s,2026-07-17,venta,CAT,1,735.4784,2.0,stop fase 1,,-176.7,-19.02,2026-06-26
+momentum,2026-07-17,venta,NOKIA.HE,325,8.772,2.85,stop fase 1,,-681.73,-19.15,2026-07-07
+momentum,2026-07-21,compra,MU,3,810.4215,2.43,momentum 12-1: +823 %,,,,
+momentum,2026-07-21,compra,005930.KS,21,146.7304,3.08,momentum 12-1: +421 %,,,,
+momentum,2026-07-21,compra,CAT,4,777.2638,3.11,momentum 12-1: +129 %,,,,
+momentum,2026-07-21,compra,INTC,35,90.3738,3.16,momentum 12-1: +432 %,,,,
+maximo_52s,2026-07-24,compra,UNP,6,267.6406,2.0,"máximo 52 semanas, volumen x2.6",,,,
+momentum,2026-07-28,venta,ASML.AS,2,1377.12,2.75,stop fase 1,,-99.61,-3.43,2026-05-26
+momentum,2026-07-28,venta,8035.T,45,60.7229,2.73,stop fase 1,,-753.75,-21.48,2026-07-07
+momentum,2026-07-28,venta,MU,3,694.1689,2.08,stop fase 1,,-353.27,-14.34,2026-07-21
+momentum,2026-07-28,venta,INTC,35,73.8825,2.59,stop fase 1,,-582.95,-18.25,2026-07-21
+pares_solo_largo,2026-07-28,venta,CBK.DE,141,37.4,5.27,stop por tiempo (24 días),CBK.DE|UCG.MI,-88.17,-1.45,2026-06-24
+pares_largo_corto,2026-07-28,venta,CBK.DE,136,37.4,5.09,stop por tiempo (24 días),CBK.DE|UCG.MI,-85.05,-1.45,2026-06-24
+pares_largo_corto,2026-07-28,cierre_corto,UCG.MI,65,82.0,5.33,stop por tiempo (24 días),CBK.DE|UCG.MI,-200.27,-3.69,2026-06-24
+momentum,2026-07-29,venta,005930.KS,21,128.2965,2.69,stop fase 1,,-392.89,-12.56,2026-07-21
+tendencia_200,2026-07-29,venta,MS,11,180.0448,2.0,stop fase 2,,435.73,27.76,2026-03-31
+tendencia_200,2026-07-30,compra,KER.PA,6,290.05,2.0,cruza media 200,,,,
+pares_largo_corto,2026-07-31,compra,HDFCBANK.NS,752,6.8429,5.15,diferencial vuelve (z=-1.91),HDFCBANK.NS|ICICIBANK.NS,,,
+pares_solo_largo,2026-07-31,compra,HDFCBANK.NS,783,6.8429,5.36,diferencial vuelve (z=-1.91),HDFCBANK.NS|ICICIBANK.NS,,,
+pares_largo_corto,2026-07-31,corto,ICICIBANK.NS,395,13.0178,5.14,diferencial vuelve (z=-1.91),HDFCBANK.NS|ICICIBANK.NS,,,
+pares_solo_largo,2026-08-04,venta,HDFCBANK.NS,783,6.8703,5.38,par deja de estar cointegrado (p=0.87),HDFCBANK.NS|ICICIBANK.NS,10.69,0.4,2026-07-31
+momentum,2026-08-04,compra,NOKIA.HE,369,8.324,3.07,momentum 12-1: +211 %,,,,
+momentum,2026-08-04,compra,AMD,7,437.981,3.07,momentum 12-1: +195 %,,,,
+momentum,2026-08-04,compra,IFX.DE,48,63.52,3.05,momentum 12-1: +129 %,,,,
+momentum,2026-08-04,compra,ACS.MC,27,111.7,3.02,momentum 12-1: +108 %,,,,
+momentum,2026-08-04,compra,9984.T,99,29.8876,2.96,momentum 12-1: +106 %,,,,
+pares_largo_corto,2026-08-04,venta,HDFCBANK.NS,752,6.8703,5.17,par deja de estar cointegrado (p=0.87),HDFCBANK.NS|ICICIBANK.NS,10.26,0.4,2026-07-31
+pares_largo_corto,2026-08-04,cierre_corto,ICICIBANK.NS,395,13.2443,5.23,par deja de estar cointegrado (p=0.87),HDFCBANK.NS|ICICIBANK.NS,-142.95,-1.74,2026-07-31
+tendencia_200,2026-08-05,venta,ENB.TO,35,45.095,2.0,stop fase 2,,262.55,13.16,2025-06-18
+maximo_52s,2026-08-05,venta,ENB.TO,35,45.095,2.0,stop fase 2,,493.97,26.32,2024-08-12
+baja_volatilidad,2026-08-05,venta,ENB.TO,29,45.095,2.0,stop fase 2,,251.64,14.88,2025-04-08
+maximo_52s,2026-08-06,compra,6861.T,3,478.0362,2.0,"máximo 52 semanas, volumen x1.6",,,,
+tendencia_200,2026-08-06,compra,NEM,19,89.588,2.0,cruza media 200,,,,
+baja_volatilidad,2026-08-11,compra,BRK-B,3,457.9432,2.0,volatilidad 16 % anual,,,,
+rebote,2026-08-28,compra,BMW.DE,26,60.74,2.0,"rebote, caída 48 % desde máximo 5 años",,,,
+tendencia_200,2026-08-28,venta,DG.PA,12,113.88,2.0,stop fase 1,,17.96,-1.83,2025-10-14
+rebote,2026-08-28,compra,VOW3.DE,21,75.3,2.0,"rebote, caída 64 % desde máximo 5 años",,,,
+tendencia_200,2026-09-01,compra,SSE.L,62,28.4801,2.0,cruza media 200,,,,
+azar_grandes,2026-09-01,venta,BARC.L,321,5.5933,2.0,stop fase 2,,274.03,16.63,2026-03-10
+baja_volatilidad,2026-09-01,venta,CM.TO,16,96.2409,2.0,stop fase 2,,202.33,13.66,2026-03-10
+maximo_52s,2026-09-02,venta,RTX,10,175.2091,2.0,stop fase 2,,268.2,16.48,2025-10-22
+maximo_52s,2026-09-03,compra,DE,2,607.0173,2.0,"máximo 52 semanas, volumen x1.7",,,,
+momentum,2026-09-03,venta,IDR.MC,57,58.302,3.32,stop fase 2,,726.06,27.41,2026-03-31
+azar_grandes,2026-09-08,compra,OR.PA,4,383.9,2.0,azar,,,,
+rebote,2026-09-08,venta,NKE,38,32.6186,2.0,stop fase 1,,-241.3,-17.56,2026-05-28
+baja_volatilidad,2026-09-08,compra,RED.MC,101,14.9,2.0,volatilidad 17 % anual,,,,
+momentum,2026-09-08,compra,005930.KS,18,174.0856,3.13,momentum 12-1: +219 %,,,,
+tendencia_200,2026-09-09,venta,KER.PA,6,232.52,2.0,stop fase 1,,-349.18,-19.83,2026-07-30
+pares_solo_largo,2026-09-10,compra,UCG.MI,63,84.35,5.31,diferencial vuelve (z=1.77),CBK.DE|UCG.MI,,,
+pares_largo_corto,2026-09-10,corto,CBK.DE,121,42.13,5.1,diferencial vuelve (z=1.77),CBK.DE|UCG.MI,,,
+pares_largo_corto,2026-09-10,compra,UCG.MI,60,84.35,5.06,diferencial vuelve (z=1.77),CBK.DE|UCG.MI,,,
+tendencia_200,2026-09-10,compra,META,3,561.903,2.0,cruza media 200,,,,
+momentum,2026-09-14,venta,9984.T,99,33.0959,3.28,stop fase 2,,311.38,10.73,2026-08-04
+momentum,2026-09-15,compra,MU,3,811.7906,2.44,momentum 12-1: +540 %,,,,
+tendencia_200,2026-09-16,venta,BAC,38,50.5287,2.0,stop fase 2,,245.5,13.6,2026-05-22
+tendencia_200,2026-09-16,venta,NEM,19,104.2359,2.0,stop fase 2,,278.57,16.35,2026-08-06
+momentum,2026-09-16,venta,NEM,37,104.2359,3.86,stop fase 2,,462.91,13.33,2026-05-19
+azar_grandes,2026-09-16,venta,UNP,7,243.1153,2.0,stop fase 2,,381.99,25.37,2025-07-22
+tendencia_200,2026-09-17,compra,AMS.MC,31,56.0,2.0,cruza media 200,,,,
+tendencia_200,2026-09-17,compra,IAG.MC,354,4.93,2.0,cruza media 200,,,,
+pares_solo_largo,2026-09-18,compra,ENEL.MI,593,9.027,5.35,diferencial vuelve (z=-1.93),ENEL.MI|IBE.MC,,,
+pares_largo_corto,2026-09-18,compra,ENEL.MI,569,9.027,5.14,diferencial vuelve (z=-1.93),ENEL.MI|IBE.MC,,,
+pares_largo_corto,2026-09-18,corto,IBE.MC,251,20.45,5.13,diferencial vuelve (z=-1.93),ENEL.MI|IBE.MC,,,
+azar_grandes,2026-09-21,venta,UPS,17,82.2882,2.0,stop fase 1,,-226.07,-14.96,2026-07-07
+rebote,2026-09-21,venta,UPS,16,82.2882,2.0,stop fase 1,,-112.6,-10.46,2026-04-24
+azar_grandes,2026-09-22,compra,V,4,324.2677,2.0,azar,,,,
+azar_grandes,2026-09-22,compra,HO.PA,6,236.7,2.0,azar,,,,
+momentum,2026-09-22,compra,INTC,31,104.8008,3.25,momentum 12-1: +205 %,,,,
+tendencia_200,2026-09-24,venta,K.TO,72,22.8775,2.0,stop fase 1,,-83.0,-4.71,2026-06-05
+tendencia_200,2026-09-25,compra,HEIA.AS,24,71.1,2.0,cruza media 200,,,,
+maximo_52s,2026-10-01,venta,HSBA.L,107,16.8024,2.0,stop fase 2,,280.77,14.3,2026-01-28
+baja_volatilidad,2026-10-01,venta,RY.TO,9,171.411,2.0,stop fase 2,,542.29,45.66,2025-01-07
+momentum,2026-10-01,venta,ACS.MC,27,89.36,2.41,stop fase 1,,-608.61,-20.0,2026-08-04
+pares_solo_largo,2026-10-02,venta,ENEL.MI,593,8.688,5.15,par deja de estar cointegrado (p=0.27),ENEL.MI|IBE.MC,-211.53,-3.76,2026-09-18
+pares_largo_corto,2026-10-02,cierre_corto,IBE.MC,251,20.75,5.21,par deja de estar cointegrado (p=0.27),ENEL.MI|IBE.MC,-85.64,-1.47,2026-09-18
+pares_largo_corto,2026-10-02,venta,ENEL.MI,569,8.688,4.94,par deja de estar cointegrado (p=0.27),ENEL.MI|IBE.MC,-202.97,-3.76,2026-09-18
+momentum,2026-10-02,venta,CBK.DE,79,38.475,3.04,stop fase 2,,589.69,20.08,2025-11-25
+momentum,2026-10-06,compra,FCX,51,64.9369,3.31,momentum 12-1: +89 %,,,,
+momentum,2026-10-06,compra,8035.T,46,71.8744,3.31,momentum 12-1: +102 %,,,,
+baja_volatilidad,2026-10-06,compra,AI.PA,8,171.0,2.0,volatilidad 18 % anual,,,,
+momentum,2026-10-13,venta,AMD,7,517.4631,3.62,stop fase 2,,549.69,18.15,2026-08-04
+pares_largo_corto,2026-10-13,corto,UNI.MC,1566,3.26,5.11,diferencial vuelve (z=-1.94),ISP.MI|UNI.MC,,,
+pares_largo_corto,2026-10-13,compra,ISP.MI,821,6.22,5.11,diferencial vuelve (z=-1.94),ISP.MI|UNI.MC,,,
+momentum,2026-10-13,venta,INTC,31,89.2366,2.77,stop fase 1,,-488.51,-14.85,2026-09-22
+pares_solo_largo,2026-10-13,compra,ISP.MI,850,6.22,5.29,diferencial vuelve (z=-1.94),ISP.MI|UNI.MC,,,
+pares_solo_largo,2026-10-14,venta,UCG.MI,63,77.02,4.85,stop por tiempo (24 días),CBK.DE|UCG.MI,-471.96,-8.69,2026-09-10
+pares_largo_corto,2026-10-14,venta,UCG.MI,60,77.02,4.62,stop por tiempo (24 días),CBK.DE|UCG.MI,-449.48,-8.69,2026-09-10
+pares_largo_corto,2026-10-14,cierre_corto,CBK.DE,121,38.79,4.69,stop por tiempo (24 días),CBK.DE|UCG.MI,394.35,7.93,2026-09-10
+rebote,2026-10-15,venta,VOW3.DE,21,66.48,2.0,stop fase 1,,-189.22,-11.71,2026-08-28
+rebote,2026-10-15,compra,PHIA.AS,71,22.56,2.0,"rebote, caída 42 % desde máximo 5 años",,,,
+momentum,2026-10-15,venta,MU,3,775.0471,2.33,stop fase 1,,-114.59,-4.53,2026-09-15
+momentum,2026-10-15,venta,IFX.DE,48,50.7,2.43,stop fase 1,,-620.84,-20.18,2026-08-04
+momentum,2026-10-15,venta,005930.KS,18,144.4152,2.6,stop fase 1,,-486.2,-17.04,2026-09-08
+rebote,2026-10-16,compra,UPS,13,87.8254,2.0,"rebote, caída 58 % desde máximo 5 años",,,,
+rebote,2026-10-16,compra,NKE,48,33.5945,2.0,"rebote, caída 79 % desde máximo 5 años",,,,
+momentum,2026-10-16,venta,8035.T,46,57.8156,2.66,stop fase 1,,-652.67,-19.56,2026-10-06
+maximo_52s,2026-10-16,compra,OR.PA,4,406.0,2.0,"máximo 52 semanas, volumen x1.9",,,,
+momentum,2026-10-20,compra,SU.TO,41,70.4951,2.89,momentum 12-1: +83 %,,,,
+momentum,2026-10-20,compra,2330.TW,35,65.8888,2.31,momentum 12-1: +76 %,,,,
+momentum,2026-10-20,compra,REP.MC,99,29.64,2.93,momentum 12-1: +100 %,,,,
+momentum,2026-10-20,compra,EQNR.OL,71,41.3615,2.94,momentum 12-1: +93 %,,,,
+momentum,2026-10-20,compra,TGT,21,138.198,2.9,momentum 12-1: +78 %,,,,
+momentum,2026-10-20,compra,MRK,22,130.4322,2.87,momentum 12-1: +78 %,,,,
+momentum,2026-10-22,venta,NOKIA.HE,369,7.6816,2.83,stop fase 1,,-242.95,-7.72,2026-08-04
+momentum,2026-10-22,venta,CAT,4,627.1012,2.51,stop fase 1,,-606.27,-19.32,2026-07-21
+momentum,2026-10-23,venta,ABX.TO,99,33.4791,3.31,stop fase 1,,-191.01,-6.06,2026-05-26
+momentum,2026-10-27,compra,TXN,10,269.2636,2.69,momentum 12-1: +65 %,,,,
+momentum,2026-10-27,compra,ASML.AS,2,1424.0,2.85,momentum 12-1: +66 %,,,,
+momentum,2026-10-27,compra,BAYN.DE,63,45.2,2.85,momentum 12-1: +81 %,,,,
+pares_solo_largo,2026-10-28,compra,NDA-FI.HE,334,15.79,5.27,diferencial vuelve (z=1.73),BBVA.MC|NDA-FI.HE,,,
+pares_largo_corto,2026-10-28,corto,BBVA.MC,224,22.73,5.09,diferencial vuelve (z=1.73),BBVA.MC|NDA-FI.HE,,,
+pares_largo_corto,2026-10-28,compra,NDA-FI.HE,322,15.79,5.08,diferencial vuelve (z=1.73),BBVA.MC|NDA-FI.HE,,,
+maximo_52s,2026-10-29,venta,GOOGL,5,257.1592,2.0,stop fase 1,,-343.15,-20.96,2026-05-01
+maximo_52s,2026-10-30,compra,LLY,1,1277.7026,2.0,"máximo 52 semanas, volumen x1.8",,,,
+tendencia_200,2026-10-30,venta,META,3,546.5844,2.0,stop fase 1,,-48.58,-2.73,2026-09-10
+tendencia_200,2026-11-02,compra,SAN.PA,22,79.12,2.0,cruza media 200,,,,
+momentum,2026-11-05,venta,FCX,51,52.5746,2.68,stop fase 1,,-629.64,-19.04,2026-10-06
+maximo_52s,2026-11-05,venta,CSCO,18,89.1949,2.0,stop fase 1,,-191.15,-11.1,2026-05-14
+maximo_52s,2026-11-06,compra,ICICIBANK.NS,122,14.3536,2.0,"máximo 52 semanas, volumen x3.6",,,,
+maximo_52s,2026-11-06,venta,6861.T,3,370.8836,2.0,stop fase 1,,-320.01,-22.42,2026-08-06
+momentum,2026-11-10,compra,MU,4,639.2982,2.56,momentum 12-1: +343 %,,,,
+pares_solo_largo,2026-11-10,venta,NDA-FI.HE,334,16.895,5.64,se juntan (z=-0.01),BBVA.MC|NDA-FI.HE,358.15,7.0,2026-10-28
+pares_largo_corto,2026-11-10,cierre_corto,BBVA.MC,224,23.75,5.32,se juntan (z=-0.01),BBVA.MC|NDA-FI.HE,-238.89,-4.49,2026-10-28
+pares_largo_corto,2026-11-10,venta,NDA-FI.HE,322,16.895,5.44,se juntan (z=-0.01),BBVA.MC|NDA-FI.HE,345.29,7.0,2026-10-28

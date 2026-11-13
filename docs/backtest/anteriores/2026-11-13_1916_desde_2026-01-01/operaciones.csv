@@ -1,0 +1,413 @@
+estrategia,fecha,tipo,ticker,acciones,precio,comision,motivo,resultado,rentabilidad_pct,fecha_entrada
+baja_volatilidad,2026-01-02,compra,HDFCBANK.NS,106,9.398,2.0,volatilidad 18 % anual,,,
+momentum,2026-01-02,compra,RELIANCE.NS,66,14.9814,2.0,momentum 12-1: +8 %,,,
+tendencia_200,2026-01-02,compra,INFY.NS,64,15.5115,2.0,cruza media 200,,,
+puntuacion_fija,2026-01-02,compra,INFY.NS,64,15.5115,2.0,"puntuación 0.70, tamaño x1.00",,,
+baja_volatilidad,2026-01-02,compra,ICICIBANK.NS,78,12.6868,2.0,volatilidad 20 % anual,,,
+baja_volatilidad,2026-01-02,compra,RELIANCE.NS,66,14.9814,2.0,volatilidad 22 % anual,,,
+baja_volatilidad,2026-01-02,compra,TCS.NS,32,30.6645,2.0,volatilidad 24 % anual,,,
+baja_volatilidad,2026-01-02,compra,INFY.NS,64,15.5115,2.0,volatilidad 28 % anual,,,
+azar_grandes,2026-01-02,compra,HDFCBANK.NS,106,9.398,2.0,azar,,,
+puntuacion_fija,2026-01-02,compra,RELIANCE.NS,66,14.9814,2.0,"puntuación 0.80, tamaño x1.00",,,
+azar_grandes,2026-01-02,compra,INFY.NS,64,15.5115,2.0,azar,,,
+azar_grandes,2026-01-02,compra,RELIANCE.NS,66,14.9814,2.0,azar,,,
+azar_grandes,2026-01-02,compra,TCS.NS,32,30.6645,2.0,azar,,,
+azar_grandes,2026-01-02,compra,ICICIBANK.NS,78,12.6868,2.0,azar,,,
+ref_europa,2026-01-05,compra,EXSA.DE,167,59.23,9.89,referencia,,,
+ref_bono_eeuu,2026-01-05,compra,IEF,120,82.2151,9.87,referencia,,,
+ref_mundo_sin_eeuu,2026-01-05,compra,ACWX,169,58.4382,9.88,referencia,,,
+tendencia_200,2026-01-05,compra,DG.PA,8,121.85,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,0939.HK,1169,0.8555,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,GRF.MC,88,11.3,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,CVX,7,141.6102,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,CNR.TO,11,85.6786,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,CPG.L,2773,0.3605,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,COP,11,86.4612,2.0,cruza media 200,,,
+tendencia_200,2026-01-05,compra,TGT,11,85.7777,2.0,cruza media 200,,,
+rebote,2026-01-05,compra,GRF.MC,88,11.3,2.0,"rebote, caída 54 % desde máximo 5 años",,,
+ref_sp500,2026-01-05,compra,SPY,16,586.5523,9.38,referencia,,,
+ref_mundo,2026-01-05,compra,IWDA.AS,88,112.21,9.87,referencia,,,
+tendencia_200,2026-01-05,compra,PFE,46,21.5299,2.0,cruza media 200,,,
+maximo_52s,2026-01-05,compra,ACX.MC,76,13.14,2.0,"máximo 52 semanas, volumen x2.0",,,
+ref_bono_china,2026-01-05,compra,CBON,506,19.5392,9.89,referencia,,,
+maximo_52s,2026-01-05,compra,BNS.TO,15,63.6452,2.0,"máximo 52 semanas, volumen x1.9",,,
+maximo_52s,2026-01-05,compra,CPG.L,2773,0.3605,2.0,"máximo 52 semanas, volumen x1.8",,,
+maximo_52s,2026-01-05,compra,MU,3,277.7781,2.0,"máximo 52 semanas, volumen x1.7",,,
+baja_volatilidad,2026-01-06,compra,BNS.TO,15,63.0226,2.0,volatilidad 17 % anual,,,
+maximo_52s,2026-01-06,compra,FCX,20,47.8107,2.0,"máximo 52 semanas, volumen x1.8",,,
+maximo_52s,2026-01-06,compra,GS,1,810.4258,2.0,"máximo 52 semanas, volumen x1.9",,,
+maximo_52s,2026-01-06,compra,IDR.MC,18,54.4,2.0,"máximo 52 semanas, volumen x1.9",,,
+maximo_52s,2026-01-06,compra,005930.KS,12,79.8701,2.0,"máximo 52 semanas, volumen x2.0",,,
+maximo_52s,2026-01-06,compra,2330.TW,22,44.6076,2.0,"máximo 52 semanas, volumen x2.3",,,
+azar_grandes,2026-01-06,compra,KBC.BR,8,114.45,2.0,azar,,,
+azar_grandes,2026-01-06,compra,ORA.PA,69,14.43,2.0,azar,,,
+momentum,2026-01-06,compra,K.TO,39,25.1024,2.0,momentum 12-1: +147 %,,,
+baja_volatilidad,2026-01-06,compra,TD.TO,12,81.9393,2.0,volatilidad 17 % anual,,,
+momentum,2026-01-06,compra,MU,3,271.687,2.0,momentum 12-1: +149 %,,,
+baja_volatilidad,2026-01-06,compra,0941.HK,110,9.047,2.0,volatilidad 15 % anual,,,
+baja_volatilidad,2026-01-06,compra,ORA.PA,69,14.43,2.0,volatilidad 17 % anual,,,
+momentum,2026-01-06,compra,GLE.PA,14,70.24,2.0,momentum 12-1: +121 %,,,
+momentum,2026-01-06,compra,NEM,11,89.3303,2.0,momentum 12-1: +116 %,,,
+momentum,2026-01-06,compra,CBK.DE,27,36.9,2.0,momentum 12-1: +111 %,,,
+baja_volatilidad,2026-01-06,compra,KPN.AS,251,3.961,2.0,volatilidad 17 % anual,,,
+maximo_52s,2026-01-06,compra,TD.TO,12,81.9393,2.0,"máximo 52 semanas, volumen x3.3",,,
+momentum,2026-01-06,compra,ABX.TO,25,39.2032,2.0,momentum 12-1: +128 %,,,
+momentum,2026-01-06,compra,IDR.MC,18,54.4,2.0,momentum 12-1: +154 %,,,
+azar_grandes,2026-01-06,compra,ZURN.SW,1,648.5473,2.0,azar,,,
+rebote,2026-01-06,compra,NKE,18,54.6823,2.0,"rebote, caída 64 % desde máximo 5 años",,,
+puntuacion_fija,2026-01-06,compra,9988.HK,60,16.5478,2.0,"puntuación 0.94, tamaño x1.00",,,
+puntuacion_fija,2026-01-06,compra,AMD,5,190.1075,2.0,"puntuación 0.94, tamaño x1.00",,,
+puntuacion_fija,2026-01-06,compra,K.TO,39,25.1024,2.0,"puntuación 0.95, tamaño x1.00",,,
+puntuacion_fija,2026-01-06,compra,INTC,29,34.0249,2.0,"puntuación 0.97, tamaño x1.00",,,
+puntuacion_fija,2026-01-06,compra,IDR.MC,18,54.4,2.0,"puntuación 0.94, tamaño x1.00",,,
+puntuacion_fija,2026-01-06,compra,MU,3,271.687,2.0,"puntuación 1.00, tamaño x1.00",,,
+puntuacion_fija,2026-01-07,compra,SAAB-B.ST,17,55.6102,2.0,"puntuación 0.96, tamaño x1.00",,,
+rebote,2026-01-07,compra,PFE,45,21.8938,2.0,"rebote, caída 60 % desde máximo 5 años",,,
+momentum,2026-01-07,compra,SAAB-B.ST,17,55.6102,2.0,momentum 12-1: +112 %,,,
+azar_grandes,2026-01-07,compra,ERIC-B.ST,118,8.4159,2.0,azar,,,
+azar_grandes,2026-01-13,compra,BA.L,41,23.8692,2.0,azar,,,
+rebote,2026-01-15,compra,DGE.L,51,19.4712,2.0,"rebote, caída 60 % desde máximo 5 años",,,
+puntuacion_fija,2026-01-23,venta,INTC,29,39.8652,2.0,stop fase 2,165.37,17.16,2026-01-06
+rebote,2026-01-23,compra,VOW3.DE,9,104.1,2.0,"rebote, caída 57 % desde máximo 5 años",,,
+rebote,2026-01-23,compra,RI.PA,13,76.0,2.0,"rebote, caída 65 % desde máximo 5 años",,,
+puntuacion_fija,2026-01-27,compra,9984.T,48,22.4314,2.0,"puntuación 0.95, tamaño x1.00",,,
+puntuacion_fija,2026-01-30,venta,K.TO,39,28.4651,2.0,stop fase 2,127.14,13.4,2026-01-06
+momentum,2026-01-30,venta,K.TO,39,28.4651,2.0,stop fase 2,127.14,13.4,2026-01-06
+momentum,2026-02-03,compra,005930.KS,11,92.2146,2.0,momentum 12-1: +110 %,,,
+puntuacion_fija,2026-02-03,compra,NEM,10,100.6805,2.0,"puntuación 0.94, tamaño x1.00",,,
+momentum,2026-02-04,venta,IDR.MC,18,47.12,2.0,stop fase 1,-135.04,-13.38,2026-01-06
+momentum,2026-02-04,venta,MU,3,332.5293,2.0,stop fase 2,178.53,22.39,2026-01-06
+maximo_52s,2026-02-04,venta,IDR.MC,18,47.12,2.0,stop fase 1,-135.04,-13.38,2026-01-06
+maximo_52s,2026-02-04,venta,MU,3,332.5293,2.0,stop fase 2,160.25,19.71,2026-01-05
+puntuacion_fija,2026-02-04,venta,MU,3,332.5293,2.0,stop fase 2,178.53,22.39,2026-01-06
+puntuacion_fija,2026-02-04,venta,IDR.MC,18,47.12,2.0,stop fase 1,-135.04,-13.38,2026-01-06
+puntuacion_fija,2026-02-04,venta,AMD,5,176.7341,2.0,stop fase 1,-70.87,-7.03,2026-01-06
+maximo_52s,2026-02-05,compra,DHL.DE,20,49.61,2.0,"máximo 52 semanas, volumen x3.0",,,
+maximo_52s,2026-02-05,compra,DSV.CO,4,244.4593,2.0,"máximo 52 semanas, volumen x3.3",,,
+momentum,2026-02-10,compra,RR.L,70,14.7487,2.0,momentum 12-1: +107 %,,,
+momentum,2026-02-10,compra,LDO.MI,19,54.76,2.0,momentum 12-1: +99 %,,,
+puntuacion_fija,2026-02-10,compra,INTC,24,42.3469,2.0,"puntuación 0.98, tamaño x1.00",,,
+puntuacion_fija,2026-02-10,compra,LDO.MI,18,54.76,2.0,"puntuación 0.94, tamaño x1.00",,,
+puntuacion_fija,2026-02-10,compra,ABX.TO,26,39.0684,2.0,"puntuación 0.93, tamaño x1.00",,,
+azar_grandes,2026-02-12,venta,INFY.NS,64,12.8971,2.0,stop fase 1,-171.32,-16.85,2026-01-02
+tendencia_200,2026-02-12,venta,INFY.NS,64,12.8971,2.0,stop fase 1,-171.32,-16.85,2026-01-02
+puntuacion_fija,2026-02-12,venta,INFY.NS,64,12.8971,2.0,stop fase 1,-171.32,-16.85,2026-01-02
+baja_volatilidad,2026-02-12,venta,INFY.NS,64,12.8971,2.0,stop fase 1,-171.32,-16.85,2026-01-02
+azar_grandes,2026-02-13,venta,TCS.NS,32,24.0642,2.0,stop fase 1,-197.81,-21.52,2026-01-02
+tendencia_200,2026-02-13,compra,AIR.PA,5,190.0,2.0,cruza media 200,,,
+baja_volatilidad,2026-02-13,venta,TCS.NS,32,24.0642,2.0,stop fase 1,-197.81,-21.52,2026-01-02
+baja_volatilidad,2026-02-17,compra,RED.MC,46,16.1,2.0,volatilidad 18 % anual,,,
+puntuacion_fija,2026-02-17,compra,BAYN.DE,22,45.9,2.0,"puntuación 0.94, tamaño x1.00",,,
+azar_grandes,2026-02-17,compra,IBE.MC,48,20.19,2.0,azar,,,
+azar_grandes,2026-02-17,compra,ACX.MC,72,13.34,2.0,azar,,,
+baja_volatilidad,2026-02-17,compra,IBE.MC,48,20.19,2.0,volatilidad 17 % anual,,,
+puntuacion_fija,2026-02-24,compra,MU,2,363.9356,2.0,"puntuación 1.00, tamaño x1.00",,,
+momentum,2026-02-24,compra,MU,2,363.9356,2.0,momentum 12-1: +244 %,,,
+puntuacion_fija,2026-03-02,venta,9988.HK,60,14.8871,2.0,stop fase 1,-103.64,-10.04,2026-01-06
+puntuacion_fija,2026-03-03,compra,AMD,6,163.6792,2.0,"puntuación 0.98, tamaño x1.00",,,
+puntuacion_fija,2026-03-03,venta,BAYN.DE,22,39.452,2.0,stop fase 1,-145.86,-14.05,2026-02-17
+maximo_52s,2026-03-03,venta,005930.KS,12,116.4136,2.0,stop fase 2,434.52,45.75,2026-01-06
+momentum,2026-03-03,venta,005930.KS,11,116.4136,2.0,stop fase 2,262.19,26.24,2026-02-03
+maximo_52s,2026-03-04,compra,REP.MC,51,20.2,2.0,"máximo 52 semanas, volumen x2.5",,,
+puntuacion_fija,2026-03-04,venta,9984.T,48,21.1712,2.0,stop fase 1,-64.49,-5.62,2026-01-27
+momentum,2026-03-09,venta,CBK.DE,27,29.52,2.0,stop fase 1,-203.26,-20.0,2026-01-06
+momentum,2026-03-10,compra,K.TO,36,28.511,2.0,momentum 12-1: +157 %,,,
+puntuacion_fija,2026-03-10,compra,K.TO,34,28.511,2.0,"puntuación 0.97, tamaño x1.00",,,
+puntuacion_fija,2026-03-10,compra,005930.KS,8,110.2103,2.0,"puntuación 0.96, tamaño x1.00",,,
+momentum,2026-03-10,compra,INTC,26,39.0885,2.0,momentum 12-1: +113 %,,,
+rebote,2026-03-12,venta,GRF.MC,88,9.34,2.0,stop fase 1,-176.48,-17.35,2026-01-05
+rebote,2026-03-12,venta,DGE.L,51,17.1576,2.0,stop fase 1,-121.99,-11.88,2026-01-15
+rebote,2026-03-12,venta,RI.PA,13,69.472,2.0,stop fase 1,-88.86,-8.59,2026-01-23
+tendencia_200,2026-03-12,venta,GRF.MC,88,9.34,2.0,stop fase 1,-176.48,-17.35,2026-01-05
+tendencia_200,2026-03-13,compra,G.MI,28,33.6,2.0,cruza media 200,,,
+momentum,2026-03-18,venta,ABX.TO,25,35.2013,2.0,stop fase 1,-95.14,-10.21,2026-01-06
+momentum,2026-03-19,venta,NEM,11,83.9114,2.0,stop fase 1,-61.16,-6.07,2026-01-06
+baja_volatilidad,2026-03-19,venta,HDFCBANK.NS,106,7.218,2.0,stop fase 1,-235.08,-23.2,2026-01-02
+puntuacion_fija,2026-03-19,venta,ABX.TO,26,32.5766,2.0,stop fase 1,-163.52,-16.62,2026-02-10
+puntuacion_fija,2026-03-19,venta,NEM,10,83.9114,2.0,stop fase 1,-169.47,-16.66,2026-02-03
+maximo_52s,2026-03-19,venta,FCX,20,45.7762,2.0,stop fase 1,-42.11,-4.26,2026-01-06
+puntuacion_fija,2026-03-19,venta,K.TO,34,22.8088,2.0,stop fase 1,-196.71,-20.0,2026-03-10
+momentum,2026-03-19,venta,K.TO,36,22.8088,2.0,stop fase 1,-208.05,-20.0,2026-03-10
+azar_grandes,2026-03-19,venta,HDFCBANK.NS,106,7.218,2.0,stop fase 1,-235.08,-23.2,2026-01-02
+tendencia_200,2026-03-20,venta,AIR.PA,5,160.52,2.0,stop fase 1,-151.4,-15.52,2026-02-13
+maximo_52s,2026-03-20,compra,TTE.PA,13,77.98,2.0,"máximo 52 semanas, volumen x2.7",,,
+rebote,2026-03-20,venta,NKE,18,45.4616,2.0,stop fase 1,-163.7,-16.86,2026-01-06
+momentum,2026-03-20,venta,GLE.PA,14,61.28,2.0,stop fase 1,-129.44,-12.76,2026-01-06
+rebote,2026-03-20,venta,VOW3.DE,9,84.8,2.0,stop fase 1,-177.7,-18.54,2026-01-23
+momentum,2026-03-24,compra,AEM.TO,6,157.2987,2.0,momentum 12-1: +100 %,,,
+tendencia_200,2026-03-24,compra,AVGO,2,275.6928,2.0,cruza media 200,,,
+baja_volatilidad,2026-03-24,compra,RY.TO,5,138.5375,2.0,volatilidad 16 % anual,,,
+maximo_52s,2026-03-24,venta,DSV.CO,4,203.7382,2.0,stop fase 1,-163.14,-16.66,2026-02-05
+puntuacion_fija,2026-03-24,compra,9984.T,46,19.5564,2.0,"puntuación 0.98, tamaño x1.00",,,
+puntuacion_fija,2026-03-24,compra,IDR.MC,18,48.84,2.0,"puntuación 0.95, tamaño x1.00",,,
+puntuacion_fija,2026-03-24,compra,8035.T,20,42.788,2.0,"puntuación 0.95, tamaño x1.00",,,
+momentum,2026-03-24,compra,IDR.MC,19,48.84,2.0,momentum 12-1: +97 %,,,
+azar_grandes,2026-03-24,compra,NEM,11,83.8106,2.0,azar,,,
+momentum,2026-03-24,compra,CAT,1,597.7364,2.0,momentum 12-1: +109 %,,,
+momentum,2026-03-24,compra,005930.KS,8,113.3609,2.0,momentum 12-1: +225 %,,,
+puntuacion_fija,2026-03-25,venta,MU,2,321.1885,2.0,stop fase 1,-89.49,-11.75,2026-02-24
+momentum,2026-03-25,venta,MU,2,321.1885,2.0,stop fase 1,-89.49,-11.75,2026-02-24
+puntuacion_fija,2026-03-27,venta,SAAB-B.ST,17,54.5085,2.0,stop fase 1,-22.73,-1.98,2026-01-07
+momentum,2026-03-27,venta,SAAB-B.ST,17,54.5085,2.0,stop fase 1,-22.73,-1.98,2026-01-07
+momentum,2026-03-31,compra,ACS.MC,8,102.3,2.0,momentum 12-1: +104 %,,,
+momentum,2026-03-31,compra,2330.TW,18,48.3686,2.0,momentum 12-1: +101 %,,,
+puntuacion_fija,2026-03-31,venta,005930.KS,8,97.3662,2.0,stop fase 1,-105.04,-11.65,2026-03-10
+maximo_52s,2026-03-31,compra,1398.HK,1347,0.7508,2.0,"máximo 52 semanas, volumen x1.7",,,
+puntuacion_fija,2026-03-31,compra,WPM.TO,6,110.4224,2.0,"puntuación 0.93, tamaño x1.00",,,
+puntuacion_fija,2026-03-31,compra,AEM.TO,5,171.0608,2.0,"puntuación 0.93, tamaño x1.00",,,
+momentum,2026-03-31,venta,RR.L,70,12.4468,2.0,stop fase 1,-165.13,-15.61,2026-02-10
+momentum,2026-04-06,venta,RELIANCE.NS,66,12.0784,2.0,stop fase 1,-195.6,-19.38,2026-01-02
+baja_volatilidad,2026-04-06,venta,RELIANCE.NS,66,12.0784,2.0,stop fase 1,-195.6,-19.38,2026-01-02
+puntuacion_fija,2026-04-06,venta,RELIANCE.NS,66,12.0784,2.0,stop fase 1,-195.6,-19.38,2026-01-02
+azar_grandes,2026-04-06,venta,RELIANCE.NS,66,12.0784,2.0,stop fase 1,-195.6,-19.38,2026-01-02
+momentum,2026-04-07,compra,K.TO,35,27.2147,2.0,momentum 12-1: +137 %,,,
+azar_grandes,2026-04-07,compra,TXN,4,172.001,2.0,azar,,,
+baja_volatilidad,2026-04-07,compra,CM.TO,10,84.167,2.0,volatilidad 17 % anual,,,
+momentum,2026-04-07,compra,NEM,9,97.91,2.0,momentum 12-1: +121 %,,,
+puntuacion_fija,2026-04-07,compra,K.TO,34,27.2147,2.0,"puntuación 0.94, tamaño x1.00",,,
+puntuacion_fija,2026-04-07,compra,NEM,7,97.91,2.0,"puntuación 0.92, tamaño x1.00",,,
+tendencia_200,2026-04-08,venta,CVX,7,163.7857,2.0,stop fase 2,161.74,15.66,2026-01-05
+tendencia_200,2026-04-08,venta,COP,11,104.3945,2.0,stop fase 2,201.06,20.74,2026-01-05
+tendencia_200,2026-04-09,compra,NVDA,6,155.9605,2.0,cruza media 200,,,
+tendencia_200,2026-04-09,compra,GE,4,262.4501,2.0,cruza media 200,,,
+maximo_52s,2026-04-17,venta,REP.MC,51,19.832,2.0,stop fase 1,-22.77,-1.82,2026-03-04
+maximo_52s,2026-04-20,compra,ABBN.SW,13,80.7174,2.0,"máximo 52 semanas, volumen x1.7",,,
+rebote,2026-04-24,compra,UPS,10,91.9044,2.0,"rebote, caída 55 % desde máximo 5 años",,,
+puntuacion_fija,2026-04-28,venta,9984.T,46,28.7531,2.0,stop fase 2,420.42,47.03,2026-03-24
+puntuacion_fija,2026-04-28,venta,AMD,6,266.0134,2.0,stop fase 2,610.01,62.52,2026-03-03
+puntuacion_fija,2026-04-30,venta,LDO.MI,18,51.36,2.0,stop fase 1,-65.2,-6.21,2026-02-10
+momentum,2026-04-30,venta,LDO.MI,19,51.36,2.0,stop fase 1,-68.6,-6.21,2026-02-10
+rebote,2026-05-01,compra,DIS,10,89.0094,2.0,"rebote, caída 44 % desde máximo 5 años",,,
+puntuacion_fija,2026-05-05,compra,MU,2,521.5387,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-05-05,compra,ABX.TO,32,33.3534,2.0,"puntuación 0.94, tamaño x1.00",,,
+momentum,2026-05-05,compra,MU,2,521.5387,2.0,momentum 12-1: +360 %,,,
+puntuacion_fija,2026-05-06,compra,005930.KS,7,147.0444,2.0,"puntuación 0.98, tamaño x1.00",,,
+rebote,2026-05-07,compra,DGE.L,51,17.934,2.0,"rebote, caída 63 % desde máximo 5 años",,,
+tendencia_200,2026-05-11,venta,TGT,11,100.8877,2.0,stop fase 2,172.76,17.62,2026-01-05
+puntuacion_fija,2026-05-12,venta,INTC,24,98.9867,2.38,stop fase 2,1354.98,133.75,2026-02-10
+momentum,2026-05-12,venta,INTC,26,98.9867,2.57,stop fase 2,1552.78,153.24,2026-03-10
+momentum,2026-05-12,venta,MU,2,608.2127,2.0,stop fase 2,169.35,16.62,2026-05-05
+tendencia_200,2026-05-12,compra,NWG.L,164,6.6117,2.0,cruza media 200,,,
+puntuacion_fija,2026-05-12,venta,MU,2,608.2127,2.0,stop fase 2,169.35,16.62,2026-05-05
+azar_grandes,2026-05-13,venta,ICICIBANK.NS,78,10.9497,2.0,stop fase 1,-139.49,-13.69,2026-01-02
+baja_volatilidad,2026-05-13,venta,ICICIBANK.NS,78,10.9497,2.0,stop fase 1,-139.49,-13.69,2026-01-02
+azar_grandes,2026-05-14,venta,BA.L,41,21.5926,2.0,stop fase 1,-86.56,-9.54,2026-01-13
+rebote,2026-05-15,compra,VOW3.DE,10,88.72,2.0,"rebote, caída 63 % desde máximo 5 años",,,
+momentum,2026-05-18,venta,005930.KS,8,152.7917,2.0,stop fase 2,313.16,34.78,2026-03-24
+puntuacion_fija,2026-05-19,venta,8035.T,20,51.3184,2.0,stop fase 2,174.52,19.94,2026-03-24
+baja_volatilidad,2026-05-19,compra,BRK-B,2,417.8411,2.0,volatilidad 16 % anual,,,
+azar_grandes,2026-05-19,compra,LSEG.L,9,106.9288,2.0,azar,,,
+azar_grandes,2026-05-19,compra,JNJ,4,196.4282,2.0,azar,,,
+momentum,2026-05-19,venta,K.TO,35,23.7368,2.0,stop fase 1,-125.73,-12.78,2026-04-07
+momentum,2026-05-19,venta,ACS.MC,8,124.8,2.0,stop fase 2,176.0,21.99,2026-03-31
+puntuacion_fija,2026-05-19,compra,9984.T,37,30.5698,2.0,"puntuación 0.97, tamaño x1.00",,,
+momentum,2026-05-19,venta,AEM.TO,6,149.6553,2.0,stop fase 1,-49.86,-4.86,2026-03-24
+momentum,2026-05-19,compra,GLEN.L,179,6.5266,2.0,momentum 12-1: +100 %,,,
+momentum,2026-05-19,compra,AMD,3,354.0067,2.0,momentum 12-1: +130 %,,,
+rebote,2026-05-19,compra,GRF.MC,99,9.2,2.0,"rebote, caída 61 % desde máximo 5 años",,,
+puntuacion_fija,2026-05-19,venta,K.TO,34,23.7368,2.0,stop fase 1,-122.25,-12.78,2026-04-07
+puntuacion_fija,2026-05-19,venta,AEM.TO,5,149.6553,2.0,stop fase 1,-111.03,-12.51,2026-03-31
+momentum,2026-05-19,compra,GOOGL,3,340.5877,2.0,momentum 12-1: +98 %,,,
+puntuacion_fija,2026-05-19,compra,AMD,3,354.0067,2.0,"puntuación 0.99, tamaño x1.00",,,
+rebote,2026-05-21,compra,BAYN.DE,23,39.04,2.0,"rebote, caída 42 % desde máximo 5 años",,,
+rebote,2026-05-25,compra,RI.PA,14,65.1,2.0,"rebote, caída 70 % desde máximo 5 años",,,
+momentum,2026-05-26,compra,9984.T,31,37.9628,2.0,momentum 12-1: +123 %,,,
+puntuacion_fija,2026-05-26,compra,IFX.DE,15,76.8,2.0,"puntuación 0.88, tamaño x1.00",,,
+puntuacion_fija,2026-05-26,compra,NOKIA.HE,89,13.385,2.0,"puntuación 0.94, tamaño x1.00",,,
+momentum,2026-05-26,compra,ABX.TO,33,35.6402,2.0,momentum 12-1: +109 %,,,
+tendencia_200,2026-05-27,venta,NVDA,6,181.09,2.0,stop fase 2,146.78,16.11,2026-04-09
+rebote,2026-05-28,compra,NKE,23,39.5682,2.0,"rebote, caída 74 % desde máximo 5 años",,,
+puntuacion_fija,2026-05-28,venta,9984.T,37,38.157,2.0,stop fase 2,276.72,24.82,2026-05-19
+tendencia_200,2026-05-28,compra,AD.AS,30,36.51,2.0,cruza media 200,,,
+azar_grandes,2026-06-01,venta,TXN,4,251.2602,2.0,stop fase 2,317.89,46.08,2026-04-07
+puntuacion_fija,2026-06-02,compra,MU,1,902.412,2.0,"puntuación 1.00, tamaño x1.00",,,
+momentum,2026-06-02,compra,MU,1,902.412,2.0,momentum 12-1: +414 %,,,
+puntuacion_fija,2026-06-02,compra,INTC,13,92.3468,2.0,"puntuación 1.00, tamaño x1.00",,,
+tendencia_200,2026-06-04,venta,AVGO,2,352.2917,2.0,stop fase 2,149.2,27.78,2026-03-24
+momentum,2026-06-05,venta,AMD,3,420.1204,2.0,stop fase 2,194.34,18.68,2026-05-19
+puntuacion_fija,2026-06-05,venta,AMD,3,420.1204,2.0,stop fase 2,194.34,18.68,2026-05-19
+tendencia_200,2026-06-05,compra,K.TO,46,24.0089,2.0,cruza media 200,,,
+puntuacion_fija,2026-06-05,venta,005930.KS,7,184.6256,2.0,stop fase 2,259.07,25.56,2026-05-06
+puntuacion_fija,2026-06-05,venta,WPM.TO,6,103.469,2.0,stop fase 1,-44.72,-6.3,2026-03-31
+momentum,2026-06-08,venta,9984.T,31,36.1388,2.0,stop fase 1,-60.54,-4.8,2026-05-26
+momentum,2026-06-09,venta,NEM,9,82.7285,2.0,stop fase 1,-138.62,-15.51,2026-04-07
+momentum,2026-06-09,venta,MU,1,743.1155,2.0,stop fase 1,-163.3,-17.65,2026-06-02
+puntuacion_fija,2026-06-09,venta,NEM,7,82.7285,2.0,stop fase 1,-108.71,-15.51,2026-04-07
+puntuacion_fija,2026-06-09,venta,MU,1,743.1155,2.0,stop fase 1,-163.3,-17.65,2026-06-02
+puntuacion_fija,2026-06-09,compra,K.TO,52,22.7242,2.0,"puntuación 0.95, tamaño x1.00",,,
+puntuacion_fija,2026-06-09,compra,8035.T,19,61.9551,2.0,"puntuación 0.95, tamaño x1.00",,,
+momentum,2026-06-09,compra,005930.KS,6,176.1654,2.0,momentum 12-1: +337 %,,,
+azar_grandes,2026-06-09,venta,NEM,11,82.7285,2.0,stop fase 1,-13.45,-1.29,2026-03-24
+azar_grandes,2026-06-09,venta,ERIC-B.ST,118,10.5832,2.0,stop fase 2,267.93,25.75,2026-01-07
+azar_grandes,2026-06-09,compra,ITX.MC,18,54.58,2.0,azar,,,
+momentum,2026-06-09,compra,INTC,11,98.0098,2.0,momentum 12-1: +433 %,,,
+momentum,2026-06-10,venta,GLEN.L,179,5.6917,2.0,stop fase 1,-153.44,-12.79,2026-05-19
+puntuacion_fija,2026-06-10,venta,NOKIA.HE,89,11.748,2.0,stop fase 1,-149.69,-12.23,2026-05-26
+azar_grandes,2026-06-15,venta,LSEG.L,9,87.2027,2.0,stop fase 1,-181.54,-18.45,2026-05-19
+momentum,2026-06-16,compra,NOKIA.HE,92,12.69,2.0,momentum 12-1: +158 %,,,
+puntuacion_fija,2026-06-16,compra,9984.T,32,38.5009,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-06-16,compra,FCX,20,60.8753,2.0,"puntuación 0.92, tamaño x1.00",,,
+puntuacion_fija,2026-06-16,compra,AVGO,3,336.5561,2.0,"puntuación 0.91, tamaño x1.00",,,
+momentum,2026-06-16,compra,ACS.MC,9,125.0,2.0,momentum 12-1: +137 %,,,
+momentum,2026-06-16,compra,RIO.AX,10,114.7062,2.0,momentum 12-1: +97 %,,,
+azar_grandes,2026-06-16,compra,SU.PA,3,273.25,2.0,azar,,,
+azar_grandes,2026-06-16,compra,SHOP.TO,10,96.805,2.0,azar,,,
+azar_grandes,2026-06-16,compra,6861.T,2,406.117,2.0,azar,,,
+baja_volatilidad,2026-06-17,venta,ORA.PA,69,16.866,2.0,stop fase 2,195.13,16.88,2026-01-06
+azar_grandes,2026-06-17,venta,ORA.PA,69,16.866,2.0,stop fase 2,195.13,16.88,2026-01-06
+rebote,2026-06-22,compra,CSL.AX,12,71.0223,2.0,"rebote, caída 66 % desde máximo 5 años",,,
+puntuacion_fija,2026-06-23,compra,AMD,2,445.501,2.0,"puntuación 0.99, tamaño x1.00",,,
+baja_volatilidad,2026-06-23,compra,DUK,9,109.17,2.0,volatilidad 16 % anual,,,
+azar_grandes,2026-06-23,compra,CNR.TO,10,99.9277,2.0,azar,,,
+puntuacion_fija,2026-06-24,venta,8035.T,19,75.6797,2.0,stop fase 2,256.77,22.15,2026-06-09
+puntuacion_fija,2026-06-24,venta,ABX.TO,32,32.0002,2.0,stop fase 1,-42.5,-4.06,2026-05-05
+puntuacion_fija,2026-06-25,venta,INTC,13,110.6592,2.0,stop fase 2,234.06,19.83,2026-06-02
+momentum,2026-06-25,venta,INTC,11,110.6592,2.0,stop fase 2,135.14,12.91,2026-06-09
+maximo_52s,2026-06-29,venta,ACX.MC,76,15.282,2.0,stop fase 2,182.35,16.3,2026-01-05
+azar_grandes,2026-06-29,venta,ACX.MC,72,15.282,2.0,stop fase 2,135.82,14.56,2026-02-17
+rebote,2026-06-29,venta,VOW3.DE,10,74.048,2.0,stop fase 1,-98.12,-16.54,2026-05-15
+puntuacion_fija,2026-06-30,compra,005930.KS,6,183.7786,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-06-30,compra,NOKIA.HE,99,11.65,2.0,"puntuación 0.96, tamaño x1.00",,,
+puntuacion_fija,2026-06-30,venta,9984.T,32,31.3181,2.0,stop fase 1,-233.85,-18.66,2026-06-16
+momentum,2026-06-30,compra,MU,1,1002.2111,2.0,momentum 12-1: +637 %,,,
+puntuacion_fija,2026-06-30,compra,MU,1,1002.2111,2.0,"puntuación 1.00, tamaño x1.00",,,
+azar_grandes,2026-06-30,compra,CFR.SW,4,205.7676,2.0,azar,,,
+maximo_52s,2026-07-01,compra,CS.PA,26,43.71,2.0,"máximo 52 semanas, volumen x1.9",,,
+momentum,2026-07-02,venta,005930.KS,6,164.2231,2.0,stop fase 1,-74.37,-6.78,2026-06-09
+momentum,2026-07-02,venta,CAT,1,839.088,2.0,stop fase 2,238.64,40.38,2026-03-24
+momentum,2026-07-07,venta,MU,1,806.7016,2.0,stop fase 1,-199.38,-19.51,2026-06-30
+momentum,2026-07-07,compra,AMD,2,450.9002,2.0,momentum 12-1: +298 %,,,
+momentum,2026-07-07,compra,9984.T,34,32.1483,2.0,momentum 12-1: +199 %,,,
+puntuacion_fija,2026-07-07,venta,IFX.DE,15,70.4,2.0,stop fase 1,-100.0,-8.33,2026-05-26
+puntuacion_fija,2026-07-07,venta,MU,1,806.7016,2.0,stop fase 1,-199.38,-19.51,2026-06-30
+puntuacion_fija,2026-07-07,compra,NEM,13,83.9642,2.0,"puntuación 0.93, tamaño x1.00",,,
+momentum,2026-07-08,venta,NOKIA.HE,92,10.152,2.0,stop fase 1,-237.5,-20.0,2026-06-16
+puntuacion_fija,2026-07-13,venta,005930.KS,6,151.7949,2.0,stop fase 1,-195.9,-17.4,2026-06-30
+puntuacion_fija,2026-07-14,compra,INTC,11,94.8496,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-07-14,compra,8035.T,14,75.5105,2.0,"puntuación 0.97, tamaño x1.00",,,
+momentum,2026-07-14,compra,INTC,11,94.8496,2.0,momentum 12-1: +357 %,,,
+rebote,2026-07-15,venta,BAYN.DE,23,48.024,2.0,stop fase 2,202.63,23.01,2026-05-21
+puntuacion_fija,2026-07-16,venta,NOKIA.HE,99,9.32,2.0,stop fase 1,-234.67,-20.0,2026-06-30
+tendencia_200,2026-07-16,venta,GE,4,298.6187,2.0,stop fase 2,142.32,13.78,2026-04-09
+momentum,2026-07-17,venta,9984.T,34,28.4473,2.0,stop fase 1,-129.83,-11.51,2026-07-07
+momentum,2026-07-17,venta,2330.TW,18,62.1613,2.0,stop fase 2,247.23,28.52,2026-03-31
+maximo_52s,2026-07-17,venta,2330.TW,22,62.1613,2.0,stop fase 2,389.39,39.35,2026-01-06
+puntuacion_fija,2026-07-17,venta,AMD,2,406.8694,2.0,stop fase 1,-81.26,-8.67,2026-06-23
+tendencia_200,2026-07-17,compra,VZ,28,39.0051,2.0,cruza media 200,,,
+puntuacion_fija,2026-07-21,compra,CAT,1,777.2638,2.0,"puntuación 0.90, tamaño x1.00",,,
+puntuacion_fija,2026-07-21,compra,ABX.TO,33,31.1558,2.0,"puntuación 0.93, tamaño x1.00",,,
+momentum,2026-07-21,compra,005930.KS,7,146.7304,2.0,momentum 12-1: +421 %,,,
+momentum,2026-07-21,compra,CAT,1,777.2638,2.0,momentum 12-1: +129 %,,,
+maximo_52s,2026-07-24,compra,UNP,4,267.6406,2.0,"máximo 52 semanas, volumen x2.6",,,
+momentum,2026-07-28,venta,AMD,2,390.3579,2.0,stop fase 1,-125.08,-13.43,2026-07-07
+puntuacion_fija,2026-07-28,compra,MU,1,738.479,2.0,"puntuación 1.00, tamaño x1.00",,,
+puntuacion_fija,2026-07-28,venta,INTC,11,75.8797,2.0,stop fase 1,-212.67,-20.0,2026-07-14
+puntuacion_fija,2026-07-28,venta,8035.T,14,60.7229,2.0,stop fase 1,-211.03,-19.58,2026-07-14
+momentum,2026-07-28,compra,MU,1,738.479,2.0,momentum 12-1: +1026 %,,,
+momentum,2026-07-28,venta,ACS.MC,9,107.44,2.0,stop fase 1,-145.25,-14.05,2026-06-16
+momentum,2026-07-28,venta,INTC,11,75.8797,2.0,stop fase 1,-212.67,-20.0,2026-07-14
+momentum,2026-07-29,venta,005930.KS,7,128.2965,2.0,stop fase 1,-133.04,-12.56,2026-07-21
+puntuacion_fija,2026-08-04,compra,005930.KS,6,148.7805,2.0,"puntuación 0.99, tamaño x1.00",,,
+momentum,2026-08-04,compra,NOKIA.HE,121,8.324,2.0,momentum 12-1: +211 %,,,
+momentum,2026-08-04,compra,IFX.DE,15,63.52,2.0,momentum 12-1: +129 %,,,
+momentum,2026-08-04,compra,8035.T,16,61.6508,2.0,momentum 12-1: +144 %,,,
+puntuacion_fija,2026-08-04,compra,AMD,2,437.981,2.0,"puntuación 0.98, tamaño x1.00",,,
+momentum,2026-08-18,compra,INTC,12,85.6616,2.0,momentum 12-1: +308 %,,,
+azar_grandes,2026-08-20,venta,SHOP.TO,10,123.7696,2.0,stop fase 2,265.65,27.85,2026-06-16
+azar_grandes,2026-08-25,compra,1398.HK,1280,0.8248,2.0,azar,,,
+tendencia_200,2026-08-28,venta,DG.PA,8,113.88,2.0,stop fase 1,-36.16,-6.54,2026-01-05
+rebote,2026-08-28,compra,VOW3.DE,13,75.3,2.0,"rebote, caída 64 % desde máximo 5 años",,,
+rebote,2026-08-28,compra,BMW.DE,16,60.74,2.0,"rebote, caída 48 % desde máximo 5 años",,,
+puntuacion_fija,2026-09-01,venta,ABX.TO,33,37.4778,2.0,stop fase 2,209.6,20.29,2026-07-21
+baja_volatilidad,2026-09-01,venta,CM.TO,10,96.2409,2.0,stop fase 2,123.36,14.35,2026-04-07
+puntuacion_fija,2026-09-01,venta,K.TO,52,25.5403,2.0,stop fase 2,144.21,12.39,2026-06-09
+tendencia_200,2026-09-01,compra,SSE.L,41,28.4801,2.0,cruza media 200,,,
+momentum,2026-09-03,venta,IDR.MC,19,58.302,2.0,stop fase 2,181.48,19.37,2026-03-24
+puntuacion_fija,2026-09-03,venta,AVGO,3,296.9339,2.0,stop fase 1,-121.17,-11.77,2026-06-16
+puntuacion_fija,2026-09-03,venta,IDR.MC,18,58.302,2.0,stop fase 2,171.72,19.37,2026-03-24
+momentum,2026-09-08,compra,005930.KS,6,174.0856,2.0,momentum 12-1: +219 %,,,
+baja_volatilidad,2026-09-08,compra,AI.PA,6,169.84,2.0,volatilidad 17 % anual,,,
+puntuacion_fija,2026-09-08,compra,IFX.DE,19,59.56,2.0,"puntuación 0.96, tamaño x1.00",,,
+puntuacion_fija,2026-09-08,compra,NOKIA.HE,126,9.05,2.0,"puntuación 0.98, tamaño x1.00",,,
+puntuacion_fija,2026-09-08,compra,8035.T,18,61.9239,2.0,"puntuación 0.99, tamaño x1.00",,,
+rebote,2026-09-08,venta,NKE,23,32.6186,2.0,stop fase 1,-147.63,-17.56,2026-05-28
+puntuacion_fija,2026-09-15,compra,INTC,12,85.5779,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-09-16,venta,NEM,13,104.2359,2.0,stop fase 2,262.45,24.14,2026-07-07
+maximo_52s,2026-09-17,venta,GS,1,806.7254,2.0,stop fase 1,4.29,-0.46,2026-01-06
+tendencia_200,2026-09-21,venta,CNR.TO,11,102.9992,2.0,stop fase 2,205.43,20.22,2026-01-05
+rebote,2026-09-21,venta,UPS,10,82.2882,2.0,stop fase 1,-71.87,-10.46,2026-04-24
+maximo_52s,2026-09-22,compra,AMD,2,529.0807,2.0,"máximo 52 semanas, volumen x1.9",,,
+tendencia_200,2026-09-22,compra,BARC.L,213,5.5029,2.0,cruza media 200,,,
+baja_volatilidad,2026-09-23,venta,KPN.AS,251,3.8952,2.0,stop fase 1,26.92,-1.66,2026-01-06
+tendencia_200,2026-09-24,venta,K.TO,46,22.8775,2.0,stop fase 1,-54.47,-4.71,2026-06-05
+tendencia_200,2026-09-25,compra,HEIA.AS,16,71.1,2.0,cruza media 200,,,
+baja_volatilidad,2026-09-29,compra,CS.PA,23,43.85,2.0,volatilidad 18 % anual,,,
+puntuacion_fija,2026-09-29,venta,INTC,12,100.7312,2.0,stop fase 2,177.84,17.71,2026-09-15
+puntuacion_fija,2026-09-29,compra,IDR.MC,19,60.22,2.0,"puntuación 0.92, tamaño x1.00",,,
+momentum,2026-09-29,venta,INTC,12,100.7312,2.0,stop fase 2,176.84,17.59,2026-08-18
+baja_volatilidad,2026-10-01,venta,RY.TO,5,171.411,2.0,stop fase 2,170.97,23.73,2026-03-24
+tendencia_200,2026-10-01,venta,NWG.L,164,7.6028,2.0,stop fase 2,181.59,14.99,2026-05-12
+tendencia_200,2026-10-02,compra,CAP.PA,10,113.3,2.0,cruza media 200,,,
+tendencia_200,2026-10-02,venta,G.MI,28,41.571,2.0,stop fase 2,265.11,23.72,2026-03-13
+tendencia_200,2026-10-05,compra,RIO.L,13,83.7943,2.0,cruza media 200,,,
+momentum,2026-10-06,compra,AMD,1,577.7276,2.0,momentum 12-1: +172 %,,,
+baja_volatilidad,2026-10-06,compra,ZURN.SW,1,618.5655,2.0,volatilidad 18 % anual,,,
+puntuacion_fija,2026-10-13,venta,MU,1,836.9641,2.0,stop fase 2,94.49,13.34,2026-07-28
+puntuacion_fija,2026-10-13,venta,AMD,2,517.4631,2.0,stop fase 2,154.96,18.15,2026-08-04
+momentum,2026-10-13,venta,MU,1,836.9641,2.0,stop fase 2,94.49,13.34,2026-07-28
+rebote,2026-10-15,compra,PHIA.AS,44,22.56,2.0,"rebote, caída 42 % desde máximo 5 años",,,
+rebote,2026-10-15,venta,VOW3.DE,13,66.48,2.0,stop fase 1,-118.66,-11.71,2026-08-28
+momentum,2026-10-15,venta,IFX.DE,15,50.7,2.0,stop fase 1,-196.3,-20.18,2026-08-04
+momentum,2026-10-15,venta,005930.KS,6,144.4152,2.0,stop fase 1,-164.15,-17.04,2026-09-08
+puntuacion_fija,2026-10-15,venta,005930.KS,6,144.4152,2.0,stop fase 1,-12.32,-2.93,2026-08-04
+puntuacion_fija,2026-10-15,venta,IFX.DE,19,50.7,2.0,stop fase 1,-172.34,-14.88,2026-09-08
+rebote,2026-10-16,compra,NKE,30,33.5945,2.0,"rebote, caída 79 % desde máximo 5 años",,,
+momentum,2026-10-16,venta,8035.T,16,57.8156,2.0,stop fase 1,-57.94,-6.22,2026-08-04
+rebote,2026-10-16,compra,UPS,8,87.8254,2.0,"rebote, caída 58 % desde máximo 5 años",,,
+puntuacion_fija,2026-10-16,venta,8035.T,18,57.8156,2.0,stop fase 1,-69.6,-6.63,2026-09-08
+puntuacion_fija,2026-10-20,compra,INTC,13,80.8949,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-10-20,compra,BAYN.DE,25,43.56,2.0,"puntuación 0.90, tamaño x1.00",,,
+momentum,2026-10-20,compra,REP.MC,33,29.64,2.0,momentum 12-1: +100 %,,,
+puntuacion_fija,2026-10-20,compra,TXN,4,243.1304,2.0,"puntuación 0.89, tamaño x1.00",,,
+puntuacion_fija,2026-10-20,compra,2330.TW,16,65.8888,2.0,"puntuación 0.86, tamaño x1.00",,,
+momentum,2026-10-20,compra,INTC,12,80.8949,2.0,momentum 12-1: +199 %,,,
+momentum,2026-10-20,compra,EQNR.OL,23,41.3615,2.0,momentum 12-1: +93 %,,,
+momentum,2026-10-20,compra,SU.TO,13,70.4951,2.0,momentum 12-1: +83 %,,,
+azar_grandes,2026-10-20,venta,SU.PA,3,242.5,2.0,stop fase 1,-96.25,-11.25,2026-06-16
+puntuacion_fija,2026-10-20,compra,EQNR.OL,27,41.3615,2.0,"puntuación 0.90, tamaño x1.00",,,
+maximo_52s,2026-10-20,venta,ABBN.SW,13,76.4973,2.0,stop fase 1,-58.86,-5.23,2026-04-20
+puntuacion_fija,2026-10-22,venta,CAT,1,627.1012,2.0,stop fase 1,-154.16,-19.32,2026-07-21
+puntuacion_fija,2026-10-22,venta,NOKIA.HE,126,7.6816,2.0,stop fase 1,-176.42,-15.12,2026-09-08
+maximo_52s,2026-10-22,venta,AMD,2,463.1663,2.0,stop fase 1,-135.83,-12.46,2026-09-22
+momentum,2026-10-22,venta,CAT,1,627.1012,2.0,stop fase 1,-154.16,-19.32,2026-07-21
+momentum,2026-10-22,venta,AMD,1,463.1663,2.0,stop fase 1,-118.56,-19.83,2026-10-06
+momentum,2026-10-22,venta,NOKIA.HE,121,7.6816,2.0,stop fase 1,-81.73,-7.72,2026-08-04
+maximo_52s,2026-10-23,compra,PG,8,146.1486,2.0,"máximo 52 semanas, volumen x2.5",,,
+momentum,2026-10-23,venta,ABX.TO,33,33.4791,2.0,stop fase 1,-65.39,-6.06,2026-05-26
+momentum,2026-10-23,venta,RIO.AX,10,91.959,2.0,stop fase 1,-213.31,-19.83,2026-06-16
+maximo_52s,2026-10-26,compra,OR.PA,2,436.05,2.0,"máximo 52 semanas, volumen x3.0",,,
+puntuacion_fija,2026-10-27,compra,NEM,11,99.2231,2.0,"puntuación 0.86, tamaño x1.00",,,
+momentum,2026-10-27,compra,BAYN.DE,21,45.2,2.0,momentum 12-1: +81 %,,,
+momentum,2026-10-27,compra,FCX,16,58.6192,2.0,momentum 12-1: +79 %,,,
+azar_grandes,2026-10-27,compra,DHL.DE,17,58.3,2.0,azar,,,
+momentum,2026-10-27,compra,MRK,7,125.4899,2.0,momentum 12-1: +74 %,,,
+momentum,2026-10-27,compra,TGT,7,132.7837,2.0,momentum 12-1: +70 %,,,
+puntuacion_fija,2026-10-27,compra,WPM.TO,10,110.0409,2.0,"puntuación 0.91, tamaño x1.00",,,
+momentum,2026-10-29,venta,GOOGL,3,257.1592,2.0,stop fase 1,-253.15,-24.5,2026-05-19
+puntuacion_fija,2026-10-30,venta,INTC,13,61.1296,2.0,stop fase 1,-260.95,-24.43,2026-10-20
+momentum,2026-10-30,venta,INTC,12,61.1296,2.0,stop fase 1,-241.18,-24.43,2026-10-20
+momentum,2026-11-03,compra,005930.KS,6,146.5418,2.0,momentum 12-1: +197 %,,,
+puntuacion_fija,2026-11-03,venta,FCX,20,54.7876,2.0,stop fase 1,-120.45,-10.0,2026-06-16
+puntuacion_fija,2026-11-03,compra,005930.KS,5,146.5418,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-11-03,compra,MU,1,768.3389,2.0,"puntuación 1.00, tamaño x1.00",,,
+momentum,2026-11-03,compra,MU,1,768.3389,2.0,momentum 12-1: +395 %,,,
+momentum,2026-11-04,compra,8035.T,13,54.872,2.0,momentum 12-1: +106 %,,,
+momentum,2026-11-05,venta,MU,1,614.6711,2.0,stop fase 1,-157.67,-20.0,2026-11-03
+puntuacion_fija,2026-11-05,venta,MU,1,614.6711,2.0,stop fase 1,-157.67,-20.0,2026-11-03
+azar_grandes,2026-11-06,venta,6861.T,2,370.8836,2.0,stop fase 1,-70.84,-8.68,2026-06-16
+momentum,2026-11-06,venta,8035.T,13,42.4271,2.0,stop fase 1,-165.78,-22.68,2026-11-04
+puntuacion_fija,2026-11-10,compra,AMD,2,448.03,2.0,"puntuación 0.99, tamaño x1.00",,,
+puntuacion_fija,2026-11-10,compra,8035.T,21,50.8193,2.0,"puntuación 0.98, tamaño x1.00",,,
+azar_grandes,2026-11-10,compra,ELE.MC,23,44.5,2.0,azar,,,
+momentum,2026-11-10,compra,AMD,1,448.03,2.0,momentum 12-1: +162 %,,,
+momentum,2026-11-10,compra,TXN,2,257.4301,2.0,momentum 12-1: +80 %,,,

@@ -37,6 +37,7 @@ jobs:
           python ejecutar.py backtest $ARGS
           mv docs/backtest/informe.html docs/backtest/index.html
           rm -f docs/backtest/estado.json
+          python -c "from bolsa.archivo import archivar; archivar('docs/backtest', '${{ github.event.inputs.desde }}')"
       - name: Guardar resultados
         run: |
           git config user.name "simulador-bot"

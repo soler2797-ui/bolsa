@@ -1,0 +1,32 @@
+[
+ {
+  "carpeta": "2026-11-13_1916_desde_2026-01-01",
+  "fecha": "2026-11-13_1916",
+  "desde": "2026-01-01",
+  "nota": "Sin pares ni puntuacion_tamano"
+ },
+ {
+  "carpeta": "2026-11-13_1911_desde_2016-01-01",
+  "fecha": "2026-11-13_1911",
+  "desde": "2016-01-01",
+  "nota": "Sin pares ni puntuacion_tamano"
+ },
+ {
+  "carpeta": "2026-11-13_1842_desde_2022-01-01",
+  "fecha": "2026-11-13_1842",
+  "desde": "2022-01-01",
+  "nota": "Con las estrategias de puntuación"
+ },
+ {
+  "carpeta": "2026-11-13_1759_desde_2022-01-01",
+  "fecha": "2026-11-13_1759",
+  "desde": "2022-01-01",
+  "nota": "Stop 20 % / 10 %, pares con 50.000 € y reglas optimizadas"
+ },
+ {
+  "carpeta": "2026-11-13_1632_desde_2015-01-01",
+  "fecha": "2026-11-13_1632",
+  "desde": "2015-01-01",
+  "nota": "Stop 10 % / 7 %, pares con 10.000 € y reglas iniciales"
+ }
+]
