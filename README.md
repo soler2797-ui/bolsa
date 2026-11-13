@@ -1,0 +1,74 @@
+# Simulador de estrategias de bolsa
+
+Simula con dinero ficticio varias estrategias a la vez, cada una con su propia cartera de 10.000 €, y las compara con índices de referencia. Todo se calcula en euros con el tipo de cambio de cada día, con comisiones (0,1 %, mínimo 2 €) y solo con acciones enteras.
+
+Cada día, después del cierre, el programa descarga los precios de Yahoo Finance, ejecuta las órdenes decididas el día anterior al precio de apertura, comprueba los stops con el mínimo del día y decide las órdenes del día siguiente. Guarda el estado en `estado/estado.json` y genera el informe en `docs/index.html`.
+
+## Estrategias
+
+| Nombre | Qué hace |
+|---|---|
+| pares_largo_corto | Busca pares de acciones del mismo sector y moneda que se mueven juntas (test de cointegración de Engle-Granger sobre 2 años). Cuando se separan más de 2 desviaciones típicas espera a que empiecen a volver por debajo de 2 y entonces compra la que se ha quedado atrás y se pone corto en la otra. Cierra cuando la separación baja de 0,5, si sigue creciendo hasta 4 (stop) o si tarda el doble de lo normal en juntarse (stop por tiempo). Revisa los pares cada mes. |
+| pares_solo_largo | Lo mismo, pero solo compra la que se ha quedado atrás, sin corto. |
+| pequenas_azar | Acciones pequeñas (50 a 2.000 millones de capitalización) que llevan entre 2 y 6 años en bolsa, al azar. Fuera las de menos de 1 € y las que negocian menos de 50.000 € al día. |
+| maximo_52s | Cierre por encima del máximo de 52 semanas con volumen mayor que 1,5 veces la media de 50 sesiones. |
+| momentum | Las que más han subido en 12 meses sin contar el último. |
+| tendencia_200 | El precio cruza por encima de su media de 200 sesiones. |
+| rebote | Caída de más del 40 % desde el máximo de 5 años, precio igual o inferior al de hace 10 años y cruce al alza de la media de 50 sesiones. |
+| baja_volatilidad | Las que menos se han movido en el último año. |
+| azar_grandes | Acciones grandes al azar. Es el grupo de control. |
+| ref_* | Comprar y mantener: MSCI World, S&P 500, MSCI ACWI sin EE. UU., STOXX Europe 600, bonos de EE. UU. 7-10 años y bonos de China. |
+
+Todas las estrategias de selección (de pequenas_azar a azar_grandes) usan el mismo stop dinámico y tienen como máximo 10 posiciones de igual tamaño. Las que se basan en una clasificación (momentum, baja volatilidad y las dos de azar) rellenan los huecos el primer día de cada semana; las que se basan en una señal lo miran cada día. Después de vender una acción no se vuelve a comprar en 10 sesiones.
+
+### El stop dinámico
+
+Al comprar, el stop queda un 10 % por debajo del precio máximo alcanzado desde la compra. Cuando ese stop llega al precio de compra, pasa a estar un 7 % por debajo del máximo. El stop nunca baja. El máximo se actualiza con el precio de cierre.
+
+Ejemplo con compra a 1000: stop en 900. Con la acción a 1111,11 el stop llega a 1000 y pasa a 1033,33. Si después baja a 1090, el stop sigue en 1033,33.
+
+Si el mínimo de un día toca el stop, se vende al precio del stop, o al de apertura si la acción abre ya por debajo.
+
+Los porcentajes, el capital, las comisiones y el resto de parámetros están en `config.py`.
+
+## Las listas de acciones
+
+- `universos/grandes.csv`: 239 empresas grandes de Europa, EE. UU., Canadá, Japón, Hong Kong, Australia, Taiwán, Corea e India, con su sector (el sector se usa para buscar pares). Se puede editar: añadir o quitar filas.
+- `universos/pequenas.csv`: se genera solo con el buscador de acciones de Yahoo Finance (regiones en `config.py`) y se renueva cada 30 días. Para generarla a mano: `python ejecutar.py universo`.
+
+## Puesta en marcha en GitHub
+
+1. Crea una cuenta en github.com.
+2. Crea un repositorio nuevo (botón "New"). Ponle un nombre, por ejemplo `bolsa`.
+3. Sube todos los archivos de esta carpeta: en el repositorio, "Add file" > "Upload files" y arrastra el contenido de la carpeta (las subcarpetas `bolsa` y `universos` incluidas). También puedes usar GitHub Desktop.
+   Comprueba después que existe `.github/workflows/diario.yml`: es el archivo que programa la ejecución diaria.
+4. En el repositorio, ve a Settings > Actions > General y, en "Workflow permissions", marca "Read and write permissions". Así el programa puede guardar el estado cada día.
+5. Ve a la pestaña Actions, elige "Simulacion diaria" y pulsa "Run workflow" para lanzarlo la primera vez. El primer día solo decide qué comprar; las compras se hacen en la apertura siguiente.
+
+A partir de ahí se ejecuta solo de lunes a viernes a las 22:30 UTC (23:30 en España en invierno). Cada ejecución procesa todos los días pendientes, así que si un día falla, al siguiente se pone al día.
+
+### Ver el informe
+
+- Repositorio público: en Settings > Pages, elige "Deploy from a branch", rama `main` y carpeta `/docs`. El informe queda en `https://TU_USUARIO.github.io/bolsa/`.
+- Repositorio privado: GitHub Pages en repositorios privados es de pago. Descarga `docs/index.html` y ábrelo en el navegador.
+
+`estado/historico.csv` tiene el valor diario de cada estrategia y `estado/operaciones.csv` todas las operaciones, para abrirlos en Excel.
+
+## Uso en tu ordenador
+
+```
+pip install -r requirements.txt
+python ejecutar.py backtest --desde 2016-01-01
+```
+
+El backtest prueba las estrategias con datos históricos y deja el informe en `resultados_backtest/informe.html`. Por defecto no incluye las acciones pequeñas, porque la lista es la de hoy: solo contiene empresas que han sobrevivido, y eso infla los resultados. Con `--con-pequenas` se incluyen igualmente. La lista de grandes tiene el mismo problema en menor medida: son las grandes de hoy, no las de 2016.
+
+No ejecutes `python ejecutar.py diario` en tu ordenador si ya lo hace GitHub, porque tendrías dos estados distintos.
+
+## Limitaciones
+
+- Yahoo Finance no tiene una API oficial. La librería yfinance a veces falla durante unos días hasta que la actualizan; el programa reintenta y se pone al día cuando vuelve a funcionar.
+- Los cortos se simulan sin requisitos de garantías y con un coste fijo del 1 % anual. Los dividendos se cobran (y en los cortos se pagan) en efectivo.
+- Las ejecuciones son al precio de apertura o de stop, sin deslizamiento.
+- Los pares se cubren con el mismo importe en euros en cada pata, no con el coeficiente de la regresión.
+- Si una empresa deja de cotizar (fusión, exclusión), su posición se queda valorada al último precio conocido.

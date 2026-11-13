@@ -1,0 +1,240 @@
+ticker,nombre,pais,sector
+SAN.MC,Banco Santander,ES,Banca
+BBVA.MC,BBVA,ES,Banca
+CABK.MC,CaixaBank,ES,Banca
+SAB.MC,Banco Sabadell,ES,Banca
+BKT.MC,Bankinter,ES,Banca
+UNI.MC,Unicaja,ES,Banca
+ITX.MC,Inditex,ES,Distribución
+IBE.MC,Iberdrola,ES,Eléctricas
+ELE.MC,Endesa,ES,Eléctricas
+NTGY.MC,Naturgy,ES,Eléctricas
+RED.MC,Redeia,ES,Eléctricas
+TEF.MC,Telefónica,ES,Telecom
+REP.MC,Repsol,ES,Petróleo
+AMS.MC,Amadeus,ES,Tecnología
+FER.MC,Ferrovial,ES,Infraestructuras
+ACS.MC,ACS,ES,Infraestructuras
+AENA.MC,Aena,ES,Infraestructuras
+CLNX.MC,Cellnex,ES,Telecom
+IAG.MC,IAG,ES,Transporte
+MAP.MC,Mapfre,ES,Seguros
+GRF.MC,Grifols,ES,Farmacia
+ROVI.MC,Rovi,ES,Farmacia
+IDR.MC,Indra,ES,Defensa
+ACX.MC,Acerinox,ES,Industria
+SAP.DE,SAP,DE,Software
+SIE.DE,Siemens,DE,Industria
+ALV.DE,Allianz,DE,Seguros
+MUV2.DE,Munich Re,DE,Seguros
+DTE.DE,Deutsche Telekom,DE,Telecom
+MBG.DE,Mercedes-Benz,DE,Automóvil
+BMW.DE,BMW,DE,Automóvil
+VOW3.DE,Volkswagen,DE,Automóvil
+BAS.DE,BASF,DE,Industria
+BAYN.DE,Bayer,DE,Farmacia
+DBK.DE,Deutsche Bank,DE,Banca
+CBK.DE,Commerzbank,DE,Banca
+IFX.DE,Infineon,DE,Semiconductores
+RWE.DE,RWE,DE,Eléctricas
+EOAN.DE,E.ON,DE,Eléctricas
+RHM.DE,Rheinmetall,DE,Defensa
+ADS.DE,Adidas,DE,Consumo
+DHL.DE,DHL Group,DE,Transporte
+AIR.PA,Airbus,FR,Defensa
+MC.PA,LVMH,FR,Lujo
+RMS.PA,Hermès,FR,Lujo
+KER.PA,Kering,FR,Lujo
+OR.PA,L'Oréal,FR,Consumo
+TTE.PA,TotalEnergies,FR,Petróleo
+SAN.PA,Sanofi,FR,Farmacia
+BNP.PA,BNP Paribas,FR,Banca
+GLE.PA,Société Générale,FR,Banca
+ACA.PA,Crédit Agricole,FR,Banca
+SU.PA,Schneider Electric,FR,Industria
+AI.PA,Air Liquide,FR,Industria
+CS.PA,AXA,FR,Seguros
+DG.PA,Vinci,FR,Infraestructuras
+SAF.PA,Safran,FR,Defensa
+HO.PA,Thales,FR,Defensa
+ENGI.PA,Engie,FR,Eléctricas
+ORA.PA,Orange,FR,Telecom
+BN.PA,Danone,FR,Consumo
+RI.PA,Pernod Ricard,FR,Bebidas
+EL.PA,EssilorLuxottica,FR,Consumo
+CAP.PA,Capgemini,FR,Tecnología
+ENEL.MI,Enel,IT,Eléctricas
+ENI.MI,Eni,IT,Petróleo
+ISP.MI,Intesa Sanpaolo,IT,Banca
+UCG.MI,UniCredit,IT,Banca
+RACE.MI,Ferrari,IT,Lujo
+STLAM.MI,Stellantis,IT,Automóvil
+G.MI,Generali,IT,Seguros
+LDO.MI,Leonardo,IT,Defensa
+ASML.AS,ASML,NL,Semiconductores
+INGA.AS,ING,NL,Banca
+PHIA.AS,Philips,NL,Industria
+AD.AS,Ahold Delhaize,NL,Distribución
+HEIA.AS,Heineken,NL,Bebidas
+KPN.AS,KPN,NL,Telecom
+ABI.BR,AB InBev,BE,Bebidas
+KBC.BR,KBC,BE,Banca
+NOKIA.HE,Nokia,FI,Telecom
+NDA-FI.HE,Nordea,FI,Banca
+SHEL.L,Shell,GB,Petróleo
+BP.L,BP,GB,Petróleo
+AZN.L,AstraZeneca,GB,Farmacia
+GSK.L,GSK,GB,Farmacia
+HSBA.L,HSBC,GB,Banca
+BARC.L,Barclays,GB,Banca
+LLOY.L,Lloyds,GB,Banca
+NWG.L,NatWest,GB,Banca
+ULVR.L,Unilever,GB,Consumo
+DGE.L,Diageo,GB,Bebidas
+BATS.L,British American Tobacco,GB,Consumo
+RIO.L,Rio Tinto,GB,Minería
+AAL.L,Anglo American,GB,Minería
+GLEN.L,Glencore,GB,Minería
+BA.L,BAE Systems,GB,Defensa
+RR.L,Rolls-Royce,GB,Defensa
+NG.L,National Grid,GB,Eléctricas
+SSE.L,SSE,GB,Eléctricas
+VOD.L,Vodafone,GB,Telecom
+LSEG.L,London Stock Exchange Group,GB,Pagos
+REL.L,RELX,GB,Software
+TSCO.L,Tesco,GB,Distribución
+CPG.L,Compass Group,GB,Consumo
+NESN.SW,Nestlé,CH,Consumo
+NOVN.SW,Novartis,CH,Farmacia
+ROG.SW,Roche,CH,Farmacia
+UBSG.SW,UBS,CH,Banca
+ZURN.SW,Zurich Insurance,CH,Seguros
+ABBN.SW,ABB,CH,Industria
+CFR.SW,Richemont,CH,Lujo
+NOVO-B.CO,Novo Nordisk,DK,Farmacia
+DSV.CO,DSV,DK,Transporte
+ERIC-B.ST,Ericsson,SE,Telecom
+VOLV-B.ST,Volvo,SE,Automóvil
+ATCO-A.ST,Atlas Copco,SE,Industria
+SAAB-B.ST,Saab,SE,Defensa
+EQNR.OL,Equinor,NO,Petróleo
+AAPL,Apple,US,Tecnología
+MSFT,Microsoft,US,Software
+NVDA,Nvidia,US,Semiconductores
+GOOGL,Alphabet,US,Tecnología
+AMZN,Amazon,US,Distribución
+META,Meta,US,Tecnología
+AVGO,Broadcom,US,Semiconductores
+TSLA,Tesla,US,Automóvil
+BRK-B,Berkshire Hathaway,US,Seguros
+JPM,JPMorgan,US,Banca
+BAC,Bank of America,US,Banca
+WFC,Wells Fargo,US,Banca
+C,Citigroup,US,Banca
+GS,Goldman Sachs,US,Banca
+MS,Morgan Stanley,US,Banca
+V,Visa,US,Pagos
+MA,Mastercard,US,Pagos
+AXP,American Express,US,Pagos
+PYPL,PayPal,US,Pagos
+LLY,Eli Lilly,US,Farmacia
+JNJ,Johnson & Johnson,US,Farmacia
+MRK,Merck,US,Farmacia
+PFE,Pfizer,US,Farmacia
+ABBV,AbbVie,US,Farmacia
+BMY,Bristol-Myers Squibb,US,Farmacia
+UNH,UnitedHealth,US,Seguros
+XOM,ExxonMobil,US,Petróleo
+CVX,Chevron,US,Petróleo
+COP,ConocoPhillips,US,Petróleo
+PG,Procter & Gamble,US,Consumo
+KO,Coca-Cola,US,Bebidas
+PEP,PepsiCo,US,Bebidas
+WMT,Walmart,US,Distribución
+COST,Costco,US,Distribución
+TGT,Target,US,Distribución
+HD,Home Depot,US,Distribución
+LOW,Lowe's,US,Distribución
+MCD,McDonald's,US,Consumo
+NKE,Nike,US,Consumo
+ORCL,Oracle,US,Software
+CRM,Salesforce,US,Software
+ADBE,Adobe,US,Software
+AMD,AMD,US,Semiconductores
+INTC,Intel,US,Semiconductores
+QCOM,Qualcomm,US,Semiconductores
+TXN,Texas Instruments,US,Semiconductores
+MU,Micron,US,Semiconductores
+CSCO,Cisco,US,Tecnología
+IBM,IBM,US,Tecnología
+T,AT&T,US,Telecom
+VZ,Verizon,US,Telecom
+TMUS,T-Mobile US,US,Telecom
+BA,Boeing,US,Defensa
+LMT,Lockheed Martin,US,Defensa
+RTX,RTX,US,Defensa
+NOC,Northrop Grumman,US,Defensa
+GD,General Dynamics,US,Defensa
+CAT,Caterpillar,US,Industria
+DE,Deere,US,Industria
+GE,GE Aerospace,US,Industria
+HON,Honeywell,US,Industria
+NEE,NextEra Energy,US,Eléctricas
+DUK,Duke Energy,US,Eléctricas
+SO,Southern Company,US,Eléctricas
+NEM,Newmont,US,Oro
+FCX,Freeport-McMoRan,US,Minería
+UPS,UPS,US,Transporte
+UNP,Union Pacific,US,Transporte
+DIS,Disney,US,Consumo
+NFLX,Netflix,US,Tecnología
+RY.TO,Royal Bank of Canada,CA,Banca
+TD.TO,TD Bank,CA,Banca
+BMO.TO,Bank of Montreal,CA,Banca
+BNS.TO,Scotiabank,CA,Banca
+CM.TO,CIBC,CA,Banca
+ENB.TO,Enbridge,CA,Petróleo
+CNQ.TO,Canadian Natural,CA,Petróleo
+SU.TO,Suncor,CA,Petróleo
+CNR.TO,Canadian National Railway,CA,Transporte
+CP.TO,Canadian Pacific Kansas City,CA,Transporte
+SHOP.TO,Shopify,CA,Software
+ABX.TO,Barrick,CA,Oro
+AEM.TO,Agnico Eagle,CA,Oro
+WPM.TO,Wheaton Precious Metals,CA,Oro
+FNV.TO,Franco-Nevada,CA,Oro
+K.TO,Kinross Gold,CA,Oro
+7203.T,Toyota,JP,Automóvil
+7267.T,Honda,JP,Automóvil
+6758.T,Sony,JP,Tecnología
+8306.T,Mitsubishi UFJ,JP,Banca
+8316.T,Sumitomo Mitsui,JP,Banca
+6861.T,Keyence,JP,Industria
+9984.T,SoftBank Group,JP,Telecom
+8035.T,Tokyo Electron,JP,Semiconductores
+9983.T,Fast Retailing,JP,Distribución
+6501.T,Hitachi,JP,Industria
+4063.T,Shin-Etsu Chemical,JP,Industria
+7974.T,Nintendo,JP,Tecnología
+0700.HK,Tencent,HK,Tecnología
+9988.HK,Alibaba,HK,Distribución
+1299.HK,AIA,HK,Seguros
+0005.HK,HSBC Holdings (HK),HK,Banca
+0941.HK,China Mobile,HK,Telecom
+1398.HK,ICBC,HK,Banca
+0939.HK,China Construction Bank,HK,Banca
+3690.HK,Meituan,HK,Tecnología
+BHP.AX,BHP,AU,Minería
+RIO.AX,Rio Tinto (AU),AU,Minería
+CBA.AX,Commonwealth Bank,AU,Banca
+WBC.AX,Westpac,AU,Banca
+NAB.AX,National Australia Bank,AU,Banca
+ANZ.AX,ANZ,AU,Banca
+CSL.AX,CSL,AU,Farmacia
+2330.TW,TSMC,TW,Semiconductores
+005930.KS,Samsung Electronics,KR,Semiconductores
+RELIANCE.NS,Reliance Industries,IN,Petróleo
+HDFCBANK.NS,HDFC Bank,IN,Banca
+ICICIBANK.NS,ICICI Bank,IN,Banca
+INFY.NS,Infosys,IN,Tecnología
+TCS.NS,Tata Consultancy Services,IN,Tecnología
