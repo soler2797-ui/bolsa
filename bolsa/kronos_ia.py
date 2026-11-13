@@ -114,3 +114,96 @@ def distancia_fase2(prevision):
     if prevision <= -cfg["umbral_baja"]:
         return max(0.02, base - cfg["margen_menos"])
     return base
+
+
+# ---------------------------------------------------------------------------
+# Seguimiento: qué predijo Kronos y qué pasó después
+COLUMNAS = ["fecha", "ticker", "precio", "prevision_pct", "horizonte"]
+
+
+def registrar(m, estados, ruta):
+    """Guarda la previsión de hoy para las acciones que tiene alguna estrategia (más SPY como referencia)."""
+    if _cargar() is None:
+        return
+    cfg = config.KRONOS
+    tickers = sorted({t for e in estados.values() for t in e["posiciones"]} - {"SPY"})
+    tickers = ["SPY"] + tickers
+    tickers = [t for t in tickers if t in m.close.columns and m.close[t].notna().sum() > cfg["velas"]]
+    tickers = tickers[:cfg["seguimiento_max"]]
+    previas = pd.read_csv(ruta) if os.path.exists(ruta) else pd.DataFrame(columns=COLUMNAS)
+    hechas = set(zip(previas["fecha"].astype(str), previas["ticker"]))
+    por_fecha = {}
+    for t in tickers:
+        d = m.close[t].dropna().index[-1]
+        if (str(d.date()), t) not in hechas:
+            por_fecha.setdefault(d, []).append(t)
+    filas = []
+    for d, ts in por_fecha.items():
+        res = prever(m, ts, d)
+        for t in ts:
+            if res[t] is not None:
+                filas.append(dict(fecha=str(d.date()), ticker=t, precio=round(float(m.close.at[d, t]), 4),
+                                  prevision_pct=round(res[t], 3), horizonte=cfg["horizonte"]))
+    if filas:
+        pd.concat([previas, pd.DataFrame(filas)], ignore_index=True).to_csv(ruta, index=False)
+        print(f"Kronos: {len(filas)} previsiones guardadas")
+
+
+def evaluar(m, ruta):
+    """Compara cada previsión con lo que hizo el precio en las `horizonte` sesiones siguientes."""
+    if not os.path.exists(ruta):
+        return pd.DataFrame()
+    p = pd.read_csv(ruta)
+    reales = []
+    for x in p.itertuples():
+        real = np.nan
+        if x.ticker in m.close.columns:
+            s = m.close[x.ticker].dropna()
+            i = s.index.searchsorted(pd.Timestamp(x.fecha))
+            if i + x.horizonte < len(s):
+                real = 100 * (s.iloc[i + x.horizonte] / s.iloc[i] - 1)
+        reales.append(real)
+    p["real_pct"] = reales
+    return p
+
+
+def html_seguimiento(p):
+    cfg = config.KRONOS
+    titulo = "<h2>Kronos: qué predijo y qué pasó</h2>"
+    if p is None or p.empty:
+        return titulo + "<p>Todavía no hay previsiones guardadas.</p>"
+    ev = p.dropna(subset=["real_pct"])
+    f = lambda x, d=1: "" if pd.isna(x) else f"{x:.{d}f}".replace(".", ",")
+    texto = (f"<p>Cada día se guarda lo que Kronos prevé para las {cfg['horizonte']} sesiones siguientes en las acciones "
+             f"que tiene alguna estrategia, y el S&P 500 (SPY) como referencia. Previsiones guardadas: {len(p)}; "
+             f"ya comprobables: {len(ev)}.</p>")
+    if len(ev) < 10:
+        return titulo + texto + "<p>Hacen falta al menos 10 previsiones comprobadas para medir el acierto.</p>"
+
+    def fila(nombre, g):
+        if len(g) == 0:
+            return f"<tr><td>{nombre}</td><td>0</td><td></td><td></td><td></td><td></td></tr>"
+        acierto = 100 * (np.sign(g.prevision_pct) == np.sign(g.real_pct)).mean()
+        sube = 100 * (g.real_pct > 0).mean()
+        corr = g.prevision_pct.corr(g.real_pct, method="spearman") if len(g) > 5 else np.nan
+        err = (g.prevision_pct - g.real_pct).abs().mean()
+        return (f"<tr><td>{nombre}</td><td>{len(g)}</td><td>{f(acierto, 0)} %</td><td>{f(sube, 0)} %</td>"
+                f"<td>{f(corr, 2)}</td><td>{f(err)} %</td></tr>")
+
+    filas = (fila("Todas", ev)
+             + fila(f"Prevé subida de {f(cfg['umbral_sube'])} % o más", ev[ev.prevision_pct >= cfg["umbral_sube"]])
+             + fila(f"Prevé bajada de {f(cfg['umbral_baja'])} % o más", ev[ev.prevision_pct <= -cfg["umbral_baja"]])
+             + fila("Entre medias", ev[ev.prevision_pct.abs() < cfg["umbral_sube"]]))
+    ult = ev.sort_values("fecha", ascending=False).head(40)
+    lista = "".join(f"<tr><td>{x.fecha}</td><td>{x.ticker}</td><td>{f(x.prevision_pct)} %</td><td>{f(x.real_pct)} %</td>"
+                    f"<td>{'sí' if np.sign(x.prevision_pct) == np.sign(x.real_pct) else 'no'}</td></tr>"
+                    for x in ult.itertuples())
+    return (titulo + texto +
+            "<p>Acierto de dirección: en qué porcentaje de casos acertó si subiría o bajaría. Para juzgarlo hay que "
+            "compararlo con la columna siguiente, el porcentaje de veces que la acción subió: si sube casi siempre, "
+            "decir siempre 'sube' ya acierta mucho. Correlación (Spearman): si las acciones con mejor previsión "
+            "acabaron mejor que las demás (0 = nada, 1 = perfecto).</p>"
+            "<div class='tabla'><table><tr><th>Previsiones</th><th>N</th><th>Acierta la dirección</th>"
+            "<th>La acción subió</th><th>Correlación</th><th>Error medio</th></tr>" + filas + "</table></div>"
+            "<h3>Últimas previsiones comprobadas</h3><div class='tabla'><table><tr><th>Fecha</th><th>Ticker</th>"
+            "<th>Previsión</th><th>Real</th><th>Acierta la dirección</th></tr>" + lista + "</table></div>")

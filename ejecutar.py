@@ -70,7 +70,14 @@ def diario(mercado=None, carpeta_estado=None, ahora=None):
     if config.KRONOS["activo"]:
         from bolsa import kronos_ia
         kronos_ia.comprobar(m)
-        extra = f"<p>Kronos: {kronos_ia.estado()}.</p>" + extra
+        ruta_k = os.path.join(carpeta_estado, "kronos_previsiones.csv")
+        try:
+            kronos_ia.registrar(m, estados, ruta_k)
+            seguimiento = kronos_ia.html_seguimiento(kronos_ia.evaluar(m, ruta_k))
+        except Exception as e:
+            print(f"  aviso: fallo en el seguimiento de Kronos: {e}")
+            seguimiento = ""
+        extra = f"<p>Kronos: {kronos_ia.estado()}.</p>" + extra + seguimiento
     informe.generar(estados, desc, univ["nombres"], os.path.join(RAIZ, "docs", "index.html"),
                     "Simulación en tiempo real", extra)
     informe.exportar_csv(estados, carpeta_estado)

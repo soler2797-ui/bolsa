@@ -114,6 +114,7 @@ KRONOS = dict(
     umbral_baja=2.0,
     margen_extra=0.03,
     margen_menos=0.02,
+    seguimiento_max=80, # acciones como máximo cuya previsión se guarda cada día para medir el acierto
 )
 
 # Qué estrategias se ejecutan (se pueden comentar las que no interesen)
