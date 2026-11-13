@@ -39,8 +39,31 @@ def _cargar():
     return _predictor
 
 
+_prueba = None
+
+
+def comprobar(m):
+    """Carga el modelo y hace una previsión de prueba, para saber cada día si Kronos funciona."""
+    global _prueba
+    if _cargar() is None:
+        return
+    for t in ("SPY", "IWDA.AS", *m.tickers):
+        if t in m.close.columns and m.close[t].notna().sum() > config.KRONOS["velas"]:
+            d = m.close[t].dropna().index[-1]
+            r = prever(m, [t], d)[t]
+            if r is not None:
+                _prueba = (t, r)
+            return
+
+
 def estado():
-    return "no cargado" if _predictor is None and _error is None else ("funcionando" if _predictor else f"error: {_error}")
+    if _predictor is None and _error is None:
+        return "no cargado"
+    if _error:
+        return f"error: {_error}"
+    if _prueba:
+        return f"funcionando (prueba: prevé {_prueba[1]:+.1f} % para {_prueba[0]} en {config.KRONOS['horizonte']} sesiones)"
+    return "cargado, pero la previsión de prueba ha fallado"
 
 
 def prever(m, tickers, d):

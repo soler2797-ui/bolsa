@@ -69,6 +69,7 @@ def diario(mercado=None, carpeta_estado=None, ahora=None):
     extra = analisis.html_stops(analisis.analizar_stops(estados, m))
     if config.KRONOS["activo"]:
         from bolsa import kronos_ia
+        kronos_ia.comprobar(m)
         extra = f"<p>Kronos: {kronos_ia.estado()}.</p>" + extra
     informe.generar(estados, desc, univ["nombres"], os.path.join(RAIZ, "docs", "index.html"),
                     "Simulación en tiempo real", extra)
