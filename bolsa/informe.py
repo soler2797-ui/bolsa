@@ -40,7 +40,8 @@ def _grafico(estados, descripciones):
         h["fecha"] = pd.to_datetime(h["fecha"])
         y = 100 * h["valor"] / est["capital_inicial"]
         ref = nombre.startswith("ref_")
-        ax.plot(h["fecha"], y, label=nombre, lw=1.2 if ref else 1.8, ls="--" if ref else "-",
+        ax.plot(h["fecha"], y, label=nombre, lw=1.2 if ref else 1.8,
+                ls="--" if ref else (":" if nombre.endswith("_kronos") else "-"),
                 marker="o" if len(h) < 10 else None, ms=3)
         fechas.extend(h["fecha"])
     ax.axhline(100, color="#888", lw=0.8)
@@ -86,7 +87,9 @@ def generar(estados, descripciones, nombres, ruta, titulo="Simulador de estrateg
             pos.append(f"<tr><td>{n}</td><td>{t}</td><td>{html.escape(str(nombres.get(t, '')))}</td>"
                        f"<td>{_fmt(p['acciones'], 0)}</td><td>{_fmt(p['precio_entrada'], 2)}</td>"
                        f"<td>{p['fecha_entrada']}</td><td>{_fmt(p.get('stop'), 2)}</td>"
-                       f"<td>{p.get('fase', '')}</td><td>{p.get('grupo', '')}</td></tr>")
+                       f"<td>{p.get('fase', '')}</td><td>{_fmt(p.get('prevision_kronos'), 1, ' %')}</td>"
+                       f"<td>{_fmt(100 * p['distancia_stop'] if p.get('distancia_stop') else None, 0, ' %')}</td>"
+                       f"<td>{p.get('grupo', '')}</td></tr>")
     pend = []
     for n, est in estados.items():
         for o in est["pendientes"]:
@@ -127,7 +130,7 @@ td:first-child,th:first-child{{text-align:left}}th{{background:#f4f4f4}}h2{{marg
 <h2>Resumen</h2><div class="tabla"><table><tr><th>Estrategia</th><th>Valor</th><th>Rentabilidad</th><th>Anualizada</th>
 <th>Caída máxima</th><th>Operaciones cerradas</th><th>Ganadoras</th><th>Abiertas</th></tr>{''.join(f for _, f in filas)}</table></div>
 <h2>Posiciones abiertas</h2><div class="tabla"><table><tr><th>Estrategia</th><th>Ticker</th><th>Nombre</th><th>Acciones</th><th>Precio entrada (€)</th>
-<th>Fecha</th><th>Stop (€)</th><th>Fase</th><th>Par</th></tr>{''.join(pos)}</table></div>
+<th>Fecha</th><th>Stop (€)</th><th>Fase</th><th>Kronos prevé</th><th>Distancia stop</th><th>Par</th></tr>{''.join(pos)}</table></div>
 <h2>Órdenes para la próxima apertura</h2><div class="tabla"><table><tr><th>Estrategia</th><th>Orden</th>
 <th>Ticker</th><th>Nombre</th><th>Importe</th><th>Motivo</th></tr>{''.join(pend)}</table></div>
 <h2>Pares vigilados</h2><p>z: separación actual en desviaciones típicas. Vida media: días que suele tardar en recorrer la mitad del camino de vuelta.</p>

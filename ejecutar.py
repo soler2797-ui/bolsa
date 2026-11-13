@@ -67,6 +67,9 @@ def diario(mercado=None, carpeta_estado=None, ahora=None):
     _guardar(estados, ruta)
     desc = {e.nombre: e.descripcion for e in estrategias}
     extra = analisis.html_stops(analisis.analizar_stops(estados, m))
+    if config.KRONOS["activo"]:
+        from bolsa import kronos_ia
+        extra = f"<p>Kronos: {kronos_ia.estado()}.</p>" + extra
     informe.generar(estados, desc, univ["nombres"], os.path.join(RAIZ, "docs", "index.html"),
                     "Simulación en tiempo real", extra)
     informe.exportar_csv(estados, carpeta_estado)
@@ -77,6 +80,7 @@ def backtest(desde, hasta=None, con_pequenas=False, mercado=None, carpeta=None):
     carpeta = carpeta or os.path.join(RAIZ, "resultados_backtest")
     anios = (dt.date.today() - pd.Timestamp(desde).date()).days / 365.25 + config.REBOTE["anios_atras"] + 1
     univ, estrategias, m = preparar(con_pequenas, mercado, anios)
+    estrategias = [e for e in estrategias if not getattr(e, "solo_diario", False)]
     if con_pequenas:
         print("Aviso: la lista de acciones pequeñas es la de hoy; el backtest con ella está sesgado.")
     fechas = m.fechas[(m.fechas >= pd.Timestamp(desde)) & (m.fechas <= pd.Timestamp(hasta or "2100-01-01"))]
@@ -101,6 +105,7 @@ def optimizar(desde, corte, hasta=None, carpeta=None, mercado=None):
     carpeta = carpeta or os.path.join(RAIZ, "resultados_optimizacion")
     anios = (dt.date.today() - pd.Timestamp(desde).date()).days / 365.25 + config.REBOTE["anios_atras"] + 1
     univ, estrategias, m = preparar(False, mercado, anios)
+    estrategias = [e for e in estrategias if not getattr(e, "solo_diario", False)]
     fechas = m.fechas[(m.fechas >= pd.Timestamp(desde)) & (m.fechas <= pd.Timestamp(hasta or "2100-01-01"))]
     return analisis.optimizar(estrategias, fechas, m, corte, carpeta)
 

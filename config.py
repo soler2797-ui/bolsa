@@ -84,6 +84,28 @@ REFERENCIAS = {
     "ref_bono_china": ("CBON", "Bonos de China (VanEck)"),
 }
 
+# ---------------------------------------------------------------------------
+# Kronos: variantes de las estrategias de selección que ajustan el stop en fase 2 según la previsión del modelo.
+# Si prevé una subida >= umbral_sube % en `horizonte` sesiones, el stop sube más despacio (distancia + margen_extra).
+# Si prevé una bajada >= umbral_baja %, sube más deprisa (distancia - margen_menos). El stop nunca baja.
+# Solo en la simulación diaria: en un backtest el modelo ya ha visto esos precios al entrenarse.
+KRONOS = dict(
+    activo=True,
+    estrategias=["pequenas_azar", "maximo_52s", "momentum", "tendencia_200", "rebote", "baja_volatilidad", "azar_grandes"],
+    carpeta_codigo="kronos_src",          # copia del repositorio de Kronos (la descarga GitHub Actions)
+    modelo="NeoQuasar/Kronos-small",
+    tokenizador="NeoQuasar/Kronos-Tokenizer-base",
+    contexto_max=512,
+    velas=256,          # velas diarias que recibe el modelo
+    horizonte=10,       # sesiones que predice
+    muestras=3,         # predicciones por acción (se hace la media)
+    lote=32,
+    umbral_sube=2.0,
+    umbral_baja=2.0,
+    margen_extra=0.03,
+    margen_menos=0.02,
+)
+
 # Qué estrategias se ejecutan (se pueden comentar las que no interesen)
 ESTRATEGIAS_ACTIVAS = [
     "pares_largo_corto",
@@ -97,3 +119,5 @@ ESTRATEGIAS_ACTIVAS = [
     "azar_grandes",
     *REFERENCIAS.keys(),
 ]
+if KRONOS["activo"]:
+    ESTRATEGIAS_ACTIVAS += [f"{n}_kronos" for n in KRONOS["estrategias"]]

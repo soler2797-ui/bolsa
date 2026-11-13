@@ -383,6 +383,40 @@ class Pares(Base):
 
 
 # ---------------------------------------------------------------------------
+# Variante con Kronos: compra igual que la estrategia base; solo cambia cómo sube el stop en fase 2
+class ConKronos(Base):
+    usa_stop = True
+    solo_diario = True
+
+    def __init__(self, universos, base):
+        super().__init__(universos)
+        self.base = base
+        self.nombre = f"{base.nombre}_kronos"
+        self.descripcion = (base.descripcion + ". Stop en fase 2 ajustado con la previsión de Kronos")
+
+    def tickers_necesarios(self):
+        return self.base.tickers_necesarios()
+
+    def al_cierre(self, est, d, m):
+        return self.base.al_cierre(est, d, m)
+
+    def distancias_fase2(self, est, d, m):
+        from . import kronos_ia
+        fase2 = [t for t, p in est["posiciones"].items() if p.get("fase") == 2 and not np.isnan(m.close.at[d, t])]
+        if not fase2:
+            return {}
+        prev = kronos_ia.prever(m, fase2, d)
+        res = {}
+        for t in fase2:
+            dist = kronos_ia.distancia_fase2(prev[t])
+            p = est["posiciones"][t]
+            p["prevision_kronos"] = None if prev[t] is None else round(prev[t], 2)
+            p["distancia_stop"] = round(dist, 3)
+            res[t] = dist
+        return res
+
+
+# ---------------------------------------------------------------------------
 def crear_estrategias(universos):
     disponibles = {
         "pares_largo_corto": lambda: Pares(universos, solo_largo=False),
@@ -397,4 +431,6 @@ def crear_estrategias(universos):
     }
     for clave, (ticker, desc) in config.REFERENCIAS.items():
         disponibles[clave] = (lambda c=clave, t=ticker, de=desc: ComprarMantener(universos, c, t, de))
+    for n in list(disponibles):
+        disponibles[f"{n}_kronos"] = (lambda b=n: ConKronos(universos, disponibles[b]()))
     return [disponibles[n]() for n in config.ESTRATEGIAS_ACTIVAS if n in disponibles]

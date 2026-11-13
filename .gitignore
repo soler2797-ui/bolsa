@@ -2,3 +2,4 @@ __pycache__/
 datos_cache/
 resultados_backtest/
 *.tmp
+kronos_src/

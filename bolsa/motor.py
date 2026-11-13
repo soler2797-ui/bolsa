@@ -100,15 +100,16 @@ def _abrir(est, d, o, precio, con_stop):
     return True
 
 
-def actualizar_stop(pos, precio):
+def actualizar_stop(pos, precio, distancia_fase2=None):
     """Sube el stop según el precio de cierre. Nunca baja."""
+    d2 = distancia_fase2 if distancia_fase2 is not None else config.STOP_FASE2
     pos["maximo"] = max(pos["maximo"], precio)
     if pos["fase"] == 1:
         pos["stop"] = max(pos["stop"], pos["maximo"] * (1 - config.STOP_INICIAL))
         if pos["stop"] >= pos["precio_entrada"] * (1 - 1e-5):
             pos["fase"] = 2
     if pos["fase"] == 2:
-        pos["stop"] = max(pos["stop"], pos["maximo"] * (1 - config.STOP_FASE2))
+        pos["stop"] = max(pos["stop"], pos["maximo"] * (1 - d2))
 
 
 def procesar_dia(est, estrategia, d, m, splits_antes_de=None):
@@ -165,12 +166,13 @@ def procesar_dia(est, estrategia, d, m, splits_antes_de=None):
             if lo <= p["stop"]:
                 precio = min(op, p["stop"]) if not np.isnan(op) else p["stop"]
                 _cerrar(est, d, t, precio, f"stop fase {p['fase']}")
-        # 5a. el stop sube con el cierre
+        # 5a. el stop sube con el cierre (las variantes con Kronos eligen la distancia en fase 2)
+        distancias = estrategia.distancias_fase2(est, d, m) if hasattr(estrategia, "distancias_fase2") else {}
         for t, p in pos.items():
             if "stop" in p:
                 c = m.close.at[d, t]
                 if not np.isnan(c):
-                    actualizar_stop(p, c)
+                    actualizar_stop(p, c, distancias.get(t))
 
     # 5b. decisiones para mañana
     nuevas = estrategia.al_cierre(est, d, m) or []

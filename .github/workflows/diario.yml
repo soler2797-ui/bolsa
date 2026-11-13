@@ -16,7 +16,7 @@ concurrency:
 jobs:
   simular:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,6 +24,18 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Instalar Kronos (IA para el stop)
+        continue-on-error: true
+        run: |
+          git clone https://github.com/shiyu-coder/Kronos kronos_src
+          git -C kronos_src checkout 67b630e
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install einops huggingface_hub safetensors tqdm
+      - name: Guardar el modelo entre ejecuciones
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kronos-small-v1
       - run: python ejecutar.py diario
       - name: Guardar resultados en el repositorio
         run: |
