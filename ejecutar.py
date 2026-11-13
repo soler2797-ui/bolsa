@@ -81,7 +81,8 @@ def backtest(desde, hasta=None, con_pequenas=False, mercado=None, carpeta=None):
     carpeta = carpeta or os.path.join(RAIZ, "resultados_backtest")
     anios = (dt.date.today() - pd.Timestamp(desde).date()).days / 365.25 + config.REBOTE["anios_atras"] + 1
     univ, estrategias, m = preparar(con_pequenas, mercado, anios)
-    estrategias = [e for e in estrategias if not getattr(e, "solo_diario", False)]
+    estrategias = [e for e in estrategias if not getattr(e, "solo_diario", False)
+                   and e.nombre not in config.EXCLUIR_BACKTEST]
     if con_pequenas:
         print("Aviso: la lista de acciones pequeñas es la de hoy; el backtest con ella está sesgado.")
     fechas = m.fechas[(m.fechas >= pd.Timestamp(desde)) & (m.fechas <= pd.Timestamp(hasta or "2100-01-01"))]

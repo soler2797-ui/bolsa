@@ -132,5 +132,8 @@ ESTRATEGIAS_ACTIVAS = [
     "azar_grandes",
     *REFERENCIAS.keys(),
 ]
+# Estrategias que no se incluyen en el backtest (siguen en la simulación diaria)
+EXCLUIR_BACKTEST = ["puntuacion_tamano", "pares_largo_corto", "pares_solo_largo"]
+
 if KRONOS["activo"]:
     ESTRATEGIAS_ACTIVAS += [f"{n}_kronos" for n in KRONOS["estrategias"]]
