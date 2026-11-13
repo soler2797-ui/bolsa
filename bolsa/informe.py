@@ -30,7 +30,9 @@ def _grafico(estados, descripciones):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
     fig, ax = plt.subplots(figsize=(11, 5.5), dpi=110)
+    fechas = []
     for nombre, est in estados.items():
         h = pd.DataFrame(est["historial"], columns=["fecha", "valor"])
         if h.empty:
@@ -38,8 +40,17 @@ def _grafico(estados, descripciones):
         h["fecha"] = pd.to_datetime(h["fecha"])
         y = 100 * h["valor"] / est["capital_inicial"]
         ref = nombre.startswith("ref_")
-        ax.plot(h["fecha"], y, label=nombre, lw=1.2 if ref else 1.8, ls="--" if ref else "-")
+        ax.plot(h["fecha"], y, label=nombre, lw=1.2 if ref else 1.8, ls="--" if ref else "-",
+                marker="o" if len(h) < 10 else None, ms=3)
+        fechas.extend(h["fecha"])
     ax.axhline(100, color="#888", lw=0.8)
+    if fechas:
+        ini, fin = min(fechas), max(fechas)
+        if (fin - ini).days < 30:  # al principio, eje de un mes para que se vean los puntos
+            ax.set_xlim(ini - pd.Timedelta(days=1), ini + pd.Timedelta(days=30))
+        loc = mdates.AutoDateLocator()
+        ax.xaxis.set_major_locator(loc)
+        ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(loc))
     ax.set_ylabel("Valor (inicio = 100)")
     ax.grid(alpha=0.3)
     ax.legend(fontsize=8, ncol=3, loc="upper left")
@@ -88,16 +99,17 @@ def generar(estados, descripciones, nombres, ruta, titulo="Simulador de estrateg
     img = _grafico(estados, descripciones)
     doc = f"""<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>{titulo}</title>
 <style>body{{font-family:system-ui,sans-serif;margin:24px;color:#222;max-width:1200px}}
-table{{border-collapse:collapse;font-size:13px;margin-bottom:24px}}td,th{{border-bottom:1px solid #ddd;padding:4px 8px;text-align:right}}
+table{{border-collapse:collapse;font-size:13px;margin-bottom:24px}}td,th{{border-bottom:1px solid #ddd;padding:4px 8px;text-align:right;white-space:nowrap}}
+.tabla{{overflow-x:auto}}
 td:first-child,th:first-child{{text-align:left}}th{{background:#f4f4f4}}h2{{margin-top:32px}}</style></head><body>
 <h1>{titulo}</h1><p>Del {desde} al {hasta}. Valores en euros, comisiones incluidas. Capital inicial por estrategia: el mismo para todas.</p>
 <img src="data:image/png;base64,{img}" style="width:100%">
-<h2>Resumen</h2><table><tr><th>Estrategia</th><th>Valor</th><th>Rentabilidad</th><th>Anualizada</th>
-<th>Caída máxima</th><th>Operaciones cerradas</th><th>Ganadoras</th><th>Abiertas</th></tr>{''.join(f for _, f in filas)}</table>
-<h2>Posiciones abiertas</h2><table><tr><th>Estrategia</th><th>Ticker</th><th>Nombre</th><th>Acciones</th><th>Precio entrada (€)</th>
-<th>Fecha</th><th>Stop (€)</th><th>Fase</th><th>Par</th></tr>{''.join(pos)}</table>
-<h2>Operaciones (las 300 últimas)</h2><table><tr><th>Fecha</th><th>Estrategia</th><th>Tipo</th><th>Ticker</th><th>Nombre</th>
-<th>Acciones</th><th>Precio (€)</th><th>Resultado</th><th>%</th><th>Motivo</th></tr>{''.join(f for _, f in ops[:300])}</table>
+<h2>Resumen</h2><div class="tabla"><table><tr><th>Estrategia</th><th>Valor</th><th>Rentabilidad</th><th>Anualizada</th>
+<th>Caída máxima</th><th>Operaciones cerradas</th><th>Ganadoras</th><th>Abiertas</th></tr>{''.join(f for _, f in filas)}</table></div>
+<h2>Posiciones abiertas</h2><div class="tabla"><table><tr><th>Estrategia</th><th>Ticker</th><th>Nombre</th><th>Acciones</th><th>Precio entrada (€)</th>
+<th>Fecha</th><th>Stop (€)</th><th>Fase</th><th>Par</th></tr>{''.join(pos)}</table></div>
+<h2>Operaciones (las 300 últimas)</h2><div class="tabla"><table><tr><th>Fecha</th><th>Estrategia</th><th>Tipo</th><th>Ticker</th><th>Nombre</th>
+<th>Acciones</th><th>Precio (€)</th><th>Resultado</th><th>%</th><th>Motivo</th></tr>{''.join(f for _, f in ops[:300])}</table></div>
 <h2>Estrategias</h2><ul>{desc}</ul></body></html>"""
     with open(ruta, "w", encoding="utf-8") as f:
         f.write(doc)
