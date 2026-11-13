@@ -86,7 +86,8 @@ class Seleccion(Base):
         raise NotImplementedError
 
     def al_cierre(self, est, d, m):
-        if self.frecuencia == "W" and not primer_dia(m, d, "W"):
+        # las semanales rellenan huecos el primer día de la semana, o cualquier día si la cartera está vacía
+        if self.frecuencia == "W" and not primer_dia(m, d, "W") and tickers_ocupados(est):
             return []
         libres = config.MAX_POSICIONES - len(tickers_ocupados(est))
         if libres <= 0:
