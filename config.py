@@ -92,7 +92,7 @@ REFERENCIAS = {
 # Solo en la simulación diaria: en un backtest el modelo ya ha visto esos precios al entrenarse.
 KRONOS = dict(
     activo=True,
-    estrategias=["pequenas_azar", "maximo_52s", "momentum", "tendencia_200", "rebote", "baja_volatilidad", "azar_grandes"],
+    estrategias=["pequenas_azar", "momentum_pequenas", "maximo_52s", "momentum", "tendencia_200", "rebote", "baja_volatilidad", "azar_grandes"],
     carpeta_codigo="kronos_src",          # copia del repositorio de Kronos (la descarga GitHub Actions)
     modelo="NeoQuasar/Kronos-small",
     tokenizador="NeoQuasar/Kronos-Tokenizer-base",
@@ -112,6 +112,7 @@ ESTRATEGIAS_ACTIVAS = [
     "pares_largo_corto",
     "pares_solo_largo",
     "pequenas_azar",
+    "momentum_pequenas",
     "maximo_52s",
     "momentum",
     "tendencia_200",

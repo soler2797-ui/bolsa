@@ -69,6 +69,9 @@ def cargar(refrescar_pequenas=True):
         p = pd.read_csv(F_PEQUENAS)
         universos["pequenas"] = list(p.ticker)
         universos["pequenas_primera"] = dict(zip(p.ticker, p.primera_cotizacion))
+        from .datos import MONEDAS_CONOCIDAS
+        validas = {"EUR", "USD", "GBp", "GBP", "CAD", "CHF", "SEK", "DKK", "NOK", "JPY", "HKD", "AUD"}
+        MONEDAS_CONOCIDAS.update({t: mo for t, mo in zip(p.ticker, p.moneda.fillna("")) if mo in validas})
         universos["nombres"].update(dict(zip(p.ticker, p.nombre.fillna(""))))
     else:
         universos["pequenas"] = []

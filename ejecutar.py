@@ -36,7 +36,7 @@ def preparar(con_pequenas=True, mercado=None, anios=None):
         univ["pequenas"], univ["pequenas_primera"] = [], {}
     estrategias = crear_estrategias(univ)
     if not con_pequenas:
-        estrategias = [e for e in estrategias if e.nombre != "pequenas_azar"]
+        estrategias = [e for e in estrategias if not e.nombre.startswith(("pequenas_azar", "momentum_pequenas"))]
     tickers = sorted({t for e in estrategias for t in e.tickers_necesarios()})
     m = mercado or datos.cargar_mercado(tickers, anios or config.ANIOS_HISTORIA)
     return univ, estrategias, m

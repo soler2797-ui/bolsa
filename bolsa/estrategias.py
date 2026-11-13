@@ -147,6 +147,19 @@ class PequenasAzar(Seleccion):
         return [(t, "pequeña al azar") for t in ok]
 
 
+class MomentumPequenas(PequenasAzar):
+    nombre = "momentum_pequenas"
+    descripcion = ("Acciones pequeñas (mismos filtros que pequenas_azar) que más han subido en 12 meses sin contar "
+                   "el último (cada semana se rellenan huecos)")
+    sesiones_min = 260
+
+    def candidatos(self, est, d, m, tickers):
+        validas = {t for t, _ in super().candidatos(est, d, m, tickers)}
+        mom = m.ind("mom12_1").loc[d]
+        res = sorted(((mom[t], t) for t in validas if mom.get(t, np.nan) > 0), reverse=True)
+        return [(t, f"momentum 12-1: {100 * r:+.0f} %") for r, t in res]
+
+
 class Maximo52s(Seleccion):
     nombre = "maximo_52s"
     descripcion = "Cierre por encima del máximo de 52 semanas con volumen > 1,5 x la media de 50 sesiones"
@@ -422,6 +435,7 @@ def crear_estrategias(universos):
         "pares_largo_corto": lambda: Pares(universos, solo_largo=False),
         "pares_solo_largo": lambda: Pares(universos, solo_largo=True),
         "pequenas_azar": lambda: PequenasAzar(universos),
+        "momentum_pequenas": lambda: MomentumPequenas(universos),
         "maximo_52s": lambda: Maximo52s(universos),
         "momentum": lambda: Momentum(universos),
         "tendencia_200": lambda: Tendencia200(universos),

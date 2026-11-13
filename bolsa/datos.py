@@ -17,10 +17,16 @@ SUFIJOS = {
     "L": "GBp", "SW": "CHF", "ST": "SEK", "CO": "DKK", "OL": "NOK",
     "TO": "CAD", "V": "CAD", "NE": "CAD", "T": "JPY", "HK": "HKD", "AX": "AUD",
     "KS": "KRW", "TW": "TWD", "NS": "INR", "SS": "CNY", "SZ": "CNY",
+    "SG": "EUR", "MU": "EUR", "DU": "EUR", "BE": "EUR", "HM": "EUR", "HA": "EUR",
+    "AQ": "GBp", "CN": "CAD",
 }
+# moneda que da el buscador de Yahoo para las acciones pequeñas (tiene prioridad sobre el sufijo)
+MONEDAS_CONOCIDAS = {}
 
 
 def moneda(ticker):
+    if ticker in MONEDAS_CONOCIDAS:
+        return MONEDAS_CONOCIDAS[ticker]
     if "." in ticker:
         return SUFIJOS.get(ticker.rsplit(".", 1)[1], "USD")
     return "USD"
