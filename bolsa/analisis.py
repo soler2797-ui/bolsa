@@ -19,7 +19,7 @@ def analizar_stops(estados, m):
     filas = []
     for n, est in estados.items():
         for o in est["operaciones"]:
-            if o["tipo"] != "venta" or not o["motivo"].startswith("stop"):
+            if o["tipo"] != "venta" or not o["motivo"].startswith("stop fase") or o.get("grupo"):
                 continue
             t = o["ticker"]
             if t not in m.close.columns:
