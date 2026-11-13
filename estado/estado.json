@@ -15,7 +15,7 @@
      "p": 0.00036121376752981774,
      "armado": 1,
      "abierto": null,
-     "z": 4.54
+     "z": 3.63
     },
     {
      "a": "CABK.MC",
@@ -35,7 +35,7 @@
      "p": 0.002413883858111166,
      "armado": 0,
      "abierto": null,
-     "z": -0.31
+     "z": -0.03
     },
     {
      "a": "ISP.MI",
@@ -55,7 +55,7 @@
      "p": 0.0036995462256682854,
      "armado": 0,
      "abierto": null,
-     "z": -0.2
+     "z": -0.33
     }
    ],
    "ultima_revision": "2026-11-12"
@@ -65,10 +65,14 @@
    [
     "2026-11-12",
     50000.0
+   ],
+   [
+    "2026-11-13",
+    50000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "pares_solo_largo": {
   "nombre": "pares_solo_largo",
@@ -86,7 +90,7 @@
      "p": 0.00036121376752981774,
      "armado": 1,
      "abierto": null,
-     "z": 4.54
+     "z": 3.63
     },
     {
      "a": "CABK.MC",
@@ -106,7 +110,7 @@
      "p": 0.002413883858111166,
      "armado": 0,
      "abierto": null,
-     "z": -0.31
+     "z": -0.03
     },
     {
      "a": "ISP.MI",
@@ -126,7 +130,7 @@
      "p": 0.0036995462256682854,
      "armado": 0,
      "abierto": null,
-     "z": -0.2
+     "z": -0.33
     }
    ],
    "ultima_revision": "2026-11-12"
@@ -136,27 +140,96 @@
    [
     "2026-11-12",
     50000.0
+   ],
+   [
+    "2026-11-13",
+    50000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "pequenas_azar": {
   "nombre": "pequenas_azar",
   "efectivo": 10000.0,
   "capital_inicial": 10000.0,
   "posiciones": {},
-  "pendientes": [],
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "BCGL.XC",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "VHI.TO",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ASTL.TO",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SVV",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ECU.V",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ISO.TO",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ULCC",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "RSGNZ.XC",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MFG.V",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MAXX.CN",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   }
+  ],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "maximo_52s": {
   "nombre": "maximo_52s",
@@ -170,62 +243,158 @@
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "momentum": {
   "nombre": "momentum",
   "efectivo": 10000.0,
   "capital_inicial": 10000.0,
   "posiciones": {},
-  "pendientes": [],
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +294 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "INTC",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +161 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AMD",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +125 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "005930.KS",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +108 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TXN",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SU.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TGT",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +76 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "FCX",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "CNQ.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +66 %"
+   }
+  ],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "tendencia_200": {
   "nombre": "tendencia_200",
-  "efectivo": 10000.0,
+  "efectivo": 5180.292830975981,
   "capital_inicial": 10000.0,
-  "posiciones": {},
+  "posiciones": {
+   "GSK.L": {
+    "acciones": 43,
+    "precio_entrada": 22.744435242293772,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 22.912246622210564,
+    "stop": 18.32979729776845,
+    "fase": 1
+   },
+   "AVGO": {
+    "acciones": 3,
+    "precio_entrada": 323.3104716239634,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 323.3104716239634,
+    "stop": 258.6483772991707,
+    "fase": 1
+   },
+   "FER.MC": {
+    "acciones": 18,
+    "precio_entrada": 55.36000061035156,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 55.36000061035156,
+    "stop": 44.288000488281256,
+    "fase": 1
+   },
+   "ADBE": {
+    "acciones": 4,
+    "precio_entrada": 217.8042887405939,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 220.4249401212719,
+    "stop": 176.33995209701754,
+    "fase": 1
+   },
+   "INFY.NS": {
+    "acciones": 90,
+    "precio_entrada": 11.045198586497705,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 11.045198586497705,
+    "stop": 8.836158869198163,
+    "fase": 1
+   }
+  },
   "pendientes": [
    {
     "accion": "comprar",
-    "ticker": "GSK.L",
-    "importe": 1000.0,
-    "motivo": "cruza media 200"
-   },
-   {
-    "accion": "comprar",
-    "ticker": "AVGO",
-    "importe": 1000.0,
-    "motivo": "cruza media 200"
-   },
-   {
-    "accion": "comprar",
-    "ticker": "FER.MC",
-    "importe": 1000.0,
-    "motivo": "cruza media 200"
-   },
-   {
-    "accion": "comprar",
-    "ticker": "ADBE",
-    "importe": 1000.0,
-    "motivo": "cruza media 200"
-   },
-   {
-    "accion": "comprar",
-    "ticker": "INFY.NS",
-    "importe": 1000.0,
+    "ticker": "GS",
+    "importe": 998.5854791108252,
     "motivo": "cruza media 200"
    }
   ],
@@ -235,10 +404,60 @@
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    9985.85
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "operaciones": [
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "GSK.L",
+    "acciones": 43,
+    "precio": 22.7444,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "AVGO",
+    "acciones": 3,
+    "precio": 323.3105,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "FER.MC",
+    "acciones": 18,
+    "precio": 55.36,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "ADBE",
+    "acciones": 4,
+    "precio": 217.8043,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
+   },
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "INFY.NS",
+    "acciones": 90,
+    "precio": 11.0452,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
+   }
+  ],
+  "ultima_fecha": "2026-11-13"
  },
  "rebote": {
   "nombre": "rebote",
@@ -252,33 +471,192 @@
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "baja_volatilidad": {
   "nombre": "baja_volatilidad",
   "efectivo": 10000.0,
   "capital_inicial": 10000.0,
   "posiciones": {},
-  "pendientes": [],
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "0941.HK",
+    "importe": 1000.0,
+    "motivo": "volatilidad 13 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "RY.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 16 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BRK-B",
+    "importe": 1000.0,
+    "motivo": "volatilidad 16 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TD.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 18 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "DUK",
+    "importe": 1000.0,
+    "motivo": "volatilidad 18 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BNS.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 19 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ENB.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 19 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 19 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "KO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 20 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BMO.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 20 % anual"
+   }
+  ],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "azar_grandes": {
   "nombre": "azar_grandes",
   "efectivo": 10000.0,
   "capital_inicial": 10000.0,
   "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "AEM.TO",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SSE.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "XOM",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "0939.HK",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "LOW",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "NG.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ORCL",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "RR.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "NVDA",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TSCO.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "ref_mundo": {
+  "nombre": "ref_mundo",
+  "efectivo": 170.4307998657223,
+  "capital_inicial": 10000.0,
+  "posiciones": {
+   "IWDA.AS": {
+    "acciones": 75,
+    "precio_entrada": 130.92999267578125,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 9.819749450683593,
+    "dividendos": 0.0
+   }
+  },
   "pendientes": [],
   "extra": {},
   "vendidas": {},
@@ -286,153 +664,948 @@
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10040.43
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
- },
- "ref_mundo": {
-  "nombre": "ref_mundo",
-  "efectivo": 10000.0,
-  "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
+  "operaciones": [
    {
-    "accion": "comprar",
+    "fecha": "2026-11-13",
+    "tipo": "compra",
     "ticker": "IWDA.AS",
-    "importe": 9900.0,
+    "acciones": 75,
+    "precio": 130.93,
+    "comision": 9.82,
     "motivo": "referencia"
    }
   ],
-  "extra": {},
-  "vendidas": {},
-  "historial": [
-   [
-    "2026-11-12",
-    10000.0
-   ]
-  ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
  },
  "ref_sp500": {
   "nombre": "ref_sp500",
-  "efectivo": 10000.0,
+  "efectivo": 341.11024498191,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "SPY",
-    "importe": 9900.0,
-    "motivo": "referencia"
+  "posiciones": {
+   "SPY": {
+    "acciones": 14,
+    "precio_entrada": 689.2314653216847,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 9.649240514503587,
+    "dividendos": 0.0
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    9917.99
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "operaciones": [
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "SPY",
+    "acciones": 14,
+    "precio": 689.2315,
+    "comision": 9.65,
+    "motivo": "referencia"
+   }
+  ],
+  "ultima_fecha": "2026-11-13"
  },
  "ref_mundo_sin_eeuu": {
   "nombre": "ref_mundo_sin_eeuu",
-  "efectivo": 10000.0,
+  "efectivo": 105.81438228664229,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "ACWX",
-    "importe": 9900.0,
-    "motivo": "referencia"
+  "posiciones": {
+   "ACWX": {
+    "acciones": 148,
+    "precio_entrada": 66.78581970538487,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 9.88430131639696,
+    "dividendos": 0.0
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    9991.46
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "operaciones": [
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "ACWX",
+    "acciones": 148,
+    "precio": 66.7858,
+    "comision": 9.88,
+    "motivo": "referencia"
+   }
+  ],
+  "ultima_fecha": "2026-11-13"
  },
  "ref_europa": {
   "nombre": "ref_europa",
-  "efectivo": 10000.0,
+  "efectivo": 145.655912399292,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "EXSA.DE",
-    "importe": 9900.0,
-    "motivo": "referencia"
+  "posiciones": {
+   "EXSA.DE": {
+    "acciones": 150,
+    "precio_entrada": 65.62999725341797,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 9.844499588012695,
+    "dividendos": 0.0
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10018.66
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "operaciones": [
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "EXSA.DE",
+    "acciones": 150,
+    "precio": 65.63,
+    "comision": 9.84,
+    "motivo": "referencia"
+   }
+  ],
+  "ultima_fecha": "2026-11-13"
  },
  "ref_bono_eeuu": {
   "nombre": "ref_bono_eeuu",
-  "efectivo": 10000.0,
+  "efectivo": 113.53554782455649,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "IEF",
-    "importe": 9900.0,
-    "motivo": "referencia"
+  "posiciones": {
+   "IEF": {
+    "acciones": 121,
+    "precio_entrada": 81.62469309348043,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 9.876587864311132,
+    "dividendos": 0.0
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    9992.98
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "operaciones": [
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "IEF",
+    "acciones": 121,
+    "precio": 81.6247,
+    "comision": 9.88,
+    "motivo": "referencia"
+   }
+  ],
+  "ultima_fecha": "2026-11-13"
  },
  "ref_bono_china": {
   "nombre": "ref_bono_china",
-  "efectivo": 10000.0,
+  "efectivo": 111.88118103152738,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "CBON",
-    "importe": 9900.0,
-    "motivo": "referencia"
+  "posiciones": {
+   "CBON": {
+    "acciones": 452,
+    "precio_entrada": 21.85451455396036,
+    "fecha_entrada": "2026-11-13",
+    "comision_entrada": 9.878240578390084,
+    "dividendos": 0.0
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
    [
     "2026-11-12",
     10000.0
+   ],
+   [
+    "2026-11-13",
+    10006.23
+   ]
+  ],
+  "operaciones": [
+   {
+    "fecha": "2026-11-13",
+    "tipo": "compra",
+    "ticker": "CBON",
+    "acciones": 452,
+    "precio": 21.8545,
+    "comision": 9.88,
+    "motivo": "referencia"
+   }
+  ],
+  "ultima_fecha": "2026-11-13"
+ },
+ "momentum_pequenas": {
+  "nombre": "momentum_pequenas",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "SLG.V",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +677 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SCRI.NE",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +483 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AGL",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +483 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "LCFS.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +449 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MAXX.CN",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +407 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SREMF",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +258 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "PALI.V",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +189 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "VSTS",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +177 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TLRY.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +171 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BLU.V",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +161 %"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-12"
+  "ultima_fecha": "2026-11-13"
+ },
+ "puntuacion_fija": {
+  "nombre": "puntuacion_fija",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "INTC",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.99, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.99, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "005930.KS",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.98, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AMD",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.98, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.95, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "FCX",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.93, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TXN",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.92, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AAL.L",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.83, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "CSCO",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.82, tamaño x1.00"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "2330.TW",
+    "importe": 1000.0,
+    "motivo": "puntuación 0.82, tamaño x1.00"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "puntuacion_tamano": {
+  "nombre": "puntuacion_tamano",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "INTC",
+    "importe": 1978.2608695652173,
+    "motivo": "puntuación 0.99, tamaño x1.98"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1978.2608695652173,
+    "motivo": "puntuación 0.99, tamaño x1.98"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "005930.KS",
+    "importe": 1934.7826086956522,
+    "motivo": "puntuación 0.98, tamaño x1.93"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AMD",
+    "importe": 1934.7826086956522,
+    "motivo": "puntuación 0.98, tamaño x1.93"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1847.8260869565217,
+    "motivo": "puntuación 0.95, tamaño x1.85"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "kronos_prevision": {
+  "nombre": "kronos_prevision",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "9984.T",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +24.1 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +14.9 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "9988.HK",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +14.1 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "NFLX",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +12.2 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "K.TO",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +12.1 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BA",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +10.9 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "NVDA",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +10.6 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "CAT",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +10.1 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +7.1 % en 10 sesiones"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AEM.TO",
+    "importe": 1000.0,
+    "motivo": "Kronos prevé +6.8 % en 10 sesiones"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "pequenas_azar_kronos": {
+  "nombre": "pequenas_azar_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "BCGL.XC",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "VHI.TO",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ASTL.TO",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SVV",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ECU.V",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ISO.TO",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ULCC",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "RSGNZ.XC",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MFG.V",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MAXX.CN",
+    "importe": 1000.0,
+    "motivo": "pequeña al azar"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "momentum_pequenas_kronos": {
+  "nombre": "momentum_pequenas_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "SLG.V",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +677 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SCRI.NE",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +483 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AGL",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +483 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "LCFS.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +449 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "MAXX.CN",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +407 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SREMF",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +258 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "PALI.V",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +189 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "VSTS",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +177 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TLRY.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +171 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BLU.V",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +161 %"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "maximo_52s_kronos": {
+  "nombre": "maximo_52s_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "momentum_kronos": {
+  "nombre": "momentum_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +294 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "INTC",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +161 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AMD",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +125 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "005930.KS",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +108 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TXN",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SU.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TGT",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +76 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "FCX",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "CNQ.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +66 %"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "tendencia_200_kronos": {
+  "nombre": "tendencia_200_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "GS",
+    "importe": 1000.0,
+    "motivo": "cruza media 200"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "rebote_kronos": {
+  "nombre": "rebote_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "baja_volatilidad_kronos": {
+  "nombre": "baja_volatilidad_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "0941.HK",
+    "importe": 1000.0,
+    "motivo": "volatilidad 13 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "RY.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 16 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BRK-B",
+    "importe": 1000.0,
+    "motivo": "volatilidad 16 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TD.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 18 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "DUK",
+    "importe": 1000.0,
+    "motivo": "volatilidad 18 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BNS.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 19 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ENB.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 19 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 19 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "KO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 20 % anual"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "BMO.TO",
+    "importe": 1000.0,
+    "motivo": "volatilidad 20 % anual"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "azar_grandes_kronos": {
+  "nombre": "azar_grandes_kronos",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "AEM.TO",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SSE.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "XOM",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "0939.HK",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "LOW",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "NG.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "ORCL",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "RR.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "NVDA",
+    "importe": 1000.0,
+    "motivo": "azar"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TSCO.L",
+    "importe": 1000.0,
+    "motivo": "azar"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
  }
 }

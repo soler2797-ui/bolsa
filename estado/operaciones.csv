@@ -1,0 +1,12 @@
+estrategia,fecha,tipo,ticker,acciones,precio,comision,motivo
+tendencia_200,2026-11-13,compra,GSK.L,43,22.7444,2.0,cruza media 200
+tendencia_200,2026-11-13,compra,AVGO,3,323.3105,2.0,cruza media 200
+tendencia_200,2026-11-13,compra,FER.MC,18,55.36,2.0,cruza media 200
+tendencia_200,2026-11-13,compra,ADBE,4,217.8043,2.0,cruza media 200
+tendencia_200,2026-11-13,compra,INFY.NS,90,11.0452,2.0,cruza media 200
+ref_mundo,2026-11-13,compra,IWDA.AS,75,130.93,9.82,referencia
+ref_sp500,2026-11-13,compra,SPY,14,689.2315,9.65,referencia
+ref_mundo_sin_eeuu,2026-11-13,compra,ACWX,148,66.7858,9.88,referencia
+ref_europa,2026-11-13,compra,EXSA.DE,150,65.63,9.84,referencia
+ref_bono_eeuu,2026-11-13,compra,IEF,121,81.6247,9.88,referencia
+ref_bono_china,2026-11-13,compra,CBON,452,21.8545,9.88,referencia
