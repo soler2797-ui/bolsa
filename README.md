@@ -54,6 +54,10 @@ A partir de ahí se ejecuta solo de lunes a viernes a las 22:30 UTC (23:30 en Es
 
 `estado/historico.csv` tiene el valor diario de cada estrategia y `estado/operaciones.csv` todas las operaciones, para abrirlos en Excel.
 
+## Backtest en GitHub
+
+En la pestaña Actions, elige "Backtest", pulsa "Run workflow", pon la fecha de inicio y vuelve a pulsar "Run workflow". Tarda unos minutos. El resultado queda en `https://TU_USUARIO.github.io/bolsa/backtest/`. Cada backtest sustituye al anterior.
+
 ## Uso en tu ordenador
 
 ```

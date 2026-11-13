@@ -99,12 +99,13 @@ if __name__ == "__main__":
     ap.add_argument("--desde", default="2016-01-01")
     ap.add_argument("--hasta", default=None)
     ap.add_argument("--con-pequenas", action="store_true")
+    ap.add_argument("--carpeta", default=None, help="carpeta de resultados del backtest")
     a = ap.parse_args()
     os.chdir(RAIZ)
     sys.path.insert(0, RAIZ)
     if a.modo == "diario":
         diario()
     elif a.modo == "backtest":
-        backtest(a.desde, a.hasta, a.con_pequenas)
+        backtest(a.desde, a.hasta, a.con_pequenas, carpeta=a.carpeta)
     else:
         universos.buscar_pequenas()
