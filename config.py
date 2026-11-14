@@ -95,6 +95,26 @@ REFERENCIAS = {
 }
 
 # ---------------------------------------------------------------------------
+# momentum_semaforo: momentum que no recompra enseguida lo que ha saltado un stop de fase 1 con pérdidas.
+#  rojo: no se compra. amarillo: se puede comprar con un stop inicial más ajustado.
+#  - stop de fase 1 con pérdidas -> rojo
+#  - recupera el precio de compra en <= sesiones_rapida sesiones -> amarillo (rápida)
+#  - si no, cuando cierra por encima del precio del stop -> amarillo (lenta)
+#  - una amarilla que aún no se ha comprado y cierra por debajo del precio del stop -> rojo (lenta)
+#  - una amarilla que vuelve a vender con pérdidas -> rojo al menos rojo_recaida_* sesiones y después como lenta
+#  - cuando la posición amarilla pasa a fase 2 o vende con beneficio -> sin punto
+#  - si la acción sale del top del ranking de momentum -> sin punto
+# Los stops de las amarillas se calibran en 2016-2021 y se comprueban en 2022-2025 (2026 queda para test).
+SEMAFORO = dict(
+    top=20,
+    sesiones_rapida=15,
+    rojo_recaida_rapida=10,
+    rojo_recaida_lenta=21,
+    stop_amarillo_rapida=0.10,
+    stop_amarillo_lenta=0.10,
+)
+
+# ---------------------------------------------------------------------------
 # Kronos: variantes de las estrategias de selección que ajustan el stop en fase 2 según la previsión del modelo.
 # Si prevé una subida >= umbral_sube % en `horizonte` sesiones, el stop sube más despacio (distancia + margen_extra).
 # Si prevé una bajada >= umbral_baja %, sube más deprisa (distancia - margen_menos). El stop nunca baja.

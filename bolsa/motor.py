@@ -94,7 +94,10 @@ def _abrir(est, d, o, precio, con_stop):
     if o.get("grupo"):
         pos["grupo"] = o["grupo"]
     if con_stop and acciones > 0:
-        pos.update(maximo=precio, stop=precio * (1 - config.STOP_INICIAL), fase=1)
+        d1 = o.get("stop_inicial", config.STOP_INICIAL)
+        pos.update(maximo=precio, stop=precio * (1 - d1), fase=1)
+        if d1 != config.STOP_INICIAL:
+            pos["stop_inicial"] = d1  # stop más ajustado (momentum_semaforo, acciones con punto amarillo)
     est["posiciones"][t] = pos
     _apuntar(est, d, tipo, t, n, precio, com, o.get("motivo", ""), o.get("grupo"))
     return True
@@ -105,7 +108,7 @@ def actualizar_stop(pos, precio, distancia_fase2=None):
     d2 = distancia_fase2 if distancia_fase2 is not None else config.STOP_FASE2
     pos["maximo"] = max(pos["maximo"], precio)
     if pos["fase"] == 1:
-        pos["stop"] = max(pos["stop"], pos["maximo"] * (1 - config.STOP_INICIAL))
+        pos["stop"] = max(pos["stop"], pos["maximo"] * (1 - pos.get("stop_inicial", config.STOP_INICIAL)))
         if pos["stop"] >= pos["precio_entrada"] * (1 - 1e-5):
             pos["fase"] = 2
     if pos["fase"] == 2:
