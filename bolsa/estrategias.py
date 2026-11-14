@@ -508,7 +508,7 @@ class MomentumSemaforo(Momentum):
             f"pasa a amarillo cuando cierra por encima del precio del stop (lenta). Las amarillas se compran con stop "
             f"inicial del {round(100 * c['stop_amarillo_rapida'])} % (rápidas) o {round(100 * c['stop_amarillo_lenta'])} % "
             f"(lentas). Si una amarilla vuelve a perder: rojo al menos {c['rojo_recaida_rapida']} sesiones (rápida) o "
-            f"{c['rojo_recaida_lenta']} (lenta), y después como lenta. Fuera del top {c['top']} del ranking se borra el punto")
+            f"{c['rojo_recaida_lenta']} (lenta), y después como lenta. Tras {c['sesiones_fuera']} sesiones seguidas fuera del top {c['top']} del ranking se borra el punto")
         self._rank_dia = (None, {})
 
     # --- utilidades ---
@@ -558,8 +558,12 @@ class MomentumSemaforo(Momentum):
                 continue
             s = sem[t]
             if rk.get(t, 10 ** 6) > c["top"]:
-                sem.pop(t)
-                continue
+                s["fuera"] = s.get("fuera", 0) + 1
+                if s["fuera"] >= c["sesiones_fuera"]:  # fuera del ranking varias sesiones seguidas: sin punto
+                    sem.pop(t)
+                    continue
+            else:
+                s["fuera"] = 0
             if s["desde"] == hoy:
                 continue
             px = m.close.at[d, t] if t in m.close.columns else np.nan

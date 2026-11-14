@@ -103,10 +103,11 @@ REFERENCIAS = {
 #  - una amarilla que aún no se ha comprado y cierra por debajo del precio del stop -> rojo (lenta)
 #  - una amarilla que vuelve a vender con pérdidas -> rojo al menos rojo_recaida_* sesiones y después como lenta
 #  - cuando la posición amarilla pasa a fase 2 o vende con beneficio -> sin punto
-#  - si la acción sale del top del ranking de momentum -> sin punto
+#  - si la acción pasa sesiones_fuera sesiones seguidas fuera del top del ranking de momentum -> sin punto
 # Los stops de las amarillas se calibran en 2016-2021 y se comprueban en 2022-2025 (2026 queda para test).
 SEMAFORO = dict(
     top=20,
+    sesiones_fuera=10,
     sesiones_rapida=15,
     rojo_recaida_rapida=10,
     rojo_recaida_lenta=21,
