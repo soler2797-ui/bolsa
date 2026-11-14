@@ -488,6 +488,72 @@ class ConKronos(Base):
 
 
 # ---------------------------------------------------------------------------
+# Momentum con control por sector (experimento). Dos mecanismos, que se pueden combinar:
+#  - tope: número máximo de posiciones de un mismo sector (None = sin tope)
+#  - bloqueo: si en un sector saltan `stops` stops de fase 1 en `ventana` sesiones, durante `duracion`
+#    sesiones solo se permiten `tope_bloqueo` posiciones de ese sector (0 = no se compra nada del sector)
+class MomentumSector(Momentum):
+    nombre = "momentum_sector"
+
+    def __init__(self, universos, nombre=None, tope=None, stops=None, ventana=20, duracion=20, tope_bloqueo=0):
+        super().__init__(universos)
+        if nombre:
+            self.nombre = nombre
+        self.tope, self.stops, self.ventana, self.duracion, self.tope_bloqueo = tope, stops, ventana, duracion, tope_bloqueo
+        partes = []
+        if tope:
+            partes.append(f"como máximo {tope} acciones del mismo sector")
+        if stops:
+            partes.append(f"si saltan {stops} stops de fase 1 de un sector en {ventana} sesiones, durante {duracion} "
+                          f"sesiones como máximo {tope_bloqueo} acciones de ese sector")
+        self.descripcion = "Momentum; " + "; ".join(partes or ["sin control por sector"])
+
+    def _sector(self, t):
+        return self.universos["sectores"].get(t, "?")
+
+    def _bloqueos(self, est, d, m):
+        """Registra los stops de fase 1 nuevos y devuelve los sectores bloqueados en la sesión d."""
+        ex = est["extra"]
+        hist = ex.setdefault("stops_sector", [])      # [indice_sesion, sector]
+        hasta = ex.setdefault("bloqueo_hasta", {})    # sector -> última sesión bloqueada
+        i = int(m.fechas.get_loc(d))
+        ops = est["operaciones"]
+        for o in ops[ex.get("ops_vistas", 0):]:
+            if o["tipo"] == "venta" and o["motivo"] == "stop fase 1" and self.stops:
+                sec = self._sector(o["ticker"])
+                j = int(m.fechas.get_loc(pd.Timestamp(o["fecha"])))
+                hist.append([j, sec])
+                recientes = sum(1 for k, s in hist if s == sec and j - k < self.ventana)
+                if recientes >= self.stops:
+                    hasta[sec] = max(hasta.get(sec, -1), j + self.duracion)
+        ex["ops_vistas"] = len(ops)
+        ex["stops_sector"] = [h for h in hist if i - h[0] < self.ventana]
+        return {s for s, k in hasta.items() if k >= i}
+
+    def candidatos(self, est, d, m, tickers):
+        bloqueados = self._bloqueos(est, d, m)
+        cuenta = {}
+        for t in tickers_ocupados(est):
+            cuenta[self._sector(t)] = cuenta.get(self._sector(t), 0) + 1
+        res = []
+        for t, motivo in super().candidatos(est, d, m, tickers):
+            sec = self._sector(t)
+            limite = self.tope if self.tope else 10 ** 6
+            if sec in bloqueados:
+                limite = min(limite, self.tope_bloqueo)
+            if cuenta.get(sec, 0) >= limite:
+                continue
+            cuenta[sec] = cuenta.get(sec, 0) + 1
+            res.append((t, motivo))
+        return res
+
+    def al_cierre(self, est, d, m):
+        if self.stops:
+            self._bloqueos(est, d, m)  # registrar los stops del día aunque no toque comprar
+        return super().al_cierre(est, d, m)
+
+
+# ---------------------------------------------------------------------------
 def crear_estrategias(universos):
     disponibles = {
         "pares_largo_corto": lambda: Pares(universos, solo_largo=False),
