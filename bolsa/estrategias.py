@@ -105,7 +105,10 @@ class Seleccion(Base):
             if disponible < importe * 0.5:
                 break
             imp = min(importe * factor, valor * config.PUNTUACION["max_posicion"], disponible)
-            ordenes.append(dict(accion="comprar", ticker=t, importe=imp, motivo=motivo))
+            orden = dict(accion="comprar", ticker=t, importe=imp, motivo=motivo)
+            if hasattr(self, "al_comprar"):
+                orden = self.al_comprar(est, d, m, orden)
+            ordenes.append(orden)
             disponible -= imp
         return ordenes
 
@@ -485,6 +488,36 @@ class ConKronos(Base):
             p["distancia_stop"] = round(dist, 3)
             res[t] = dist
         return res
+
+
+# ---------------------------------------------------------------------------
+# Momentum con stop proporcional a la volatilidad de cada acción (experimento).
+# Distancia en fase 1 = k1 x volatilidad mensual (desviación diaria x raíz de 21), entre min1 y max1.
+# Fase 2: fija (config.STOP_FASE2) si k2 es None; si no, k2 x volatilidad mensual, entre min2 y max2.
+class MomentumStopVol(Momentum):
+    nombre = "momentum_stopvol"
+
+    def __init__(self, universos, nombre=None, k1=2.0, k2=None, ventana=252,
+                 min1=0.10, max1=0.40, min2=0.05, max2=0.25):
+        super().__init__(universos)
+        if nombre:
+            self.nombre = nombre
+        self.k1, self.k2, self.ventana = k1, k2, ventana
+        self.min1, self.max1, self.min2, self.max2 = min1, max1, min2, max2
+        f2 = "fija" if k2 is None else f"{k2} x volatilidad mensual"
+        self.descripcion = (f"Momentum con stop proporcional a la volatilidad ({ventana} sesiones): fase 1 a {k1} x "
+                            f"volatilidad mensual ({int(100 * min1)}-{int(100 * max1)} %), fase 2 {f2}")
+
+    def al_comprar(self, est, d, m, orden):
+        v = m.ind(f"volat{self.ventana}").at[d, orden["ticker"]]
+        if np.isnan(v):
+            return orden
+        vm = v * np.sqrt(21)
+        orden["stop_inicial"] = float(min(self.max1, max(self.min1, self.k1 * vm)))
+        orden["motivo"] += f", stop {round(100 * orden['stop_inicial'])} %"
+        if self.k2 is not None:
+            orden["stop_fase2"] = float(min(self.max2, max(self.min2, self.k2 * vm)))
+        return orden
 
 
 # ---------------------------------------------------------------------------

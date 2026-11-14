@@ -143,6 +143,8 @@ class Mercado:
             r = self._por_ticker((c * v), lambda s: s.rolling(50).mean())
         elif nombre == "mom12_1":
             r = self._por_ticker(c, lambda s: s.shift(21) / s.shift(252) - 1)
+        elif nombre == "volat60":
+            r = self._por_ticker(c, lambda s: np.log(s).diff().rolling(60).std())
         elif nombre == "volat252":
             r = self._por_ticker(c, lambda s: np.log(s).diff().rolling(252).std())
         elif nombre == "max5a":
