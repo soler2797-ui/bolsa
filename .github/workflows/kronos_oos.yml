@@ -15,6 +15,7 @@ concurrency:
 
 jobs:
   prever:
+    if: ${{ false }}  # previsiones ya hechas (run 43661277411); desactivado para no repetirlas
     runs-on: ubuntu-latest
     timeout-minutes: 350
     strategy:
@@ -49,7 +50,7 @@ jobs:
 
   evaluar:
     needs: prever
-    if: always()
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
