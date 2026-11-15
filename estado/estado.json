@@ -1607,5 +1607,169 @@
   ],
   "operaciones": [],
   "ultima_fecha": "2026-11-13"
+ },
+ "momentum_semaforo": {
+  "nombre": "momentum_semaforo",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +294 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "INTC",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +161 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AMD",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +125 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "005930.KS",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +108 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TXN",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SU.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TGT",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +76 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "FCX",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "CNQ.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +66 %"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
+ },
+ "momentum_reserva": {
+  "nombre": "momentum_reserva",
+  "efectivo": 10000.0,
+  "capital_inicial": 10000.0,
+  "posiciones": {},
+  "pendientes": [
+   {
+    "accion": "comprar",
+    "ticker": "MU",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +294 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "INTC",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +161 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "AMD",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +125 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "005930.KS",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +108 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TXN",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "SU.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +77 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "TGT",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +76 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "FCX",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "8035.T",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +73 %"
+   },
+   {
+    "accion": "comprar",
+    "ticker": "CNQ.TO",
+    "importe": 1000.0,
+    "motivo": "momentum 12-1: +66 %"
+   }
+  ],
+  "extra": {},
+  "vendidas": {},
+  "historial": [
+   [
+    "2026-11-12",
+    10000.0
+   ],
+   [
+    "2026-11-13",
+    10000.0
+   ]
+  ],
+  "operaciones": [],
+  "ultima_fecha": "2026-11-13"
  }
 }

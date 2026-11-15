@@ -102,10 +102,15 @@ class Seleccion(Base):
         for c in cands[:libres]:
             t, motivo = c[0], c[1]
             factor = c[2] if len(c) > 2 else 1.0  # tamaño relativo (estrategias de puntuación)
+            if factor == 0:  # hueco reservado: no se compra y el hueco queda en efectivo
+                continue
             if disponible < importe * 0.5:
                 break
             imp = min(importe * factor, valor * config.PUNTUACION["max_posicion"], disponible)
-            ordenes.append(dict(accion="comprar", ticker=t, importe=imp, motivo=motivo))
+            orden = dict(accion="comprar", ticker=t, importe=imp, motivo=motivo)
+            if hasattr(self, "al_comprar"):
+                orden = self.al_comprar(est, orden)
+            ordenes.append(orden)
             disponible -= imp
         return ordenes
 
@@ -488,6 +493,130 @@ class ConKronos(Base):
 
 
 # ---------------------------------------------------------------------------
+# Momentum con semáforo: después de un stop de fase 1 con pérdidas la acción queda "en rojo" (no se compra)
+# hasta que demuestra que la caída era una corrección. Ver config.SEMAFORO y docs del proyecto.
+class MomentumSemaforo(Momentum):
+    nombre = "momentum_semaforo"
+
+    def __init__(self, universos, nombre=None, **ajustes):
+        super().__init__(universos)
+        self.cfg = dict(config.SEMAFORO, **ajustes)
+        if nombre:
+            self.nombre = nombre
+        c = self.cfg
+        self.descripcion = (
+            "Momentum con semáforo. Tras un stop de fase 1 la acción queda en rojo y no se compra. "
+            f"Si recupera el precio de compra en {c['sesiones_rapida']} sesiones pasa a amarillo (rápida); si no, "
+            f"pasa a amarillo cuando cierra por encima del precio del stop (lenta). Las amarillas se compran con stop "
+            f"inicial del {round(100 * c['stop_amarillo_rapida'])} % (rápidas) o {round(100 * c['stop_amarillo_lenta'])} % "
+            f"(lentas). Si una amarilla vuelve a perder: rojo al menos {c['rojo_recaida_rapida']} sesiones (rápida) o "
+            f"{c['rojo_recaida_lenta']} (lenta), y después como lenta. Tras {c['sesiones_fuera']} sesiones seguidas fuera del top {c['top']} del ranking se borra el punto"
+            + ("; una roja que entraría por ranking no se compra pero reserva su hueco en efectivo" if c.get("reservar") else ""))
+        self._rank_dia = (None, {})
+
+    # --- utilidades ---
+    def _ranking(self, d, m):
+        if self._rank_dia[0] != d:
+            mom = m.ind("mom12_1").loc[d].reindex(self.tickers_necesarios())
+            mom = mom[mom > 0].sort_values(ascending=False)
+            self._rank_dia = (d, {t: i + 1 for i, t in enumerate(mom.index)})
+        return self._rank_dia[1]
+
+    @staticmethod
+    def _sesiones(m, desde, d):
+        return int(((m.fechas > pd.Timestamp(desde)) & (m.fechas <= d)).sum())
+
+    def _actualizar(self, est, d, m):
+        c = self.cfg
+        sem = est["extra"].setdefault("semaforo", {})
+        ops = est["operaciones"]
+        i0 = est["extra"].get("semaforo_ops", 0)
+        hoy = str(d.date())
+        # 1. ventas nuevas
+        for o in ops[i0:]:
+            if o["tipo"] != "venta":
+                continue
+            t, s = o["ticker"], sem.get(o["ticker"])
+            perdida = (o.get("resultado") or 0) < 0
+            if o["motivo"].startswith("stop") and perdida and (s or o["motivo"] == "stop fase 1"):
+                entrada = o["precio"] / (1 + o["rentabilidad_pct"] / 100) if o.get("rentabilidad_pct") is not None else o["precio"]
+                if s is None:          # primera vez: rojo, aún sin saber si es rápida o lenta
+                    sem[t] = dict(estado="rojo", tipo="nueva", desde=o["fecha"], minimo=0,
+                                  precio_stop=o["precio"], precio_compra=entrada)
+                else:                  # recaída de una amarilla
+                    minimo = c["rojo_recaida_rapida"] if s.get("tipo") == "rapida" else c["rojo_recaida_lenta"]
+                    sem[t] = dict(estado="rojo", tipo="lenta", desde=o["fecha"], minimo=minimo,
+                                  precio_stop=o["precio"], precio_compra=entrada)
+            else:
+                sem.pop(t, None)       # vende con beneficio o por otro motivo: sin punto
+        est["extra"]["semaforo_ops"] = len(ops)
+        # 2. posiciones amarillas que ya no pueden perder: sin punto
+        for t, p in est["posiciones"].items():
+            if t in sem and sem[t]["estado"] == "amarillo" and p.get("fase") == 2:
+                sem.pop(t, None)
+        # 3. evolución de las que no están en cartera
+        rk = self._ranking(d, m)
+        for t in list(sem):
+            if t in est["posiciones"]:
+                continue
+            s = sem[t]
+            if rk.get(t, 10 ** 6) > c["top"]:
+                s["fuera"] = s.get("fuera", 0) + 1
+                if s["fuera"] >= c["sesiones_fuera"]:  # fuera del ranking varias sesiones seguidas: sin punto
+                    sem.pop(t)
+                    continue
+            else:
+                s["fuera"] = 0
+            if s["desde"] == hoy:
+                continue
+            px = m.close.at[d, t] if t in m.close.columns else np.nan
+            if np.isnan(px):
+                continue
+            if s["estado"] == "amarillo":
+                if px < s["precio_stop"]:  # amarilla sin comprar que vuelve por debajo del stop: rojo otra vez
+                    s.update(estado="rojo", tipo="lenta", minimo=0)
+                continue
+            n = self._sesiones(m, s["desde"], d)
+            if s["tipo"] == "nueva":
+                if n <= c["sesiones_rapida"]:
+                    if px >= s["precio_compra"]:
+                        s.update(estado="amarillo", tipo="rapida", liberada=hoy)
+                    continue
+                s["tipo"] = "lenta"
+            if n >= s["minimo"] and px > s["precio_stop"]:
+                s.update(estado="amarillo", liberada=hoy)
+
+    # --- decisiones ---
+    def al_cierre(self, est, d, m):
+        self._actualizar(est, d, m)
+        return super().al_cierre(est, d, m)
+
+    def candidatos(self, est, d, m, tickers):
+        sem = est["extra"].get("semaforo", {})
+        reservar = self.cfg.get("reservar", False)
+        if reservar:  # las rojas cuentan en el ranking aunque estén en la espera posterior a la venta
+            ocupados = tickers_ocupados(est)
+            tickers = list(tickers) + [t for t, s in sem.items()
+                                       if s["estado"] == "rojo" and t not in ocupados and t not in tickers]
+        res = []
+        for t, motivo in super().candidatos(est, d, m, tickers):
+            s = sem.get(t)
+            if s is None:
+                res.append((t, motivo))
+            elif s["estado"] == "amarillo":
+                res.append((t, f"{motivo} (amarilla {s['tipo']})"))
+            elif reservar:  # roja: no se compra, pero ocupa su hueco (queda en efectivo)
+                res.append((t, f"{motivo} (roja, hueco reservado)", 0.0))
+        return res
+
+    def al_comprar(self, est, orden):
+        s = est["extra"].get("semaforo", {}).get(orden["ticker"])
+        if s and s["estado"] == "amarillo":
+            orden["stop_inicial"] = self.cfg["stop_amarillo_rapida" if s["tipo"] == "rapida" else "stop_amarillo_lenta"]
+        return orden
+
+
+# ---------------------------------------------------------------------------
 def crear_estrategias(universos):
     disponibles = {
         "pares_largo_corto": lambda: Pares(universos, solo_largo=False),
@@ -499,6 +628,8 @@ def crear_estrategias(universos):
         "puntuacion_fija": lambda: Puntuacion(universos, tamano_variable=False),
         "puntuacion_tamano": lambda: Puntuacion(universos, tamano_variable=True),
         "momentum": lambda: Momentum(universos),
+        "momentum_semaforo": lambda: MomentumSemaforo(universos),
+        "momentum_reserva": lambda: MomentumSemaforo(universos, nombre="momentum_reserva", reservar=True),
         "tendencia_200": lambda: Tendencia200(universos),
         "rebote": lambda: Rebote(universos),
         "baja_volatilidad": lambda: BajaVolatilidad(universos),
