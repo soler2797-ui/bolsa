@@ -1,0 +1,5 @@
+variante,kronos,azar_mediana,azar_p90,azar_max,sorteos,sorteos_mejores_que_kronos
+momentum_orden20,74.4,52.7,78.2,102.2,50,6
+puntuacion_fija_k0,62.0,61.8,82.4,93.2,50,24
+puntuacion_fija_k1,68.6,66.4,85.7,94.8,50,21
+puntuacion_fija_k2,71.7,64.5,83.9,95.9,50,14
