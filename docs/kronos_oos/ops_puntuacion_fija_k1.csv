@@ -1,0 +1,89 @@
+fecha,tipo,ticker,acciones,precio,comision,motivo,resultado,rentabilidad_pct,fecha_entrada
+2024-07-02,compra,AMD,6,146.2592,2.0,"puntuación 0.94, tamaño x1.00",,,
+2024-07-02,compra,CAT,3,305.4828,2.0,"puntuación 0.75, tamaño x1.00",,,
+2024-07-02,compra,BBVA.MC,105,9.45,2.0,"puntuación 0.75, tamaño x1.00",,,
+2024-07-02,compra,7203.T,52,18.9447,2.0,"puntuación 0.75, tamaño x1.00",,,
+2024-07-02,compra,STLAM.MI,54,18.48,2.0,"puntuación 0.71, tamaño x1.00",,,
+2024-07-02,compra,SAN.MC,226,4.419,2.0,"puntuación 0.71, tamaño x1.00",,,
+2024-07-02,compra,TGT,7,135.5114,2.0,"puntuación 0.69, tamaño x1.00",,,
+2024-07-02,compra,AAL.L,36,27.6825,2.0,"puntuación 0.69, tamaño x1.00",,,
+2024-07-02,compra,IDR.MC,51,19.46,2.0,"puntuación 0.68, tamaño x1.00",,,
+2024-07-02,compra,ISP.MI,279,3.573,2.0,"puntuación 0.68, tamaño x1.00",,,
+2024-07-24,venta,AMD,6,136.0804,2.0,stop fase 1,-65.07,-6.96,2024-07-02
+2024-07-30,compra,MU,9,100.7443,2.0,"puntuación 0.97, tamaño x1.00",,,
+2024-08-01,venta,STLAM.MI,54,15.2048,2.0,stop fase 1,-180.86,-17.72,2024-07-02
+2024-08-05,venta,7203.T,52,15.3269,2.0,stop fase 1,-192.13,-19.1,2024-07-02
+2024-08-05,venta,MU,9,80.3146,2.0,stop fase 1,-187.87,-20.28,2024-07-30
+2024-08-06,compra,META,2,437.4037,2.0,"puntuación 0.95, tamaño x1.00",,,
+2024-08-06,compra,8035.T,28,31.1039,2.0,"puntuación 0.94, tamaño x1.00",,,
+2024-08-06,compra,QCOM,5,144.6628,2.0,"puntuación 0.94, tamaño x1.00",,,
+2024-09-05,venta,8035.T,28,28.2961,2.0,stop fase 1,-82.62,-9.03,2024-08-06
+2024-09-10,compra,AVGO,6,127.9453,2.0,"puntuación 0.97, tamaño x1.00",,,
+2024-11-18,venta,AVGO,6,154.1302,2.0,stop fase 2,155.97,20.47,2024-09-10
+2024-11-19,compra,PHIA.AS,40,24.66,2.0,"puntuación 0.92, tamaño x1.00",,,
+2024-11-20,venta,TGT,7,118.9017,2.0,stop fase 1,-105.83,-12.26,2024-07-02
+2024-11-26,compra,SAAB-B.ST,47,20.5462,2.0,"puntuación 0.93, tamaño x1.00",,,
+2024-12-18,venta,CAT,3,351.4328,2.0,stop fase 2,141.62,15.04,2024-07-02
+2024-12-24,compra,9984.T,71,13.5955,2.0,"puntuación 0.90, tamaño x1.00",,,
+2025-02-24,venta,META,2,633.7447,2.0,stop fase 2,390.54,44.89,2024-08-06
+2025-02-25,compra,ORCL,7,161.8243,2.0,"puntuación 0.94, tamaño x1.00",,,
+2025-02-28,venta,9984.T,71,13.2108,2.0,stop fase 1,-31.31,-2.83,2024-12-24
+2025-03-04,compra,3690.HK,60,19.4931,2.0,"puntuación 0.99, tamaño x1.00",,,
+2025-03-11,venta,ORCL,7,131.1048,2.0,stop fase 1,-219.04,-18.98,2025-02-25
+2025-03-18,compra,TSLA,4,208.9535,2.0,"puntuación 1.00, tamaño x1.00",,,
+2025-03-31,venta,TSLA,4,230.3325,2.0,stop fase 2,81.52,10.23,2025-03-18
+2025-04-01,compra,AVGO,6,153.7775,2.0,"puntuación 0.95, tamaño x1.00",,,
+2025-04-03,venta,AAL.L,36,24.1652,2.0,stop fase 1,-107.32,-12.71,2024-07-02
+2025-04-03,venta,ISP.MI,279,4.4532,2.0,stop fase 2,289.01,24.63,2024-07-02
+2025-04-03,venta,QCOM,5,134.7549,2.0,stop fase 1,-41.72,-6.85,2024-08-06
+2025-04-03,venta,PHIA.AS,40,22.04,2.0,stop fase 1,-108.8,-10.62,2024-11-19
+2025-04-04,venta,BBVA.MC,105,12.2265,2.0,stop fase 2,317.98,29.38,2024-07-02
+2025-04-04,venta,SAN.MC,226,5.901,2.0,stop fase 2,353.53,33.54,2024-07-02
+2025-04-04,venta,IDR.MC,51,25.47,2.0,stop fase 2,315.26,30.88,2024-07-02
+2025-04-04,venta,SAAB-B.ST,47,34.4531,2.0,stop fase 2,649.63,67.69,2024-11-26
+2025-04-04,venta,AVGO,6,127.5214,2.0,stop fase 1,-161.54,-17.07,2025-04-01
+2025-04-07,venta,3690.HK,60,16.9996,2.0,stop fase 1,-153.61,-12.79,2025-03-04
+2025-04-08,compra,6501.T,57,19.0936,2.0,"puntuación 0.92, tamaño x1.00",,,
+2025-04-08,compra,SHOP.TO,14,76.7884,2.0,"puntuación 0.88, tamaño x1.00",,,
+2025-04-08,compra,NVDA,11,95.1045,2.0,"puntuación 0.87, tamaño x1.00",,,
+2025-04-08,compra,IAG.MC,401,2.755,2.0,"puntuación 0.86, tamaño x1.00",,,
+2025-04-08,compra,7974.T,18,59.2148,2.0,"puntuación 0.84, tamaño x1.00",,,
+2025-04-08,compra,BARC.L,386,2.8641,2.0,"puntuación 0.84, tamaño x1.00",,,
+2025-04-08,compra,2330.TW,49,22.1406,2.0,"puntuación 0.84, tamaño x1.00",,,
+2025-04-08,compra,NFLX,13,83.5923,2.0,"puntuación 0.82, tamaño x1.00",,,
+2025-04-08,compra,8316.T,116,9.4693,2.0,"puntuación 0.80, tamaño x1.00",,,
+2025-04-08,compra,ORCL,9,121.4252,2.0,"puntuación 0.79, tamaño x1.00",,,
+2025-05-21,venta,SHOP.TO,14,89.9954,2.0,stop fase 2,180.9,17.2,2025-04-08
+2025-05-22,venta,7974.T,18,68.5155,2.0,stop fase 2,163.41,15.71,2025-04-08
+2025-05-27,compra,3690.HK,99,13.7834,2.0,"puntuación 0.72, tamaño x1.00",,,
+2025-05-27,compra,CFR.SW,7,168.4203,2.0,"puntuación 0.62, tamaño x1.00",,,
+2025-06-13,venta,IAG.MC,401,3.6405,2.0,stop fase 2,351.09,32.14,2025-04-08
+2025-06-17,compra,9988.HK,113,12.607,2.0,"puntuación 0.94, tamaño x1.00",,,
+2025-07-03,venta,3690.HK,99,13.2647,2.0,stop fase 1,-55.36,-3.76,2025-05-27
+2025-07-08,compra,SHOP.TO,14,99.7687,2.0,"puntuación 0.94, tamaño x1.00",,,
+2025-07-22,venta,NFLX,13,102.7689,2.0,stop fase 2,245.3,22.94,2025-04-08
+2025-07-29,compra,LDO.MI,30,46.52,2.0,"puntuación 0.93, tamaño x1.00",,,
+2025-08-01,venta,6501.T,57,24.7877,2.0,stop fase 2,320.57,29.82,2025-04-08
+2025-08-05,compra,HO.PA,6,237.0,2.0,"puntuación 0.81, tamaño x1.00",,,
+2025-08-12,venta,CFR.SW,7,136.7485,2.0,stop fase 1,-225.7,-18.81,2025-05-27
+2025-08-18,venta,SHOP.TO,14,120.1257,2.0,stop fase 2,281.0,20.4,2025-07-08
+2025-08-19,compra,6501.T,61,24.8285,2.0,"puntuación 0.90, tamaño x1.00",,,
+2025-08-19,compra,BA.L,54,20.6541,2.0,"puntuación 0.78, tamaño x1.00",,,
+2025-08-19,venta,ORCL,9,199.8302,2.0,stop fase 2,709.59,64.57,2025-04-08
+2025-09-02,compra,3690.HK,136,11.1351,2.0,"puntuación 0.75, tamaño x1.00",,,
+2025-09-05,venta,NVDA,11,141.8812,2.0,stop fase 2,510.64,49.18,2025-04-08
+2025-09-16,compra,IDR.MC,46,34.48,2.0,"puntuación 0.89, tamaño x1.00",,,
+2025-10-13,venta,9988.HK,113,17.6114,2.0,stop fase 2,561.5,39.7,2025-06-17
+2025-10-14,compra,SAAB-B.ST,35,46.2849,2.0,"puntuación 0.97, tamaño x1.00",,,
+2025-10-14,venta,8316.T,116,11.1309,2.0,stop fase 2,214.62,17.55,2025-04-08
+2025-11-04,compra,GRF.MC,156,11.2,2.0,"puntuación 0.77, tamaño x1.00",,,
+2025-11-18,venta,2330.TW,49,39.34,2.0,stop fase 2,852.1,77.68,2025-04-08
+2025-11-21,venta,IDR.MC,46,45.81,2.11,stop fase 2,517.07,32.86,2025-09-16
+2025-11-24,venta,LDO.MI,30,44.96,2.0,stop fase 1,-50.8,-3.35,2025-07-29
+2025-11-24,venta,BA.L,54,18.9336,2.0,stop fase 1,-88.52,-8.33,2025-08-19
+2025-11-25,compra,RHM.DE,1,1452.0,2.0,"puntuación 0.97, tamaño x1.00",,,
+2025-11-25,compra,IAG.MC,357,4.441,2.0,"puntuación 0.85, tamaño x1.00",,,
+2025-11-25,compra,BA,10,155.8063,2.0,"puntuación 0.83, tamaño x1.00",,,
+2025-11-25,compra,UCG.MI,25,61.48,2.0,"puntuación 0.80, tamaño x1.00",,,
+2025-12-01,venta,HO.PA,6,218.4,2.0,stop fase 1,-115.6,-7.85,2025-08-05
+2025-12-02,compra,NVDA,10,156.5862,2.0,"puntuación 0.85, tamaño x1.00",,,

@@ -1,0 +1,4 @@
+grupo,previsiones,semanas,prevision_mediana,real_medio,acierto_direccion,suben_de_verdad,ic_medio,ic_t,semanas_ic_positivo,q1_real,q2_real,q3_real,q4_real,q5_real
+todas,17282,77,-2.45,0.66,48.5,55.0,-0.012,-0.69,46.8,0.87,0.79,0.48,0.53,0.64
+top20_momentum,1535,77,-14.03,1.44,44.3,58.1,0.071,2.18,61.0,0.55,1.52,1.83,1.57,1.71
+top20_puntuacion,1536,77,-12.6,1.42,46.0,56.6,0.071,2.04,58.4,0.78,1.5,1.68,1.46,1.66

@@ -1,0 +1,13 @@
+estrategia,kronos,azar_min,azar_median,azar_max
+momentum_k0,46.6,45.5,58.7,75.5
+momentum_k1,52.7,52.4,54.1,62.3
+momentum_k2,52.1,43.1,55.2,56.4
+momentum_kneg,60.9,50.2,57.0,68.1
+momentum_orden10,87.2,69.5,70.0,81.5
+momentum_orden20,66.5,46.0,55.9,60.5
+puntuacion_fija_k0,72.0,44.9,59.7,86.5
+puntuacion_fija_k1,73.9,35.3,59.8,70.9
+puntuacion_fija_k2,67.9,31.3,62.1,71.8
+puntuacion_fija_kneg,64.1,38.1,46.2,79.4
+puntuacion_fija_orden10,64.6,43.5,58.7,59.9
+puntuacion_fija_orden20,67.3,43.9,66.8,74.2
