@@ -9,7 +9,7 @@ sys.path.insert(0, RAIZ)
 import config
 from bolsa import datos, universos
 
-INICIO = "2012-01-01"
+INICIO = "2004-01-01"
 univ = universos.cargar(refrescar_pequenas=False)
 tickers = sorted(set(univ["grandes"]) | {t for t, _ in config.REFERENCIAS.values()})
 crudo = datos.descargar(tickers, INICIO, usar_cache=False)
