@@ -1,0 +1,31 @@
+name: Exportar precios (rama experimentos)
+
+on:
+  push:
+    branches: [experimentos]
+    paths:
+      - experimentos/exportar_precios.py
+      - .github/workflows/exportar_precios.yml
+
+permissions:
+  contents: write
+
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pyarrow
+      - run: python experimentos/exportar_precios.py
+      - name: Guardar precios en la rama
+        run: |
+          git config user.name "simulador-bot"
+          git config user.email "simulador-bot@users.noreply.github.com"
+          git add experimentos/precios
+          git diff --cached --quiet || git commit -m "Precios para experimentos"
+          git push
