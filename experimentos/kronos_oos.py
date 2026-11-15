@@ -46,14 +46,15 @@ def prever(parte, partes):
     dias = dias_semana(m)
     trozo = np.array_split(np.arange(len(dias)), partes)[parte]
     filas = []
+    os.makedirs(CARPETA, exist_ok=True)
     for k in trozo:
         d = dias[k]
         ts = [t for t in univ["grandes"] if t in m.close.columns and not np.isnan(m.close.at[d, t])]
         res = kronos_ia.prever(m, ts, d)
         filas += [dict(fecha=str(d.date()), ticker=t, prevision_pct=round(v, 3)) for t, v in res.items() if v is not None]
         print(d.date(), sum(v is not None for v in res.values()), "previsiones", flush=True)
-    os.makedirs(CARPETA, exist_ok=True)
-    pd.DataFrame(filas).to_csv(os.path.join(CARPETA, f"previsiones_{parte}.csv"), index=False)
+        # se guarda cada semana, para no perder lo hecho si el trabajo se corta
+        pd.DataFrame(filas).to_csv(os.path.join(CARPETA, f"previsiones_{parte}.csv"), index=False)
 
 
 # ---------------------------------------------------------------------------
