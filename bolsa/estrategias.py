@@ -102,6 +102,8 @@ class Seleccion(Base):
         for c in cands[:libres]:
             t, motivo = c[0], c[1]
             factor = c[2] if len(c) > 2 else 1.0  # tamaño relativo (estrategias de puntuación)
+            if factor == 0:  # hueco reservado: no se compra y el hueco queda en efectivo
+                continue
             if disponible < importe * 0.5:
                 break
             imp = min(importe * factor, valor * config.PUNTUACION["max_posicion"], disponible)
@@ -508,7 +510,8 @@ class MomentumSemaforo(Momentum):
             f"pasa a amarillo cuando cierra por encima del precio del stop (lenta). Las amarillas se compran con stop "
             f"inicial del {round(100 * c['stop_amarillo_rapida'])} % (rápidas) o {round(100 * c['stop_amarillo_lenta'])} % "
             f"(lentas). Si una amarilla vuelve a perder: rojo al menos {c['rojo_recaida_rapida']} sesiones (rápida) o "
-            f"{c['rojo_recaida_lenta']} (lenta), y después como lenta. Tras {c['sesiones_fuera']} sesiones seguidas fuera del top {c['top']} del ranking se borra el punto")
+            f"{c['rojo_recaida_lenta']} (lenta), y después como lenta. Tras {c['sesiones_fuera']} sesiones seguidas fuera del top {c['top']} del ranking se borra el punto"
+            + ("; una roja que entraría por ranking no se compra pero reserva su hueco en efectivo" if c.get("reservar") else ""))
         self._rank_dia = (None, {})
 
     # --- utilidades ---
@@ -590,6 +593,11 @@ class MomentumSemaforo(Momentum):
 
     def candidatos(self, est, d, m, tickers):
         sem = est["extra"].get("semaforo", {})
+        reservar = self.cfg.get("reservar", False)
+        if reservar:  # las rojas cuentan en el ranking aunque estén en la espera posterior a la venta
+            ocupados = tickers_ocupados(est)
+            tickers = list(tickers) + [t for t, s in sem.items()
+                                       if s["estado"] == "rojo" and t not in ocupados and t not in tickers]
         res = []
         for t, motivo in super().candidatos(est, d, m, tickers):
             s = sem.get(t)
@@ -597,6 +605,8 @@ class MomentumSemaforo(Momentum):
                 res.append((t, motivo))
             elif s["estado"] == "amarillo":
                 res.append((t, f"{motivo} (amarilla {s['tipo']})"))
+            elif reservar:  # roja: no se compra, pero ocupa su hueco (queda en efectivo)
+                res.append((t, f"{motivo} (roja, hueco reservado)", 0.0))
         return res
 
     def al_comprar(self, est, orden):

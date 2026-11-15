@@ -113,6 +113,7 @@ SEMAFORO = dict(
     rojo_recaida_lenta=21,
     stop_amarillo_rapida=0.10,
     stop_amarillo_lenta=0.10,
+    reservar=False,  # True: una roja que entraría por ranking no se compra, pero su hueco queda en efectivo
 )
 
 # ---------------------------------------------------------------------------
