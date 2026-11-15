@@ -1,0 +1,35 @@
+name: Prueba 2026
+
+on:
+  push:
+    branches: [semaforo]
+    paths: ["experimentos/prueba2026.py", ".github/workflows/prueba2026.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prueba2026
+  cancel-in-progress: true
+
+jobs:
+  calibrar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python experimentos/prueba2026.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "simulador-bot"
+          git config user.email "simulador-bot@users.noreply.github.com"
+          git add docs/prueba2026
+          git diff --cached --quiet || git commit -m "Prueba 2026"
+          git pull --rebase --autostash origin ${{ github.ref_name }}
+          git push origin HEAD:${{ github.ref_name }}

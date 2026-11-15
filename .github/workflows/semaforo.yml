@@ -3,7 +3,7 @@ name: Calibrar semaforo
 on:
   push:
     branches: [semaforo]
-    paths: ["experimentos/**", "bolsa/**", "config.py", ".github/workflows/semaforo.yml"]
+    paths: ["experimentos/semaforo.py", "bolsa/**", "config.py", ".github/workflows/semaforo.yml"]
   workflow_dispatch:
 
 permissions:
