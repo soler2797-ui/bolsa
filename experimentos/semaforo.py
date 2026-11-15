@@ -54,7 +54,7 @@ def main(carpeta):
                                   reservar=True),
                  MomentumSemaforo(univ, nombre="reserva_solo_rojo", stop_amarillo_rapida=0.2, stop_amarillo_lenta=0.2,
                                   reservar=True, sesiones_rapida=0)]
-    filas = []
+    filas, curvas = [], {}
     for periodo, (desde, hasta) in PERIODOS.items():
         fechas = m.fechas[(m.fechas >= desde) & (m.fechas <= hasta)]
         for e in variantes:
@@ -62,12 +62,14 @@ def main(carpeta):
             for d in fechas:
                 procesar_dia(est, e, d, m)
                 est["extra"].setdefault("efectivo_hist", []).append(est["efectivo"])
+            curvas[f"{periodo}|{e.nombre}"] = pd.Series({pd.Timestamp(f): v for f, v in est["historial"]})
             fila = dict(periodo=periodo, estrategia=e.nombre, **metricas(est))
             filas.append(fila)
             print(periodo, e.nombre, fila["anual_pct"], fila["caida_max_pct"], flush=True)
             pd.DataFrame(est["operaciones"]).to_csv(os.path.join(carpeta, f"ops_{periodo}_{e.nombre}.csv"), index=False)
     df = pd.DataFrame(filas)
     df.to_csv(os.path.join(carpeta, "resultados.csv"), index=False)
+    pd.DataFrame(curvas).to_csv(os.path.join(carpeta, "curvas.csv"))
     t = df.pivot(index="estrategia", columns="periodo", values=["anual_pct", "caida_max_pct", "compras_amarillas", "efectivo_medio_pct"])
     t.columns = [f"{a}_{b}" for a, b in t.columns]
     with open(os.path.join(carpeta, "index.html"), "w", encoding="utf-8") as f:
