@@ -29,10 +29,18 @@ CARPETA = os.path.join(RAIZ, "docs", "kronos_oos")
 H = config.KRONOS["horizonte"]
 
 
-def mercado():
+def mercado(esperadas=238, intentos=4):
+    """Descarga los precios; si faltan acciones (fallos puntuales de Yahoo) lo vuelve a intentar."""
     univ = universos.cargar(refrescar_pequenas=False)
     univ["pequenas"], univ["pequenas_primera"] = [], {}
-    m = datos.cargar_mercado(univ["grandes"], (dt.date.today() - dt.date(2022, 6, 1)).days / 365.25)
+    for i in range(intentos):
+        m = datos.cargar_mercado(univ["grandes"], (dt.date.today() - dt.date(2022, 6, 1)).days / 365.25)
+        con = [t for t in univ["grandes"] if t in m.close.columns and m.close[t].notna().sum() > 0]
+        print(f"descarga {i + 1}: {len(con)} acciones con datos", flush=True)
+        if len(con) >= esperadas:
+            break
+    with open(os.path.join(CARPETA, f"descarga_{os.getpid()}.txt"), "w") as f:
+        f.write(f"{len(con)} acciones con datos; faltan: {sorted(set(univ['grandes']) - set(con))}\n")
     return univ, m
 
 

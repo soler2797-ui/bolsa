@@ -62,3 +62,4 @@ def main(semillas):
 
 if __name__ == "__main__":
     main(int(sys.argv[1]) if len(sys.argv) > 1 else 50)
+# repetido con reintentos de descarga
