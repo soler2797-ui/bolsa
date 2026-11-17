@@ -69,6 +69,64 @@ def _cerrar(est, d, t, precio, motivo):
     est["vendidas"][t] = str(d.date())
 
 
+def _reducir(est, d, t, fraccion, precio, motivo):
+    """Venta parcial de una posición larga: vende `fraccion` de las acciones (enteras si se usan enteras).
+    El resto sigue con el mismo stop, máximo y fase. Si no queda nada, se cierra la posición."""
+    p = est["posiciones"][t]
+    if p["acciones"] <= 0:
+        return False
+    n = p["acciones"] * fraccion
+    if config.ACCIONES_ENTERAS:
+        n = math.floor(n)
+    if n <= 0:
+        return False
+    if n >= p["acciones"] - 1e-9:
+        _cerrar(est, d, t, precio, motivo)
+        return True
+    parte = n / p["acciones"]
+    importe = n * precio
+    com = comision(importe)
+    est["efectivo"] += importe - com
+    com_ent = p.get("comision_entrada", 0) * parte
+    div = p.get("dividendos", 0) * parte
+    op = _apuntar(est, d, "venta_parcial", t, n, precio, com, motivo, p.get("grupo"))
+    op["resultado"] = round((precio - p["precio_entrada"]) * n - com - com_ent + div, 2)
+    op["rentabilidad_pct"] = round(100 * (precio / p["precio_entrada"] - 1), 2)
+    op["fecha_entrada"] = p["fecha_entrada"]
+    p["acciones"] -= n
+    p["comision_entrada"] = p.get("comision_entrada", 0) - com_ent
+    p["dividendos"] = p.get("dividendos", 0) - div
+    p["reducida"] = p.get("reducida", 0) + n
+    return True
+
+
+def _ampliar(est, d, t, acciones, precio, motivo):
+    """Compra `acciones` más de una posición larga abierta. El precio de entrada pasa a ser el medio ponderado;
+    stop, máximo y fase no cambian."""
+    p = est["posiciones"][t]
+    n = acciones
+    if config.ACCIONES_ENTERAS:
+        n = math.floor(n)
+    imp = n * precio
+    com = comision(imp)
+    if n <= 0 or imp + com > est["efectivo"] + 1e-9:
+        n = (est["efectivo"] - com) / precio
+        if config.ACCIONES_ENTERAS:
+            n = math.floor(n)
+        imp = n * precio
+        com = comision(imp)
+        if n <= 0 or imp + com > est["efectivo"] + 1e-9:
+            return False
+    est["efectivo"] -= imp + com
+    total = p["acciones"] + n
+    p["precio_entrada"] = (p["precio_entrada"] * p["acciones"] + precio * n) / total
+    p["acciones"] = total
+    p["comision_entrada"] = p.get("comision_entrada", 0) + com
+    p["reducida"] = max(0, p.get("reducida", 0) - n)
+    _apuntar(est, d, "ampliacion", t, n, precio, com, motivo, p.get("grupo"))
+    return True
+
+
 def _abrir(est, d, o, precio, con_stop):
     t, importe = o["ticker"], o["importe"]
     importe = min(importe, max(0.0, est["efectivo"] - comision(importe))) if o["accion"] == "comprar" else importe
@@ -154,6 +212,12 @@ def procesar_dia(est, estrategia, d, m, splits_antes_de=None):
         if o["accion"] in ("comprar", "abrir_corto"):
             if t not in pos:
                 _abrir(est, d, o, px, estrategia.usa_stop)
+        elif o["accion"] == "reducir":
+            if t in pos:
+                _reducir(est, d, t, o["fraccion"], px, o.get("motivo", ""))
+        elif o["accion"] == "ampliar":
+            if t in pos:
+                _ampliar(est, d, t, o["acciones"], px, o.get("motivo", ""))
         elif t in pos:
             _cerrar(est, d, t, px, o.get("motivo", ""))
     est["pendientes"] = quedan
