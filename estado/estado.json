@@ -15,7 +15,7 @@
      "p": 0.00036121376752981774,
      "armado": 1,
      "abierto": null,
-     "z": 3.31
+     "z": 3.26
     },
     {
      "a": "CABK.MC",
@@ -35,7 +35,7 @@
      "p": 0.002413883858111166,
      "armado": 0,
      "abierto": null,
-     "z": -0.36
+     "z": -0.87
     },
     {
      "a": "ISP.MI",
@@ -55,7 +55,7 @@
      "p": 0.0036995462256682854,
      "armado": 0,
      "abierto": null,
-     "z": -0.18
+     "z": -0.06
     }
    ],
    "ultima_revision": "2026-11-12"
@@ -73,10 +73,18 @@
    [
     "2026-11-16",
     50000.0
+   ],
+   [
+    "2026-11-17",
+    50000.0
+   ],
+   [
+    "2026-11-18",
+    50000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "pares_solo_largo": {
   "nombre": "pares_solo_largo",
@@ -94,7 +102,7 @@
      "p": 0.00036121376752981774,
      "armado": 1,
      "abierto": null,
-     "z": 3.31
+     "z": 3.26
     },
     {
      "a": "CABK.MC",
@@ -114,7 +122,7 @@
      "p": 0.002413883858111166,
      "armado": 0,
      "abierto": null,
-     "z": -0.36
+     "z": -0.87
     },
     {
      "a": "ISP.MI",
@@ -134,7 +142,7 @@
      "p": 0.0036995462256682854,
      "armado": 0,
      "abierto": null,
-     "z": -0.18
+     "z": -0.06
     }
    ],
    "ultima_revision": "2026-11-12"
@@ -152,14 +160,22 @@
    [
     "2026-11-16",
     50000.0
+   ],
+   [
+    "2026-11-17",
+    50000.0
+   ],
+   [
+    "2026-11-18",
+    50000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "pequenas_azar": {
   "nombre": "pequenas_azar",
-  "efectivo": 17.320517827005915,
+  "efectivo": 814.3946218601551,
   "capital_inicial": 10000.0,
   "posiciones": {
    "BCGL.XC": {
@@ -178,8 +194,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 4.279891021295545,
-    "stop": 3.4239128170364364,
+    "maximo": 4.280789313611261,
+    "stop": 3.424631450889009,
     "fase": 1
    },
    "ASTL.TO": {
@@ -251,21 +267,13 @@
     "maximo": 2.1304063109277247,
     "stop": 1.70432504874218,
     "fase": 1
-   },
-   "MAXX.CN": {
-    "acciones": 849,
-    "precio_entrada": 1.1764930860323162,
-    "fecha_entrada": "2026-11-16",
-    "comision_entrada": 2.0,
-    "dividendos": 0.0,
-    "maximo": 1.1764930860323162,
-    "stop": 0.941194468825853,
-    "fase": 1
    }
   },
   "pendientes": [],
   "extra": {},
-  "vendidas": {},
+  "vendidas": {
+   "MAXX.CN": "2026-11-17"
+  },
   "historial": [
    [
     "2026-11-12",
@@ -278,6 +286,14 @@
    [
     "2026-11-16",
     9670.94
+   ],
+   [
+    "2026-11-17",
+    9419.85
+   ],
+   [
+    "2026-11-18",
+    9419.85
    ]
   ],
   "operaciones": [
@@ -370,23 +386,39 @@
     "precio": 1.1765,
     "comision": 2.0,
     "motivo": "pequeña al azar"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "venta",
+    "ticker": "MAXX.CN",
+    "acciones": 849,
+    "precio": 0.9412,
+    "comision": 2.0,
+    "motivo": "stop fase 1",
+    "resultado": -203.77,
+    "rentabilidad_pct": -20.0,
+    "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "maximo_52s": {
   "nombre": "maximo_52s",
-  "efectivo": 10000.0,
+  "efectivo": 9032.80038768569,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "MEDZ.XC",
-    "importe": 1000.0,
-    "motivo": "máximo 52 semanas, volumen x2.8"
+  "posiciones": {
+   "MEDZ.XC": {
+    "acciones": 8,
+    "precio_entrada": 120.64995153928888,
+    "fecha_entrada": "2026-11-17",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 121.0823902971095,
+    "stop": 96.86591223768761,
+    "fase": 1
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
@@ -401,10 +433,28 @@
    [
     "2026-11-16",
     10000.0
+   ],
+   [
+    "2026-11-17",
+    10001.46
+   ],
+   [
+    "2026-11-18",
+    10001.46
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-16"
+  "operaciones": [
+   {
+    "fecha": "2026-11-17",
+    "tipo": "compra",
+    "ticker": "MEDZ.XC",
+    "acciones": 8,
+    "precio": 120.65,
+    "comision": 2.0,
+    "motivo": "máximo 52 semanas, volumen x2.8"
+   }
+  ],
+  "ultima_fecha": "2026-11-18"
  },
  "momentum": {
   "nombre": "momentum",
@@ -457,8 +507,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 267.64378339800163,
-    "stop": 214.1150267184013,
+    "maximo": 269.02548381106965,
+    "stop": 215.22038704885574,
     "fase": 1
    },
    "SU.TO": {
@@ -527,6 +577,14 @@
    [
     "2026-11-16",
     9752.75
+   ],
+   [
+    "2026-11-17",
+    9701.88
+   ],
+   [
+    "2026-11-18",
+    9701.88
    ]
   ],
   "operaciones": [
@@ -621,11 +679,11 @@
     "motivo": "momentum 12-1: +66 %"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "tendencia_200": {
   "nombre": "tendencia_200",
-  "efectivo": 4354.38408104221,
+  "efectivo": 3372.9840819708766,
   "capital_inicial": 10000.0,
   "posiciones": {
    "GSK.L": {
@@ -687,14 +745,25 @@
     "maximo": 823.9087499337714,
     "stop": 659.1269999470172,
     "fase": 1
+   },
+   "0005.HK": {
+    "acciones": 61,
+    "precio_entrada": 16.055737689693988,
+    "fecha_entrada": "2026-11-17",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 16.055737689693988,
+    "stop": 12.844590151755192,
+    "fase": 1
    }
   },
   "pendientes": [
    {
     "accion": "comprar",
-    "ticker": "0005.HK",
-    "importe": 995.3248107527486,
-    "motivo": "cruza media 200"
+    "ticker": "WPM.TO",
+    "importe": 991.4202340329915,
+    "motivo": "cruza media 200",
+    "intentos": 1
    }
   ],
   "extra": {},
@@ -711,6 +780,14 @@
    [
     "2026-11-16",
     9953.25
+   ],
+   [
+    "2026-11-17",
+    9914.2
+   ],
+   [
+    "2026-11-18",
+    9914.2
    ]
   ],
   "operaciones": [
@@ -767,9 +844,18 @@
     "precio": 823.9087,
     "comision": 2.0,
     "motivo": "cruza media 200"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "compra",
+    "ticker": "0005.HK",
+    "acciones": 61,
+    "precio": 16.0557,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "rebote": {
   "nombre": "rebote",
@@ -791,10 +877,18 @@
    [
     "2026-11-16",
     10000.0
+   ],
+   [
+    "2026-11-17",
+    10000.0
+   ],
+   [
+    "2026-11-18",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "baja_volatilidad": {
   "nombre": "baja_volatilidad",
@@ -807,8 +901,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 9.287418776700111,
-    "stop": 7.429935021360089,
+    "maximo": 9.332035263684954,
+    "stop": 7.465628210947964,
     "fase": 1
    },
    "RY.TO": {
@@ -917,6 +1011,14 @@
    [
     "2026-11-16",
     9928.67
+   ],
+   [
+    "2026-11-17",
+    9837.51
+   ],
+   [
+    "2026-11-18",
+    9837.51
    ]
   ],
   "operaciones": [
@@ -1011,7 +1113,7 @@
     "motivo": "volatilidad 20 % anual"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "azar_grandes": {
   "nombre": "azar_grandes",
@@ -1134,6 +1236,14 @@
    [
     "2026-11-16",
     9884.92
+   ],
+   [
+    "2026-11-17",
+    9797.43
+   ],
+   [
+    "2026-11-18",
+    9797.43
    ]
   ],
   "operaciones": [
@@ -1228,7 +1338,7 @@
     "motivo": "azar"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "ref_mundo": {
   "nombre": "ref_mundo",
@@ -1258,6 +1368,14 @@
    [
     "2026-11-16",
     9957.18
+   ],
+   [
+    "2026-11-17",
+    9919.68
+   ],
+   [
+    "2026-11-18",
+    9919.68
    ]
   ],
   "operaciones": [
@@ -1271,7 +1389,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "ref_sp500": {
   "nombre": "ref_sp500",
@@ -1301,6 +1419,14 @@
    [
     "2026-11-16",
     9756.68
+   ],
+   [
+    "2026-11-17",
+    9665.22
+   ],
+   [
+    "2026-11-18",
+    9665.22
    ]
   ],
   "operaciones": [
@@ -1314,7 +1440,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "ref_mundo_sin_eeuu": {
   "nombre": "ref_mundo_sin_eeuu",
@@ -1344,6 +1470,14 @@
    [
     "2026-11-16",
     9811.23
+   ],
+   [
+    "2026-11-17",
+    9701.11
+   ],
+   [
+    "2026-11-18",
+    9701.11
    ]
   ],
   "operaciones": [
@@ -1357,7 +1491,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "ref_europa": {
   "nombre": "ref_europa",
@@ -1387,6 +1521,14 @@
    [
     "2026-11-16",
     10023.16
+   ],
+   [
+    "2026-11-17",
+    9997.66
+   ],
+   [
+    "2026-11-18",
+    9997.66
    ]
   ],
   "operaciones": [
@@ -1400,7 +1542,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "ref_bono_eeuu": {
   "nombre": "ref_bono_eeuu",
@@ -1430,6 +1572,14 @@
    [
     "2026-11-16",
     10037.85
+   ],
+   [
+    "2026-11-17",
+    10060.92
+   ],
+   [
+    "2026-11-18",
+    10060.92
    ]
   ],
   "operaciones": [
@@ -1443,7 +1593,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "ref_bono_china": {
   "nombre": "ref_bono_china",
@@ -1473,6 +1623,14 @@
    [
     "2026-11-16",
     10002.44
+   ],
+   [
+    "2026-11-17",
+    9994.46
+   ],
+   [
+    "2026-11-18",
+    9994.46
    ]
   ],
   "operaciones": [
@@ -1486,11 +1644,11 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "momentum_pequenas": {
   "nombre": "momentum_pequenas",
-  "efectivo": 43.095755075370676,
+  "efectivo": 840.1698591085199,
   "capital_inicial": 10000.0,
   "posiciones": {
    "SLG.V": {
@@ -1529,18 +1687,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 14.671186370778376,
-    "stop": 11.736949096622702,
-    "fase": 1
-   },
-   "MAXX.CN": {
-    "acciones": 849,
-    "precio_entrada": 1.1764930860323162,
-    "fecha_entrada": "2026-11-16",
-    "comision_entrada": 2.0,
-    "dividendos": 0.0,
-    "maximo": 1.1764930860323162,
-    "stop": 0.941194468825853,
+    "maximo": 15.074994013527078,
+    "stop": 12.059995210821663,
     "fase": 1
    },
    "SREMF": {
@@ -1596,7 +1744,9 @@
   },
   "pendientes": [],
   "extra": {},
-  "vendidas": {},
+  "vendidas": {
+   "MAXX.CN": "2026-11-17"
+  },
   "historial": [
    [
     "2026-11-13",
@@ -1605,6 +1755,14 @@
    [
     "2026-11-16",
     9539.57
+   ],
+   [
+    "2026-11-17",
+    9448.52
+   ],
+   [
+    "2026-11-18",
+    9448.52
    ]
   ],
   "operaciones": [
@@ -1697,9 +1855,21 @@
     "precio": 1.3228,
     "comision": 2.0,
     "motivo": "momentum 12-1: +161 %"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "venta",
+    "ticker": "MAXX.CN",
+    "acciones": 849,
+    "precio": 0.9412,
+    "comision": 2.0,
+    "motivo": "stop fase 1",
+    "resultado": -203.77,
+    "rentabilidad_pct": -20.0,
+    "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "puntuacion_fija": {
   "nombre": "puntuacion_fija",
@@ -1772,8 +1942,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 267.64378339800163,
-    "stop": 214.1150267184013,
+    "maximo": 269.02548381106965,
+    "stop": 215.22038704885574,
     "fase": 1
    },
    "AAL.L": {
@@ -1792,8 +1962,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 85.9092247205048,
-    "stop": 68.72737977640384,
+    "maximo": 86.48352327560146,
+    "stop": 69.18681862048116,
     "fase": 1
    },
    "2330.TW": {
@@ -1818,6 +1988,14 @@
    [
     "2026-11-16",
     9724.19
+   ],
+   [
+    "2026-11-17",
+    9658.81
+   ],
+   [
+    "2026-11-18",
+    9658.81
    ]
   ],
   "operaciones": [
@@ -1912,11 +2090,11 @@
     "motivo": "puntuación 0.82, tamaño x1.00"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "puntuacion_tamano": {
   "nombre": "puntuacion_tamano",
-  "efectivo": 1211.8367727675789,
+  "efectivo": 47.65135990451813,
   "capital_inicial": 10000.0,
   "posiciones": {
    "INTC": {
@@ -1968,16 +2146,19 @@
     "maximo": 53.70799214063387,
     "stop": 42.9663937125071,
     "fase": 1
+   },
+   "FCX": {
+    "acciones": 23,
+    "precio_entrada": 50.52980055926351,
+    "fecha_entrada": "2026-11-17",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 50.52980055926351,
+    "stop": 40.42384044741081,
+    "fase": 1
    }
   },
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "FCX",
-    "importe": 1211.8367727675789,
-    "motivo": "puntuación 0.93, tamaño x1.80"
-   }
-  ],
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
@@ -1988,6 +2169,14 @@
    [
     "2026-11-16",
     9702.64
+   ],
+   [
+    "2026-11-17",
+    9602.17
+   ],
+   [
+    "2026-11-18",
+    9602.17
    ]
   ],
   "operaciones": [
@@ -2035,9 +2224,18 @@
     "precio": 53.708,
     "comision": 2.0,
     "motivo": "puntuación 0.95, tamaño x1.85"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "compra",
+    "ticker": "FCX",
+    "acciones": 23,
+    "precio": 50.5298,
+    "comision": 2.0,
+    "motivo": "puntuación 0.93, tamaño x1.80"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "kronos_prevision": {
   "nombre": "kronos_prevision",
@@ -2156,6 +2354,14 @@
    [
     "2026-11-16",
     9694.9
+   ],
+   [
+    "2026-11-17",
+    9599.81
+   ],
+   [
+    "2026-11-18",
+    9599.81
    ]
   ],
   "operaciones": [
@@ -2250,11 +2456,11 @@
     "motivo": "Kronos prevé +6.8 % en 10 sesiones"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "pequenas_azar_kronos": {
   "nombre": "pequenas_azar_kronos",
-  "efectivo": 17.320517827005915,
+  "efectivo": 814.3946218601551,
   "capital_inicial": 10000.0,
   "posiciones": {
    "BCGL.XC": {
@@ -2273,8 +2479,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 4.279891021295545,
-    "stop": 3.4239128170364364,
+    "maximo": 4.280789313611261,
+    "stop": 3.424631450889009,
     "fase": 1
    },
    "ASTL.TO": {
@@ -2346,21 +2552,13 @@
     "maximo": 2.1304063109277247,
     "stop": 1.70432504874218,
     "fase": 1
-   },
-   "MAXX.CN": {
-    "acciones": 849,
-    "precio_entrada": 1.1764930860323162,
-    "fecha_entrada": "2026-11-16",
-    "comision_entrada": 2.0,
-    "dividendos": 0.0,
-    "maximo": 1.1764930860323162,
-    "stop": 0.941194468825853,
-    "fase": 1
    }
   },
   "pendientes": [],
   "extra": {},
-  "vendidas": {},
+  "vendidas": {
+   "MAXX.CN": "2026-11-17"
+  },
   "historial": [
    [
     "2026-11-13",
@@ -2369,6 +2567,14 @@
    [
     "2026-11-16",
     9670.94
+   ],
+   [
+    "2026-11-17",
+    9419.85
+   ],
+   [
+    "2026-11-18",
+    9419.85
    ]
   ],
   "operaciones": [
@@ -2461,13 +2667,25 @@
     "precio": 1.1765,
     "comision": 2.0,
     "motivo": "pequeña al azar"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "venta",
+    "ticker": "MAXX.CN",
+    "acciones": 849,
+    "precio": 0.9412,
+    "comision": 2.0,
+    "motivo": "stop fase 1",
+    "resultado": -203.77,
+    "rentabilidad_pct": -20.0,
+    "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "momentum_pequenas_kronos": {
   "nombre": "momentum_pequenas_kronos",
-  "efectivo": 43.095755075370676,
+  "efectivo": 840.1698591085199,
   "capital_inicial": 10000.0,
   "posiciones": {
    "SLG.V": {
@@ -2506,18 +2724,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 14.671186370778376,
-    "stop": 11.736949096622702,
-    "fase": 1
-   },
-   "MAXX.CN": {
-    "acciones": 849,
-    "precio_entrada": 1.1764930860323162,
-    "fecha_entrada": "2026-11-16",
-    "comision_entrada": 2.0,
-    "dividendos": 0.0,
-    "maximo": 1.1764930860323162,
-    "stop": 0.941194468825853,
+    "maximo": 15.074994013527078,
+    "stop": 12.059995210821663,
     "fase": 1
    },
    "SREMF": {
@@ -2573,7 +2781,9 @@
   },
   "pendientes": [],
   "extra": {},
-  "vendidas": {},
+  "vendidas": {
+   "MAXX.CN": "2026-11-17"
+  },
   "historial": [
    [
     "2026-11-13",
@@ -2582,6 +2792,14 @@
    [
     "2026-11-16",
     9539.57
+   ],
+   [
+    "2026-11-17",
+    9448.52
+   ],
+   [
+    "2026-11-18",
+    9448.52
    ]
   ],
   "operaciones": [
@@ -2674,23 +2892,39 @@
     "precio": 1.3228,
     "comision": 2.0,
     "motivo": "momentum 12-1: +161 %"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "venta",
+    "ticker": "MAXX.CN",
+    "acciones": 849,
+    "precio": 0.9412,
+    "comision": 2.0,
+    "motivo": "stop fase 1",
+    "resultado": -203.77,
+    "rentabilidad_pct": -20.0,
+    "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "maximo_52s_kronos": {
   "nombre": "maximo_52s_kronos",
-  "efectivo": 10000.0,
+  "efectivo": 9032.80038768569,
   "capital_inicial": 10000.0,
-  "posiciones": {},
-  "pendientes": [
-   {
-    "accion": "comprar",
-    "ticker": "MEDZ.XC",
-    "importe": 1000.0,
-    "motivo": "máximo 52 semanas, volumen x2.8"
+  "posiciones": {
+   "MEDZ.XC": {
+    "acciones": 8,
+    "precio_entrada": 120.64995153928888,
+    "fecha_entrada": "2026-11-17",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 121.0823902971095,
+    "stop": 96.86591223768761,
+    "fase": 1
    }
-  ],
+  },
+  "pendientes": [],
   "extra": {},
   "vendidas": {},
   "historial": [
@@ -2701,10 +2935,28 @@
    [
     "2026-11-16",
     10000.0
+   ],
+   [
+    "2026-11-17",
+    10001.46
+   ],
+   [
+    "2026-11-18",
+    10001.46
    ]
   ],
-  "operaciones": [],
-  "ultima_fecha": "2026-11-16"
+  "operaciones": [
+   {
+    "fecha": "2026-11-17",
+    "tipo": "compra",
+    "ticker": "MEDZ.XC",
+    "acciones": 8,
+    "precio": 120.65,
+    "comision": 2.0,
+    "motivo": "máximo 52 semanas, volumen x2.8"
+   }
+  ],
+  "ultima_fecha": "2026-11-18"
  },
  "momentum_kronos": {
   "nombre": "momentum_kronos",
@@ -2757,8 +3009,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 267.64378339800163,
-    "stop": 214.1150267184013,
+    "maximo": 269.02548381106965,
+    "stop": 215.22038704885574,
     "fase": 1
    },
    "SU.TO": {
@@ -2823,6 +3075,14 @@
    [
     "2026-11-16",
     9752.75
+   ],
+   [
+    "2026-11-17",
+    9701.88
+   ],
+   [
+    "2026-11-18",
+    9701.88
    ]
   ],
   "operaciones": [
@@ -2917,11 +3177,11 @@
     "motivo": "momentum 12-1: +66 %"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "tendencia_200_kronos": {
   "nombre": "tendencia_200_kronos",
-  "efectivo": 9174.091250066229,
+  "efectivo": 8176.635513305202,
   "capital_inicial": 10000.0,
   "posiciones": {
    "GS": {
@@ -2933,14 +3193,25 @@
     "maximo": 823.9087499337714,
     "stop": 659.1269999470172,
     "fase": 1
+   },
+   "0005.HK": {
+    "acciones": 62,
+    "precio_entrada": 16.055737689693988,
+    "fecha_entrada": "2026-11-17",
+    "comision_entrada": 2.0,
+    "dividendos": 0.0,
+    "maximo": 16.055737689693988,
+    "stop": 12.844590151755192,
+    "fase": 1
    }
   },
   "pendientes": [
    {
     "accion": "comprar",
-    "ticker": "0005.HK",
-    "importe": 998.4411933941152,
-    "motivo": "cruza media 200"
+    "ticker": "WPM.TO",
+    "importe": 997.0020201248228,
+    "motivo": "cruza media 200",
+    "intentos": 1
    }
   ],
   "extra": {},
@@ -2953,6 +3224,14 @@
    [
     "2026-11-16",
     9984.41
+   ],
+   [
+    "2026-11-17",
+    9970.02
+   ],
+   [
+    "2026-11-18",
+    9970.02
    ]
   ],
   "operaciones": [
@@ -2964,9 +3243,18 @@
     "precio": 823.9087,
     "comision": 2.0,
     "motivo": "cruza media 200"
+   },
+   {
+    "fecha": "2026-11-17",
+    "tipo": "compra",
+    "ticker": "0005.HK",
+    "acciones": 62,
+    "precio": 16.0557,
+    "comision": 2.0,
+    "motivo": "cruza media 200"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "rebote_kronos": {
   "nombre": "rebote_kronos",
@@ -2984,10 +3272,18 @@
    [
     "2026-11-16",
     10000.0
+   ],
+   [
+    "2026-11-17",
+    10000.0
+   ],
+   [
+    "2026-11-18",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "baja_volatilidad_kronos": {
   "nombre": "baja_volatilidad_kronos",
@@ -3000,8 +3296,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 9.287418776700111,
-    "stop": 7.429935021360089,
+    "maximo": 9.332035263684954,
+    "stop": 7.465628210947964,
     "fase": 1
    },
    "RY.TO": {
@@ -3106,6 +3402,14 @@
    [
     "2026-11-16",
     9928.67
+   ],
+   [
+    "2026-11-17",
+    9837.51
+   ],
+   [
+    "2026-11-18",
+    9837.51
    ]
   ],
   "operaciones": [
@@ -3200,7 +3504,7 @@
     "motivo": "volatilidad 20 % anual"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "azar_grandes_kronos": {
   "nombre": "azar_grandes_kronos",
@@ -3319,6 +3623,14 @@
    [
     "2026-11-16",
     9884.92
+   ],
+   [
+    "2026-11-17",
+    9797.43
+   ],
+   [
+    "2026-11-18",
+    9797.43
    ]
   ],
   "operaciones": [
@@ -3413,7 +3725,7 @@
     "motivo": "azar"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "momentum_semaforo": {
   "nombre": "momentum_semaforo",
@@ -3466,8 +3778,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 267.64378339800163,
-    "stop": 214.1150267184013,
+    "maximo": 269.02548381106965,
+    "stop": 215.22038704885574,
     "fase": 1
    },
    "SU.TO": {
@@ -3539,6 +3851,14 @@
    [
     "2026-11-16",
     9752.75
+   ],
+   [
+    "2026-11-17",
+    9701.88
+   ],
+   [
+    "2026-11-18",
+    9701.88
    ]
   ],
   "operaciones": [
@@ -3633,7 +3953,7 @@
     "motivo": "momentum 12-1: +66 %"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  },
  "momentum_reserva": {
   "nombre": "momentum_reserva",
@@ -3686,8 +4006,8 @@
     "fecha_entrada": "2026-11-16",
     "comision_entrada": 2.0,
     "dividendos": 0.0,
-    "maximo": 267.64378339800163,
-    "stop": 214.1150267184013,
+    "maximo": 269.02548381106965,
+    "stop": 215.22038704885574,
     "fase": 1
    },
    "SU.TO": {
@@ -3759,6 +4079,14 @@
    [
     "2026-11-16",
     9752.75
+   ],
+   [
+    "2026-11-17",
+    9701.88
+   ],
+   [
+    "2026-11-18",
+    9701.88
    ]
   ],
   "operaciones": [
@@ -3853,6 +4181,6 @@
     "motivo": "momentum 12-1: +66 %"
    }
   ],
-  "ultima_fecha": "2026-11-16"
+  "ultima_fecha": "2026-11-18"
  }
 }
