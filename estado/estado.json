@@ -11,7 +11,7 @@
     "importe": 5000.0,
     "motivo": "diferencial vuelve (z=1.10)",
     "grupo": "AVGO|NVDA",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "abrir_corto",
@@ -19,7 +19,7 @@
     "importe": 5000.0,
     "motivo": "diferencial vuelve (z=1.10)",
     "grupo": "AVGO|NVDA",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {
@@ -122,10 +122,14 @@
    [
     "2026-11-25",
     50000.0
+   ],
+   [
+    "2026-11-26",
+    50000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "pares_solo_largo": {
   "nombre": "pares_solo_largo",
@@ -139,7 +143,7 @@
     "importe": 5000.0,
     "motivo": "diferencial vuelve (z=1.10)",
     "grupo": "AVGO|NVDA",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {
@@ -242,10 +246,14 @@
    [
     "2026-11-25",
     50000.0
+   ],
+   [
+    "2026-11-26",
+    50000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "pequenas_azar": {
   "nombre": "pequenas_azar",
@@ -319,28 +327,28 @@
     "ticker": "BLU.V",
     "importe": 900.2944776848124,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "PALI.V",
     "importe": 900.2944776848124,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "RLX",
     "importe": 900.2944776848124,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "LUNR",
     "importe": 502.99353807946454,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -390,6 +398,10 @@
    [
     "2026-11-25",
     8882.91
+   ],
+   [
+    "2026-11-26",
+    8656.03
    ]
   ],
   "operaciones": [
@@ -532,7 +544,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "maximo_52s": {
   "nombre": "maximo_52s",
@@ -593,6 +605,10 @@
    [
     "2026-11-25",
     10045.81
+   ],
+   [
+    "2026-11-26",
+    10080.47
    ]
   ],
   "operaciones": [
@@ -606,7 +622,7 @@
     "motivo": "máximo 52 semanas, volumen x2.8"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "momentum": {
   "nombre": "momentum",
@@ -710,7 +726,7 @@
     "ticker": "COP",
     "importe": 931.6103985874021,
     "motivo": "momentum 12-1: +77 %",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -757,6 +773,10 @@
    [
     "2026-11-25",
     9195.06
+   ],
+   [
+    "2026-11-26",
+    9014.06
    ]
   ],
   "operaciones": [
@@ -863,7 +883,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "tendencia_200": {
   "nombre": "tendencia_200",
@@ -967,7 +987,7 @@
     "ticker": "CM.TO",
     "importe": 956.5998382849277,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -1012,6 +1032,10 @@
    [
     "2026-11-25",
     9625.92
+   ],
+   [
+    "2026-11-26",
+    9651.57
    ]
   ],
   "operaciones": [
@@ -1097,7 +1121,7 @@
     "motivo": "cruza media 200"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "rebote": {
   "nombre": "rebote",
@@ -1147,10 +1171,14 @@
    [
     "2026-11-25",
     10000.0
+   ],
+   [
+    "2026-11-26",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "baja_volatilidad": {
   "nombre": "baja_volatilidad",
@@ -1301,6 +1329,10 @@
    [
     "2026-11-25",
     9678.85
+   ],
+   [
+    "2026-11-26",
+    9692.25
    ]
   ],
   "operaciones": [
@@ -1395,7 +1427,7 @@
     "motivo": "volatilidad 20 % anual"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "azar_grandes": {
   "nombre": "azar_grandes",
@@ -1499,7 +1531,7 @@
     "ticker": "AXP",
     "importe": 948.6307823730536,
     "motivo": "azar",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -1546,6 +1578,10 @@
    [
     "2026-11-25",
     9431.67
+   ],
+   [
+    "2026-11-26",
+    9373.37
    ]
   ],
   "operaciones": [
@@ -1652,7 +1688,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "ref_mundo": {
   "nombre": "ref_mundo",
@@ -1710,6 +1746,10 @@
    [
     "2026-11-25",
     9677.43
+   ],
+   [
+    "2026-11-26",
+    9513.93
    ]
   ],
   "operaciones": [
@@ -1723,7 +1763,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "ref_sp500": {
   "nombre": "ref_sp500",
@@ -1781,6 +1821,10 @@
    [
     "2026-11-25",
     9516.48
+   ],
+   [
+    "2026-11-26",
+    9479.9
    ]
   ],
   "operaciones": [
@@ -1794,7 +1838,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "ref_mundo_sin_eeuu": {
   "nombre": "ref_mundo_sin_eeuu",
@@ -1852,6 +1896,10 @@
    [
     "2026-11-25",
     9471.1
+   ],
+   [
+    "2026-11-26",
+    9468.91
    ]
   ],
   "operaciones": [
@@ -1865,7 +1913,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "ref_europa": {
   "nombre": "ref_europa",
@@ -1923,6 +1971,10 @@
    [
     "2026-11-25",
     9628.66
+   ],
+   [
+    "2026-11-26",
+    9568.66
    ]
   ],
   "operaciones": [
@@ -1936,7 +1988,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "ref_bono_eeuu": {
   "nombre": "ref_bono_eeuu",
@@ -1994,6 +2046,10 @@
    [
     "2026-11-25",
     10223.98
+   ],
+   [
+    "2026-11-26",
+    10259.17
    ]
   ],
   "operaciones": [
@@ -2007,7 +2063,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "ref_bono_china": {
   "nombre": "ref_bono_china",
@@ -2065,6 +2121,10 @@
    [
     "2026-11-25",
     10066.97
+   ],
+   [
+    "2026-11-26",
+    10051.93
    ]
   ],
   "operaciones": [
@@ -2078,7 +2138,7 @@
     "motivo": "referencia"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "momentum_pequenas": {
   "nombre": "momentum_pequenas",
@@ -2132,42 +2192,42 @@
     "ticker": "FTRE",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +142 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "DALXF",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +106 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "RBY.TO",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +96 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "AUXX.V",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +96 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "TSAT.TO",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +86 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "TALA.TO",
     "importe": 497.825812655738,
     "motivo": "momentum 12-1: +82 %",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -2215,6 +2275,10 @@
    [
     "2026-11-25",
     8419.44
+   ],
+   [
+    "2026-11-26",
+    8468.34
    ]
   ],
   "operaciones": [
@@ -2381,7 +2445,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "puntuacion_fija": {
   "nombre": "puntuacion_fija",
@@ -2485,7 +2549,7 @@
     "ticker": "CPG.L",
     "importe": 926.943791506551,
     "motivo": "puntuación 0.82, tamaño x1.00",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -2528,6 +2592,10 @@
    [
     "2026-11-25",
     9083.84
+   ],
+   [
+    "2026-11-26",
+    8847.14
    ]
   ],
   "operaciones": [
@@ -2634,7 +2702,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "puntuacion_tamano": {
   "nombre": "puntuacion_tamano",
@@ -2698,7 +2766,7 @@
     "ticker": "TXN",
     "importe": 1114.6050079124564,
     "motivo": "puntuación 0.91, tamaño x1.74",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -2741,6 +2809,10 @@
    [
     "2026-11-25",
     8939.05
+   ],
+   [
+    "2026-11-26",
+    8524.74
    ]
   ],
   "operaciones": [
@@ -2811,7 +2883,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "kronos_prevision": {
   "nombre": "kronos_prevision",
@@ -2905,14 +2977,14 @@
     "ticker": "ABX.TO",
     "importe": 902.1500547638695,
     "motivo": "Kronos prevé +10.9 % en 10 sesiones",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "0700.HK",
     "importe": 902.1500547638695,
     "motivo": "Kronos prevé +10.7 % en 10 sesiones",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -2956,6 +3028,10 @@
    [
     "2026-11-25",
     9068.95
+   ],
+   [
+    "2026-11-26",
+    8876.57
    ]
   ],
   "operaciones": [
@@ -3074,7 +3150,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "pequenas_azar_kronos": {
   "nombre": "pequenas_azar_kronos",
@@ -3148,28 +3224,28 @@
     "ticker": "BLU.V",
     "importe": 900.2944776848124,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "PALI.V",
     "importe": 900.2944776848124,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "RLX",
     "importe": 900.2944776848124,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "LUNR",
     "importe": 502.99353807946454,
     "motivo": "pequeña al azar",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -3215,6 +3291,10 @@
    [
     "2026-11-25",
     8882.91
+   ],
+   [
+    "2026-11-26",
+    8656.03
    ]
   ],
   "operaciones": [
@@ -3357,7 +3437,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "momentum_pequenas_kronos": {
   "nombre": "momentum_pequenas_kronos",
@@ -3411,42 +3491,42 @@
     "ticker": "FTRE",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +142 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "DALXF",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +106 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "RBY.TO",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +96 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "AUXX.V",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +96 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "TSAT.TO",
     "importe": 851.0357569292498,
     "motivo": "momentum 12-1: +86 %",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "TALA.TO",
     "importe": 497.825812655738,
     "motivo": "momentum 12-1: +82 %",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -3494,6 +3574,10 @@
    [
     "2026-11-25",
     8419.44
+   ],
+   [
+    "2026-11-26",
+    8468.34
    ]
   ],
   "operaciones": [
@@ -3660,7 +3744,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "maximo_52s_kronos": {
   "nombre": "maximo_52s_kronos",
@@ -3717,6 +3801,10 @@
    [
     "2026-11-25",
     10045.81
+   ],
+   [
+    "2026-11-26",
+    10080.47
    ]
   ],
   "operaciones": [
@@ -3730,7 +3818,7 @@
     "motivo": "máximo 52 semanas, volumen x2.8"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "momentum_kronos": {
   "nombre": "momentum_kronos",
@@ -3834,7 +3922,7 @@
     "ticker": "COP",
     "importe": 931.6103985874021,
     "motivo": "momentum 12-1: +77 %",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -3877,6 +3965,10 @@
    [
     "2026-11-25",
     9195.06
+   ],
+   [
+    "2026-11-26",
+    9014.06
    ]
   ],
   "operaciones": [
@@ -3983,7 +4075,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "tendencia_200_kronos": {
   "nombre": "tendencia_200_kronos",
@@ -4037,42 +4129,42 @@
     "ticker": "CM.TO",
     "importe": 983.1469980873653,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "FNV.TO",
     "importe": 983.1469980873653,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "SHOP.TO",
     "importe": 983.1469980873653,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "RR.L",
     "importe": 983.1469980873653,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "HON",
     "importe": 983.1469980873653,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    },
    {
     "accion": "comprar",
     "ticker": "QCOM",
     "importe": 983.1469980873653,
     "motivo": "cruza media 200",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -4113,6 +4205,10 @@
    [
     "2026-11-25",
     9845.25
+   ],
+   [
+    "2026-11-26",
+    9868.86
    ]
   ],
   "operaciones": [
@@ -4153,7 +4249,7 @@
     "motivo": "cruza media 200"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "rebote_kronos": {
   "nombre": "rebote_kronos",
@@ -4199,10 +4295,14 @@
    [
     "2026-11-25",
     10000.0
+   ],
+   [
+    "2026-11-26",
+    10000.0
    ]
   ],
   "operaciones": [],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "baja_volatilidad_kronos": {
   "nombre": "baja_volatilidad_kronos",
@@ -4349,6 +4449,10 @@
    [
     "2026-11-25",
     9678.85
+   ],
+   [
+    "2026-11-26",
+    9692.25
    ]
   ],
   "operaciones": [
@@ -4443,7 +4547,7 @@
     "motivo": "volatilidad 20 % anual"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "azar_grandes_kronos": {
   "nombre": "azar_grandes_kronos",
@@ -4547,7 +4651,7 @@
     "ticker": "AXP",
     "importe": 948.6307823730536,
     "motivo": "azar",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {},
@@ -4590,6 +4694,10 @@
    [
     "2026-11-25",
     9431.67
+   ],
+   [
+    "2026-11-26",
+    9373.37
    ]
   ],
   "operaciones": [
@@ -4696,7 +4804,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "momentum_semaforo": {
   "nombre": "momentum_semaforo",
@@ -4800,7 +4908,7 @@
     "ticker": "COP",
     "importe": 931.6103985874021,
     "motivo": "momentum 12-1: +77 %",
-    "intentos": 2
+    "intentos": 3
    }
   ],
   "extra": {
@@ -4812,7 +4920,7 @@
      "minimo": 0,
      "precio_stop": 534.4768,
      "precio_compra": 668.096,
-     "fuera": 2
+     "fuera": 3
     }
    },
    "semaforo_ops": 11
@@ -4860,6 +4968,10 @@
    [
     "2026-11-25",
     9195.06
+   ],
+   [
+    "2026-11-26",
+    9014.06
    ]
   ],
   "operaciones": [
@@ -4966,7 +5078,7 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  },
  "momentum_reserva": {
   "nombre": "momentum_reserva",
@@ -5074,7 +5186,7 @@
      "minimo": 0,
      "precio_stop": 534.4768,
      "precio_compra": 668.096,
-     "fuera": 2
+     "fuera": 3
     }
    },
    "semaforo_ops": 11
@@ -5122,6 +5234,10 @@
    [
     "2026-11-25",
     9195.06
+   ],
+   [
+    "2026-11-26",
+    9014.06
    ]
   ],
   "operaciones": [
@@ -5228,6 +5344,6 @@
     "fecha_entrada": "2026-11-16"
    }
   ],
-  "ultima_fecha": "2026-11-25"
+  "ultima_fecha": "2026-11-26"
  }
 }
